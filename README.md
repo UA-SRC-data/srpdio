@@ -3,19 +3,16 @@
 
 # Superfund Research Project Data Integration Ontology
 
-This ontology... YOUR DESCRIPTION HERE
+This ontology is used to integrate data from multiple Superfund Research Program (SRP) centers, include the University of Arizona, UC San Diego, and the Colorado School of mines. SRPDIO uses descriptive terms from the Environment Ontology (ENVO), the Plant Ontology (PO) and the Phenotype and Trait Ontology (PO), along with the observation model from the BioCollections Ontology (BCO), do merge quantitative data into a single searchable database.
 
-More information can be found at http://obofoundry.org/ontology/srpdio
+More information will be available at http://obofoundry.org/ontology/srpdio after the ontology is published.
 
 ## Versions
 
 ### Stable release versions
 
-The latest version of the ontology can always be found at:
+There has not yet been a stable release of this ontology. Once there is one, the latest version of the ontology can always be found at: http://purl.obolibrary.org/obo/srpdio.owl. For now, there is just this github code.
 
-http://purl.obolibrary.org/obo/srpdio.owl
-
-(note this will not show up until the request has been approved by obofoundry.org)
 
 ### Editors' version
 
@@ -26,5 +23,7 @@ Editors of this ontology should use the edit version, [src/ontology/srpdio-edit.
 Please use this GitHub repository's [Issue tracker](https://github.com/UA-SRC-data/srpdio/issues) to request new terms/classes or report errors or specific concerns related to the ontology.
 
 ## Acknowledgements
+
+This project is funded by the National Institute of Environmental Health's Superfund Research Program.
 
 This ontology repository was created using the [ontology starter kit](https://github.com/INCATools/ontology-starter-kit)
