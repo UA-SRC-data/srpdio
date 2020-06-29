@@ -292,6 +292,14 @@ mirror/pco.owl: mirror/pco.trigger
 
 .PRECIOUS: mirror/%.owl
 
+## ONTOLOGY: bco
+## Copy of bco is re-downloaded whenever source changes
+mirror/bco.trigger: $(SRC)
+
+mirror/bco.owl: mirror/bco.trigger
+        @if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I $(URIBASE)/bco.owl -o $@.tmp.owl && mv $@.tmp.owl $@; fi
+
+.PRECIOUS: mirror/%.owl
 
 
 # ----------------------------------------
