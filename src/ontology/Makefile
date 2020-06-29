@@ -297,7 +297,7 @@ mirror/pco.owl: mirror/pco.trigger
 mirror/bco.trigger: $(SRC)
 
 mirror/bco.owl: mirror/bco.trigger
-        @if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I $(URIBASE)/bco.owl -o $@.tmp.owl && mv $@.tmp.owl $@; fi
+	@if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I $(URIBASE)/bco.owl -o $@.tmp.owl && mv $@.tmp.owl $@; fi
 
 .PRECIOUS: mirror/%.owl
 
