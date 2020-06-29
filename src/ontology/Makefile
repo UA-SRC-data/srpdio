@@ -67,7 +67,7 @@ all_main: $(MAIN_FILES)
 ## By default this is the cross-product of IMPORT_MODULES x FORMATS
 
 
-IMPORTS =  po ro pato envo pco bco to uo sdgio
+IMPORTS =  po ro pato envo pco bco to uo sdgio chebi
 
 IMPORT_ROOTS = $(patsubst %, imports/%_import, $(IMPORTS))
 IMPORT_FILES = $(foreach n,$(IMPORT_ROOTS), $(foreach f,$(FORMATS), $(n).$(f)))
@@ -331,9 +331,14 @@ mirror/sdgio.owl: mirror/sdgio.trigger
 
 
 
+## ONTOLOGY: chebi
+## Copy of chebi is re-downloaded whenever source changes
+mirror/chebi.trigger: $(SRC)
 
+mirror/chebi.owl: mirror/chebi.trigger
+	@if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I $(URIBASE)/chebi.owl -o $@.tmp.owl && mv $@.tmp.owl $@; fi
 
-
+.PRECIOUS: mirror/%.owl
 
 
 
