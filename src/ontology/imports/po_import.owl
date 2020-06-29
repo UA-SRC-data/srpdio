@@ -3242,7 +3242,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PO_0009008"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
         <owl:annotatedTarget>simple plant organ (related)</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PATO:01503</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATO:01503</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
