@@ -1,2 +1,57 @@
+CHEBI:28938 #ammonium
+CHEBI:15858 #bromide
+CHEBI:17996 #chloride
 CHEBI:33628 #elemental aluminium
-
+CHEBI:36922 #elemental antimony
+CHEBI:49991 #elemental argon
+CHEBI:35826 #elemental arsenic
+CHEBI:37134 #elemental barium
+CHEBI:33784 #elemental beryllium
+CHEBI:85541 #elemental bismuth
+CHEBI:33609 #elemental boron
+CHEBI:37249 #elemental cadmium
+CHEBI:155919 #elemental caesium
+CHEBI:35155 #elemental calcium
+CHEBI:37265 #elemental cerium
+CHEBI:155866 #elemental chromium
+CHEBI:155865 #elemental cobalt
+CHEBI:37404 #elemental copper
+CHEBI:155920 #elemental gallium
+CHEBI:33970 #elemental gold
+CHEBI:37114 #elemental indium
+CHEBI:82663 #elemental iron
+CHEBI:155921 #elemental lanthanum
+CHEBI:37193 #elemental lead
+CHEBI:155867 #elemental lithium
+CHEBI:33973 #elemental magnesium
+CHEBI:35115 #elemental manganese
+CHEBI:35113 #elemental mercury
+CHEBI:37237 #elemental molybdenum
+CHEBI:155868 #elemental nickel
+CHEBI:155922 #elemental niobium
+CHEBI:33464 #elemental phosphorus
+CHEBI:37247 #elemental potassium
+CHEBI:155923 #elemental rubidium
+CHEBI:155869 #elemental scandium
+CHEBI:36904 #elemental selenium
+CHEBI:37763 #elemental silicon
+CHEBI:33966 #elemental silver
+CHEBI:37246 #elemental sodium
+CHEBI:39131 #elemental strontium
+CHEBI:33403 #elemental sulfur
+CHEBI:36660 #elemental tellurium
+CHEBI:37113 #elemental thallium
+CHEBI:155924 #elemental thorium
+CHEBI:37767 #elemental tin
+CHEBI:155870 #elemental titanium
+CHEBI:131925 #elemental tungsten
+CHEBI:50559 #elemental uranium
+CHEBI:35171 #elemental vanadium
+CHEBI:155925 #elemental yttrium
+CHEBI:37253 #elemental zinc
+CHEBI:17051 #fluoride
+CHEBI:29033 #iron(2+)
+CHEBI:17632 #nitrate
+CHEBI:16301 #nitrite
+CHEBI:18367 #phosphate(3−)
+CHEBI:16189 #sulfate
