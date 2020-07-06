@@ -23,7 +23,7 @@ REPORTDIR=                  reports
 TMPDIR=                     tmp
 SPARQLDIR =                 ../sparql
 REPORT_FAIL_ON =            None
-OBO_FORMAT_OPTIONS =        
+OBO_FORMAT_OPTIONS =
 SPARQL_VALIDATION_CHECKS =  equivalent-classes trailing-whitespace owldef-self-reference xref-syntax nolabels
 SPARQL_EXPORTS =            basic-report class-count-by-prefix edges xrefs obsoletes synonyms
 ODK_VERSION =               v1.2.21
@@ -57,7 +57,7 @@ $TMPDIR:
 ## By default this is the cross-product of {ont, ont-base} x FORMATS
 
 MAIN_PRODUCTS = $(sort $(foreach r,$(RELEASE_ARTEFACTS), $(ONT)-$(r)) $(ONT))
-MAIN_GZIPPED = 
+MAIN_GZIPPED =
 MAIN_FILES = $(foreach n,$(MAIN_PRODUCTS), $(foreach f,$(FORMATS), $(n).$(f))) $(MAIN_GZIPPED)
 
 all_main: $(MAIN_FILES)
@@ -86,7 +86,7 @@ all_imports_obo: $(foreach n,$(IMPORT_ROOTS), $(n).obo)
 ## Note we also include TSV as a format
 
 
-SUBSETS = 
+SUBSETS =
 
 SUBSET_ROOTS = $(patsubst %, subsets/%, $(SUBSETS))
 SUBSET_FILES = $(foreach n,$(SUBSET_ROOTS), $(foreach f,$(FORMATS_INCL_TSV), $(n).$(f)))
@@ -96,15 +96,30 @@ all_subsets: $(SUBSET_FILES)
 ## -- dosdp pattern targets --
 ##
 
+# ## orginal ODK version
+# PATTERNS =
+#
+# PATTERN_ROOTS = $(patsubst %, $(PATTERNDIR)/%, $(PATTERNS))
+# PATTERN_FILES = $(foreach n,$(PATTERN_ROOTS), $(n).owl)
+#
+# all_patterns: $(PATTERN_FILES)
 
-PATTERNS = 
+## DOSDP pattern targets modivied from ENVO version
+MODS = chemical_concentration
+ALL_MODS_OWL = $(patsubst %, modules/%.owl, $(MODS))
+ALL_MODS_CSV = $(patsubst %, modules/%.csv, $(MODS))
 
-PATTERN_ROOTS = $(patsubst %, $(PATTERNDIR)/%, $(PATTERNS))
-PATTERN_FILES = $(foreach n,$(PATTERN_ROOTS), $(n).owl)
+## Modules make targets modified from ENVO's version
+all_modules: all_modules_owl
+all_modules_owl: $(ALL_MODS_OWL)
 
-all_patterns: $(PATTERN_FILES)
+modules/%.owl: ../modules/%.csv ../patterns/%.yaml curie_map.yaml
+	dosdp-tools --table-format=csv --template=../patterns/$*.yaml --outfile=../modules/$*.tmp.owl --obo-prefixes=true generate --infile=../modules/$*.csv
+	$(ROBOT) annotate --input ../modules/$*.tmp.owl -O http://purl.obolibrary.org/obo/srpdio/modules/$*.owl --output ../modules/$*.owl && rm ../modules/$*.tmp.owl
 
-## -- dosdp pattern targets --
+
+
+## -- dosdp pattern targets -- # I think this is reports and the ODK header is wrong.
 ##
 
 OBO_REPORT = $(SRC)-obo-report
@@ -170,7 +185,7 @@ ANNOTATE_VERSION_IRI = annotate -V $(ONTBASE)/releases/$(TODAY)/$@.owl
 # by default we use ELK to perform a reason-relax-reduce chain
 # after that we annotate the ontology with the release versionInfo
 
-OTHER_SRC =  
+OTHER_SRC =
 
 
 $(ONTOLOGYTERMS): $(SRC) $(OTHER_SRC)
