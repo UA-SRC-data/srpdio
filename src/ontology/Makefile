@@ -15,7 +15,10 @@ ONT=                        srpdio
 ONTBASE=                    $(URIBASE)/$(ONT)
 EDIT_FORMAT=                owl
 SRC =                       $(ONT)-edit.$(EDIT_FORMAT)
+#PRE_SRC =                   $(ONT)-edit.$(EDIT_FORMAT)  #From ENVO edit make file might not need
+#SRC =                       $(ONT)-edit-module-merged.owl  #From ENVO edit make file might not need
 CATALOG=                    catalog-v001.xml
+USECAT=                     --catalog-xml $(CATALOG) #Add to merge modules
 ROBOT=                      robot --catalog $(CATALOG)
 RELEASEDIR=                 ../..
 PATTERNDIR=                 ../patterns
@@ -104,18 +107,39 @@ all_subsets: $(SUBSET_FILES)
 #
 # all_patterns: $(PATTERN_FILES)
 
+
 ## DOSDP pattern targets modivied from ENVO version
 MODS = chemical_concentration
 ALL_MODS_OWL = $(patsubst %, modules/%.owl, $(MODS))
 ALL_MODS_CSV = $(patsubst %, modules/%.csv, $(MODS))
 
 ## Modules make targets modified from ENVO's version
-all_modules: all_modules_owl
+all_modules: all_modules_owl #all_modules_obo
 all_modules_owl: $(ALL_MODS_OWL)
+#all_modules_obo: $(patsubst %, modules/%.obo, $(MODS))
 
 modules/%.owl: ../modules/%.csv ../patterns/%.yaml curie_map.yaml
 	dosdp-tools --table-format=csv --template=../patterns/$*.yaml --outfile=../modules/$*.tmp.owl --obo-prefixes=true generate --infile=../modules/$*.csv
 	$(ROBOT) annotate --input ../modules/$*.tmp.owl -O http://purl.obolibrary.org/obo/srpdio/modules/$*.owl --output ../modules/$*.owl && rm ../modules/$*.tmp.owl
+
+# modules/%.obo: ../modules/%.owl
+# 	owltools $< -o -f obo ../$@.tmp && grep -v ^owl-axioms ../$@.tmp > ../$@
+
+## Merge module ontologies
+# see https://robot.obolibrary.org/merge
+merge_modules:
+	$(ROBOT) merge --input srpdio-edit.owl --input ../modules/chemical_concentration.owl --output srpdio-edit.owl
+	#--inputs "../modules/*.owl"
+
+
+## Merge module ontologies code modified from ENVO
+## This works but it's using owltools instead of ROBOT try redoing it with https://robot.obolibrary.org/merge
+# tmp_srpdio-edit.owl:
+# 	owltools ../modules/chemical_concentration.owl srpdio-edit.owl --merge-support-ontologies  -o tmp_srpdio-edit.owl
+
+## Run and merge module files
+## Run `./run.sh make prepare_modules` prior to running `./run.sh make prepare_release`
+prepare_modules: all_modules merge_modules
 
 
 
@@ -153,6 +177,7 @@ SIMPLESEED=simple_seed.txt
 
 # This should be executed by the release manager whenever time comes to make a release.
 # It will ensure that all assets/files are fresh, and will copy to release folder
+# Run prepare_modules prior
 prepare_release: $(ASSETS) $(PATTERN_RELEASE_FILES)
 	rsync -R $(ASSETS) $(RELEASEDIR) &&\
   echo "Release files are now in $(RELEASEDIR) - now you should commit, push and make a release on your git hosting site such as GitHub or GitLab"
