@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: srpdio/releases/2020-06-29/srpdio-full.owl
+data-version: srpdio/releases/2020-08-20/srpdio-full.owl
 subsetdef: abnormal_slim ""
 subsetdef: Angiosperm "Term for angiosperms"
 subsetdef: Arabidopsis "Term used for Arabidopsis"
@@ -4540,7 +4540,7 @@ property_value: IAO:0000118 "organism collection" xsd:string
 id: PCO:0000001
 name: population of organisms
 def: "A collection of organisms, all of the same species, that live in the same place." []
-comment: It is sometimes difficult to define the physical boundaries of a population. In the case of sexually reproducing organisms, the individuals within a population have the potential to reproduce with one another during the course of their lifetimes. 'Community', as often used to describe a group of humans, is a type of population of organisms. \n\nClasses for population already  exist in IDO ('organism population', IDO_0000509) and OBI ('population', OBI_0000181). The definitions should be standardized across OBO Foundry ontologies and only one term used.
+comment: It is sometimes difficult to define the physical boundaries of a population. In the case of sexually reproducing organisms, the individuals within a population have the potential to reproduce with one another during the course of their lifetimes. 'Community', as often used to describe a group of humans, is a type of population of organisms.\n\nClasses for population already  exist in IDO ('organism population', IDO_0000509) and OBI ('population', OBI_0000181). The definitions should be standardized across OBO Foundry ontologies and only one term used.
 is_a: CARO:0001010 ! organism or virus or viroid
 is_a: PCO:0000018 ! single-species collection of organisms
 relationship: RO:0002303 ENVO:01000739 ! has habitat habitat
@@ -5628,6 +5628,1945 @@ id: SRPDIO:00000000
 name: root node
 
 [Term]
+id: SRPDIO:0000001
+name: topsoil
+def: "Soil which is adjacent to the atmosphere, and is composed of mineral particles, organic matter, water, and air." [https://en.wikipedia.org/wiki/Topsoil]
+comment: Topsoil typically comprises the top 13–25 cm of the soil profile. Topsoil has high concentrations of organic matter and microorganisms and is where the majority of the Earth's soil biological activity occurs.
+is_a: ENVO:00001998 ! soil
+
+[Term]
+id: SRPDIO:1000000
+name: concentration of elemental aluminium in environmental material
+def: "The concentration of elemental aluminium when measured in environmental material." []
+synonym: "environmental material elemental aluminium concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000001
+name: concentration of elemental antimony in environmental material
+def: "The concentration of elemental antimony when measured in environmental material." []
+synonym: "environmental material elemental antimony concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000002
+name: concentration of elemental arsenic in environmental material
+def: "The concentration of elemental arsenic when measured in environmental material." []
+synonym: "environmental material elemental arsenic concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000003
+name: concentration of elemental barium in environmental material
+def: "The concentration of elemental barium when measured in environmental material." []
+synonym: "environmental material elemental barium concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000004
+name: concentration of elemental beryllium in environmental material
+def: "The concentration of elemental beryllium when measured in environmental material." []
+synonym: "environmental material elemental beryllium concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000005
+name: concentration of elemental bismuth in environmental material
+def: "The concentration of elemental bismuth when measured in environmental material." []
+synonym: "environmental material elemental bismuth concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000006
+name: concentration of elemental boron in environmental material
+def: "The concentration of elemental boron when measured in environmental material." []
+synonym: "environmental material elemental boron concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000007
+name: concentration of elemental cadmium in environmental material
+def: "The concentration of elemental cadmium when measured in environmental material." []
+synonym: "environmental material elemental cadmium concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000008
+name: concentration of elemental caesium in environmental material
+def: "The concentration of elemental caesium when measured in environmental material." []
+synonym: "environmental material elemental caesium concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000009
+name: concentration of elemental calcium in environmental material
+def: "The concentration of elemental calcium when measured in environmental material." []
+synonym: "environmental material elemental calcium concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000010
+name: concentration of elemental cerium in environmental material
+def: "The concentration of elemental cerium when measured in environmental material." []
+synonym: "environmental material elemental cerium concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000011
+name: concentration of elemental chromium in environmental material
+def: "The concentration of elemental chromium when measured in environmental material." []
+synonym: "environmental material elemental chromium concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000012
+name: concentration of elemental cobalt in environmental material
+def: "The concentration of elemental cobalt when measured in environmental material." []
+synonym: "environmental material elemental cobalt concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000013
+name: concentration of elemental copper in environmental material
+def: "The concentration of elemental copper when measured in environmental material." []
+synonym: "environmental material elemental copper concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000014
+name: concentration of elemental gallium in environmental material
+def: "The concentration of elemental gallium when measured in environmental material." []
+synonym: "environmental material elemental gallium concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000015
+name: concentration of elemental gold in environmental material
+def: "The concentration of elemental gold when measured in environmental material." []
+synonym: "environmental material elemental gold concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000016
+name: concentration of elemental indium in environmental material
+def: "The concentration of elemental indium when measured in environmental material." []
+synonym: "environmental material elemental indium concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000017
+name: concentration of elemental iron in environmental material
+def: "The concentration of elemental iron when measured in environmental material." []
+synonym: "environmental material elemental iron concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000018
+name: concentration of elemental lanthanum in environmental material
+def: "The concentration of elemental lanthanum when measured in environmental material." []
+synonym: "environmental material elemental lanthanum concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000019
+name: concentration of elemental lead in environmental material
+def: "The concentration of elemental lead when measured in environmental material." []
+synonym: "environmental material elemental lead concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000020
+name: concentration of elemental lithium in environmental material
+def: "The concentration of elemental lithium when measured in environmental material." []
+synonym: "environmental material elemental lithium concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000021
+name: concentration of elemental magnesium in environmental material
+def: "The concentration of elemental magnesium when measured in environmental material." []
+synonym: "environmental material elemental magnesium concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000022
+name: concentration of elemental manganese in environmental material
+def: "The concentration of elemental manganese when measured in environmental material." []
+synonym: "environmental material elemental manganese concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000023
+name: concentration of elemental mercury in environmental material
+def: "The concentration of elemental mercury when measured in environmental material." []
+synonym: "environmental material elemental mercury concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000024
+name: concentration of elemental molybdenum in environmental material
+def: "The concentration of elemental molybdenum when measured in environmental material." []
+synonym: "environmental material elemental molybdenum concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000025
+name: concentration of elemental nickel in environmental material
+def: "The concentration of elemental nickel when measured in environmental material." []
+synonym: "environmental material elemental nickel concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000026
+name: concentration of elemental niobium in environmental material
+def: "The concentration of elemental niobium when measured in environmental material." []
+synonym: "environmental material elemental niobium concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000027
+name: concentration of elemental phosphorus in environmental material
+def: "The concentration of elemental phosphorus when measured in environmental material." []
+synonym: "environmental material elemental phosphorus concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000028
+name: concentration of elemental potassium in environmental material
+def: "The concentration of elemental potassium when measured in environmental material." []
+synonym: "environmental material elemental potassium concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000029
+name: concentration of elemental rubidium in environmental material
+def: "The concentration of elemental rubidium when measured in environmental material." []
+synonym: "environmental material elemental rubidium concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000030
+name: concentration of elemental selenium in environmental material
+def: "The concentration of elemental selenium when measured in environmental material." []
+synonym: "environmental material elemental selenium concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000031
+name: concentration of elemental silicon in environmental material
+def: "The concentration of elemental silicon when measured in environmental material." []
+synonym: "environmental material elemental silicon concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000032
+name: concentration of elemental silver in environmental material
+def: "The concentration of elemental silver when measured in environmental material." []
+synonym: "environmental material elemental silver concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000033
+name: concentration of elemental sodium in environmental material
+def: "The concentration of elemental sodium when measured in environmental material." []
+synonym: "environmental material elemental sodium concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000034
+name: concentration of elemental strontium in environmental material
+def: "The concentration of elemental strontium when measured in environmental material." []
+synonym: "environmental material elemental strontium concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000035
+name: concentration of elemental sulfur in environmental material
+def: "The concentration of elemental sulfur when measured in environmental material." []
+synonym: "environmental material elemental sulfur concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000036
+name: concentration of elemental tellurium in environmental material
+def: "The concentration of elemental tellurium when measured in environmental material." []
+synonym: "environmental material elemental tellurium concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000037
+name: concentration of elemental thallium in environmental material
+def: "The concentration of elemental thallium when measured in environmental material." []
+synonym: "environmental material elemental thallium concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000038
+name: concentration of elemental thorium in environmental material
+def: "The concentration of elemental thorium when measured in environmental material." []
+synonym: "environmental material elemental thorium concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000039
+name: concentration of elemental tin in environmental material
+def: "The concentration of elemental tin when measured in environmental material." []
+synonym: "environmental material elemental tin concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000040
+name: concentration of elemental titanium in environmental material
+def: "The concentration of elemental titanium when measured in environmental material." []
+synonym: "environmental material elemental titanium concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000041
+name: concentration of elemental tungsten in environmental material
+def: "The concentration of elemental tungsten when measured in environmental material." []
+synonym: "environmental material elemental tungsten concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000042
+name: concentration of elemental uranium in environmental material
+def: "The concentration of elemental uranium when measured in environmental material." []
+synonym: "environmental material elemental uranium concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000043
+name: concentration of elemental vanadium in environmental material
+def: "The concentration of elemental vanadium when measured in environmental material." []
+synonym: "environmental material elemental vanadium concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000044
+name: concentration of elemental yttrium in environmental material
+def: "The concentration of elemental yttrium when measured in environmental material." []
+synonym: "environmental material elemental yttrium concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000045
+name: concentration of elemental zinc in environmental material
+def: "The concentration of elemental zinc when measured in environmental material." []
+synonym: "environmental material elemental zinc concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000046
+name: concentration of elemental aluminium in soil
+def: "The concentration of elemental aluminium when measured in soil." []
+synonym: "soil elemental aluminium concentration" EXACT []
+is_a: SRPDIO:1000000 ! concentration of elemental aluminium in environmental material
+
+[Term]
+id: SRPDIO:1000047
+name: concentration of elemental antimony in soil
+def: "The concentration of elemental antimony when measured in soil." []
+synonym: "soil elemental antimony concentration" EXACT []
+is_a: SRPDIO:1000001 ! concentration of elemental antimony in environmental material
+
+[Term]
+id: SRPDIO:1000048
+name: concentration of elemental arsenic in soil
+def: "The concentration of elemental arsenic when measured in soil." []
+synonym: "soil elemental arsenic concentration" EXACT []
+is_a: SRPDIO:1000002 ! concentration of elemental arsenic in environmental material
+
+[Term]
+id: SRPDIO:1000049
+name: concentration of elemental barium in soil
+def: "The concentration of elemental barium when measured in soil." []
+synonym: "soil elemental barium concentration" EXACT []
+is_a: SRPDIO:1000003 ! concentration of elemental barium in environmental material
+
+[Term]
+id: SRPDIO:1000050
+name: concentration of elemental beryllium in soil
+def: "The concentration of elemental beryllium when measured in soil." []
+synonym: "soil elemental beryllium concentration" EXACT []
+is_a: SRPDIO:1000004 ! concentration of elemental beryllium in environmental material
+
+[Term]
+id: SRPDIO:1000051
+name: concentration of elemental bismuth in soil
+def: "The concentration of elemental bismuth when measured in soil." []
+synonym: "soil elemental bismuth concentration" EXACT []
+is_a: SRPDIO:1000005 ! concentration of elemental bismuth in environmental material
+
+[Term]
+id: SRPDIO:1000052
+name: concentration of elemental boron in soil
+def: "The concentration of elemental boron when measured in soil." []
+synonym: "soil elemental boron concentration" EXACT []
+is_a: SRPDIO:1000006 ! concentration of elemental boron in environmental material
+
+[Term]
+id: SRPDIO:1000053
+name: concentration of elemental cadmium in soil
+def: "The concentration of elemental cadmium when measured in soil." []
+synonym: "soil elemental cadmium concentration" EXACT []
+is_a: SRPDIO:1000007 ! concentration of elemental cadmium in environmental material
+
+[Term]
+id: SRPDIO:1000054
+name: concentration of elemental caesium in soil
+def: "The concentration of elemental caesium when measured in soil." []
+synonym: "soil elemental caesium concentration" EXACT []
+is_a: SRPDIO:1000008 ! concentration of elemental caesium in environmental material
+
+[Term]
+id: SRPDIO:1000055
+name: concentration of elemental calcium in soil
+def: "The concentration of elemental calcium when measured in soil." []
+synonym: "soil elemental calcium concentration" EXACT []
+is_a: SRPDIO:1000009 ! concentration of elemental calcium in environmental material
+
+[Term]
+id: SRPDIO:1000056
+name: concentration of elemental cerium in soil
+def: "The concentration of elemental cerium when measured in soil." []
+synonym: "soil elemental cerium concentration" EXACT []
+is_a: SRPDIO:1000010 ! concentration of elemental cerium in environmental material
+
+[Term]
+id: SRPDIO:1000057
+name: concentration of elemental chromium in soil
+def: "The concentration of elemental chromium when measured in soil." []
+synonym: "soil elemental chromium concentration" EXACT []
+is_a: SRPDIO:1000011 ! concentration of elemental chromium in environmental material
+
+[Term]
+id: SRPDIO:1000058
+name: concentration of elemental cobalt in soil
+def: "The concentration of elemental cobalt when measured in soil." []
+synonym: "soil elemental cobalt concentration" EXACT []
+is_a: SRPDIO:1000012 ! concentration of elemental cobalt in environmental material
+
+[Term]
+id: SRPDIO:1000059
+name: concentration of elemental copper in soil
+def: "The concentration of elemental copper when measured in soil." []
+synonym: "soil elemental copper concentration" EXACT []
+is_a: SRPDIO:1000013 ! concentration of elemental copper in environmental material
+
+[Term]
+id: SRPDIO:1000060
+name: concentration of elemental gallium in soil
+def: "The concentration of elemental gallium when measured in soil." []
+synonym: "soil elemental gallium concentration" EXACT []
+is_a: SRPDIO:1000014 ! concentration of elemental gallium in environmental material
+
+[Term]
+id: SRPDIO:1000061
+name: concentration of elemental gold in soil
+def: "The concentration of elemental gold when measured in soil." []
+synonym: "soil elemental gold concentration" EXACT []
+is_a: SRPDIO:1000015 ! concentration of elemental gold in environmental material
+
+[Term]
+id: SRPDIO:1000062
+name: concentration of elemental indium in soil
+def: "The concentration of elemental indium when measured in soil." []
+synonym: "soil elemental indium concentration" EXACT []
+is_a: SRPDIO:1000016 ! concentration of elemental indium in environmental material
+
+[Term]
+id: SRPDIO:1000063
+name: concentration of elemental iron in soil
+def: "The concentration of elemental iron when measured in soil." []
+synonym: "soil elemental iron concentration" EXACT []
+is_a: SRPDIO:1000017 ! concentration of elemental iron in environmental material
+
+[Term]
+id: SRPDIO:1000064
+name: concentration of elemental lanthanum in soil
+def: "The concentration of elemental lanthanum when measured in soil." []
+synonym: "soil elemental lanthanum concentration" EXACT []
+is_a: SRPDIO:1000018 ! concentration of elemental lanthanum in environmental material
+
+[Term]
+id: SRPDIO:1000065
+name: concentration of elemental lead in soil
+def: "The concentration of elemental lead when measured in soil." []
+synonym: "soil elemental lead concentration" EXACT []
+is_a: SRPDIO:1000019 ! concentration of elemental lead in environmental material
+
+[Term]
+id: SRPDIO:1000066
+name: concentration of elemental lithium in soil
+def: "The concentration of elemental lithium when measured in soil." []
+synonym: "soil elemental lithium concentration" EXACT []
+is_a: SRPDIO:1000020 ! concentration of elemental lithium in environmental material
+
+[Term]
+id: SRPDIO:1000067
+name: concentration of elemental magnesium in soil
+def: "The concentration of elemental magnesium when measured in soil." []
+synonym: "soil elemental magnesium concentration" EXACT []
+is_a: SRPDIO:1000021 ! concentration of elemental magnesium in environmental material
+
+[Term]
+id: SRPDIO:1000068
+name: concentration of elemental manganese in soil
+def: "The concentration of elemental manganese when measured in soil." []
+synonym: "soil elemental manganese concentration" EXACT []
+is_a: SRPDIO:1000022 ! concentration of elemental manganese in environmental material
+
+[Term]
+id: SRPDIO:1000069
+name: concentration of elemental mercury in soil
+def: "The concentration of elemental mercury when measured in soil." []
+synonym: "soil elemental mercury concentration" EXACT []
+is_a: SRPDIO:1000023 ! concentration of elemental mercury in environmental material
+
+[Term]
+id: SRPDIO:1000070
+name: concentration of elemental molybdenum in soil
+def: "The concentration of elemental molybdenum when measured in soil." []
+synonym: "soil elemental molybdenum concentration" EXACT []
+is_a: SRPDIO:1000024 ! concentration of elemental molybdenum in environmental material
+
+[Term]
+id: SRPDIO:1000071
+name: concentration of elemental nickel in soil
+def: "The concentration of elemental nickel when measured in soil." []
+synonym: "soil elemental nickel concentration" EXACT []
+is_a: SRPDIO:1000025 ! concentration of elemental nickel in environmental material
+
+[Term]
+id: SRPDIO:1000072
+name: concentration of elemental niobium in soil
+def: "The concentration of elemental niobium when measured in soil." []
+synonym: "soil elemental niobium concentration" EXACT []
+is_a: SRPDIO:1000026 ! concentration of elemental niobium in environmental material
+
+[Term]
+id: SRPDIO:1000073
+name: concentration of elemental phosphorus in soil
+def: "The concentration of elemental phosphorus when measured in soil." []
+synonym: "soil elemental phosphorus concentration" EXACT []
+is_a: SRPDIO:1000027 ! concentration of elemental phosphorus in environmental material
+
+[Term]
+id: SRPDIO:1000074
+name: concentration of elemental potassium in soil
+def: "The concentration of elemental potassium when measured in soil." []
+synonym: "soil elemental potassium concentration" EXACT []
+is_a: SRPDIO:1000028 ! concentration of elemental potassium in environmental material
+
+[Term]
+id: SRPDIO:1000075
+name: concentration of elemental rubidium in soil
+def: "The concentration of elemental rubidium when measured in soil." []
+synonym: "soil elemental rubidium concentration" EXACT []
+is_a: SRPDIO:1000029 ! concentration of elemental rubidium in environmental material
+
+[Term]
+id: SRPDIO:1000076
+name: concentration of elemental selenium in soil
+def: "The concentration of elemental selenium when measured in soil." []
+synonym: "soil elemental selenium concentration" EXACT []
+is_a: SRPDIO:1000030 ! concentration of elemental selenium in environmental material
+
+[Term]
+id: SRPDIO:1000077
+name: concentration of elemental silicon in soil
+def: "The concentration of elemental silicon when measured in soil." []
+synonym: "soil elemental silicon concentration" EXACT []
+is_a: SRPDIO:1000031 ! concentration of elemental silicon in environmental material
+
+[Term]
+id: SRPDIO:1000078
+name: concentration of elemental silver in soil
+def: "The concentration of elemental silver when measured in soil." []
+synonym: "soil elemental silver concentration" EXACT []
+is_a: SRPDIO:1000032 ! concentration of elemental silver in environmental material
+
+[Term]
+id: SRPDIO:1000079
+name: concentration of elemental sodium in soil
+def: "The concentration of elemental sodium when measured in soil." []
+synonym: "soil elemental sodium concentration" EXACT []
+is_a: SRPDIO:1000033 ! concentration of elemental sodium in environmental material
+
+[Term]
+id: SRPDIO:1000080
+name: concentration of elemental strontium in soil
+def: "The concentration of elemental strontium when measured in soil." []
+synonym: "soil elemental strontium concentration" EXACT []
+is_a: SRPDIO:1000034 ! concentration of elemental strontium in environmental material
+
+[Term]
+id: SRPDIO:1000081
+name: concentration of elemental sulfur in soil
+def: "The concentration of elemental sulfur when measured in soil." []
+synonym: "soil elemental sulfur concentration" EXACT []
+is_a: SRPDIO:1000035 ! concentration of elemental sulfur in environmental material
+
+[Term]
+id: SRPDIO:1000082
+name: concentration of elemental tellurium in soil
+def: "The concentration of elemental tellurium when measured in soil." []
+synonym: "soil elemental tellurium concentration" EXACT []
+is_a: SRPDIO:1000036 ! concentration of elemental tellurium in environmental material
+
+[Term]
+id: SRPDIO:1000083
+name: concentration of elemental thallium in soil
+def: "The concentration of elemental thallium when measured in soil." []
+synonym: "soil elemental thallium concentration" EXACT []
+is_a: SRPDIO:1000037 ! concentration of elemental thallium in environmental material
+
+[Term]
+id: SRPDIO:1000084
+name: concentration of elemental thorium in soil
+def: "The concentration of elemental thorium when measured in soil." []
+synonym: "soil elemental thorium concentration" EXACT []
+is_a: SRPDIO:1000038 ! concentration of elemental thorium in environmental material
+
+[Term]
+id: SRPDIO:1000085
+name: concentration of elemental tin in soil
+def: "The concentration of elemental tin when measured in soil." []
+synonym: "soil elemental tin concentration" EXACT []
+is_a: SRPDIO:1000039 ! concentration of elemental tin in environmental material
+
+[Term]
+id: SRPDIO:1000086
+name: concentration of elemental titanium in soil
+def: "The concentration of elemental titanium when measured in soil." []
+synonym: "soil elemental titanium concentration" EXACT []
+is_a: SRPDIO:1000040 ! concentration of elemental titanium in environmental material
+
+[Term]
+id: SRPDIO:1000087
+name: concentration of elemental tungsten in soil
+def: "The concentration of elemental tungsten when measured in soil." []
+synonym: "soil elemental tungsten concentration" EXACT []
+is_a: SRPDIO:1000041 ! concentration of elemental tungsten in environmental material
+
+[Term]
+id: SRPDIO:1000088
+name: concentration of elemental uranium in soil
+def: "The concentration of elemental uranium when measured in soil." []
+synonym: "soil elemental uranium concentration" EXACT []
+is_a: SRPDIO:1000042 ! concentration of elemental uranium in environmental material
+
+[Term]
+id: SRPDIO:1000089
+name: concentration of elemental vanadium in soil
+def: "The concentration of elemental vanadium when measured in soil." []
+synonym: "soil elemental vanadium concentration" EXACT []
+is_a: SRPDIO:1000043 ! concentration of elemental vanadium in environmental material
+
+[Term]
+id: SRPDIO:1000090
+name: concentration of elemental yttrium in soil
+def: "The concentration of elemental yttrium when measured in soil." []
+synonym: "soil elemental yttrium concentration" EXACT []
+is_a: SRPDIO:1000044 ! concentration of elemental yttrium in environmental material
+
+[Term]
+id: SRPDIO:1000091
+name: concentration of elemental zinc in soil
+def: "The concentration of elemental zinc when measured in soil." []
+synonym: "soil elemental zinc concentration" EXACT []
+is_a: SRPDIO:1000045 ! concentration of elemental zinc in environmental material
+
+[Term]
+id: SRPDIO:1000092
+name: concentration of elemental aluminium in liquid water
+def: "The concentration of elemental aluminium when measured in liquid water." []
+synonym: "liquid water elemental aluminium concentration" EXACT []
+is_a: SRPDIO:1000000 ! concentration of elemental aluminium in environmental material
+
+[Term]
+id: SRPDIO:1000093
+name: concentration of elemental antimony in liquid water
+def: "The concentration of elemental antimony when measured in liquid water." []
+synonym: "liquid water elemental antimony concentration" EXACT []
+is_a: SRPDIO:1000001 ! concentration of elemental antimony in environmental material
+
+[Term]
+id: SRPDIO:1000094
+name: concentration of elemental arsenic in liquid water
+def: "The concentration of elemental arsenic when measured in liquid water." []
+synonym: "liquid water elemental arsenic concentration" EXACT []
+is_a: SRPDIO:1000002 ! concentration of elemental arsenic in environmental material
+
+[Term]
+id: SRPDIO:1000095
+name: concentration of elemental barium in liquid water
+def: "The concentration of elemental barium when measured in liquid water." []
+synonym: "liquid water elemental barium concentration" EXACT []
+is_a: SRPDIO:1000003 ! concentration of elemental barium in environmental material
+
+[Term]
+id: SRPDIO:1000096
+name: concentration of elemental beryllium in liquid water
+def: "The concentration of elemental beryllium when measured in liquid water." []
+synonym: "liquid water elemental beryllium concentration" EXACT []
+is_a: SRPDIO:1000004 ! concentration of elemental beryllium in environmental material
+
+[Term]
+id: SRPDIO:1000097
+name: concentration of elemental bismuth in liquid water
+def: "The concentration of elemental bismuth when measured in liquid water." []
+synonym: "liquid water elemental bismuth concentration" EXACT []
+is_a: SRPDIO:1000005 ! concentration of elemental bismuth in environmental material
+
+[Term]
+id: SRPDIO:1000098
+name: concentration of elemental boron in liquid water
+def: "The concentration of elemental boron when measured in liquid water." []
+synonym: "liquid water elemental boron concentration" EXACT []
+is_a: SRPDIO:1000006 ! concentration of elemental boron in environmental material
+
+[Term]
+id: SRPDIO:1000099
+name: concentration of elemental cadmium in liquid water
+def: "The concentration of elemental cadmium when measured in liquid water." []
+synonym: "liquid water elemental cadmium concentration" EXACT []
+is_a: SRPDIO:1000007 ! concentration of elemental cadmium in environmental material
+
+[Term]
+id: SRPDIO:1000100
+name: concentration of elemental caesium in liquid water
+def: "The concentration of elemental caesium when measured in liquid water." []
+synonym: "liquid water elemental caesium concentration" EXACT []
+is_a: SRPDIO:1000008 ! concentration of elemental caesium in environmental material
+
+[Term]
+id: SRPDIO:1000101
+name: concentration of elemental calcium in liquid water
+def: "The concentration of elemental calcium when measured in liquid water." []
+synonym: "liquid water elemental calcium concentration" EXACT []
+is_a: SRPDIO:1000009 ! concentration of elemental calcium in environmental material
+
+[Term]
+id: SRPDIO:1000102
+name: concentration of elemental cerium in liquid water
+def: "The concentration of elemental cerium when measured in liquid water." []
+synonym: "liquid water elemental cerium concentration" EXACT []
+is_a: SRPDIO:1000010 ! concentration of elemental cerium in environmental material
+
+[Term]
+id: SRPDIO:1000103
+name: concentration of elemental chromium in liquid water
+def: "The concentration of elemental chromium when measured in liquid water." []
+synonym: "liquid water elemental chromium concentration" EXACT []
+is_a: SRPDIO:1000011 ! concentration of elemental chromium in environmental material
+
+[Term]
+id: SRPDIO:1000104
+name: concentration of elemental cobalt in liquid water
+def: "The concentration of elemental cobalt when measured in liquid water." []
+synonym: "liquid water elemental cobalt concentration" EXACT []
+is_a: SRPDIO:1000012 ! concentration of elemental cobalt in environmental material
+
+[Term]
+id: SRPDIO:1000105
+name: concentration of elemental copper in liquid water
+def: "The concentration of elemental copper when measured in liquid water." []
+synonym: "liquid water elemental copper concentration" EXACT []
+is_a: SRPDIO:1000013 ! concentration of elemental copper in environmental material
+
+[Term]
+id: SRPDIO:1000106
+name: concentration of elemental gallium in liquid water
+def: "The concentration of elemental gallium when measured in liquid water." []
+synonym: "liquid water elemental gallium concentration" EXACT []
+is_a: SRPDIO:1000014 ! concentration of elemental gallium in environmental material
+
+[Term]
+id: SRPDIO:1000107
+name: concentration of elemental gold in liquid water
+def: "The concentration of elemental gold when measured in liquid water." []
+synonym: "liquid water elemental gold concentration" EXACT []
+is_a: SRPDIO:1000015 ! concentration of elemental gold in environmental material
+
+[Term]
+id: SRPDIO:1000108
+name: concentration of elemental indium in liquid water
+def: "The concentration of elemental indium when measured in liquid water." []
+synonym: "liquid water elemental indium concentration" EXACT []
+is_a: SRPDIO:1000016 ! concentration of elemental indium in environmental material
+
+[Term]
+id: SRPDIO:1000109
+name: concentration of elemental iron in liquid water
+def: "The concentration of elemental iron when measured in liquid water." []
+synonym: "liquid water elemental iron concentration" EXACT []
+is_a: SRPDIO:1000017 ! concentration of elemental iron in environmental material
+
+[Term]
+id: SRPDIO:1000110
+name: concentration of elemental lanthanum in liquid water
+def: "The concentration of elemental lanthanum when measured in liquid water." []
+synonym: "liquid water elemental lanthanum concentration" EXACT []
+is_a: SRPDIO:1000018 ! concentration of elemental lanthanum in environmental material
+
+[Term]
+id: SRPDIO:1000111
+name: concentration of elemental lead in liquid water
+def: "The concentration of elemental lead when measured in liquid water." []
+synonym: "liquid water elemental lead concentration" EXACT []
+is_a: SRPDIO:1000019 ! concentration of elemental lead in environmental material
+
+[Term]
+id: SRPDIO:1000112
+name: concentration of elemental lithium in liquid water
+def: "The concentration of elemental lithium when measured in liquid water." []
+synonym: "liquid water elemental lithium concentration" EXACT []
+is_a: SRPDIO:1000020 ! concentration of elemental lithium in environmental material
+
+[Term]
+id: SRPDIO:1000113
+name: concentration of elemental magnesium in liquid water
+def: "The concentration of elemental magnesium when measured in liquid water." []
+synonym: "liquid water elemental magnesium concentration" EXACT []
+is_a: SRPDIO:1000021 ! concentration of elemental magnesium in environmental material
+
+[Term]
+id: SRPDIO:1000114
+name: concentration of elemental manganese in liquid water
+def: "The concentration of elemental manganese when measured in liquid water." []
+synonym: "liquid water elemental manganese concentration" EXACT []
+is_a: SRPDIO:1000022 ! concentration of elemental manganese in environmental material
+
+[Term]
+id: SRPDIO:1000115
+name: concentration of elemental mercury in liquid water
+def: "The concentration of elemental mercury when measured in liquid water." []
+synonym: "liquid water elemental mercury concentration" EXACT []
+is_a: SRPDIO:1000023 ! concentration of elemental mercury in environmental material
+
+[Term]
+id: SRPDIO:1000116
+name: concentration of elemental molybdenum in liquid water
+def: "The concentration of elemental molybdenum when measured in liquid water." []
+synonym: "liquid water elemental molybdenum concentration" EXACT []
+is_a: SRPDIO:1000024 ! concentration of elemental molybdenum in environmental material
+
+[Term]
+id: SRPDIO:1000117
+name: concentration of elemental nickel in liquid water
+def: "The concentration of elemental nickel when measured in liquid water." []
+synonym: "liquid water elemental nickel concentration" EXACT []
+is_a: SRPDIO:1000025 ! concentration of elemental nickel in environmental material
+
+[Term]
+id: SRPDIO:1000118
+name: concentration of elemental niobium in liquid water
+def: "The concentration of elemental niobium when measured in liquid water." []
+synonym: "liquid water elemental niobium concentration" EXACT []
+is_a: SRPDIO:1000026 ! concentration of elemental niobium in environmental material
+
+[Term]
+id: SRPDIO:1000119
+name: concentration of elemental phosphorus in liquid water
+def: "The concentration of elemental phosphorus when measured in liquid water." []
+synonym: "liquid water elemental phosphorus concentration" EXACT []
+is_a: SRPDIO:1000027 ! concentration of elemental phosphorus in environmental material
+
+[Term]
+id: SRPDIO:1000120
+name: concentration of elemental potassium in liquid water
+def: "The concentration of elemental potassium when measured in liquid water." []
+synonym: "liquid water elemental potassium concentration" EXACT []
+is_a: SRPDIO:1000028 ! concentration of elemental potassium in environmental material
+
+[Term]
+id: SRPDIO:1000121
+name: concentration of elemental rubidium in liquid water
+def: "The concentration of elemental rubidium when measured in liquid water." []
+synonym: "liquid water elemental rubidium concentration" EXACT []
+is_a: SRPDIO:1000029 ! concentration of elemental rubidium in environmental material
+
+[Term]
+id: SRPDIO:1000122
+name: concentration of elemental selenium in liquid water
+def: "The concentration of elemental selenium when measured in liquid water." []
+synonym: "liquid water elemental selenium concentration" EXACT []
+is_a: SRPDIO:1000030 ! concentration of elemental selenium in environmental material
+
+[Term]
+id: SRPDIO:1000123
+name: concentration of elemental silicon in liquid water
+def: "The concentration of elemental silicon when measured in liquid water." []
+synonym: "liquid water elemental silicon concentration" EXACT []
+is_a: SRPDIO:1000031 ! concentration of elemental silicon in environmental material
+
+[Term]
+id: SRPDIO:1000124
+name: concentration of elemental silver in liquid water
+def: "The concentration of elemental silver when measured in liquid water." []
+synonym: "liquid water elemental silver concentration" EXACT []
+is_a: SRPDIO:1000032 ! concentration of elemental silver in environmental material
+
+[Term]
+id: SRPDIO:1000125
+name: concentration of elemental sodium in liquid water
+def: "The concentration of elemental sodium when measured in liquid water." []
+synonym: "liquid water elemental sodium concentration" EXACT []
+is_a: SRPDIO:1000033 ! concentration of elemental sodium in environmental material
+
+[Term]
+id: SRPDIO:1000126
+name: concentration of elemental strontium in liquid water
+def: "The concentration of elemental strontium when measured in liquid water." []
+synonym: "liquid water elemental strontium concentration" EXACT []
+is_a: SRPDIO:1000034 ! concentration of elemental strontium in environmental material
+
+[Term]
+id: SRPDIO:1000127
+name: concentration of elemental sulfur in liquid water
+def: "The concentration of elemental sulfur when measured in liquid water." []
+synonym: "liquid water elemental sulfur concentration" EXACT []
+is_a: SRPDIO:1000035 ! concentration of elemental sulfur in environmental material
+
+[Term]
+id: SRPDIO:1000128
+name: concentration of elemental tellurium in liquid water
+def: "The concentration of elemental tellurium when measured in liquid water." []
+synonym: "liquid water elemental tellurium concentration" EXACT []
+is_a: SRPDIO:1000036 ! concentration of elemental tellurium in environmental material
+
+[Term]
+id: SRPDIO:1000129
+name: concentration of elemental thallium in liquid water
+def: "The concentration of elemental thallium when measured in liquid water." []
+synonym: "liquid water elemental thallium concentration" EXACT []
+is_a: SRPDIO:1000037 ! concentration of elemental thallium in environmental material
+
+[Term]
+id: SRPDIO:1000130
+name: concentration of elemental thorium in liquid water
+def: "The concentration of elemental thorium when measured in liquid water." []
+synonym: "liquid water elemental thorium concentration" EXACT []
+is_a: SRPDIO:1000038 ! concentration of elemental thorium in environmental material
+
+[Term]
+id: SRPDIO:1000131
+name: concentration of elemental tin in liquid water
+def: "The concentration of elemental tin when measured in liquid water." []
+synonym: "liquid water elemental tin concentration" EXACT []
+is_a: SRPDIO:1000039 ! concentration of elemental tin in environmental material
+
+[Term]
+id: SRPDIO:1000132
+name: concentration of elemental titanium in liquid water
+def: "The concentration of elemental titanium when measured in liquid water." []
+synonym: "liquid water elemental titanium concentration" EXACT []
+is_a: SRPDIO:1000040 ! concentration of elemental titanium in environmental material
+
+[Term]
+id: SRPDIO:1000133
+name: concentration of elemental tungsten in liquid water
+def: "The concentration of elemental tungsten when measured in liquid water." []
+synonym: "liquid water elemental tungsten concentration" EXACT []
+is_a: SRPDIO:1000041 ! concentration of elemental tungsten in environmental material
+
+[Term]
+id: SRPDIO:1000134
+name: concentration of elemental uranium in liquid water
+def: "The concentration of elemental uranium when measured in liquid water." []
+synonym: "liquid water elemental uranium concentration" EXACT []
+is_a: SRPDIO:1000042 ! concentration of elemental uranium in environmental material
+
+[Term]
+id: SRPDIO:1000135
+name: concentration of elemental vanadium in liquid water
+def: "The concentration of elemental vanadium when measured in liquid water." []
+synonym: "liquid water elemental vanadium concentration" EXACT []
+is_a: SRPDIO:1000043 ! concentration of elemental vanadium in environmental material
+
+[Term]
+id: SRPDIO:1000136
+name: concentration of elemental yttrium in liquid water
+def: "The concentration of elemental yttrium when measured in liquid water." []
+synonym: "liquid water elemental yttrium concentration" EXACT []
+is_a: SRPDIO:1000044 ! concentration of elemental yttrium in environmental material
+
+[Term]
+id: SRPDIO:1000137
+name: concentration of elemental zinc in liquid water
+def: "The concentration of elemental zinc when measured in liquid water." []
+synonym: "liquid water elemental zinc concentration" EXACT []
+is_a: SRPDIO:1000045 ! concentration of elemental zinc in environmental material
+
+[Term]
+id: SRPDIO:1000138
+name: concentration of elemental aluminium in garden soil
+def: "The concentration of elemental aluminium when measured in garden soil." []
+synonym: "garden soil elemental aluminium concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000139
+name: concentration of elemental antimony in garden soil
+def: "The concentration of elemental antimony when measured in garden soil." []
+synonym: "garden soil elemental antimony concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000140
+name: concentration of elemental arsenic in garden soil
+def: "The concentration of elemental arsenic when measured in garden soil." []
+synonym: "garden soil elemental arsenic concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000141
+name: concentration of elemental barium in garden soil
+def: "The concentration of elemental barium when measured in garden soil." []
+synonym: "garden soil elemental barium concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000142
+name: concentration of elemental beryllium in garden soil
+def: "The concentration of elemental beryllium when measured in garden soil." []
+synonym: "garden soil elemental beryllium concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000143
+name: concentration of elemental bismuth in garden soil
+def: "The concentration of elemental bismuth when measured in garden soil." []
+synonym: "garden soil elemental bismuth concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000144
+name: concentration of elemental boron in garden soil
+def: "The concentration of elemental boron when measured in garden soil." []
+synonym: "garden soil elemental boron concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000145
+name: concentration of elemental cadmium in garden soil
+def: "The concentration of elemental cadmium when measured in garden soil." []
+synonym: "garden soil elemental cadmium concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000146
+name: concentration of elemental caesium in garden soil
+def: "The concentration of elemental caesium when measured in garden soil." []
+synonym: "garden soil elemental caesium concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000147
+name: concentration of elemental calcium in garden soil
+def: "The concentration of elemental calcium when measured in garden soil." []
+synonym: "garden soil elemental calcium concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000148
+name: concentration of elemental cerium in garden soil
+def: "The concentration of elemental cerium when measured in garden soil." []
+synonym: "garden soil elemental cerium concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000149
+name: concentration of elemental chromium in garden soil
+def: "The concentration of elemental chromium when measured in garden soil." []
+synonym: "garden soil elemental chromium concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000150
+name: concentration of elemental cobalt in garden soil
+def: "The concentration of elemental cobalt when measured in garden soil." []
+synonym: "garden soil elemental cobalt concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000151
+name: concentration of elemental copper in garden soil
+def: "The concentration of elemental copper when measured in garden soil." []
+synonym: "garden soil elemental copper concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000152
+name: concentration of elemental gallium in garden soil
+def: "The concentration of elemental gallium when measured in garden soil." []
+synonym: "garden soil elemental gallium concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000153
+name: concentration of elemental gold in garden soil
+def: "The concentration of elemental gold when measured in garden soil." []
+synonym: "garden soil elemental gold concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000154
+name: concentration of elemental indium in garden soil
+def: "The concentration of elemental indium when measured in garden soil." []
+synonym: "garden soil elemental indium concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000155
+name: concentration of elemental iron in garden soil
+def: "The concentration of elemental iron when measured in garden soil." []
+synonym: "garden soil elemental iron concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000156
+name: concentration of elemental lanthanum in garden soil
+def: "The concentration of elemental lanthanum when measured in garden soil." []
+synonym: "garden soil elemental lanthanum concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000157
+name: concentration of elemental lead in garden soil
+def: "The concentration of elemental lead when measured in garden soil." []
+synonym: "garden soil elemental lead concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000158
+name: concentration of elemental lithium in garden soil
+def: "The concentration of elemental lithium when measured in garden soil." []
+synonym: "garden soil elemental lithium concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000159
+name: concentration of elemental magnesium in garden soil
+def: "The concentration of elemental magnesium when measured in garden soil." []
+synonym: "garden soil elemental magnesium concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000160
+name: concentration of elemental manganese in garden soil
+def: "The concentration of elemental manganese when measured in garden soil." []
+synonym: "garden soil elemental manganese concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000161
+name: concentration of elemental mercury in garden soil
+def: "The concentration of elemental mercury when measured in garden soil." []
+synonym: "garden soil elemental mercury concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000162
+name: concentration of elemental molybdenum in garden soil
+def: "The concentration of elemental molybdenum when measured in garden soil." []
+synonym: "garden soil elemental molybdenum concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000163
+name: concentration of elemental nickel in garden soil
+def: "The concentration of elemental nickel when measured in garden soil." []
+synonym: "garden soil elemental nickel concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000164
+name: concentration of elemental niobium in garden soil
+def: "The concentration of elemental niobium when measured in garden soil." []
+synonym: "garden soil elemental niobium concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000165
+name: concentration of elemental phosphorus in garden soil
+def: "The concentration of elemental phosphorus when measured in garden soil." []
+synonym: "garden soil elemental phosphorus concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000166
+name: concentration of elemental potassium in garden soil
+def: "The concentration of elemental potassium when measured in garden soil." []
+synonym: "garden soil elemental potassium concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000167
+name: concentration of elemental rubidium in garden soil
+def: "The concentration of elemental rubidium when measured in garden soil." []
+synonym: "garden soil elemental rubidium concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000168
+name: concentration of elemental selenium in garden soil
+def: "The concentration of elemental selenium when measured in garden soil." []
+synonym: "garden soil elemental selenium concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000169
+name: concentration of elemental silicon in garden soil
+def: "The concentration of elemental silicon when measured in garden soil." []
+synonym: "garden soil elemental silicon concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000170
+name: concentration of elemental silver in garden soil
+def: "The concentration of elemental silver when measured in garden soil." []
+synonym: "garden soil elemental silver concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000171
+name: concentration of elemental sodium in garden soil
+def: "The concentration of elemental sodium when measured in garden soil." []
+synonym: "garden soil elemental sodium concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000172
+name: concentration of elemental strontium in garden soil
+def: "The concentration of elemental strontium when measured in garden soil." []
+synonym: "garden soil elemental strontium concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000173
+name: concentration of elemental sulfur in garden soil
+def: "The concentration of elemental sulfur when measured in garden soil." []
+synonym: "garden soil elemental sulfur concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000174
+name: concentration of elemental tellurium in garden soil
+def: "The concentration of elemental tellurium when measured in garden soil." []
+synonym: "garden soil elemental tellurium concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000175
+name: concentration of elemental thallium in garden soil
+def: "The concentration of elemental thallium when measured in garden soil." []
+synonym: "garden soil elemental thallium concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000176
+name: concentration of elemental thorium in garden soil
+def: "The concentration of elemental thorium when measured in garden soil." []
+synonym: "garden soil elemental thorium concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000177
+name: concentration of elemental tin in garden soil
+def: "The concentration of elemental tin when measured in garden soil." []
+synonym: "garden soil elemental tin concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000178
+name: concentration of elemental titanium in garden soil
+def: "The concentration of elemental titanium when measured in garden soil." []
+synonym: "garden soil elemental titanium concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000179
+name: concentration of elemental tungsten in garden soil
+def: "The concentration of elemental tungsten when measured in garden soil." []
+synonym: "garden soil elemental tungsten concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000180
+name: concentration of elemental uranium in garden soil
+def: "The concentration of elemental uranium when measured in garden soil." []
+synonym: "garden soil elemental uranium concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000181
+name: concentration of elemental vanadium in garden soil
+def: "The concentration of elemental vanadium when measured in garden soil." []
+synonym: "garden soil elemental vanadium concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000182
+name: concentration of elemental yttrium in garden soil
+def: "The concentration of elemental yttrium when measured in garden soil." []
+synonym: "garden soil elemental yttrium concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000183
+name: concentration of elemental zinc in garden soil
+def: "The concentration of elemental zinc when measured in garden soil." []
+synonym: "garden soil elemental zinc concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000184
+name: concentration of elemental aluminium in fresh water
+def: "The concentration of elemental aluminium when measured in fresh water." []
+synonym: "fresh water elemental aluminium concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000185
+name: concentration of elemental antimony in fresh water
+def: "The concentration of elemental antimony when measured in fresh water." []
+synonym: "fresh water elemental antimony concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000186
+name: concentration of elemental arsenic in fresh water
+def: "The concentration of elemental arsenic when measured in fresh water." []
+synonym: "fresh water elemental arsenic concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000187
+name: concentration of elemental barium in fresh water
+def: "The concentration of elemental barium when measured in fresh water." []
+synonym: "fresh water elemental barium concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000188
+name: concentration of elemental beryllium in fresh water
+def: "The concentration of elemental beryllium when measured in fresh water." []
+synonym: "fresh water elemental beryllium concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000189
+name: concentration of elemental bismuth in fresh water
+def: "The concentration of elemental bismuth when measured in fresh water." []
+synonym: "fresh water elemental bismuth concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000190
+name: concentration of elemental boron in fresh water
+def: "The concentration of elemental boron when measured in fresh water." []
+synonym: "fresh water elemental boron concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000191
+name: concentration of elemental cadmium in fresh water
+def: "The concentration of elemental cadmium when measured in fresh water." []
+synonym: "fresh water elemental cadmium concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000192
+name: concentration of elemental caesium in fresh water
+def: "The concentration of elemental caesium when measured in fresh water." []
+synonym: "fresh water elemental caesium concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000193
+name: concentration of elemental calcium in fresh water
+def: "The concentration of elemental calcium when measured in fresh water." []
+synonym: "fresh water elemental calcium concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000194
+name: concentration of elemental cerium in fresh water
+def: "The concentration of elemental cerium when measured in fresh water." []
+synonym: "fresh water elemental cerium concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000195
+name: concentration of elemental chromium in fresh water
+def: "The concentration of elemental chromium when measured in fresh water." []
+synonym: "fresh water elemental chromium concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000196
+name: concentration of elemental cobalt in fresh water
+def: "The concentration of elemental cobalt when measured in fresh water." []
+synonym: "fresh water elemental cobalt concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000197
+name: concentration of elemental copper in fresh water
+def: "The concentration of elemental copper when measured in fresh water." []
+synonym: "fresh water elemental copper concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000198
+name: concentration of elemental gallium in fresh water
+def: "The concentration of elemental gallium when measured in fresh water." []
+synonym: "fresh water elemental gallium concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000199
+name: concentration of elemental gold in fresh water
+def: "The concentration of elemental gold when measured in fresh water." []
+synonym: "fresh water elemental gold concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000200
+name: concentration of elemental indium in fresh water
+def: "The concentration of elemental indium when measured in fresh water." []
+synonym: "fresh water elemental indium concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000201
+name: concentration of elemental iron in fresh water
+def: "The concentration of elemental iron when measured in fresh water." []
+synonym: "fresh water elemental iron concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000202
+name: concentration of elemental lanthanum in fresh water
+def: "The concentration of elemental lanthanum when measured in fresh water." []
+synonym: "fresh water elemental lanthanum concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000203
+name: concentration of elemental lead in fresh water
+def: "The concentration of elemental lead when measured in fresh water." []
+synonym: "fresh water elemental lead concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000204
+name: concentration of elemental lithium in fresh water
+def: "The concentration of elemental lithium when measured in fresh water." []
+synonym: "fresh water elemental lithium concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000205
+name: concentration of elemental magnesium in fresh water
+def: "The concentration of elemental magnesium when measured in fresh water." []
+synonym: "fresh water elemental magnesium concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000206
+name: concentration of elemental manganese in fresh water
+def: "The concentration of elemental manganese when measured in fresh water." []
+synonym: "fresh water elemental manganese concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000207
+name: concentration of elemental mercury in fresh water
+def: "The concentration of elemental mercury when measured in fresh water." []
+synonym: "fresh water elemental mercury concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000208
+name: concentration of elemental molybdenum in fresh water
+def: "The concentration of elemental molybdenum when measured in fresh water." []
+synonym: "fresh water elemental molybdenum concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000209
+name: concentration of elemental nickel in fresh water
+def: "The concentration of elemental nickel when measured in fresh water." []
+synonym: "fresh water elemental nickel concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000210
+name: concentration of elemental niobium in fresh water
+def: "The concentration of elemental niobium when measured in fresh water." []
+synonym: "fresh water elemental niobium concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000211
+name: concentration of elemental phosphorus in fresh water
+def: "The concentration of elemental phosphorus when measured in fresh water." []
+synonym: "fresh water elemental phosphorus concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000212
+name: concentration of elemental potassium in fresh water
+def: "The concentration of elemental potassium when measured in fresh water." []
+synonym: "fresh water elemental potassium concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000213
+name: concentration of elemental rubidium in fresh water
+def: "The concentration of elemental rubidium when measured in fresh water." []
+synonym: "fresh water elemental rubidium concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000214
+name: concentration of elemental selenium in fresh water
+def: "The concentration of elemental selenium when measured in fresh water." []
+synonym: "fresh water elemental selenium concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000215
+name: concentration of elemental silicon in fresh water
+def: "The concentration of elemental silicon when measured in fresh water." []
+synonym: "fresh water elemental silicon concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000216
+name: concentration of elemental silver in fresh water
+def: "The concentration of elemental silver when measured in fresh water." []
+synonym: "fresh water elemental silver concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000217
+name: concentration of elemental sodium in fresh water
+def: "The concentration of elemental sodium when measured in fresh water." []
+synonym: "fresh water elemental sodium concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000218
+name: concentration of elemental strontium in fresh water
+def: "The concentration of elemental strontium when measured in fresh water." []
+synonym: "fresh water elemental strontium concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000219
+name: concentration of elemental sulfur in fresh water
+def: "The concentration of elemental sulfur when measured in fresh water." []
+synonym: "fresh water elemental sulfur concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000220
+name: concentration of elemental tellurium in fresh water
+def: "The concentration of elemental tellurium when measured in fresh water." []
+synonym: "fresh water elemental tellurium concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000221
+name: concentration of elemental thallium in fresh water
+def: "The concentration of elemental thallium when measured in fresh water." []
+synonym: "fresh water elemental thallium concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000222
+name: concentration of elemental thorium in fresh water
+def: "The concentration of elemental thorium when measured in fresh water." []
+synonym: "fresh water elemental thorium concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000223
+name: concentration of elemental tin in fresh water
+def: "The concentration of elemental tin when measured in fresh water." []
+synonym: "fresh water elemental tin concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000224
+name: concentration of elemental titanium in fresh water
+def: "The concentration of elemental titanium when measured in fresh water." []
+synonym: "fresh water elemental titanium concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000225
+name: concentration of elemental tungsten in fresh water
+def: "The concentration of elemental tungsten when measured in fresh water." []
+synonym: "fresh water elemental tungsten concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000226
+name: concentration of elemental uranium in fresh water
+def: "The concentration of elemental uranium when measured in fresh water." []
+synonym: "fresh water elemental uranium concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000227
+name: concentration of elemental vanadium in fresh water
+def: "The concentration of elemental vanadium when measured in fresh water." []
+synonym: "fresh water elemental vanadium concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000228
+name: concentration of elemental yttrium in fresh water
+def: "The concentration of elemental yttrium when measured in fresh water." []
+synonym: "fresh water elemental yttrium concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000229
+name: concentration of elemental zinc in fresh water
+def: "The concentration of elemental zinc when measured in fresh water." []
+synonym: "fresh water elemental zinc concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000230
+name: concentration of elemental aluminium in topsoil
+def: "The concentration of elemental aluminium when measured in topsoil." []
+synonym: "topsoil elemental aluminium concentration" EXACT []
+is_a: SRPDIO:1000046 ! concentration of elemental aluminium in soil
+
+[Term]
+id: SRPDIO:1000231
+name: concentration of elemental antimony in topsoil
+def: "The concentration of elemental antimony when measured in topsoil." []
+synonym: "topsoil elemental antimony concentration" EXACT []
+is_a: SRPDIO:1000047 ! concentration of elemental antimony in soil
+
+[Term]
+id: SRPDIO:1000232
+name: concentration of elemental arsenic in topsoil
+def: "The concentration of elemental arsenic when measured in topsoil." []
+synonym: "topsoil elemental arsenic concentration" EXACT []
+is_a: SRPDIO:1000048 ! concentration of elemental arsenic in soil
+
+[Term]
+id: SRPDIO:1000233
+name: concentration of elemental barium in topsoil
+def: "The concentration of elemental barium when measured in topsoil." []
+synonym: "topsoil elemental barium concentration" EXACT []
+is_a: SRPDIO:1000049 ! concentration of elemental barium in soil
+
+[Term]
+id: SRPDIO:1000234
+name: concentration of elemental beryllium in topsoil
+def: "The concentration of elemental beryllium when measured in topsoil." []
+synonym: "topsoil elemental beryllium concentration" EXACT []
+is_a: SRPDIO:1000050 ! concentration of elemental beryllium in soil
+
+[Term]
+id: SRPDIO:1000235
+name: concentration of elemental bismuth in topsoil
+def: "The concentration of elemental bismuth when measured in topsoil." []
+synonym: "topsoil elemental bismuth concentration" EXACT []
+is_a: SRPDIO:1000051 ! concentration of elemental bismuth in soil
+
+[Term]
+id: SRPDIO:1000236
+name: concentration of elemental boron in topsoil
+def: "The concentration of elemental boron when measured in topsoil." []
+synonym: "topsoil elemental boron concentration" EXACT []
+is_a: SRPDIO:1000052 ! concentration of elemental boron in soil
+
+[Term]
+id: SRPDIO:1000237
+name: concentration of elemental cadmium in topsoil
+def: "The concentration of elemental cadmium when measured in topsoil." []
+synonym: "topsoil elemental cadmium concentration" EXACT []
+is_a: SRPDIO:1000053 ! concentration of elemental cadmium in soil
+
+[Term]
+id: SRPDIO:1000238
+name: concentration of elemental caesium in topsoil
+def: "The concentration of elemental caesium when measured in topsoil." []
+synonym: "topsoil elemental caesium concentration" EXACT []
+is_a: SRPDIO:1000054 ! concentration of elemental caesium in soil
+
+[Term]
+id: SRPDIO:1000239
+name: concentration of elemental calcium in topsoil
+def: "The concentration of elemental calcium when measured in topsoil." []
+synonym: "topsoil elemental calcium concentration" EXACT []
+is_a: SRPDIO:1000055 ! concentration of elemental calcium in soil
+
+[Term]
+id: SRPDIO:1000240
+name: concentration of elemental cerium in topsoil
+def: "The concentration of elemental cerium when measured in topsoil." []
+synonym: "topsoil elemental cerium concentration" EXACT []
+is_a: SRPDIO:1000056 ! concentration of elemental cerium in soil
+
+[Term]
+id: SRPDIO:1000241
+name: concentration of elemental chromium in topsoil
+def: "The concentration of elemental chromium when measured in topsoil." []
+synonym: "topsoil elemental chromium concentration" EXACT []
+is_a: SRPDIO:1000057 ! concentration of elemental chromium in soil
+
+[Term]
+id: SRPDIO:1000242
+name: concentration of elemental cobalt in topsoil
+def: "The concentration of elemental cobalt when measured in topsoil." []
+synonym: "topsoil elemental cobalt concentration" EXACT []
+is_a: SRPDIO:1000058 ! concentration of elemental cobalt in soil
+
+[Term]
+id: SRPDIO:1000243
+name: concentration of elemental copper in topsoil
+def: "The concentration of elemental copper when measured in topsoil." []
+synonym: "topsoil elemental copper concentration" EXACT []
+is_a: SRPDIO:1000059 ! concentration of elemental copper in soil
+
+[Term]
+id: SRPDIO:1000244
+name: concentration of elemental gallium in topsoil
+def: "The concentration of elemental gallium when measured in topsoil." []
+synonym: "topsoil elemental gallium concentration" EXACT []
+is_a: SRPDIO:1000060 ! concentration of elemental gallium in soil
+
+[Term]
+id: SRPDIO:1000245
+name: concentration of elemental gold in topsoil
+def: "The concentration of elemental gold when measured in topsoil." []
+synonym: "topsoil elemental gold concentration" EXACT []
+is_a: SRPDIO:1000061 ! concentration of elemental gold in soil
+
+[Term]
+id: SRPDIO:1000246
+name: concentration of elemental indium in topsoil
+def: "The concentration of elemental indium when measured in topsoil." []
+synonym: "topsoil elemental indium concentration" EXACT []
+is_a: SRPDIO:1000062 ! concentration of elemental indium in soil
+
+[Term]
+id: SRPDIO:1000247
+name: concentration of elemental iron in topsoil
+def: "The concentration of elemental iron when measured in topsoil." []
+synonym: "topsoil elemental iron concentration" EXACT []
+is_a: SRPDIO:1000063 ! concentration of elemental iron in soil
+
+[Term]
+id: SRPDIO:1000248
+name: concentration of elemental lanthanum in topsoil
+def: "The concentration of elemental lanthanum when measured in topsoil." []
+synonym: "topsoil elemental lanthanum concentration" EXACT []
+is_a: SRPDIO:1000064 ! concentration of elemental lanthanum in soil
+
+[Term]
+id: SRPDIO:1000249
+name: concentration of elemental lead in topsoil
+def: "The concentration of elemental lead when measured in topsoil." []
+synonym: "topsoil elemental lead concentration" EXACT []
+is_a: SRPDIO:1000065 ! concentration of elemental lead in soil
+
+[Term]
+id: SRPDIO:1000250
+name: concentration of elemental lithium in topsoil
+def: "The concentration of elemental lithium when measured in topsoil." []
+synonym: "topsoil elemental lithium concentration" EXACT []
+is_a: SRPDIO:1000066 ! concentration of elemental lithium in soil
+
+[Term]
+id: SRPDIO:1000251
+name: concentration of elemental magnesium in topsoil
+def: "The concentration of elemental magnesium when measured in topsoil." []
+synonym: "topsoil elemental magnesium concentration" EXACT []
+is_a: SRPDIO:1000067 ! concentration of elemental magnesium in soil
+
+[Term]
+id: SRPDIO:1000252
+name: concentration of elemental manganese in topsoil
+def: "The concentration of elemental manganese when measured in topsoil." []
+synonym: "topsoil elemental manganese concentration" EXACT []
+is_a: SRPDIO:1000068 ! concentration of elemental manganese in soil
+
+[Term]
+id: SRPDIO:1000253
+name: concentration of elemental mercury in topsoil
+def: "The concentration of elemental mercury when measured in topsoil." []
+synonym: "topsoil elemental mercury concentration" EXACT []
+is_a: SRPDIO:1000069 ! concentration of elemental mercury in soil
+
+[Term]
+id: SRPDIO:1000254
+name: concentration of elemental molybdenum in topsoil
+def: "The concentration of elemental molybdenum when measured in topsoil." []
+synonym: "topsoil elemental molybdenum concentration" EXACT []
+is_a: SRPDIO:1000070 ! concentration of elemental molybdenum in soil
+
+[Term]
+id: SRPDIO:1000255
+name: concentration of elemental nickel in topsoil
+def: "The concentration of elemental nickel when measured in topsoil." []
+synonym: "topsoil elemental nickel concentration" EXACT []
+is_a: SRPDIO:1000071 ! concentration of elemental nickel in soil
+
+[Term]
+id: SRPDIO:1000256
+name: concentration of elemental niobium in topsoil
+def: "The concentration of elemental niobium when measured in topsoil." []
+synonym: "topsoil elemental niobium concentration" EXACT []
+is_a: SRPDIO:1000072 ! concentration of elemental niobium in soil
+
+[Term]
+id: SRPDIO:1000257
+name: concentration of elemental phosphorus in topsoil
+def: "The concentration of elemental phosphorus when measured in topsoil." []
+synonym: "topsoil elemental phosphorus concentration" EXACT []
+is_a: SRPDIO:1000073 ! concentration of elemental phosphorus in soil
+
+[Term]
+id: SRPDIO:1000258
+name: concentration of elemental potassium in topsoil
+def: "The concentration of elemental potassium when measured in topsoil." []
+synonym: "topsoil elemental potassium concentration" EXACT []
+is_a: SRPDIO:1000074 ! concentration of elemental potassium in soil
+
+[Term]
+id: SRPDIO:1000259
+name: concentration of elemental rubidium in topsoil
+def: "The concentration of elemental rubidium when measured in topsoil." []
+synonym: "topsoil elemental rubidium concentration" EXACT []
+is_a: SRPDIO:1000075 ! concentration of elemental rubidium in soil
+
+[Term]
+id: SRPDIO:1000260
+name: concentration of elemental selenium in topsoil
+def: "The concentration of elemental selenium when measured in topsoil." []
+synonym: "topsoil elemental selenium concentration" EXACT []
+is_a: SRPDIO:1000076 ! concentration of elemental selenium in soil
+
+[Term]
+id: SRPDIO:1000261
+name: concentration of elemental silicon in topsoil
+def: "The concentration of elemental silicon when measured in topsoil." []
+synonym: "topsoil elemental silicon concentration" EXACT []
+is_a: SRPDIO:1000077 ! concentration of elemental silicon in soil
+
+[Term]
+id: SRPDIO:1000262
+name: concentration of elemental silver in topsoil
+def: "The concentration of elemental silver when measured in topsoil." []
+synonym: "topsoil elemental silver concentration" EXACT []
+is_a: SRPDIO:1000078 ! concentration of elemental silver in soil
+
+[Term]
+id: SRPDIO:1000263
+name: concentration of elemental sodium in topsoil
+def: "The concentration of elemental sodium when measured in topsoil." []
+synonym: "topsoil elemental sodium concentration" EXACT []
+is_a: SRPDIO:1000079 ! concentration of elemental sodium in soil
+
+[Term]
+id: SRPDIO:1000264
+name: concentration of elemental strontium in topsoil
+def: "The concentration of elemental strontium when measured in topsoil." []
+synonym: "topsoil elemental strontium concentration" EXACT []
+is_a: SRPDIO:1000080 ! concentration of elemental strontium in soil
+
+[Term]
+id: SRPDIO:1000265
+name: concentration of elemental sulfur in topsoil
+def: "The concentration of elemental sulfur when measured in topsoil." []
+synonym: "topsoil elemental sulfur concentration" EXACT []
+is_a: SRPDIO:1000081 ! concentration of elemental sulfur in soil
+
+[Term]
+id: SRPDIO:1000266
+name: concentration of elemental tellurium in topsoil
+def: "The concentration of elemental tellurium when measured in topsoil." []
+synonym: "topsoil elemental tellurium concentration" EXACT []
+is_a: SRPDIO:1000082 ! concentration of elemental tellurium in soil
+
+[Term]
+id: SRPDIO:1000267
+name: concentration of elemental thallium in topsoil
+def: "The concentration of elemental thallium when measured in topsoil." []
+synonym: "topsoil elemental thallium concentration" EXACT []
+is_a: SRPDIO:1000083 ! concentration of elemental thallium in soil
+
+[Term]
+id: SRPDIO:1000268
+name: concentration of elemental thorium in topsoil
+def: "The concentration of elemental thorium when measured in topsoil." []
+synonym: "topsoil elemental thorium concentration" EXACT []
+is_a: SRPDIO:1000084 ! concentration of elemental thorium in soil
+
+[Term]
+id: SRPDIO:1000269
+name: concentration of elemental tin in topsoil
+def: "The concentration of elemental tin when measured in topsoil." []
+synonym: "topsoil elemental tin concentration" EXACT []
+is_a: SRPDIO:1000085 ! concentration of elemental tin in soil
+
+[Term]
+id: SRPDIO:1000270
+name: concentration of elemental titanium in topsoil
+def: "The concentration of elemental titanium when measured in topsoil." []
+synonym: "topsoil elemental titanium concentration" EXACT []
+is_a: SRPDIO:1000086 ! concentration of elemental titanium in soil
+
+[Term]
+id: SRPDIO:1000271
+name: concentration of elemental tungsten in topsoil
+def: "The concentration of elemental tungsten when measured in topsoil." []
+synonym: "topsoil elemental tungsten concentration" EXACT []
+is_a: SRPDIO:1000087 ! concentration of elemental tungsten in soil
+
+[Term]
+id: SRPDIO:1000272
+name: concentration of elemental uranium in topsoil
+def: "The concentration of elemental uranium when measured in topsoil." []
+synonym: "topsoil elemental uranium concentration" EXACT []
+is_a: SRPDIO:1000088 ! concentration of elemental uranium in soil
+
+[Term]
+id: SRPDIO:1000273
+name: concentration of elemental vanadium in topsoil
+def: "The concentration of elemental vanadium when measured in topsoil." []
+synonym: "topsoil elemental vanadium concentration" EXACT []
+is_a: SRPDIO:1000089 ! concentration of elemental vanadium in soil
+
+[Term]
+id: SRPDIO:1000274
+name: concentration of elemental yttrium in topsoil
+def: "The concentration of elemental yttrium when measured in topsoil." []
+synonym: "topsoil elemental yttrium concentration" EXACT []
+is_a: SRPDIO:1000090 ! concentration of elemental yttrium in soil
+
+[Term]
+id: SRPDIO:1000275
+name: concentration of elemental zinc in topsoil
+def: "The concentration of elemental zinc when measured in topsoil." []
+synonym: "topsoil elemental zinc concentration" EXACT []
+is_a: SRPDIO:1000091 ! concentration of elemental zinc in soil
+
+[Term]
 id: Subset
 is_a: IAO:0000102 ! data about an ontology part
 
@@ -6552,7 +8491,7 @@ id: RO:0002410
 name: causally related to
 def: "This relation groups causal relations between material entities and causal relations between processes" []
 property_value: IAO:0000114 IAO:0000428
-property_value: IAO:0000116 "This branch of the ontology deals with causal relations between entities. It is divided into two branches: causal relations between occurrents/processes, and causal relations between material entities. We take an 'activity flow-centric approach', with the former as primary, and define causal relations between material entities in terms of causal relations between occurrents.\n\nTo define causal relations in an activity-flow type network, we make use of 3 primitives:\n\n * Temporal: how do the intervals of the two occurrents relate? \n * Is the causal relation regulatory?\n * Is the influence positive or negative\n\nThe first of these can be formalized in terms of the Allen Interval Algebra. Informally, the 3 bins we care about are 'direct', 'indirect' or overlapping. Note that all causal relations should be classified under a RO temporal relation (see the branch under 'temporally related to'). Note that all causal relations are temporal, but not all temporal relations are causal. Two occurrents can be related in time without being causally connected. We take causal influence to be primitive, elucidated as being such that has the upstream changed, some qualities of the donwstream would necessarily be modified.\n\nFor the second, we consider a relationship to be regulatory if the system in which the activities occur is capable of altering the relationship to achieve some objective. This could include changing the rate of production of a molecule.\n\nFor the third, we consider the effect of the upstream process on the output(s) of the downstream process. If the level of output is increased, or the rate of production of the output is increased, then the direction is increased. Direction can be positive, negative or neutral or capable of either direction. Two positives in succession yield a positive, two negatives in succession yield a positive, otherwise the default assumption is that the net effect is canceled and the influence is neutral.\n\nEach of these 3 primitives can be composed to yield a cross-product of different relation types." xsd:string
+property_value: IAO:0000116 "This branch of the ontology deals with causal relations between entities. It is divided into two branches: causal relations between occurrents/processes, and causal relations between material entities. We take an 'activity flow-centric approach', with the former as primary, and define causal relations between material entities in terms of causal relations between occurrents.\n\nTo define causal relations in an activity-flow type network, we make use of 3 primitives:\n\n * Temporal: how do the intervals of the two occurrents relate?\n * Is the causal relation regulatory?\n * Is the influence positive or negative\n\nThe first of these can be formalized in terms of the Allen Interval Algebra. Informally, the 3 bins we care about are 'direct', 'indirect' or overlapping. Note that all causal relations should be classified under a RO temporal relation (see the branch under 'temporally related to'). Note that all causal relations are temporal, but not all temporal relations are causal. Two occurrents can be related in time without being causally connected. We take causal influence to be primitive, elucidated as being such that has the upstream changed, some qualities of the donwstream would necessarily be modified.\n\nFor the second, we consider a relationship to be regulatory if the system in which the activities occur is capable of altering the relationship to achieve some objective. This could include changing the rate of production of a molecule.\n\nFor the third, we consider the effect of the upstream process on the output(s) of the downstream process. If the level of output is increased, or the rate of production of the output is increased, then the direction is increased. Direction can be positive, negative or neutral or capable of either direction. Two positives in succession yield a positive, two negatives in succession yield a positive, otherwise the default assumption is that the net effect is canceled and the influence is neutral.\n\nEach of these 3 primitives can be composed to yield a cross-product of different relation types." xsd:string
 property_value: IAO:0000117 "Chris Mungall" xsd:string
 property_value: IAO:0000232 "Do not use this relation directly. It is intended as a grouping for a diverse set of relations, all involving cause and effect." xsd:string
 
@@ -6707,7 +8646,7 @@ id: RO:0002449
 name: activity directly negatively regulates activity of
 name: directly negatively regulates activity of
 def: "Holds between molecular entities A and B where A can physically interact with B and in doing so negatively regulates a process that B is capable of.  For example, A and B may be gene products and binding of B by A negatively regulates the kinase activity of B." []
-def: "The entity A, immediately upstream of the entity B, has an activity that negatively regulates an activity performed by B. \nFor example, A and B may be gene products and binding of B by A negatively regulates the kinase activity of B." []
+def: "The entity A, immediately upstream of the entity B, has an activity that negatively regulates an activity performed by B.\nFor example, A and B may be gene products and binding of B by A negatively regulates the kinase activity of B." []
 synonym: "molecularly decreases activity of" EXACT []
 property_value: IAO:0000117 "Chris Mungall" xsd:string
 property_value: IAO:0000117 "Vasundra Touré" xsd:string
@@ -6721,7 +8660,7 @@ id: RO:0002450
 name: activity directly positively regulates activity of
 name: directly positively regulates activity of
 def: "Holds between molecular entities A and B where A can physically interact with B and in doing so positively regulates a process that B is capable of.  For example, A and B may be gene products and binding of B by A positively regulates the kinase activity of B." []
-def: "The entity A, immediately upstream of the entity B, has an activity that positively regulates an activity performed by B. \nFor example, A and B may be gene products and binding of B by A positively regulates the kinase activity of B." []
+def: "The entity A, immediately upstream of the entity B, has an activity that positively regulates an activity performed by B.\nFor example, A and B may be gene products and binding of B by A positively regulates the kinase activity of B." []
 synonym: "molecularly increases activity of" EXACT []
 property_value: IAO:0000117 "Chris Mungall" xsd:string
 property_value: IAO:0000117 "Vasundra Touré" xsd:string
