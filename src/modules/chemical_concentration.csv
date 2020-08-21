@@ -285,3 +285,4 @@ SRPDIO:1000282,,CHEBI:17632,nitrate,ENVO:00002011,fresh water
 SRPDIO:1000283,,CHEBI:18367,phosphate(3_),ENVO:00002011,fresh water
 SRPDIO:1000284,,CHEBI:16189,sulfate,ENVO:00002011,fresh water
 SRPDIO:1000285,,CHEBI:24431,chemical entity,ENVO:00010483,environmental material
+SRPDIO:1000286,,CHEBI:24431,chemical entity,BFO:0000040,material entity
