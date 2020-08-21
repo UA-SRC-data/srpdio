@@ -127,7 +127,7 @@ modules/%.owl: ../modules/%.csv ../patterns/%.yaml curie_map.yaml
 ## Merge module ontologies
 # see https://robot.obolibrary.org/merge
 merge_modules:
-	$(ROBOT) merge --input srpdio-edit.owl --input ../modules/chemical_concentration.owl --input ../modules/entity_attribute.owl --output srpdio-edit.owl
+	$(ROBOT) merge --input srpdio-edit.owl --input ../modules/chemical_concentration.owl --input ../modules/entity_attribute.owl --input ../modules/plant_part_concentration.owl --output srpdio-edit.owl
 	#--inputs "../modules/*.owl"
 
 
