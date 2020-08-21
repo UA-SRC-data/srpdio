@@ -243,48 +243,6 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001842"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00001998"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The acidity of some soil.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">soil acidity</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acidity of soil</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/SRPDIO_1500007 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1500007">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000146"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00001998"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The temperature of some soil.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">soil temperature</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">temperature of soil</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/SRPDIO_1500008 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1500008">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001800"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
@@ -300,30 +258,9 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/SRPDIO_1500009 -->
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_1500007 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1500009">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000146"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00010483"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The temperature of some environmental material.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">environmental material temperature</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">temperature of environmental material</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/SRPDIO_1500010 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1500010">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1500007">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -342,9 +279,9 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/SRPDIO_1500011 -->
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_1500008 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1500011">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1500008">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -363,9 +300,9 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/SRPDIO_1500012 -->
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_1500009 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1500012">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1500009">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
