@@ -108,7 +108,7 @@ all_subsets: $(SUBSET_FILES)
 
 
 ## DOSDP pattern targets modivied from ENVO version
-MODS = chemical_concentration entity_attribute
+MODS = chemical_concentration entity_attribute plant_part_concentration
 ALL_MODS_OWL = $(patsubst %, modules/%.owl, $(MODS))
 ALL_MODS_CSV = $(patsubst %, modules/%.csv, $(MODS))
 
