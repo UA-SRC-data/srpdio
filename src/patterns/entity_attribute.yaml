@@ -1,0 +1,37 @@
+pattern_name: envo-p/patterns/entity_attribute
+classes:
+
+relations:
+  inheres in: RO:0000052
+
+vars:
+  attribute: "owl:Thing"
+  entity: "owl:Thing"
+
+name:
+  text: "%s of %s"
+  vars:
+    - attribute
+    - entity
+
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym
+
+annotations:
+  - annotationProperty: exact_synonym
+    text: "%s %s"
+    vars:
+      - entity
+      - attribute
+
+def:
+  text: "The %s of some %s."
+  vars:
+    - attribute
+    - entity
+
+equivalentTo:
+  text: "%s and 'inheres in' some %s"
+  vars:
+    - attribute
+    - entity
