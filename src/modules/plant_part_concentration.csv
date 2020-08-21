@@ -1,461 +1,462 @@
-defined_class,defined_class_label,entity,entity_label,plant_part,plant_part_label,,,
-SRPDIO:2000000,,CHEBI:33628,elemental aluminium,PO:0009006,shoot system,,,
-SRPDIO:2000001,,CHEBI:36922,elemental antimony,PO:0009006,shoot system,,,
-SRPDIO:2000002,,CHEBI:35826,elemental arsenic,PO:0009006,shoot system,,,
-SRPDIO:2000003,,CHEBI:37134,elemental barium,PO:0009006,shoot system,,,
-SRPDIO:2000004,,CHEBI:33784,elemental beryllium,PO:0009006,shoot system,,,
-SRPDIO:2000005,,CHEBI:85541,elemental bismuth,PO:0009006,shoot system,,,
-SRPDIO:2000006,,CHEBI:33609,elemental boron,PO:0009006,shoot system,,,
-SRPDIO:2000007,,CHEBI:37249,elemental cadmium,PO:0009006,shoot system,,,
-SRPDIO:2000008,,CHEBI:155919,elemental caesium,PO:0009006,shoot system,,,
-SRPDIO:2000009,,CHEBI:35155,elemental calcium,PO:0009006,shoot system,,,
-SRPDIO:2000010,,CHEBI:37265,elemental cerium,PO:0009006,shoot system,,,
-SRPDIO:2000011,,CHEBI:155866,elemental chromium,PO:0009006,shoot system,,,
-SRPDIO:2000012,,CHEBI:155865,elemental cobalt,PO:0009006,shoot system,,,
-SRPDIO:2000013,,CHEBI:37404,elemental copper,PO:0009006,shoot system,,,
-SRPDIO:2000014,,CHEBI:155920,elemental gallium,PO:0009006,shoot system,,,
-SRPDIO:2000015,,CHEBI:33970,elemental gold,PO:0009006,shoot system,,,
-SRPDIO:2000016,,CHEBI:37114,elemental indium,PO:0009006,shoot system,,,
-SRPDIO:2000017,,CHEBI:82663,elemental iron,PO:0009006,shoot system,,,
-SRPDIO:2000018,,CHEBI:155921,elemental lanthanum,PO:0009006,shoot system,,,
-SRPDIO:2000019,,CHEBI:37193,elemental lead,PO:0009006,shoot system,,,
-SRPDIO:2000020,,CHEBI:155867,elemental lithium,PO:0009006,shoot system,,,
-SRPDIO:2000021,,CHEBI:33973,elemental magnesium,PO:0009006,shoot system,,,
-SRPDIO:2000022,,CHEBI:35115,elemental manganese,PO:0009006,shoot system,,,
-SRPDIO:2000023,,CHEBI:35113,elemental mercury,PO:0009006,shoot system,,,
-SRPDIO:2000024,,CHEBI:37237,elemental molybdenum,PO:0009006,shoot system,,,
-SRPDIO:2000025,,CHEBI:155868,elemental nickel,PO:0009006,shoot system,,,
-SRPDIO:2000026,,CHEBI:155922,elemental niobium,PO:0009006,shoot system,,,
-SRPDIO:2000027,,CHEBI:33464,elemental phosphorus,PO:0009006,shoot system,,,
-SRPDIO:2000028,,CHEBI:37247,elemental potassium,PO:0009006,shoot system,,,
-SRPDIO:2000029,,CHEBI:155923,elemental rubidium,PO:0009006,shoot system,,,
-SRPDIO:2000030,,CHEBI:36904,elemental selenium,PO:0009006,shoot system,,,
-SRPDIO:2000031,,CHEBI:37763,elemental silicon,PO:0009006,shoot system,,,
-SRPDIO:2000032,,CHEBI:33966,elemental silver,PO:0009006,shoot system,,,
-SRPDIO:2000033,,CHEBI:37246,elemental sodium,PO:0009006,shoot system,,,
-SRPDIO:2000034,,CHEBI:39131,elemental strontium,PO:0009006,shoot system,,,
-SRPDIO:2000035,,CHEBI:33403,elemental sulfur,PO:0009006,shoot system,,,
-SRPDIO:2000036,,CHEBI:36660,elemental tellurium,PO:0009006,shoot system,,,
-SRPDIO:2000037,,CHEBI:37113,elemental thallium,PO:0009006,shoot system,,,
-SRPDIO:2000038,,CHEBI:155924,elemental thorium,PO:0009006,shoot system,,,
-SRPDIO:2000039,,CHEBI:37767,elemental tin,PO:0009006,shoot system,,,
-SRPDIO:2000040,,CHEBI:155870,elemental titanium,PO:0009006,shoot system,,,
-SRPDIO:2000041,,CHEBI:131925,elemental tungsten,PO:0009006,shoot system,,,
-SRPDIO:2000042,,CHEBI:50559,elemental uranium,PO:0009006,shoot system,,,
-SRPDIO:2000043,,CHEBI:35171,elemental vanadium,PO:0009006,shoot system,,,
-SRPDIO:2000044,,CHEBI:155925,elemental yttrium,PO:0009006,shoot system,,,
-SRPDIO:2000045,,CHEBI:37253,elemental zinc,PO:0009006,shoot system,,,
-SRPDIO:2000046,,CHEBI:33628,elemental aluminium,PO:0009011,plant structure,,,
-SRPDIO:2000047,,CHEBI:36922,elemental antimony,PO:0009011,plant structure,,,
-SRPDIO:2000048,,CHEBI:35826,elemental arsenic,PO:0009011,plant structure,,,
-SRPDIO:2000049,,CHEBI:37134,elemental barium,PO:0009011,plant structure,,,
-SRPDIO:2000050,,CHEBI:33784,elemental beryllium,PO:0009011,plant structure,,,
-SRPDIO:2000051,,CHEBI:85541,elemental bismuth,PO:0009011,plant structure,,,
-SRPDIO:2000052,,CHEBI:33609,elemental boron,PO:0009011,plant structure,,,
-SRPDIO:2000053,,CHEBI:37249,elemental cadmium,PO:0009011,plant structure,,,
-SRPDIO:2000054,,CHEBI:155919,elemental caesium,PO:0009011,plant structure,,,
-SRPDIO:2000055,,CHEBI:35155,elemental calcium,PO:0009011,plant structure,,,
-SRPDIO:2000056,,CHEBI:37265,elemental cerium,PO:0009011,plant structure,,,
-SRPDIO:2000057,,CHEBI:155866,elemental chromium,PO:0009011,plant structure,,,
-SRPDIO:2000058,,CHEBI:155865,elemental cobalt,PO:0009011,plant structure,,,
-SRPDIO:2000059,,CHEBI:37404,elemental copper,PO:0009011,plant structure,,,
-SRPDIO:2000060,,CHEBI:155920,elemental gallium,PO:0009011,plant structure,,,
-SRPDIO:2000061,,CHEBI:33970,elemental gold,PO:0009011,plant structure,,,
-SRPDIO:2000062,,CHEBI:37114,elemental indium,PO:0009011,plant structure,,,
-SRPDIO:2000063,,CHEBI:82663,elemental iron,PO:0009011,plant structure,,,
-SRPDIO:2000064,,CHEBI:155921,elemental lanthanum,PO:0009011,plant structure,,,
-SRPDIO:2000065,,CHEBI:37193,elemental lead,PO:0009011,plant structure,,,
-SRPDIO:2000066,,CHEBI:155867,elemental lithium,PO:0009011,plant structure,,,
-SRPDIO:2000067,,CHEBI:33973,elemental magnesium,PO:0009011,plant structure,,,
-SRPDIO:2000068,,CHEBI:35115,elemental manganese,PO:0009011,plant structure,,,
-SRPDIO:2000069,,CHEBI:35113,elemental mercury,PO:0009011,plant structure,,,
-SRPDIO:2000070,,CHEBI:37237,elemental molybdenum,PO:0009011,plant structure,,,
-SRPDIO:2000071,,CHEBI:155868,elemental nickel,PO:0009011,plant structure,,,
-SRPDIO:2000072,,CHEBI:155922,elemental niobium,PO:0009011,plant structure,,,
-SRPDIO:2000073,,CHEBI:33464,elemental phosphorus,PO:0009011,plant structure,,,
-SRPDIO:2000074,,CHEBI:37247,elemental potassium,PO:0009011,plant structure,,,
-SRPDIO:2000075,,CHEBI:155923,elemental rubidium,PO:0009011,plant structure,,,
-SRPDIO:2000076,,CHEBI:36904,elemental selenium,PO:0009011,plant structure,,,
-SRPDIO:2000077,,CHEBI:37763,elemental silicon,PO:0009011,plant structure,,,
-SRPDIO:2000078,,CHEBI:33966,elemental silver,PO:0009011,plant structure,,,
-SRPDIO:2000079,,CHEBI:37246,elemental sodium,PO:0009011,plant structure,,,
-SRPDIO:2000080,,CHEBI:39131,elemental strontium,PO:0009011,plant structure,,,
-SRPDIO:2000081,,CHEBI:33403,elemental sulfur,PO:0009011,plant structure,,,
-SRPDIO:2000082,,CHEBI:36660,elemental tellurium,PO:0009011,plant structure,,,
-SRPDIO:2000083,,CHEBI:37113,elemental thallium,PO:0009011,plant structure,,,
-SRPDIO:2000084,,CHEBI:155924,elemental thorium,PO:0009011,plant structure,,,
-SRPDIO:2000085,,CHEBI:37767,elemental tin,PO:0009011,plant structure,,,
-SRPDIO:2000086,,CHEBI:155870,elemental titanium,PO:0009011,plant structure,,,
-SRPDIO:2000087,,CHEBI:131925,elemental tungsten,PO:0009011,plant structure,,,
-SRPDIO:2000088,,CHEBI:50559,elemental uranium,PO:0009011,plant structure,,,
-SRPDIO:2000089,,CHEBI:35171,elemental vanadium,PO:0009011,plant structure,,,
-SRPDIO:2000090,,CHEBI:155925,elemental yttrium,PO:0009011,plant structure,,,
-SRPDIO:2000091,,CHEBI:37253,elemental zinc,PO:0009011,plant structure,,,
-SRPDIO:2000092,,CHEBI:33628,elemental aluminium,PO:0025356,bulb,,,
-SRPDIO:2000093,,CHEBI:36922,elemental antimony,PO:0025356,bulb,,,
-SRPDIO:2000094,,CHEBI:35826,elemental arsenic,PO:0025356,bulb,,,
-SRPDIO:2000095,,CHEBI:37134,elemental barium,PO:0025356,bulb,,,
-SRPDIO:2000096,,CHEBI:33784,elemental beryllium,PO:0025356,bulb,,,
-SRPDIO:2000097,,CHEBI:85541,elemental bismuth,PO:0025356,bulb,,,
-SRPDIO:2000098,,CHEBI:33609,elemental boron,PO:0025356,bulb,,,
-SRPDIO:2000099,,CHEBI:37249,elemental cadmium,PO:0025356,bulb,,,
-SRPDIO:2000100,,CHEBI:155919,elemental caesium,PO:0025356,bulb,,,
-SRPDIO:2000101,,CHEBI:35155,elemental calcium,PO:0025356,bulb,,,
-SRPDIO:2000102,,CHEBI:37265,elemental cerium,PO:0025356,bulb,,,
-SRPDIO:2000103,,CHEBI:155866,elemental chromium,PO:0025356,bulb,,,
-SRPDIO:2000104,,CHEBI:155865,elemental cobalt,PO:0025356,bulb,,,
-SRPDIO:2000105,,CHEBI:37404,elemental copper,PO:0025356,bulb,,,
-SRPDIO:2000106,,CHEBI:155920,elemental gallium,PO:0025356,bulb,,,
-SRPDIO:2000107,,CHEBI:33970,elemental gold,PO:0025356,bulb,,,
-SRPDIO:2000108,,CHEBI:37114,elemental indium,PO:0025356,bulb,,,
-SRPDIO:2000109,,CHEBI:82663,elemental iron,PO:0025356,bulb,,,
-SRPDIO:2000110,,CHEBI:155921,elemental lanthanum,PO:0025356,bulb,,,
-SRPDIO:2000111,,CHEBI:37193,elemental lead,PO:0025356,bulb,,,
-SRPDIO:2000112,,CHEBI:155867,elemental lithium,PO:0025356,bulb,,,
-SRPDIO:2000113,,CHEBI:33973,elemental magnesium,PO:0025356,bulb,,,
-SRPDIO:2000114,,CHEBI:35115,elemental manganese,PO:0025356,bulb,,,
-SRPDIO:2000115,,CHEBI:35113,elemental mercury,PO:0025356,bulb,,,
-SRPDIO:2000116,,CHEBI:37237,elemental molybdenum,PO:0025356,bulb,,,
-SRPDIO:2000117,,CHEBI:155868,elemental nickel,PO:0025356,bulb,,,
-SRPDIO:2000118,,CHEBI:155922,elemental niobium,PO:0025356,bulb,,,
-SRPDIO:2000119,,CHEBI:33464,elemental phosphorus,PO:0025356,bulb,,,
-SRPDIO:2000120,,CHEBI:37247,elemental potassium,PO:0025356,bulb,,,
-SRPDIO:2000121,,CHEBI:155923,elemental rubidium,PO:0025356,bulb,,,
-SRPDIO:2000122,,CHEBI:36904,elemental selenium,PO:0025356,bulb,,,
-SRPDIO:2000123,,CHEBI:37763,elemental silicon,PO:0025356,bulb,,,
-SRPDIO:2000124,,CHEBI:33966,elemental silver,PO:0025356,bulb,,,
-SRPDIO:2000125,,CHEBI:37246,elemental sodium,PO:0025356,bulb,,,
-SRPDIO:2000126,,CHEBI:39131,elemental strontium,PO:0025356,bulb,,,
-SRPDIO:2000127,,CHEBI:33403,elemental sulfur,PO:0025356,bulb,,,
-SRPDIO:2000128,,CHEBI:36660,elemental tellurium,PO:0025356,bulb,,,
-SRPDIO:2000129,,CHEBI:37113,elemental thallium,PO:0025356,bulb,,,
-SRPDIO:2000130,,CHEBI:155924,elemental thorium,PO:0025356,bulb,,,
-SRPDIO:2000131,,CHEBI:37767,elemental tin,PO:0025356,bulb,,,
-SRPDIO:2000132,,CHEBI:155870,elemental titanium,PO:0025356,bulb,,,
-SRPDIO:2000133,,CHEBI:131925,elemental tungsten,PO:0025356,bulb,,,
-SRPDIO:2000134,,CHEBI:50559,elemental uranium,PO:0025356,bulb,,,
-SRPDIO:2000135,,CHEBI:35171,elemental vanadium,PO:0025356,bulb,,,
-SRPDIO:2000136,,CHEBI:155925,elemental yttrium,PO:0025356,bulb,,,
-SRPDIO:2000137,,CHEBI:37253,elemental zinc,PO:0025356,bulb,,,
-SRPDIO:2000138,,CHEBI:33628,elemental aluminium,PO:0009001 ,fruit,,,
-SRPDIO:2000139,,CHEBI:36922,elemental antimony,PO:0009001 ,fruit,,,
-SRPDIO:2000140,,CHEBI:35826,elemental arsenic,PO:0009001 ,fruit,,,
-SRPDIO:2000141,,CHEBI:37134,elemental barium,PO:0009001,fruit,,,
-SRPDIO:2000142,,CHEBI:33784,elemental beryllium,PO:0009001,fruit,,,
-SRPDIO:2000143,,CHEBI:85541,elemental bismuth,PO:0009001,fruit,,,
-SRPDIO:2000144,,CHEBI:33609,elemental boron,PO:0009001,fruit,,,
-SRPDIO:2000145,,CHEBI:37249,elemental cadmium,PO:0009001,fruit,,,
-SRPDIO:2000146,,CHEBI:155919,elemental caesium,PO:0009001,fruit,,,
-SRPDIO:2000147,,CHEBI:35155,elemental calcium,PO:0009001,fruit,,,
-SRPDIO:2000148,,CHEBI:37265,elemental cerium,PO:0009001,fruit,,,
-SRPDIO:2000149,,CHEBI:155866,elemental chromium,PO:0009001,fruit,,,
-SRPDIO:2000150,,CHEBI:155865,elemental cobalt,PO:0009001,fruit,,,
-SRPDIO:2000151,,CHEBI:37404,elemental copper,PO:0009001,fruit,,,
-SRPDIO:2000152,,CHEBI:155920,elemental gallium,PO:0009001,fruit,,,
-SRPDIO:2000153,,CHEBI:33970,elemental gold,PO:0009001,fruit,,,
-SRPDIO:2000154,,CHEBI:37114,elemental indium,PO:0009001,fruit,,,
-SRPDIO:2000155,,CHEBI:82663,elemental iron,PO:0009001,fruit,,,
-SRPDIO:2000156,,CHEBI:155921,elemental lanthanum,PO:0009001,fruit,,,
-SRPDIO:2000157,,CHEBI:37193,elemental lead,PO:0009001,fruit,,,
-SRPDIO:2000158,,CHEBI:155867,elemental lithium,PO:0009001,fruit,,,
-SRPDIO:2000159,,CHEBI:33973,elemental magnesium,PO:0009001,fruit,,,
-SRPDIO:2000160,,CHEBI:35115,elemental manganese,PO:0009001,fruit,,,
-SRPDIO:2000161,,CHEBI:35113,elemental mercury,PO:0009001,fruit,,,
-SRPDIO:2000162,,CHEBI:37237,elemental molybdenum,PO:0009001,fruit,,,
-SRPDIO:2000163,,CHEBI:155868,elemental nickel,PO:0009001,fruit,,,
-SRPDIO:2000164,,CHEBI:155922,elemental niobium,PO:0009001,fruit,,,
-SRPDIO:2000165,,CHEBI:33464,elemental phosphorus,PO:0009001,fruit,,,
-SRPDIO:2000166,,CHEBI:37247,elemental potassium,PO:0009001,fruit,,,
-SRPDIO:2000167,,CHEBI:155923,elemental rubidium,PO:0009001,fruit,,,
-SRPDIO:2000168,,CHEBI:36904,elemental selenium,PO:0009001,fruit,,,
-SRPDIO:2000169,,CHEBI:37763,elemental silicon,PO:0009001,fruit,,,
-SRPDIO:2000170,,CHEBI:33966,elemental silver,PO:0009001,fruit,,,
-SRPDIO:2000171,,CHEBI:37246,elemental sodium,PO:0009001,fruit,,,
-SRPDIO:2000172,,CHEBI:39131,elemental strontium,PO:0009001,fruit,,,
-SRPDIO:2000173,,CHEBI:33403,elemental sulfur,PO:0009001,fruit,,,
-SRPDIO:2000174,,CHEBI:36660,elemental tellurium,PO:0009001,fruit,,,
-SRPDIO:2000175,,CHEBI:37113,elemental thallium,PO:0009001,fruit,,,
-SRPDIO:2000176,,CHEBI:155924,elemental thorium,PO:0009001,fruit,,,
-SRPDIO:2000177,,CHEBI:37767,elemental tin,PO:0009001,fruit,,,
-SRPDIO:2000178,,CHEBI:155870,elemental titanium,PO:0009001,fruit,,,
-SRPDIO:2000179,,CHEBI:131925,elemental tungsten,PO:0009001,fruit,,,
-SRPDIO:2000180,,CHEBI:50559,elemental uranium,PO:0009001,fruit,,,
-SRPDIO:2000181,,CHEBI:35171,elemental vanadium,PO:0009001,fruit,,,
-SRPDIO:2000182,,CHEBI:155925,elemental yttrium,PO:0009001,fruit,,,
-SRPDIO:2000183,,CHEBI:37253,elemental zinc,PO:0009001,fruit,,,
-SRPDIO:2000184,,CHEBI:33628,elemental aluminium,PO:0006342 ,infructescence,,,
-SRPDIO:2000185,,CHEBI:36922,elemental antimony,PO:0006342 ,infructescence,,,
-SRPDIO:2000186,,CHEBI:35826,elemental arsenic,PO:0006342 ,infructescence,,,
-SRPDIO:2000187,,CHEBI:37134,elemental barium,PO:0006342 ,infructescence,,,
-SRPDIO:2000188,,CHEBI:33784,elemental beryllium,PO:0006342,infructescence,,,
-SRPDIO:2000189,,CHEBI:85541,elemental bismuth,PO:0006342,infructescence,,,
-SRPDIO:2000190,,CHEBI:33609,elemental boron,PO:0006342,infructescence,,,
-SRPDIO:2000191,,CHEBI:37249,elemental cadmium,PO:0006342,infructescence,,,
-SRPDIO:2000192,,CHEBI:155919,elemental caesium,PO:0006342,infructescence,,,
-SRPDIO:2000193,,CHEBI:35155,elemental calcium,PO:0006342,infructescence,,,
-SRPDIO:2000194,,CHEBI:37265,elemental cerium,PO:0006342,infructescence,,,
-SRPDIO:2000195,,CHEBI:155866,elemental chromium,PO:0006342,infructescence,,,
-SRPDIO:2000196,,CHEBI:155865,elemental cobalt,PO:0006342,infructescence,,,
-SRPDIO:2000197,,CHEBI:37404,elemental copper,PO:0006342,infructescence,,,
-SRPDIO:2000198,,CHEBI:155920,elemental gallium,PO:0006342,infructescence,,,
-SRPDIO:2000199,,CHEBI:33970,elemental gold,PO:0006342,infructescence,,,
-SRPDIO:2000200,,CHEBI:37114,elemental indium,PO:0006342,infructescence,,,
-SRPDIO:2000201,,CHEBI:82663,elemental iron,PO:0006342,infructescence,,,
-SRPDIO:2000202,,CHEBI:155921,elemental lanthanum,PO:0006342,infructescence,,,
-SRPDIO:2000203,,CHEBI:37193,elemental lead,PO:0006342,infructescence,,,
-SRPDIO:2000204,,CHEBI:155867,elemental lithium,PO:0006342,infructescence,,,
-SRPDIO:2000205,,CHEBI:33973,elemental magnesium,PO:0006342,infructescence,,,
-SRPDIO:2000206,,CHEBI:35115,elemental manganese,PO:0006342,infructescence,,,
-SRPDIO:2000207,,CHEBI:35113,elemental mercury,PO:0006342,infructescence,,,
-SRPDIO:2000208,,CHEBI:37237,elemental molybdenum,PO:0006342,infructescence,,,
-SRPDIO:2000209,,CHEBI:155868,elemental nickel,PO:0006342,infructescence,,,
-SRPDIO:2000210,,CHEBI:155922,elemental niobium,PO:0006342,infructescence,,,
-SRPDIO:2000211,,CHEBI:33464,elemental phosphorus,PO:0006342,infructescence,,,
-SRPDIO:2000212,,CHEBI:37247,elemental potassium,PO:0006342,infructescence,,,
-SRPDIO:2000213,,CHEBI:155923,elemental rubidium,PO:0006342,infructescence,,,
-SRPDIO:2000214,,CHEBI:36904,elemental selenium,PO:0006342,infructescence,,,
-SRPDIO:2000215,,CHEBI:37763,elemental silicon,PO:0006342,infructescence,,,
-SRPDIO:2000216,,CHEBI:33966,elemental silver,PO:0006342,infructescence,,,
-SRPDIO:2000217,,CHEBI:37246,elemental sodium,PO:0006342,infructescence,,,
-SRPDIO:2000218,,CHEBI:39131,elemental strontium,PO:0006342,infructescence,,,
-SRPDIO:2000219,,CHEBI:33403,elemental sulfur,PO:0006342,infructescence,,,
-SRPDIO:2000220,,CHEBI:36660,elemental tellurium,PO:0006342,infructescence,,,
-SRPDIO:2000221,,CHEBI:37113,elemental thallium,PO:0006342,infructescence,,,
-SRPDIO:2000222,,CHEBI:155924,elemental thorium,PO:0006342,infructescence,,,
-SRPDIO:2000223,,CHEBI:37767,elemental tin,PO:0006342,infructescence,,,
-SRPDIO:2000224,,CHEBI:155870,elemental titanium,PO:0006342,infructescence,,,
-SRPDIO:2000225,,CHEBI:131925,elemental tungsten,PO:0006342,infructescence,,,
-SRPDIO:2000226,,CHEBI:50559,elemental uranium,PO:0006342,infructescence,,,
-SRPDIO:2000227,,CHEBI:35171,elemental vanadium,PO:0006342,infructescence,,,
-SRPDIO:2000228,,CHEBI:155925,elemental yttrium,PO:0006342,infructescence,,,
-SRPDIO:2000229,,CHEBI:37253,elemental zinc,PO:0006342,infructescence,,,
-SRPDIO:2000230,,CHEBI:33628,elemental aluminium,PO:0009025,vascular leaf,,,
-SRPDIO:2000231,,CHEBI:36922,elemental antimony,PO:0009025,vascular leaf,,,
-SRPDIO:2000232,,CHEBI:35826,elemental arsenic,PO:0009025,vascular leaf,,,
-SRPDIO:2000233,,CHEBI:37134,elemental barium,PO:0009025,vascular leaf,,,
-SRPDIO:2000234,,CHEBI:33784,elemental beryllium,PO:0009025,vascular leaf,,,
-SRPDIO:2000235,,CHEBI:85541,elemental bismuth,PO:0009025,vascular leaf,,,
-SRPDIO:2000236,,CHEBI:33609,elemental boron,PO:0009025,vascular leaf,,,
-SRPDIO:2000237,,CHEBI:37249,elemental cadmium,PO:0009025,vascular leaf,,,
-SRPDIO:2000238,,CHEBI:155919,elemental caesium,PO:0009025,vascular leaf,,,
-SRPDIO:2000239,,CHEBI:35155,elemental calcium,PO:0009025,vascular leaf,,,
-SRPDIO:2000240,,CHEBI:37265,elemental cerium,PO:0009025,vascular leaf,,,
-SRPDIO:2000241,,CHEBI:155866,elemental chromium,PO:0009025,vascular leaf,,,
-SRPDIO:2000242,,CHEBI:155865,elemental cobalt,PO:0009025,vascular leaf,,,
-SRPDIO:2000243,,CHEBI:37404,elemental copper,PO:0009025,vascular leaf,,,
-SRPDIO:2000244,,CHEBI:155920,elemental gallium,PO:0009025,vascular leaf,,,
-SRPDIO:2000245,,CHEBI:33970,elemental gold,PO:0009025,vascular leaf,,,
-SRPDIO:2000246,,CHEBI:37114,elemental indium,PO:0009025,vascular leaf,,,
-SRPDIO:2000247,,CHEBI:82663,elemental iron,PO:0009025,vascular leaf,,,
-SRPDIO:2000248,,CHEBI:155921,elemental lanthanum,PO:0009025,vascular leaf,,,
-SRPDIO:2000249,,CHEBI:37193,elemental lead,PO:0009025,vascular leaf,,,
-SRPDIO:2000250,,CHEBI:155867,elemental lithium,PO:0009025,vascular leaf,,,
-SRPDIO:2000251,,CHEBI:33973,elemental magnesium,PO:0009025,vascular leaf,,,
-SRPDIO:2000252,,CHEBI:35115,elemental manganese,PO:0009025,vascular leaf,,,
-SRPDIO:2000253,,CHEBI:35113,elemental mercury,PO:0009025,vascular leaf,,,
-SRPDIO:2000254,,CHEBI:37237,elemental molybdenum,PO:0009025,vascular leaf,,,
-SRPDIO:2000255,,CHEBI:155868,elemental nickel,PO:0009025,vascular leaf,,,
-SRPDIO:2000256,,CHEBI:155922,elemental niobium,PO:0009025,vascular leaf,,,
-SRPDIO:2000257,,CHEBI:33464,elemental phosphorus,PO:0009025,vascular leaf,,,
-SRPDIO:2000258,,CHEBI:37247,elemental potassium,PO:0009025,vascular leaf,,,
-SRPDIO:2000259,,CHEBI:155923,elemental rubidium,PO:0009025,vascular leaf,,,
-SRPDIO:2000260,,CHEBI:36904,elemental selenium,PO:0009025,vascular leaf,,,
-SRPDIO:2000261,,CHEBI:37763,elemental silicon,PO:0009025,vascular leaf,,,
-SRPDIO:2000262,,CHEBI:33966,elemental silver,PO:0009025,vascular leaf,,,
-SRPDIO:2000263,,CHEBI:37246,elemental sodium,PO:0009025,vascular leaf,,,
-SRPDIO:2000264,,CHEBI:39131,elemental strontium,PO:0009025,vascular leaf,,,
-SRPDIO:2000265,,CHEBI:33403,elemental sulfur,PO:0009025,vascular leaf,,,
-SRPDIO:2000266,,CHEBI:36660,elemental tellurium,PO:0009025,vascular leaf,,,
-SRPDIO:2000267,,CHEBI:37113,elemental thallium,PO:0009025,vascular leaf,,,
-SRPDIO:2000268,,CHEBI:155924,elemental thorium,PO:0009025,vascular leaf,,,
-SRPDIO:2000269,,CHEBI:37767,elemental tin,PO:0009025,vascular leaf,,,
-SRPDIO:2000270,,CHEBI:155870,elemental titanium,PO:0009025,vascular leaf,,,
-SRPDIO:2000271,,CHEBI:131925,elemental tungsten,PO:0009025,vascular leaf,,,
-SRPDIO:2000272,,CHEBI:50559,elemental uranium,PO:0009025,vascular leaf,,,
-SRPDIO:2000273,,CHEBI:35171,elemental vanadium,PO:0009025,vascular leaf,,,
-SRPDIO:2000274,,CHEBI:155925,elemental yttrium,PO:0009025,vascular leaf,,,
-SRPDIO:2000275,,CHEBI:37253,elemental zinc,PO:0009025,vascular leaf,,,
-SRPDIO:2000276,,CHEBI:33628,elemental aluminium,PO:0009010,seed,,,
-SRPDIO:2000277,,CHEBI:36922,elemental antimony,PO:0009010,seed,,,
-SRPDIO:2000278,,CHEBI:35826,elemental arsenic,PO:0009010,seed,,,
-SRPDIO:2000279,,CHEBI:37134,elemental barium,PO:0009010,seed,,,
-SRPDIO:2000280,,CHEBI:33784,elemental beryllium,PO:0009010,seed,,,
-SRPDIO:2000281,,CHEBI:85541,elemental bismuth,PO:0009010,seed,,,
-SRPDIO:2000282,,CHEBI:33609,elemental boron,PO:0009010,seed,,,
-SRPDIO:2000283,,CHEBI:37249,elemental cadmium,PO:0009010,seed,,,
-SRPDIO:2000284,,CHEBI:155919,elemental caesium,PO:0009010,seed,,,
-SRPDIO:2000285,,CHEBI:35155,elemental calcium,PO:0009010,seed,,,
-SRPDIO:2000286,,CHEBI:37265,elemental cerium,PO:0009010,seed,,,
-SRPDIO:2000287,,CHEBI:155866,elemental chromium,PO:0009010,seed,,,
-SRPDIO:2000288,,CHEBI:155865,elemental cobalt,PO:0009010,seed,,,
-SRPDIO:2000289,,CHEBI:37404,elemental copper,PO:0009010,seed,,,
-SRPDIO:2000290,,CHEBI:155920,elemental gallium,PO:0009010,seed,,,
-SRPDIO:2000291,,CHEBI:33970,elemental gold,PO:0009010,seed,,,
-SRPDIO:2000292,,CHEBI:37114,elemental indium,PO:0009010,seed,,,
-SRPDIO:2000293,,CHEBI:82663,elemental iron,PO:0009010,seed,,,
-SRPDIO:2000294,,CHEBI:155921,elemental lanthanum,PO:0009010,seed,,,
-SRPDIO:2000295,,CHEBI:37193,elemental lead,PO:0009010,seed,,,
-SRPDIO:2000296,,CHEBI:155867,elemental lithium,PO:0009010,seed,,,
-SRPDIO:2000297,,CHEBI:33973,elemental magnesium,PO:0009010,seed,,,
-SRPDIO:2000298,,CHEBI:35115,elemental manganese,PO:0009010,seed,,,
-SRPDIO:2000299,,CHEBI:35113,elemental mercury,PO:0009010,seed,,,
-SRPDIO:2000300,,CHEBI:37237,elemental molybdenum,PO:0009010,seed,,,
-SRPDIO:2000301,,CHEBI:155868,elemental nickel,PO:0009010,seed,,,
-SRPDIO:2000302,,CHEBI:155922,elemental niobium,PO:0009010,seed,,,
-SRPDIO:2000303,,CHEBI:33464,elemental phosphorus,PO:0009010,seed,,,
-SRPDIO:2000304,,CHEBI:37247,elemental potassium,PO:0009010,seed,,,
-SRPDIO:2000305,,CHEBI:155923,elemental rubidium,PO:0009010,seed,,,
-SRPDIO:2000306,,CHEBI:36904,elemental selenium,PO:0009010,seed,,,
-SRPDIO:2000307,,CHEBI:37763,elemental silicon,PO:0009010,seed,,,
-SRPDIO:2000308,,CHEBI:33966,elemental silver,PO:0009010,seed,,,
-SRPDIO:2000309,,CHEBI:37246,elemental sodium,PO:0009010,seed,,,
-SRPDIO:2000310,,CHEBI:39131,elemental strontium,PO:0009010,seed,,,
-SRPDIO:2000311,,CHEBI:33403,elemental sulfur,PO:0009010,seed,,,
-SRPDIO:2000312,,CHEBI:36660,elemental tellurium,PO:0009010,seed,,,
-SRPDIO:2000313,,CHEBI:37113,elemental thallium,PO:0009010,seed,,,
-SRPDIO:2000314,,CHEBI:155924,elemental thorium,PO:0009010,seed,,,
-SRPDIO:2000315,,CHEBI:37767,elemental tin,PO:0009010,seed,,,
-SRPDIO:2000316,,CHEBI:155870,elemental titanium,PO:0009010,seed,,,
-SRPDIO:2000317,,CHEBI:131925,elemental tungsten,PO:0009010,seed,,,
-SRPDIO:2000318,,CHEBI:50559,elemental uranium,PO:0009010,seed,,,
-SRPDIO:2000319,,CHEBI:35171,elemental vanadium,PO:0009010,seed,,,
-SRPDIO:2000320,,CHEBI:155925,elemental yttrium,PO:0009010,seed,,,
-SRPDIO:2000321,,CHEBI:37253,elemental zinc,PO:0009010,seed,,,
-SRPDIO:2000322,,CHEBI:33628,elemental aluminium,PO:0009005,root,,,
-SRPDIO:2000323,,CHEBI:36922,elemental antimony,PO:0009005,root,,,
-SRPDIO:2000324,,CHEBI:35826,elemental arsenic,PO:0009005,root,,,
-SRPDIO:2000325,,CHEBI:37134,elemental barium,PO:0009005,root,,,
-SRPDIO:2000326,,CHEBI:33784,elemental beryllium,PO:0009005,root,,,
-SRPDIO:2000327,,CHEBI:85541,elemental bismuth,PO:0009005,root,,,
-SRPDIO:2000328,,CHEBI:33609,elemental boron,PO:0009005,root,,,
-SRPDIO:2000329,,CHEBI:37249,elemental cadmium,PO:0009005,root,,,
-SRPDIO:2000330,,CHEBI:155919,elemental caesium,PO:0009005,root,,,
-SRPDIO:2000331,,CHEBI:35155,elemental calcium,PO:0009005,root,,,
-SRPDIO:2000332,,CHEBI:37265,elemental cerium,PO:0009005,root,,,
-SRPDIO:2000333,,CHEBI:155866,elemental chromium,PO:0009005,root,,,
-SRPDIO:2000334,,CHEBI:155865,elemental cobalt,PO:0009005,root,,,
-SRPDIO:2000335,,CHEBI:37404,elemental copper,PO:0009005,root,,,
-SRPDIO:2000336,,CHEBI:155920,elemental gallium,PO:0009005,root,,,
-SRPDIO:2000337,,CHEBI:33970,elemental gold,PO:0009005,root,,,
-SRPDIO:2000338,,CHEBI:37114,elemental indium,PO:0009005,root,,,
-SRPDIO:2000339,,CHEBI:82663,elemental iron,PO:0009005,root,,,
-SRPDIO:2000340,,CHEBI:155921,elemental lanthanum,PO:0009005,root,,,
-SRPDIO:2000341,,CHEBI:37193,elemental lead,PO:0009005,root,,,
-SRPDIO:2000342,,CHEBI:155867,elemental lithium,PO:0009005,root,,,
-SRPDIO:2000343,,CHEBI:33973,elemental magnesium,PO:0009005,root,,,
-SRPDIO:2000344,,CHEBI:35115,elemental manganese,PO:0009005,root,,,
-SRPDIO:2000345,,CHEBI:35113,elemental mercury,PO:0009005,root,,,
-SRPDIO:2000346,,CHEBI:37237,elemental molybdenum,PO:0009005,root,,,
-SRPDIO:2000347,,CHEBI:155868,elemental nickel,PO:0009005,root,,,
-SRPDIO:2000348,,CHEBI:155922,elemental niobium,PO:0009005,root,,,
-SRPDIO:2000349,,CHEBI:33464,elemental phosphorus,PO:0009005,root,,,
-SRPDIO:2000350,,CHEBI:37247,elemental potassium,PO:0009005,root,,,
-SRPDIO:2000351,,CHEBI:155923,elemental rubidium,PO:0009005,root,,,
-SRPDIO:2000352,,CHEBI:36904,elemental selenium,PO:0009005,root,,,
-SRPDIO:2000353,,CHEBI:37763,elemental silicon,PO:0009005,root,,,
-SRPDIO:2000354,,CHEBI:33966,elemental silver,PO:0009005,root,,,
-SRPDIO:2000355,,CHEBI:37246,elemental sodium,PO:0009005,root,,,
-SRPDIO:2000356,,CHEBI:39131,elemental strontium,PO:0009005,root,,,
-SRPDIO:2000357,,CHEBI:33403,elemental sulfur,PO:0009005,root,,,
-SRPDIO:2000358,,CHEBI:36660,elemental tellurium,PO:0009005,root,,,
-SRPDIO:2000359,,CHEBI:37113,elemental thallium,PO:0009005,root,,,
-SRPDIO:2000360,,CHEBI:155924,elemental thorium,PO:0009005,root,,,
-SRPDIO:2000361,,CHEBI:37767,elemental tin,PO:0009005,root,,,
-SRPDIO:2000362,,CHEBI:155870,elemental titanium,PO:0009005,root,,,
-SRPDIO:2000363,,CHEBI:131925,elemental tungsten,PO:0009005,root,,,
-SRPDIO:2000364,,CHEBI:50559,elemental uranium,PO:0009005,root,,,
-SRPDIO:2000365,,CHEBI:35171,elemental vanadium,PO:0009005,root,,,
-SRPDIO:2000366,,CHEBI:155925,elemental yttrium,PO:0009005,root,,,
-SRPDIO:2000367,,CHEBI:37253,elemental zinc,PO:0009005,root,,,
-SRPDIO:2000368,,CHEBI:33628,elemental aluminium,PO:0025522,tuber,,,
-SRPDIO:2000369,,CHEBI:36922,elemental antimony,PO:0025522,tuber,,,
-SRPDIO:2000370,,CHEBI:35826,elemental arsenic,PO:0025522,tuber,,,
-SRPDIO:2000371,,CHEBI:37134,elemental barium,PO:0025522,tuber,,,
-SRPDIO:2000372,,CHEBI:33784,elemental beryllium,PO:0025522,tuber,,,
-SRPDIO:2000373,,CHEBI:85541,elemental bismuth,PO:0025522,tuber,,,
-SRPDIO:2000374,,CHEBI:33609,elemental boron,PO:0025522,tuber,,,
-SRPDIO:2000375,,CHEBI:37249,elemental cadmium,PO:0025522,tuber,,,
-SRPDIO:2000376,,CHEBI:155919,elemental caesium,PO:0025522,tuber,,,
-SRPDIO:2000377,,CHEBI:35155,elemental calcium,PO:0025522,tuber,,,
-SRPDIO:2000378,,CHEBI:37265,elemental cerium,PO:0025522,tuber,,,
-SRPDIO:2000379,,CHEBI:155866,elemental chromium,PO:0025522,tuber,,,
-SRPDIO:2000380,,CHEBI:155865,elemental cobalt,PO:0025522,tuber,,,
-SRPDIO:2000381,,CHEBI:37404,elemental copper,PO:0025522,tuber,,,
-SRPDIO:2000382,,CHEBI:155920,elemental gallium,PO:0025522,tuber,,,
-SRPDIO:2000383,,CHEBI:33970,elemental gold,PO:0025522,tuber,,,
-SRPDIO:2000384,,CHEBI:37114,elemental indium,PO:0025522,tuber,,,
-SRPDIO:2000385,,CHEBI:82663,elemental iron,PO:0025522,tuber,,,
-SRPDIO:2000386,,CHEBI:155921,elemental lanthanum,PO:0025522,tuber,,,
-SRPDIO:2000387,,CHEBI:37193,elemental lead,PO:0025522,tuber,,,
-SRPDIO:2000388,,CHEBI:155867,elemental lithium,PO:0025522,tuber,,,
-SRPDIO:2000389,,CHEBI:33973,elemental magnesium,PO:0025522,tuber,,,
-SRPDIO:2000390,,CHEBI:35115,elemental manganese,PO:0025522,tuber,,,
-SRPDIO:2000391,,CHEBI:35113,elemental mercury,PO:0025522,tuber,,,
-SRPDIO:2000392,,CHEBI:37237,elemental molybdenum,PO:0025522,tuber,,,
-SRPDIO:2000393,,CHEBI:155868,elemental nickel,PO:0025522,tuber,,,
-SRPDIO:2000394,,CHEBI:155922,elemental niobium,PO:0025522,tuber,,,
-SRPDIO:2000395,,CHEBI:33464,elemental phosphorus,PO:0025522,tuber,,,
-SRPDIO:2000396,,CHEBI:37247,elemental potassium,PO:0025522,tuber,,,
-SRPDIO:2000397,,CHEBI:155923,elemental rubidium,PO:0025522,tuber,,,
-SRPDIO:2000398,,CHEBI:36904,elemental selenium,PO:0025522,tuber,,,
-SRPDIO:2000399,,CHEBI:37763,elemental silicon,PO:0025522,tuber,,,
-SRPDIO:2000400,,CHEBI:33966,elemental silver,PO:0025522,tuber,,,
-SRPDIO:2000401,,CHEBI:37246,elemental sodium,PO:0025522,tuber,,,
-SRPDIO:2000402,,CHEBI:39131,elemental strontium,PO:0025522,tuber,,,
-SRPDIO:2000403,,CHEBI:33403,elemental sulfur,PO:0025522,tuber,,,
-SRPDIO:2000404,,CHEBI:36660,elemental tellurium,PO:0025522,tuber,,,
-SRPDIO:2000405,,CHEBI:37113,elemental thallium,PO:0025522,tuber,,,
-SRPDIO:2000406,,CHEBI:155924,elemental thorium,PO:0025522,tuber,,,
-SRPDIO:2000407,,CHEBI:37767,elemental tin,PO:0025522,tuber,,,
-SRPDIO:2000408,,CHEBI:155870,elemental titanium,PO:0025522,tuber,,,
-SRPDIO:2000409,,CHEBI:131925,elemental tungsten,PO:0025522,tuber,,,
-SRPDIO:2000410,,CHEBI:50559,elemental uranium,PO:0025522,tuber,,,
-SRPDIO:2000411,,CHEBI:35171,elemental vanadium,PO:0025522,tuber,,,
-SRPDIO:2000412,,CHEBI:155925,elemental yttrium,PO:0025522,tuber,,,
-SRPDIO:2000413,,CHEBI:37253,elemental zinc,PO:0025522,tuber,,,
-SRPDIO:2000414,,CHEBI:33628,elemental aluminium,PO:0025025 ,root system,,,
-SRPDIO:2000415,,CHEBI:36922,elemental antimony,PO:0025025 ,root system,,,
-SRPDIO:2000416,,CHEBI:35826,elemental arsenic,PO:0025025 ,root system,,,
-SRPDIO:2000417,,CHEBI:37134,elemental barium,PO:0025025 ,root system,,,
-SRPDIO:2000418,,CHEBI:33784,elemental beryllium,PO:0025025 ,root system,,,
-SRPDIO:2000419,,CHEBI:85541,elemental bismuth,PO:0025025 ,root system,,,
-SRPDIO:2000420,,CHEBI:33609,elemental boron,PO:0025025,root system,,,
-SRPDIO:2000421,,CHEBI:37249,elemental cadmium,PO:0025025,root system,,,
-SRPDIO:2000422,,CHEBI:155919,elemental caesium,PO:0025025,root system,,,
-SRPDIO:2000423,,CHEBI:35155,elemental calcium,PO:0025025,root system,,,
-SRPDIO:2000424,,CHEBI:37265,elemental cerium,PO:0025025,root system,,,
-SRPDIO:2000425,,CHEBI:155866,elemental chromium,PO:0025025,root system,,,
-SRPDIO:2000426,,CHEBI:155865,elemental cobalt,PO:0025025,root system,,,
-SRPDIO:2000427,,CHEBI:37404,elemental copper,PO:0025025,root system,,,
-SRPDIO:2000428,,CHEBI:155920,elemental gallium,PO:0025025,root system,,,
-SRPDIO:2000429,,CHEBI:33970,elemental gold,PO:0025025,root system,,,
-SRPDIO:2000430,,CHEBI:37114,elemental indium,PO:0025025,root system,,,
-SRPDIO:2000431,,CHEBI:82663,elemental iron,PO:0025025,root system,,,
-SRPDIO:2000432,,CHEBI:155921,elemental lanthanum,PO:0025025,root system,,,
-SRPDIO:2000433,,CHEBI:37193,elemental lead,PO:0025025,root system,,,
-SRPDIO:2000434,,CHEBI:155867,elemental lithium,PO:0025025,root system,,,
-SRPDIO:2000435,,CHEBI:33973,elemental magnesium,PO:0025025,root system,,,
-SRPDIO:2000436,,CHEBI:35115,elemental manganese,PO:0025025,root system,,,
-SRPDIO:2000437,,CHEBI:35113,elemental mercury,PO:0025025,root system,,,
-SRPDIO:2000438,,CHEBI:37237,elemental molybdenum,PO:0025025,root system,,,
-SRPDIO:2000439,,CHEBI:155868,elemental nickel,PO:0025025,root system,,,
-SRPDIO:2000440,,CHEBI:155922,elemental niobium,PO:0025025,root system,,,
-SRPDIO:2000441,,CHEBI:33464,elemental phosphorus,PO:0025025,root system,,,
-SRPDIO:2000442,,CHEBI:37247,elemental potassium,PO:0025025,root system,,,
-SRPDIO:2000443,,CHEBI:155923,elemental rubidium,PO:0025025,root system,,,
-SRPDIO:2000444,,CHEBI:36904,elemental selenium,PO:0025025,root system,,,
-SRPDIO:2000445,,CHEBI:37763,elemental silicon,PO:0025025,root system,,,
-SRPDIO:2000446,,CHEBI:33966,elemental silver,PO:0025025,root system,,,
-SRPDIO:2000447,,CHEBI:37246,elemental sodium,PO:0025025,root system,,,
-SRPDIO:2000448,,CHEBI:39131,elemental strontium,PO:0025025,root system,,,
-SRPDIO:2000449,,CHEBI:33403,elemental sulfur,PO:0025025,root system,,,
-SRPDIO:2000450,,CHEBI:36660,elemental tellurium,PO:0025025,root system,,,
-SRPDIO:2000451,,CHEBI:37113,elemental thallium,PO:0025025,root system,,,
-SRPDIO:2000452,,CHEBI:155924,elemental thorium,PO:0025025,root system,,,
-SRPDIO:2000453,,CHEBI:37767,elemental tin,PO:0025025,root system,,,
-SRPDIO:2000454,,CHEBI:155870,elemental titanium,PO:0025025,root system,,,
-SRPDIO:2000455,,CHEBI:131925,elemental tungsten,PO:0025025,root system,,,
-SRPDIO:2000456,,CHEBI:50559,elemental uranium,PO:0025025,root system,,,
-SRPDIO:2000457,,CHEBI:35171,elemental vanadium,PO:0025025,root system,,,
-SRPDIO:2000458,,CHEBI:155925,elemental yttrium,PO:0025025,root system,,,
-SRPDIO:2000459,,CHEBI:37253,elemental zinc,PO:0025025,root system,,,
+defined_class,defined_class_label,entity,entity_label,plant_part,plant_part_label
+SRPDIO:2000000,,CHEBI:33628,elemental aluminium,PO:0009006,shoot system
+SRPDIO:2000001,,CHEBI:36922,elemental antimony,PO:0009006,shoot system
+SRPDIO:2000002,,CHEBI:35826,elemental arsenic,PO:0009006,shoot system
+SRPDIO:2000003,,CHEBI:37134,elemental barium,PO:0009006,shoot system
+SRPDIO:2000004,,CHEBI:33784,elemental beryllium,PO:0009006,shoot system
+SRPDIO:2000005,,CHEBI:85541,elemental bismuth,PO:0009006,shoot system
+SRPDIO:2000006,,CHEBI:33609,elemental boron,PO:0009006,shoot system
+SRPDIO:2000007,,CHEBI:37249,elemental cadmium,PO:0009006,shoot system
+SRPDIO:2000008,,CHEBI:155919,elemental caesium,PO:0009006,shoot system
+SRPDIO:2000009,,CHEBI:35155,elemental calcium,PO:0009006,shoot system
+SRPDIO:2000010,,CHEBI:37265,elemental cerium,PO:0009006,shoot system
+SRPDIO:2000011,,CHEBI:155866,elemental chromium,PO:0009006,shoot system
+SRPDIO:2000012,,CHEBI:155865,elemental cobalt,PO:0009006,shoot system
+SRPDIO:2000013,,CHEBI:37404,elemental copper,PO:0009006,shoot system
+SRPDIO:2000014,,CHEBI:155920,elemental gallium,PO:0009006,shoot system
+SRPDIO:2000015,,CHEBI:33970,elemental gold,PO:0009006,shoot system
+SRPDIO:2000016,,CHEBI:37114,elemental indium,PO:0009006,shoot system
+SRPDIO:2000017,,CHEBI:82663,elemental iron,PO:0009006,shoot system
+SRPDIO:2000018,,CHEBI:155921,elemental lanthanum,PO:0009006,shoot system
+SRPDIO:2000019,,CHEBI:37193,elemental lead,PO:0009006,shoot system
+SRPDIO:2000020,,CHEBI:155867,elemental lithium,PO:0009006,shoot system
+SRPDIO:2000021,,CHEBI:33973,elemental magnesium,PO:0009006,shoot system
+SRPDIO:2000022,,CHEBI:35115,elemental manganese,PO:0009006,shoot system
+SRPDIO:2000023,,CHEBI:35113,elemental mercury,PO:0009006,shoot system
+SRPDIO:2000024,,CHEBI:37237,elemental molybdenum,PO:0009006,shoot system
+SRPDIO:2000025,,CHEBI:155868,elemental nickel,PO:0009006,shoot system
+SRPDIO:2000026,,CHEBI:155922,elemental niobium,PO:0009006,shoot system
+SRPDIO:2000027,,CHEBI:33464,elemental phosphorus,PO:0009006,shoot system
+SRPDIO:2000028,,CHEBI:37247,elemental potassium,PO:0009006,shoot system
+SRPDIO:2000029,,CHEBI:155923,elemental rubidium,PO:0009006,shoot system
+SRPDIO:2000030,,CHEBI:36904,elemental selenium,PO:0009006,shoot system
+SRPDIO:2000031,,CHEBI:37763,elemental silicon,PO:0009006,shoot system
+SRPDIO:2000032,,CHEBI:33966,elemental silver,PO:0009006,shoot system
+SRPDIO:2000033,,CHEBI:37246,elemental sodium,PO:0009006,shoot system
+SRPDIO:2000034,,CHEBI:39131,elemental strontium,PO:0009006,shoot system
+SRPDIO:2000035,,CHEBI:33403,elemental sulfur,PO:0009006,shoot system
+SRPDIO:2000036,,CHEBI:36660,elemental tellurium,PO:0009006,shoot system
+SRPDIO:2000037,,CHEBI:37113,elemental thallium,PO:0009006,shoot system
+SRPDIO:2000038,,CHEBI:155924,elemental thorium,PO:0009006,shoot system
+SRPDIO:2000039,,CHEBI:37767,elemental tin,PO:0009006,shoot system
+SRPDIO:2000040,,CHEBI:155870,elemental titanium,PO:0009006,shoot system
+SRPDIO:2000041,,CHEBI:131925,elemental tungsten,PO:0009006,shoot system
+SRPDIO:2000042,,CHEBI:50559,elemental uranium,PO:0009006,shoot system
+SRPDIO:2000043,,CHEBI:35171,elemental vanadium,PO:0009006,shoot system
+SRPDIO:2000044,,CHEBI:155925,elemental yttrium,PO:0009006,shoot system
+SRPDIO:2000045,,CHEBI:37253,elemental zinc,PO:0009006,shoot system
+SRPDIO:2000046,,CHEBI:33628,elemental aluminium,PO:0009011,plant structure
+SRPDIO:2000047,,CHEBI:36922,elemental antimony,PO:0009011,plant structure
+SRPDIO:2000048,,CHEBI:35826,elemental arsenic,PO:0009011,plant structure
+SRPDIO:2000049,,CHEBI:37134,elemental barium,PO:0009011,plant structure
+SRPDIO:2000050,,CHEBI:33784,elemental beryllium,PO:0009011,plant structure
+SRPDIO:2000051,,CHEBI:85541,elemental bismuth,PO:0009011,plant structure
+SRPDIO:2000052,,CHEBI:33609,elemental boron,PO:0009011,plant structure
+SRPDIO:2000053,,CHEBI:37249,elemental cadmium,PO:0009011,plant structure
+SRPDIO:2000054,,CHEBI:155919,elemental caesium,PO:0009011,plant structure
+SRPDIO:2000055,,CHEBI:35155,elemental calcium,PO:0009011,plant structure
+SRPDIO:2000056,,CHEBI:37265,elemental cerium,PO:0009011,plant structure
+SRPDIO:2000057,,CHEBI:155866,elemental chromium,PO:0009011,plant structure
+SRPDIO:2000058,,CHEBI:155865,elemental cobalt,PO:0009011,plant structure
+SRPDIO:2000059,,CHEBI:37404,elemental copper,PO:0009011,plant structure
+SRPDIO:2000060,,CHEBI:155920,elemental gallium,PO:0009011,plant structure
+SRPDIO:2000061,,CHEBI:33970,elemental gold,PO:0009011,plant structure
+SRPDIO:2000062,,CHEBI:37114,elemental indium,PO:0009011,plant structure
+SRPDIO:2000063,,CHEBI:82663,elemental iron,PO:0009011,plant structure
+SRPDIO:2000064,,CHEBI:155921,elemental lanthanum,PO:0009011,plant structure
+SRPDIO:2000065,,CHEBI:37193,elemental lead,PO:0009011,plant structure
+SRPDIO:2000066,,CHEBI:155867,elemental lithium,PO:0009011,plant structure
+SRPDIO:2000067,,CHEBI:33973,elemental magnesium,PO:0009011,plant structure
+SRPDIO:2000068,,CHEBI:35115,elemental manganese,PO:0009011,plant structure
+SRPDIO:2000069,,CHEBI:35113,elemental mercury,PO:0009011,plant structure
+SRPDIO:2000070,,CHEBI:37237,elemental molybdenum,PO:0009011,plant structure
+SRPDIO:2000071,,CHEBI:155868,elemental nickel,PO:0009011,plant structure
+SRPDIO:2000072,,CHEBI:155922,elemental niobium,PO:0009011,plant structure
+SRPDIO:2000073,,CHEBI:33464,elemental phosphorus,PO:0009011,plant structure
+SRPDIO:2000074,,CHEBI:37247,elemental potassium,PO:0009011,plant structure
+SRPDIO:2000075,,CHEBI:155923,elemental rubidium,PO:0009011,plant structure
+SRPDIO:2000076,,CHEBI:36904,elemental selenium,PO:0009011,plant structure
+SRPDIO:2000077,,CHEBI:37763,elemental silicon,PO:0009011,plant structure
+SRPDIO:2000078,,CHEBI:33966,elemental silver,PO:0009011,plant structure
+SRPDIO:2000079,,CHEBI:37246,elemental sodium,PO:0009011,plant structure
+SRPDIO:2000080,,CHEBI:39131,elemental strontium,PO:0009011,plant structure
+SRPDIO:2000081,,CHEBI:33403,elemental sulfur,PO:0009011,plant structure
+SRPDIO:2000082,,CHEBI:36660,elemental tellurium,PO:0009011,plant structure
+SRPDIO:2000083,,CHEBI:37113,elemental thallium,PO:0009011,plant structure
+SRPDIO:2000084,,CHEBI:155924,elemental thorium,PO:0009011,plant structure
+SRPDIO:2000085,,CHEBI:37767,elemental tin,PO:0009011,plant structure
+SRPDIO:2000086,,CHEBI:155870,elemental titanium,PO:0009011,plant structure
+SRPDIO:2000087,,CHEBI:131925,elemental tungsten,PO:0009011,plant structure
+SRPDIO:2000088,,CHEBI:50559,elemental uranium,PO:0009011,plant structure
+SRPDIO:2000089,,CHEBI:35171,elemental vanadium,PO:0009011,plant structure
+SRPDIO:2000090,,CHEBI:155925,elemental yttrium,PO:0009011,plant structure
+SRPDIO:2000091,,CHEBI:37253,elemental zinc,PO:0009011,plant structure
+SRPDIO:2000092,,CHEBI:33628,elemental aluminium,PO:0025356,bulb
+SRPDIO:2000093,,CHEBI:36922,elemental antimony,PO:0025356,bulb
+SRPDIO:2000094,,CHEBI:35826,elemental arsenic,PO:0025356,bulb
+SRPDIO:2000095,,CHEBI:37134,elemental barium,PO:0025356,bulb
+SRPDIO:2000096,,CHEBI:33784,elemental beryllium,PO:0025356,bulb
+SRPDIO:2000097,,CHEBI:85541,elemental bismuth,PO:0025356,bulb
+SRPDIO:2000098,,CHEBI:33609,elemental boron,PO:0025356,bulb
+SRPDIO:2000099,,CHEBI:37249,elemental cadmium,PO:0025356,bulb
+SRPDIO:2000100,,CHEBI:155919,elemental caesium,PO:0025356,bulb
+SRPDIO:2000101,,CHEBI:35155,elemental calcium,PO:0025356,bulb
+SRPDIO:2000102,,CHEBI:37265,elemental cerium,PO:0025356,bulb
+SRPDIO:2000103,,CHEBI:155866,elemental chromium,PO:0025356,bulb
+SRPDIO:2000104,,CHEBI:155865,elemental cobalt,PO:0025356,bulb
+SRPDIO:2000105,,CHEBI:37404,elemental copper,PO:0025356,bulb
+SRPDIO:2000106,,CHEBI:155920,elemental gallium,PO:0025356,bulb
+SRPDIO:2000107,,CHEBI:33970,elemental gold,PO:0025356,bulb
+SRPDIO:2000108,,CHEBI:37114,elemental indium,PO:0025356,bulb
+SRPDIO:2000109,,CHEBI:82663,elemental iron,PO:0025356,bulb
+SRPDIO:2000110,,CHEBI:155921,elemental lanthanum,PO:0025356,bulb
+SRPDIO:2000111,,CHEBI:37193,elemental lead,PO:0025356,bulb
+SRPDIO:2000112,,CHEBI:155867,elemental lithium,PO:0025356,bulb
+SRPDIO:2000113,,CHEBI:33973,elemental magnesium,PO:0025356,bulb
+SRPDIO:2000114,,CHEBI:35115,elemental manganese,PO:0025356,bulb
+SRPDIO:2000115,,CHEBI:35113,elemental mercury,PO:0025356,bulb
+SRPDIO:2000116,,CHEBI:37237,elemental molybdenum,PO:0025356,bulb
+SRPDIO:2000117,,CHEBI:155868,elemental nickel,PO:0025356,bulb
+SRPDIO:2000118,,CHEBI:155922,elemental niobium,PO:0025356,bulb
+SRPDIO:2000119,,CHEBI:33464,elemental phosphorus,PO:0025356,bulb
+SRPDIO:2000120,,CHEBI:37247,elemental potassium,PO:0025356,bulb
+SRPDIO:2000121,,CHEBI:155923,elemental rubidium,PO:0025356,bulb
+SRPDIO:2000122,,CHEBI:36904,elemental selenium,PO:0025356,bulb
+SRPDIO:2000123,,CHEBI:37763,elemental silicon,PO:0025356,bulb
+SRPDIO:2000124,,CHEBI:33966,elemental silver,PO:0025356,bulb
+SRPDIO:2000125,,CHEBI:37246,elemental sodium,PO:0025356,bulb
+SRPDIO:2000126,,CHEBI:39131,elemental strontium,PO:0025356,bulb
+SRPDIO:2000127,,CHEBI:33403,elemental sulfur,PO:0025356,bulb
+SRPDIO:2000128,,CHEBI:36660,elemental tellurium,PO:0025356,bulb
+SRPDIO:2000129,,CHEBI:37113,elemental thallium,PO:0025356,bulb
+SRPDIO:2000130,,CHEBI:155924,elemental thorium,PO:0025356,bulb
+SRPDIO:2000131,,CHEBI:37767,elemental tin,PO:0025356,bulb
+SRPDIO:2000132,,CHEBI:155870,elemental titanium,PO:0025356,bulb
+SRPDIO:2000133,,CHEBI:131925,elemental tungsten,PO:0025356,bulb
+SRPDIO:2000134,,CHEBI:50559,elemental uranium,PO:0025356,bulb
+SRPDIO:2000135,,CHEBI:35171,elemental vanadium,PO:0025356,bulb
+SRPDIO:2000136,,CHEBI:155925,elemental yttrium,PO:0025356,bulb
+SRPDIO:2000137,,CHEBI:37253,elemental zinc,PO:0025356,bulb
+SRPDIO:2000138,,CHEBI:33628,elemental aluminium,PO:0009001 ,fruit
+SRPDIO:2000139,,CHEBI:36922,elemental antimony,PO:0009001 ,fruit
+SRPDIO:2000140,,CHEBI:35826,elemental arsenic,PO:0009001 ,fruit
+SRPDIO:2000141,,CHEBI:37134,elemental barium,PO:0009001,fruit
+SRPDIO:2000142,,CHEBI:33784,elemental beryllium,PO:0009001,fruit
+SRPDIO:2000143,,CHEBI:85541,elemental bismuth,PO:0009001,fruit
+SRPDIO:2000144,,CHEBI:33609,elemental boron,PO:0009001,fruit
+SRPDIO:2000145,,CHEBI:37249,elemental cadmium,PO:0009001,fruit
+SRPDIO:2000146,,CHEBI:155919,elemental caesium,PO:0009001,fruit
+SRPDIO:2000147,,CHEBI:35155,elemental calcium,PO:0009001,fruit
+SRPDIO:2000148,,CHEBI:37265,elemental cerium,PO:0009001,fruit
+SRPDIO:2000149,,CHEBI:155866,elemental chromium,PO:0009001,fruit
+SRPDIO:2000150,,CHEBI:155865,elemental cobalt,PO:0009001,fruit
+SRPDIO:2000151,,CHEBI:37404,elemental copper,PO:0009001,fruit
+SRPDIO:2000152,,CHEBI:155920,elemental gallium,PO:0009001,fruit
+SRPDIO:2000153,,CHEBI:33970,elemental gold,PO:0009001,fruit
+SRPDIO:2000154,,CHEBI:37114,elemental indium,PO:0009001,fruit
+SRPDIO:2000155,,CHEBI:82663,elemental iron,PO:0009001,fruit
+SRPDIO:2000156,,CHEBI:155921,elemental lanthanum,PO:0009001,fruit
+SRPDIO:2000157,,CHEBI:37193,elemental lead,PO:0009001,fruit
+SRPDIO:2000158,,CHEBI:155867,elemental lithium,PO:0009001,fruit
+SRPDIO:2000159,,CHEBI:33973,elemental magnesium,PO:0009001,fruit
+SRPDIO:2000160,,CHEBI:35115,elemental manganese,PO:0009001,fruit
+SRPDIO:2000161,,CHEBI:35113,elemental mercury,PO:0009001,fruit
+SRPDIO:2000162,,CHEBI:37237,elemental molybdenum,PO:0009001,fruit
+SRPDIO:2000163,,CHEBI:155868,elemental nickel,PO:0009001,fruit
+SRPDIO:2000164,,CHEBI:155922,elemental niobium,PO:0009001,fruit
+SRPDIO:2000165,,CHEBI:33464,elemental phosphorus,PO:0009001,fruit
+SRPDIO:2000166,,CHEBI:37247,elemental potassium,PO:0009001,fruit
+SRPDIO:2000167,,CHEBI:155923,elemental rubidium,PO:0009001,fruit
+SRPDIO:2000168,,CHEBI:36904,elemental selenium,PO:0009001,fruit
+SRPDIO:2000169,,CHEBI:37763,elemental silicon,PO:0009001,fruit
+SRPDIO:2000170,,CHEBI:33966,elemental silver,PO:0009001,fruit
+SRPDIO:2000171,,CHEBI:37246,elemental sodium,PO:0009001,fruit
+SRPDIO:2000172,,CHEBI:39131,elemental strontium,PO:0009001,fruit
+SRPDIO:2000173,,CHEBI:33403,elemental sulfur,PO:0009001,fruit
+SRPDIO:2000174,,CHEBI:36660,elemental tellurium,PO:0009001,fruit
+SRPDIO:2000175,,CHEBI:37113,elemental thallium,PO:0009001,fruit
+SRPDIO:2000176,,CHEBI:155924,elemental thorium,PO:0009001,fruit
+SRPDIO:2000177,,CHEBI:37767,elemental tin,PO:0009001,fruit
+SRPDIO:2000178,,CHEBI:155870,elemental titanium,PO:0009001,fruit
+SRPDIO:2000179,,CHEBI:131925,elemental tungsten,PO:0009001,fruit
+SRPDIO:2000180,,CHEBI:50559,elemental uranium,PO:0009001,fruit
+SRPDIO:2000181,,CHEBI:35171,elemental vanadium,PO:0009001,fruit
+SRPDIO:2000182,,CHEBI:155925,elemental yttrium,PO:0009001,fruit
+SRPDIO:2000183,,CHEBI:37253,elemental zinc,PO:0009001,fruit
+SRPDIO:2000184,,CHEBI:33628,elemental aluminium,PO:0006342 ,infructescence
+SRPDIO:2000185,,CHEBI:36922,elemental antimony,PO:0006342 ,infructescence
+SRPDIO:2000186,,CHEBI:35826,elemental arsenic,PO:0006342 ,infructescence
+SRPDIO:2000187,,CHEBI:37134,elemental barium,PO:0006342 ,infructescence
+SRPDIO:2000188,,CHEBI:33784,elemental beryllium,PO:0006342,infructescence
+SRPDIO:2000189,,CHEBI:85541,elemental bismuth,PO:0006342,infructescence
+SRPDIO:2000190,,CHEBI:33609,elemental boron,PO:0006342,infructescence
+SRPDIO:2000191,,CHEBI:37249,elemental cadmium,PO:0006342,infructescence
+SRPDIO:2000192,,CHEBI:155919,elemental caesium,PO:0006342,infructescence
+SRPDIO:2000193,,CHEBI:35155,elemental calcium,PO:0006342,infructescence
+SRPDIO:2000194,,CHEBI:37265,elemental cerium,PO:0006342,infructescence
+SRPDIO:2000195,,CHEBI:155866,elemental chromium,PO:0006342,infructescence
+SRPDIO:2000196,,CHEBI:155865,elemental cobalt,PO:0006342,infructescence
+SRPDIO:2000197,,CHEBI:37404,elemental copper,PO:0006342,infructescence
+SRPDIO:2000198,,CHEBI:155920,elemental gallium,PO:0006342,infructescence
+SRPDIO:2000199,,CHEBI:33970,elemental gold,PO:0006342,infructescence
+SRPDIO:2000200,,CHEBI:37114,elemental indium,PO:0006342,infructescence
+SRPDIO:2000201,,CHEBI:82663,elemental iron,PO:0006342,infructescence
+SRPDIO:2000202,,CHEBI:155921,elemental lanthanum,PO:0006342,infructescence
+SRPDIO:2000203,,CHEBI:37193,elemental lead,PO:0006342,infructescence
+SRPDIO:2000204,,CHEBI:155867,elemental lithium,PO:0006342,infructescence
+SRPDIO:2000205,,CHEBI:33973,elemental magnesium,PO:0006342,infructescence
+SRPDIO:2000206,,CHEBI:35115,elemental manganese,PO:0006342,infructescence
+SRPDIO:2000207,,CHEBI:35113,elemental mercury,PO:0006342,infructescence
+SRPDIO:2000208,,CHEBI:37237,elemental molybdenum,PO:0006342,infructescence
+SRPDIO:2000209,,CHEBI:155868,elemental nickel,PO:0006342,infructescence
+SRPDIO:2000210,,CHEBI:155922,elemental niobium,PO:0006342,infructescence
+SRPDIO:2000211,,CHEBI:33464,elemental phosphorus,PO:0006342,infructescence
+SRPDIO:2000212,,CHEBI:37247,elemental potassium,PO:0006342,infructescence
+SRPDIO:2000213,,CHEBI:155923,elemental rubidium,PO:0006342,infructescence
+SRPDIO:2000214,,CHEBI:36904,elemental selenium,PO:0006342,infructescence
+SRPDIO:2000215,,CHEBI:37763,elemental silicon,PO:0006342,infructescence
+SRPDIO:2000216,,CHEBI:33966,elemental silver,PO:0006342,infructescence
+SRPDIO:2000217,,CHEBI:37246,elemental sodium,PO:0006342,infructescence
+SRPDIO:2000218,,CHEBI:39131,elemental strontium,PO:0006342,infructescence
+SRPDIO:2000219,,CHEBI:33403,elemental sulfur,PO:0006342,infructescence
+SRPDIO:2000220,,CHEBI:36660,elemental tellurium,PO:0006342,infructescence
+SRPDIO:2000221,,CHEBI:37113,elemental thallium,PO:0006342,infructescence
+SRPDIO:2000222,,CHEBI:155924,elemental thorium,PO:0006342,infructescence
+SRPDIO:2000223,,CHEBI:37767,elemental tin,PO:0006342,infructescence
+SRPDIO:2000224,,CHEBI:155870,elemental titanium,PO:0006342,infructescence
+SRPDIO:2000225,,CHEBI:131925,elemental tungsten,PO:0006342,infructescence
+SRPDIO:2000226,,CHEBI:50559,elemental uranium,PO:0006342,infructescence
+SRPDIO:2000227,,CHEBI:35171,elemental vanadium,PO:0006342,infructescence
+SRPDIO:2000228,,CHEBI:155925,elemental yttrium,PO:0006342,infructescence
+SRPDIO:2000229,,CHEBI:37253,elemental zinc,PO:0006342,infructescence
+SRPDIO:2000230,,CHEBI:33628,elemental aluminium,PO:0009025,vascular leaf
+SRPDIO:2000231,,CHEBI:36922,elemental antimony,PO:0009025,vascular leaf
+SRPDIO:2000232,,CHEBI:35826,elemental arsenic,PO:0009025,vascular leaf
+SRPDIO:2000233,,CHEBI:37134,elemental barium,PO:0009025,vascular leaf
+SRPDIO:2000234,,CHEBI:33784,elemental beryllium,PO:0009025,vascular leaf
+SRPDIO:2000235,,CHEBI:85541,elemental bismuth,PO:0009025,vascular leaf
+SRPDIO:2000236,,CHEBI:33609,elemental boron,PO:0009025,vascular leaf
+SRPDIO:2000237,,CHEBI:37249,elemental cadmium,PO:0009025,vascular leaf
+SRPDIO:2000238,,CHEBI:155919,elemental caesium,PO:0009025,vascular leaf
+SRPDIO:2000239,,CHEBI:35155,elemental calcium,PO:0009025,vascular leaf
+SRPDIO:2000240,,CHEBI:37265,elemental cerium,PO:0009025,vascular leaf
+SRPDIO:2000241,,CHEBI:155866,elemental chromium,PO:0009025,vascular leaf
+SRPDIO:2000242,,CHEBI:155865,elemental cobalt,PO:0009025,vascular leaf
+SRPDIO:2000243,,CHEBI:37404,elemental copper,PO:0009025,vascular leaf
+SRPDIO:2000244,,CHEBI:155920,elemental gallium,PO:0009025,vascular leaf
+SRPDIO:2000245,,CHEBI:33970,elemental gold,PO:0009025,vascular leaf
+SRPDIO:2000246,,CHEBI:37114,elemental indium,PO:0009025,vascular leaf
+SRPDIO:2000247,,CHEBI:82663,elemental iron,PO:0009025,vascular leaf
+SRPDIO:2000248,,CHEBI:155921,elemental lanthanum,PO:0009025,vascular leaf
+SRPDIO:2000249,,CHEBI:37193,elemental lead,PO:0009025,vascular leaf
+SRPDIO:2000250,,CHEBI:155867,elemental lithium,PO:0009025,vascular leaf
+SRPDIO:2000251,,CHEBI:33973,elemental magnesium,PO:0009025,vascular leaf
+SRPDIO:2000252,,CHEBI:35115,elemental manganese,PO:0009025,vascular leaf
+SRPDIO:2000253,,CHEBI:35113,elemental mercury,PO:0009025,vascular leaf
+SRPDIO:2000254,,CHEBI:37237,elemental molybdenum,PO:0009025,vascular leaf
+SRPDIO:2000255,,CHEBI:155868,elemental nickel,PO:0009025,vascular leaf
+SRPDIO:2000256,,CHEBI:155922,elemental niobium,PO:0009025,vascular leaf
+SRPDIO:2000257,,CHEBI:33464,elemental phosphorus,PO:0009025,vascular leaf
+SRPDIO:2000258,,CHEBI:37247,elemental potassium,PO:0009025,vascular leaf
+SRPDIO:2000259,,CHEBI:155923,elemental rubidium,PO:0009025,vascular leaf
+SRPDIO:2000260,,CHEBI:36904,elemental selenium,PO:0009025,vascular leaf
+SRPDIO:2000261,,CHEBI:37763,elemental silicon,PO:0009025,vascular leaf
+SRPDIO:2000262,,CHEBI:33966,elemental silver,PO:0009025,vascular leaf
+SRPDIO:2000263,,CHEBI:37246,elemental sodium,PO:0009025,vascular leaf
+SRPDIO:2000264,,CHEBI:39131,elemental strontium,PO:0009025,vascular leaf
+SRPDIO:2000265,,CHEBI:33403,elemental sulfur,PO:0009025,vascular leaf
+SRPDIO:2000266,,CHEBI:36660,elemental tellurium,PO:0009025,vascular leaf
+SRPDIO:2000267,,CHEBI:37113,elemental thallium,PO:0009025,vascular leaf
+SRPDIO:2000268,,CHEBI:155924,elemental thorium,PO:0009025,vascular leaf
+SRPDIO:2000269,,CHEBI:37767,elemental tin,PO:0009025,vascular leaf
+SRPDIO:2000270,,CHEBI:155870,elemental titanium,PO:0009025,vascular leaf
+SRPDIO:2000271,,CHEBI:131925,elemental tungsten,PO:0009025,vascular leaf
+SRPDIO:2000272,,CHEBI:50559,elemental uranium,PO:0009025,vascular leaf
+SRPDIO:2000273,,CHEBI:35171,elemental vanadium,PO:0009025,vascular leaf
+SRPDIO:2000274,,CHEBI:155925,elemental yttrium,PO:0009025,vascular leaf
+SRPDIO:2000275,,CHEBI:37253,elemental zinc,PO:0009025,vascular leaf
+SRPDIO:2000276,,CHEBI:33628,elemental aluminium,PO:0009010,seed
+SRPDIO:2000277,,CHEBI:36922,elemental antimony,PO:0009010,seed
+SRPDIO:2000278,,CHEBI:35826,elemental arsenic,PO:0009010,seed
+SRPDIO:2000279,,CHEBI:37134,elemental barium,PO:0009010,seed
+SRPDIO:2000280,,CHEBI:33784,elemental beryllium,PO:0009010,seed
+SRPDIO:2000281,,CHEBI:85541,elemental bismuth,PO:0009010,seed
+SRPDIO:2000282,,CHEBI:33609,elemental boron,PO:0009010,seed
+SRPDIO:2000283,,CHEBI:37249,elemental cadmium,PO:0009010,seed
+SRPDIO:2000284,,CHEBI:155919,elemental caesium,PO:0009010,seed
+SRPDIO:2000285,,CHEBI:35155,elemental calcium,PO:0009010,seed
+SRPDIO:2000286,,CHEBI:37265,elemental cerium,PO:0009010,seed
+SRPDIO:2000287,,CHEBI:155866,elemental chromium,PO:0009010,seed
+SRPDIO:2000288,,CHEBI:155865,elemental cobalt,PO:0009010,seed
+SRPDIO:2000289,,CHEBI:37404,elemental copper,PO:0009010,seed
+SRPDIO:2000290,,CHEBI:155920,elemental gallium,PO:0009010,seed
+SRPDIO:2000291,,CHEBI:33970,elemental gold,PO:0009010,seed
+SRPDIO:2000292,,CHEBI:37114,elemental indium,PO:0009010,seed
+SRPDIO:2000293,,CHEBI:82663,elemental iron,PO:0009010,seed
+SRPDIO:2000294,,CHEBI:155921,elemental lanthanum,PO:0009010,seed
+SRPDIO:2000295,,CHEBI:37193,elemental lead,PO:0009010,seed
+SRPDIO:2000296,,CHEBI:155867,elemental lithium,PO:0009010,seed
+SRPDIO:2000297,,CHEBI:33973,elemental magnesium,PO:0009010,seed
+SRPDIO:2000298,,CHEBI:35115,elemental manganese,PO:0009010,seed
+SRPDIO:2000299,,CHEBI:35113,elemental mercury,PO:0009010,seed
+SRPDIO:2000300,,CHEBI:37237,elemental molybdenum,PO:0009010,seed
+SRPDIO:2000301,,CHEBI:155868,elemental nickel,PO:0009010,seed
+SRPDIO:2000302,,CHEBI:155922,elemental niobium,PO:0009010,seed
+SRPDIO:2000303,,CHEBI:33464,elemental phosphorus,PO:0009010,seed
+SRPDIO:2000304,,CHEBI:37247,elemental potassium,PO:0009010,seed
+SRPDIO:2000305,,CHEBI:155923,elemental rubidium,PO:0009010,seed
+SRPDIO:2000306,,CHEBI:36904,elemental selenium,PO:0009010,seed
+SRPDIO:2000307,,CHEBI:37763,elemental silicon,PO:0009010,seed
+SRPDIO:2000308,,CHEBI:33966,elemental silver,PO:0009010,seed
+SRPDIO:2000309,,CHEBI:37246,elemental sodium,PO:0009010,seed
+SRPDIO:2000310,,CHEBI:39131,elemental strontium,PO:0009010,seed
+SRPDIO:2000311,,CHEBI:33403,elemental sulfur,PO:0009010,seed
+SRPDIO:2000312,,CHEBI:36660,elemental tellurium,PO:0009010,seed
+SRPDIO:2000313,,CHEBI:37113,elemental thallium,PO:0009010,seed
+SRPDIO:2000314,,CHEBI:155924,elemental thorium,PO:0009010,seed
+SRPDIO:2000315,,CHEBI:37767,elemental tin,PO:0009010,seed
+SRPDIO:2000316,,CHEBI:155870,elemental titanium,PO:0009010,seed
+SRPDIO:2000317,,CHEBI:131925,elemental tungsten,PO:0009010,seed
+SRPDIO:2000318,,CHEBI:50559,elemental uranium,PO:0009010,seed
+SRPDIO:2000319,,CHEBI:35171,elemental vanadium,PO:0009010,seed
+SRPDIO:2000320,,CHEBI:155925,elemental yttrium,PO:0009010,seed
+SRPDIO:2000321,,CHEBI:37253,elemental zinc,PO:0009010,seed
+SRPDIO:2000322,,CHEBI:33628,elemental aluminium,PO:0009005,root
+SRPDIO:2000323,,CHEBI:36922,elemental antimony,PO:0009005,root
+SRPDIO:2000324,,CHEBI:35826,elemental arsenic,PO:0009005,root
+SRPDIO:2000325,,CHEBI:37134,elemental barium,PO:0009005,root
+SRPDIO:2000326,,CHEBI:33784,elemental beryllium,PO:0009005,root
+SRPDIO:2000327,,CHEBI:85541,elemental bismuth,PO:0009005,root
+SRPDIO:2000328,,CHEBI:33609,elemental boron,PO:0009005,root
+SRPDIO:2000329,,CHEBI:37249,elemental cadmium,PO:0009005,root
+SRPDIO:2000330,,CHEBI:155919,elemental caesium,PO:0009005,root
+SRPDIO:2000331,,CHEBI:35155,elemental calcium,PO:0009005,root
+SRPDIO:2000332,,CHEBI:37265,elemental cerium,PO:0009005,root
+SRPDIO:2000333,,CHEBI:155866,elemental chromium,PO:0009005,root
+SRPDIO:2000334,,CHEBI:155865,elemental cobalt,PO:0009005,root
+SRPDIO:2000335,,CHEBI:37404,elemental copper,PO:0009005,root
+SRPDIO:2000336,,CHEBI:155920,elemental gallium,PO:0009005,root
+SRPDIO:2000337,,CHEBI:33970,elemental gold,PO:0009005,root
+SRPDIO:2000338,,CHEBI:37114,elemental indium,PO:0009005,root
+SRPDIO:2000339,,CHEBI:82663,elemental iron,PO:0009005,root
+SRPDIO:2000340,,CHEBI:155921,elemental lanthanum,PO:0009005,root
+SRPDIO:2000341,,CHEBI:37193,elemental lead,PO:0009005,root
+SRPDIO:2000342,,CHEBI:155867,elemental lithium,PO:0009005,root
+SRPDIO:2000343,,CHEBI:33973,elemental magnesium,PO:0009005,root
+SRPDIO:2000344,,CHEBI:35115,elemental manganese,PO:0009005,root
+SRPDIO:2000345,,CHEBI:35113,elemental mercury,PO:0009005,root
+SRPDIO:2000346,,CHEBI:37237,elemental molybdenum,PO:0009005,root
+SRPDIO:2000347,,CHEBI:155868,elemental nickel,PO:0009005,root
+SRPDIO:2000348,,CHEBI:155922,elemental niobium,PO:0009005,root
+SRPDIO:2000349,,CHEBI:33464,elemental phosphorus,PO:0009005,root
+SRPDIO:2000350,,CHEBI:37247,elemental potassium,PO:0009005,root
+SRPDIO:2000351,,CHEBI:155923,elemental rubidium,PO:0009005,root
+SRPDIO:2000352,,CHEBI:36904,elemental selenium,PO:0009005,root
+SRPDIO:2000353,,CHEBI:37763,elemental silicon,PO:0009005,root
+SRPDIO:2000354,,CHEBI:33966,elemental silver,PO:0009005,root
+SRPDIO:2000355,,CHEBI:37246,elemental sodium,PO:0009005,root
+SRPDIO:2000356,,CHEBI:39131,elemental strontium,PO:0009005,root
+SRPDIO:2000357,,CHEBI:33403,elemental sulfur,PO:0009005,root
+SRPDIO:2000358,,CHEBI:36660,elemental tellurium,PO:0009005,root
+SRPDIO:2000359,,CHEBI:37113,elemental thallium,PO:0009005,root
+SRPDIO:2000360,,CHEBI:155924,elemental thorium,PO:0009005,root
+SRPDIO:2000361,,CHEBI:37767,elemental tin,PO:0009005,root
+SRPDIO:2000362,,CHEBI:155870,elemental titanium,PO:0009005,root
+SRPDIO:2000363,,CHEBI:131925,elemental tungsten,PO:0009005,root
+SRPDIO:2000364,,CHEBI:50559,elemental uranium,PO:0009005,root
+SRPDIO:2000365,,CHEBI:35171,elemental vanadium,PO:0009005,root
+SRPDIO:2000366,,CHEBI:155925,elemental yttrium,PO:0009005,root
+SRPDIO:2000367,,CHEBI:37253,elemental zinc,PO:0009005,root
+SRPDIO:2000368,,CHEBI:33628,elemental aluminium,PO:0025522,tuber
+SRPDIO:2000369,,CHEBI:36922,elemental antimony,PO:0025522,tuber
+SRPDIO:2000370,,CHEBI:35826,elemental arsenic,PO:0025522,tuber
+SRPDIO:2000371,,CHEBI:37134,elemental barium,PO:0025522,tuber
+SRPDIO:2000372,,CHEBI:33784,elemental beryllium,PO:0025522,tuber
+SRPDIO:2000373,,CHEBI:85541,elemental bismuth,PO:0025522,tuber
+SRPDIO:2000374,,CHEBI:33609,elemental boron,PO:0025522,tuber
+SRPDIO:2000375,,CHEBI:37249,elemental cadmium,PO:0025522,tuber
+SRPDIO:2000376,,CHEBI:155919,elemental caesium,PO:0025522,tuber
+SRPDIO:2000377,,CHEBI:35155,elemental calcium,PO:0025522,tuber
+SRPDIO:2000378,,CHEBI:37265,elemental cerium,PO:0025522,tuber
+SRPDIO:2000379,,CHEBI:155866,elemental chromium,PO:0025522,tuber
+SRPDIO:2000380,,CHEBI:155865,elemental cobalt,PO:0025522,tuber
+SRPDIO:2000381,,CHEBI:37404,elemental copper,PO:0025522,tuber
+SRPDIO:2000382,,CHEBI:155920,elemental gallium,PO:0025522,tuber
+SRPDIO:2000383,,CHEBI:33970,elemental gold,PO:0025522,tuber
+SRPDIO:2000384,,CHEBI:37114,elemental indium,PO:0025522,tuber
+SRPDIO:2000385,,CHEBI:82663,elemental iron,PO:0025522,tuber
+SRPDIO:2000386,,CHEBI:155921,elemental lanthanum,PO:0025522,tuber
+SRPDIO:2000387,,CHEBI:37193,elemental lead,PO:0025522,tuber
+SRPDIO:2000388,,CHEBI:155867,elemental lithium,PO:0025522,tuber
+SRPDIO:2000389,,CHEBI:33973,elemental magnesium,PO:0025522,tuber
+SRPDIO:2000390,,CHEBI:35115,elemental manganese,PO:0025522,tuber
+SRPDIO:2000391,,CHEBI:35113,elemental mercury,PO:0025522,tuber
+SRPDIO:2000392,,CHEBI:37237,elemental molybdenum,PO:0025522,tuber
+SRPDIO:2000393,,CHEBI:155868,elemental nickel,PO:0025522,tuber
+SRPDIO:2000394,,CHEBI:155922,elemental niobium,PO:0025522,tuber
+SRPDIO:2000395,,CHEBI:33464,elemental phosphorus,PO:0025522,tuber
+SRPDIO:2000396,,CHEBI:37247,elemental potassium,PO:0025522,tuber
+SRPDIO:2000397,,CHEBI:155923,elemental rubidium,PO:0025522,tuber
+SRPDIO:2000398,,CHEBI:36904,elemental selenium,PO:0025522,tuber
+SRPDIO:2000399,,CHEBI:37763,elemental silicon,PO:0025522,tuber
+SRPDIO:2000400,,CHEBI:33966,elemental silver,PO:0025522,tuber
+SRPDIO:2000401,,CHEBI:37246,elemental sodium,PO:0025522,tuber
+SRPDIO:2000402,,CHEBI:39131,elemental strontium,PO:0025522,tuber
+SRPDIO:2000403,,CHEBI:33403,elemental sulfur,PO:0025522,tuber
+SRPDIO:2000404,,CHEBI:36660,elemental tellurium,PO:0025522,tuber
+SRPDIO:2000405,,CHEBI:37113,elemental thallium,PO:0025522,tuber
+SRPDIO:2000406,,CHEBI:155924,elemental thorium,PO:0025522,tuber
+SRPDIO:2000407,,CHEBI:37767,elemental tin,PO:0025522,tuber
+SRPDIO:2000408,,CHEBI:155870,elemental titanium,PO:0025522,tuber
+SRPDIO:2000409,,CHEBI:131925,elemental tungsten,PO:0025522,tuber
+SRPDIO:2000410,,CHEBI:50559,elemental uranium,PO:0025522,tuber
+SRPDIO:2000411,,CHEBI:35171,elemental vanadium,PO:0025522,tuber
+SRPDIO:2000412,,CHEBI:155925,elemental yttrium,PO:0025522,tuber
+SRPDIO:2000413,,CHEBI:37253,elemental zinc,PO:0025522,tuber
+SRPDIO:2000414,,CHEBI:33628,elemental aluminium,PO:0025025 ,root system
+SRPDIO:2000415,,CHEBI:36922,elemental antimony,PO:0025025 ,root system
+SRPDIO:2000416,,CHEBI:35826,elemental arsenic,PO:0025025 ,root system
+SRPDIO:2000417,,CHEBI:37134,elemental barium,PO:0025025 ,root system
+SRPDIO:2000418,,CHEBI:33784,elemental beryllium,PO:0025025 ,root system
+SRPDIO:2000419,,CHEBI:85541,elemental bismuth,PO:0025025 ,root system
+SRPDIO:2000420,,CHEBI:33609,elemental boron,PO:0025025,root system
+SRPDIO:2000421,,CHEBI:37249,elemental cadmium,PO:0025025,root system
+SRPDIO:2000422,,CHEBI:155919,elemental caesium,PO:0025025,root system
+SRPDIO:2000423,,CHEBI:35155,elemental calcium,PO:0025025,root system
+SRPDIO:2000424,,CHEBI:37265,elemental cerium,PO:0025025,root system
+SRPDIO:2000425,,CHEBI:155866,elemental chromium,PO:0025025,root system
+SRPDIO:2000426,,CHEBI:155865,elemental cobalt,PO:0025025,root system
+SRPDIO:2000427,,CHEBI:37404,elemental copper,PO:0025025,root system
+SRPDIO:2000428,,CHEBI:155920,elemental gallium,PO:0025025,root system
+SRPDIO:2000429,,CHEBI:33970,elemental gold,PO:0025025,root system
+SRPDIO:2000430,,CHEBI:37114,elemental indium,PO:0025025,root system
+SRPDIO:2000431,,CHEBI:82663,elemental iron,PO:0025025,root system
+SRPDIO:2000432,,CHEBI:155921,elemental lanthanum,PO:0025025,root system
+SRPDIO:2000433,,CHEBI:37193,elemental lead,PO:0025025,root system
+SRPDIO:2000434,,CHEBI:155867,elemental lithium,PO:0025025,root system
+SRPDIO:2000435,,CHEBI:33973,elemental magnesium,PO:0025025,root system
+SRPDIO:2000436,,CHEBI:35115,elemental manganese,PO:0025025,root system
+SRPDIO:2000437,,CHEBI:35113,elemental mercury,PO:0025025,root system
+SRPDIO:2000438,,CHEBI:37237,elemental molybdenum,PO:0025025,root system
+SRPDIO:2000439,,CHEBI:155868,elemental nickel,PO:0025025,root system
+SRPDIO:2000440,,CHEBI:155922,elemental niobium,PO:0025025,root system
+SRPDIO:2000441,,CHEBI:33464,elemental phosphorus,PO:0025025,root system
+SRPDIO:2000442,,CHEBI:37247,elemental potassium,PO:0025025,root system
+SRPDIO:2000443,,CHEBI:155923,elemental rubidium,PO:0025025,root system
+SRPDIO:2000444,,CHEBI:36904,elemental selenium,PO:0025025,root system
+SRPDIO:2000445,,CHEBI:37763,elemental silicon,PO:0025025,root system
+SRPDIO:2000446,,CHEBI:33966,elemental silver,PO:0025025,root system
+SRPDIO:2000447,,CHEBI:37246,elemental sodium,PO:0025025,root system
+SRPDIO:2000448,,CHEBI:39131,elemental strontium,PO:0025025,root system
+SRPDIO:2000449,,CHEBI:33403,elemental sulfur,PO:0025025,root system
+SRPDIO:2000450,,CHEBI:36660,elemental tellurium,PO:0025025,root system
+SRPDIO:2000451,,CHEBI:37113,elemental thallium,PO:0025025,root system
+SRPDIO:2000452,,CHEBI:155924,elemental thorium,PO:0025025,root system
+SRPDIO:2000453,,CHEBI:37767,elemental tin,PO:0025025,root system
+SRPDIO:2000454,,CHEBI:155870,elemental titanium,PO:0025025,root system
+SRPDIO:2000455,,CHEBI:131925,elemental tungsten,PO:0025025,root system
+SRPDIO:2000456,,CHEBI:50559,elemental uranium,PO:0025025,root system
+SRPDIO:2000457,,CHEBI:35171,elemental vanadium,PO:0025025,root system
+SRPDIO:2000458,,CHEBI:155925,elemental yttrium,PO:0025025,root system
+SRPDIO:2000459,,CHEBI:37253,elemental zinc,PO:0025025,root system
+SRPDIO:2000460,,CHEBI:24431,chemical entity,PO:0009011,plant structure
