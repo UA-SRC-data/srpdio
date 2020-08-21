@@ -1,16 +1,22 @@
 format-version: 1.2
-data-version: srpdio/releases/2020-06-29/imports/po_import.owl
+data-version: srpdio/releases/2020-08-21/imports/po_import.owl
 subsetdef: Angiosperm "Term for angiosperms"
 subsetdef: Arabidopsis "Term used for Arabidopsis"
 subsetdef: Bryophytes "Term used for mosses, liverworts, and/or hornworts"
+subsetdef: Citrus ""
 subsetdef: CL "plant cells"
+subsetdef: Gymnosperms ""
 subsetdef: Maize "Term used for maize"
+subsetdef: Musa ""
 subsetdef: Poaceae "Term used for grasses"
+subsetdef: Potato ""
+subsetdef: Pteridophytes ""
 subsetdef: reference "reference plant structure term"
 subsetdef: Rice "Term used for rice"
+subsetdef: Tomato ""
 subsetdef: TraitNet "Plant Functional Traits"
 ontology: srpdio/imports/po_import
-owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(Class(<http://purl.obolibrary.org/obo/BFO_0000002>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/BFO_0000003>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/BFO_0000004>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/BFO_0000006>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/BFO_0000015>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/BFO_0000040>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/BFO_0000141>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/GO_0003674>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/GO_0008150>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/GO_0016301>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/GO_0048018>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000050>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000051>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000066>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000056>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0001025>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002013>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002014>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002015>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002018>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002019>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002025>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002131>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002180>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002211>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002212>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002213>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002215>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002233>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002327>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002331>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002333>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002352>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002379>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002404>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002411>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002418>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002447>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002448>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002449>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002450>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002481>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002566>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002578>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002629>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002630>))\nDeclaration(AnnotationProperty(<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled>))\n\n############################\n#   Object Properties\n############################\n\n# Object Property: <http://purl.obolibrary.org/obo/RO_0001025> (located in)\n\nObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0001025> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000004> ObjectComplementOf(<http://purl.obolibrary.org/obo/BFO_0000006>)))\n\n\n\n############################\n#   Classes\n############################\n\n# Class: <http://purl.obolibrary.org/obo/BFO_0000002> (continuant)\n\nDisjointClasses(<http://purl.obolibrary.org/obo/BFO_0000002> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/BFO_0000003>))\n\n# Class: <http://purl.obolibrary.org/obo/BFO_0000003> (occurrent)\n\nDisjointClasses(<http://purl.obolibrary.org/obo/BFO_0000003> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/BFO_0000002>))\n\n# Class: <http://purl.obolibrary.org/obo/BFO_0000040> (material entity)\n\nDisjointClasses(<http://purl.obolibrary.org/obo/BFO_0000040> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/BFO_0000141>))\n\n# Class: <http://purl.obolibrary.org/obo/BFO_0000141> (immaterial entity)\n\nDisjointClasses(<http://purl.obolibrary.org/obo/BFO_0000141> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/BFO_0000040>))\n\n# Class: <http://purl.obolibrary.org/obo/GO_0016301> (kinase activity)\n\nSubClassOf(<http://purl.obolibrary.org/obo/GO_0016301> ObjectHasSelf(<http://purl.obolibrary.org/obo/RO_0002481>))\n\n\nSubClassOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002566> <http://purl.obolibrary.org/obo/BFO_0000040>) ObjectUnionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002418> <http://purl.obolibrary.org/obo/BFO_0000015>)) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002418> <http://purl.obolibrary.org/obo/BFO_0000015>)))))\nSubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/RO_0001025> ObjectInverseOf(<http://purl.obolibrary.org/obo/RO_0001025>)) <http://purl.obolibrary.org/obo/RO_0002379>)\nSubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/RO_0002327> <http://purl.obolibrary.org/obo/RO_0002211> <http://purl.obolibrary.org/obo/RO_0002333>) <http://purl.obolibrary.org/obo/RO_0002448>)\nSubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/RO_0002327> <http://purl.obolibrary.org/obo/RO_0002411> <http://purl.obolibrary.org/obo/RO_0002233>) <http://purl.obolibrary.org/obo/RO_0002566>)\nSubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/RO_0002327> <http://purl.obolibrary.org/obo/RO_0002411> <http://purl.obolibrary.org/obo/RO_0002333>) <http://purl.obolibrary.org/obo/RO_0002566>)\nSubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/RO_0002327> <http://purl.obolibrary.org/obo/RO_0002629> <http://purl.obolibrary.org/obo/RO_0002333>) <http://purl.obolibrary.org/obo/RO_0002450>)\nSubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/RO_0002327> <http://purl.obolibrary.org/obo/RO_0002630> <http://purl.obolibrary.org/obo/RO_0002333>) <http://purl.obolibrary.org/obo/RO_0002449>)\nDLSafeRule(Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002180> Variable(<urn:swrl#w>) Variable(<urn:swrl#p>)) ClassAtom(<http://purl.obolibrary.org/obo/BFO_0000015> Variable(<urn:swrl#w>)) ClassAtom(<http://purl.obolibrary.org/obo/BFO_0000015> Variable(<urn:swrl#p>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002018> Variable(<urn:swrl#w>) Variable(<urn:swrl#p>))))\nDLSafeRule(Annotation(<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> \"true\"^^xsd:boolean) Annotation(rdfs:comment \"MF(X)-directly_regulates->MF(Y)-enabled_by->GP(Z) => MF(Y)-has_input->GP(Y) e.g. if 'protein kinase activity'(X) directly_regulates 'protein binding activity (Y)and this is enabled by GP(Z) then X has_input Z\") Annotation(rdfs:label \"infer input from direct reg\") Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002327> Variable(<http://purl.obolibrary.org/obo/ro.owl#z>) Variable(<http://purl.obolibrary.org/obo/ro.owl#y>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002578> Variable(<http://purl.obolibrary.org/obo/ro.owl#x>) Variable(<http://purl.obolibrary.org/obo/ro.owl#y>)) ClassAtom(<http://purl.obolibrary.org/obo/GO_0003674> Variable(<http://purl.obolibrary.org/obo/ro.owl#x>)) ClassAtom(<http://purl.obolibrary.org/obo/GO_0003674> Variable(<http://purl.obolibrary.org/obo/ro.owl#y>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002233> Variable(<http://purl.obolibrary.org/obo/ro.owl#x>) Variable(<http://purl.obolibrary.org/obo/ro.owl#z>))))\nDLSafeRule(Annotation(rdfs:comment \"GP(X)-enables->MF(Y)-has_part->MF(Z) => GP(X) enables MF(Z),\ne.g.  if GP X enables ATPase coupled transporter activity' and 'ATPase coupled transporter activity' has_part 'ATPase activity' then GP(X) enables 'ATPase activity'\") Annotation(rdfs:label \"enabling an MF enables its parts\") Body(ClassAtom(<http://purl.obolibrary.org/obo/GO_0003674> Variable(<urn:swrl#y>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002327> Variable(<urn:swrl#x>) Variable(<urn:swrl#y>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/BFO_0000051> Variable(<urn:swrl#y>) Variable(<urn:swrl#z>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002327> Variable(<urn:swrl#x>) Variable(<urn:swrl#z>))))\nDLSafeRule(Annotation(<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> \"true\"^^xsd:boolean) Annotation(rdfs:comment \"GP(X)-enables->MF(Y)-part_of->BP(Z) => GP(X) involved_in BP(Z) e.g. if X enables 'protein kinase activity' and Y 'part of' 'signal tranduction' then X involved in 'signal transduction'\") Annotation(rdfs:label \"involved in BP\") Body(ClassAtom(<http://purl.obolibrary.org/obo/GO_0008150> Variable(<urn:swrl#z>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/BFO_0000050> Variable(<urn:swrl#y>) Variable(<urn:swrl#z>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002327> Variable(<urn:swrl#x>) Variable(<urn:swrl#y>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002331> Variable(<urn:swrl#x>) Variable(<urn:swrl#z>))))\nDLSafeRule(Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002578> Variable(<urn:swrl#a1>) Variable(<urn:swrl#a2>)) ClassAtom(<http://purl.obolibrary.org/obo/GO_0016301> Variable(<urn:swrl#a1>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002333> Variable(<urn:swrl#a1>) Variable(<urn:swrl#g1>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002333> Variable(<urn:swrl#a2>) Variable(<urn:swrl#g2>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002447> Variable(<urn:swrl#g1>) Variable(<urn:swrl#g2>))))\nDLSafeRule(Annotation(rdfs:label \"From ligand activity to has_ligand\") Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002327> Variable(<urn:swrl#y>) Variable(<urn:swrl#z>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002578> Variable(<urn:swrl#z>) Variable(<urn:swrl#x>)) ClassAtom(<http://purl.obolibrary.org/obo/GO_0048018> Variable(<urn:swrl#z>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002019> Variable(<urn:swrl#x>) Variable(<urn:swrl#y>))))\nDLSafeRule(Annotation(rdfs:comment \"This rule is dubious: added as a quick fix for expected inference in GO-CAM.  The problem is most acute for transmembrane proteins, such as receptors or cell adhesion molecules, which have some subfunctions inside the cell (e.g. kinase activity) and some subfunctions outside (e.g. ligand binding).  Correct annotation of where these functions occurs leads to incorrect inference about the location of the whole protein.  This should probably be weakened to \\\"... -> overlaps\\\"\") Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/BFO_0000066> Variable(<urn:swrl#y>) Variable(<urn:swrl#z>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002327> Variable(<urn:swrl#x>) Variable(<urn:swrl#y>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/BFO_0000050> Variable(<urn:swrl#x>) Variable(<urn:swrl#z>))))\nDLSafeRule(Annotation(rdfs:comment \"If a molecular function (X) has a regulatory subfunction, then any gene product which is an input to that subfunction has an activity that directly_regulates X.  Note:  this is intended for cases where the regaultory subfunction is protein binding, so it could be tightened with an additional clause to specify this.\") Annotation(rdfs:label \"inferring direct reg edge from input to regulatory subfunction\") Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002352> Variable(<urn:swrl#B>) Variable(<urn:swrl#C>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002333> Variable(<urn:swrl#A>) Variable(<urn:swrl#B>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002013> Variable(<urn:swrl#D>) Variable(<urn:swrl#C>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002578> Variable(<urn:swrl#A>) Variable(<urn:swrl#D>))))\nDLSafeRule(Annotation(rdfs:label \"inferring direct neg reg edge from input to regulatory subfunction\") Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002352> Variable(<urn:swrl#B>) Variable(<urn:swrl#C>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002333> Variable(<urn:swrl#A>) Variable(<urn:swrl#B>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002014> Variable(<urn:swrl#D>) Variable(<urn:swrl#C>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002630> Variable(<urn:swrl#A>) Variable(<urn:swrl#D>))))\nDLSafeRule(Annotation(rdfs:label \"inferring direct positive reg edge from input to regulatory subfunction\") Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002352> Variable(<urn:swrl#B>) Variable(<urn:swrl#C>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002333> Variable(<urn:swrl#A>) Variable(<urn:swrl#B>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002015> Variable(<urn:swrl#D>) Variable(<urn:swrl#C>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002629> Variable(<urn:swrl#A>) Variable(<urn:swrl#D>))))\nDLSafeRule(Annotation(rdfs:label \"From has_ligand to ligand activity\") Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002327> Variable(<urn:swrl#y>) Variable(<urn:swrl#z>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002019> Variable(<urn:swrl#x>) Variable(<urn:swrl#y>)))Head(ClassAtom(<http://purl.obolibrary.org/obo/GO_0048018> Variable(<urn:swrl#z>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002578> Variable(<urn:swrl#z>) Variable(<urn:swrl#x>))))\nDLSafeRule(Annotation(rdfs:label \"effector input is compound function input\") Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002233> Variable(<urn:swrl#eff>) Variable(<urn:swrl#in>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002025> Variable(<urn:swrl#mf>) Variable(<urn:swrl#eff>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002233> Variable(<urn:swrl#mf>) Variable(<urn:swrl#in>))))\nDLSafeRule(Annotation(rdfs:label \"Input of effector is input of its parent MF\") Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002233> Variable(<urn:swrl#mf>) Variable(<urn:swrl#in>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002025> Variable(<urn:swrl#mf>) Variable(<urn:swrl#eff>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002233> Variable(<urn:swrl#eff>) Variable(<urn:swrl#in>))))\nDLSafeRule(Annotation(rdfs:comment \"if effector directly regulates X,  its parent MF directly regulates X\") Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002025> Variable(<urn:swrl#mf>) Variable(<urn:swrl#eff>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002578> Variable(<urn:swrl#mf>) Variable(<urn:swrl#mf2>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002578> Variable(<urn:swrl#eff>) Variable(<urn:swrl#mf2>))))\nDLSafeRule(Annotation(rdfs:comment \"if effector directly positively regulates X,  its parent MF directly positively regulates X\") Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002629> Variable(<urn:swrl#mf>) Variable(<urn:swrl#mf2>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002025> Variable(<urn:swrl#mf>) Variable(<urn:swrl#eff>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002629> Variable(<urn:swrl#eff>) Variable(<urn:swrl#mf2>))))\nDLSafeRule(Annotation(rdfs:label \"if effector directly negatively regulates X,  its parent MF directly negatively regulates X\") Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002025> Variable(<urn:swrl#mf>) Variable(<urn:swrl#eff>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002630> Variable(<urn:swrl#mf>) Variable(<urn:swrl#mf2>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002630> Variable(<urn:swrl#eff>) Variable(<urn:swrl#mf2>))))\nDLSafeRule(Annotation(rdfs:label \"'causally downstream of' and 'overlaps' should be disjoint properties (a SWRL rule is required because these are non-simple properties).\") Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002404> Variable(<urn:swrl#x>) Variable(<urn:swrl#y>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002131> Variable(<urn:swrl#x>) Variable(<urn:swrl#y>)))Head(ClassAtom(owl:Nothing Variable(<urn:swrl#x>)) ClassAtom(owl:Nothing Variable(<urn:swrl#y>))))\nDLSafeRule(Annotation(rdfs:label \"'causally upstream of' and 'overlaps' should be disjoint properties (a SWRL rule is required because these are non-simple properties).\") Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002411> Variable(<urn:swrl#x>) Variable(<urn:swrl#y>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002131> Variable(<urn:swrl#x>) Variable(<urn:swrl#y>)))Head(ClassAtom(owl:Nothing Variable(<urn:swrl#x>)) ClassAtom(owl:Nothing Variable(<urn:swrl#y>))))\nDLSafeRule(Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002213> Variable(<urn:swrl#y>) Variable(<urn:swrl#z>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002212> Variable(<urn:swrl#x>) Variable(<urn:swrl#y>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002212> Variable(<urn:swrl#x>) Variable(<urn:swrl#z>))))\nDLSafeRule(Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002213> Variable(<urn:swrl#x>) Variable(<urn:swrl#y>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002212> Variable(<urn:swrl#y>) Variable(<urn:swrl#z>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002212> Variable(<urn:swrl#x>) Variable(<urn:swrl#z>))))\n)
+owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(Class(<http://purl.obolibrary.org/obo/BFO_0000002>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/BFO_0000003>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/BFO_0000004>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/BFO_0000006>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/BFO_0000015>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/BFO_0000040>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/BFO_0000141>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/GO_0003674>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/GO_0008150>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/GO_0016301>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000050>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000051>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000066>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000056>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0001025>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002013>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002014>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002015>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002018>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002025>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002131>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002180>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002211>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002212>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002213>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002215>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002233>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002327>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002331>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002333>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002352>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002379>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002404>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002411>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002418>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002447>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002448>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002449>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002450>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002481>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002566>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002578>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002629>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002630>))\nDeclaration(AnnotationProperty(<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled>))\n\n############################\n#   Object Properties\n############################\n\n# Object Property: <http://purl.obolibrary.org/obo/RO_0001025> (located in)\n\nObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0001025> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000004> ObjectComplementOf(<http://purl.obolibrary.org/obo/BFO_0000006>)))\n\n\n\n############################\n#   Classes\n############################\n\n# Class: <http://purl.obolibrary.org/obo/BFO_0000002> (continuant)\n\nDisjointClasses(<http://purl.obolibrary.org/obo/BFO_0000002> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/BFO_0000003>))\n\n# Class: <http://purl.obolibrary.org/obo/BFO_0000003> (occurrent)\n\nDisjointClasses(<http://purl.obolibrary.org/obo/BFO_0000003> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/BFO_0000002>))\n\n# Class: <http://purl.obolibrary.org/obo/BFO_0000040> (material entity)\n\nDisjointClasses(<http://purl.obolibrary.org/obo/BFO_0000040> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/BFO_0000141>))\n\n# Class: <http://purl.obolibrary.org/obo/BFO_0000141> (immaterial entity)\n\nDisjointClasses(<http://purl.obolibrary.org/obo/BFO_0000141> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/BFO_0000040>))\n\n# Class: <http://purl.obolibrary.org/obo/GO_0016301> (kinase activity)\n\nSubClassOf(<http://purl.obolibrary.org/obo/GO_0016301> ObjectHasSelf(<http://purl.obolibrary.org/obo/RO_0002481>))\n\n\nSubClassOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002566> <http://purl.obolibrary.org/obo/BFO_0000040>) ObjectUnionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002418> <http://purl.obolibrary.org/obo/BFO_0000015>)) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002418> <http://purl.obolibrary.org/obo/BFO_0000015>)))))\nSubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/RO_0001025> ObjectInverseOf(<http://purl.obolibrary.org/obo/RO_0001025>)) <http://purl.obolibrary.org/obo/RO_0002379>)\nSubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/RO_0002327> <http://purl.obolibrary.org/obo/RO_0002211> <http://purl.obolibrary.org/obo/RO_0002333>) <http://purl.obolibrary.org/obo/RO_0002448>)\nSubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/RO_0002327> <http://purl.obolibrary.org/obo/RO_0002411> <http://purl.obolibrary.org/obo/RO_0002233>) <http://purl.obolibrary.org/obo/RO_0002566>)\nSubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/RO_0002327> <http://purl.obolibrary.org/obo/RO_0002411> <http://purl.obolibrary.org/obo/RO_0002333>) <http://purl.obolibrary.org/obo/RO_0002566>)\nSubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/RO_0002327> <http://purl.obolibrary.org/obo/RO_0002629> <http://purl.obolibrary.org/obo/RO_0002333>) <http://purl.obolibrary.org/obo/RO_0002450>)\nSubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/RO_0002327> <http://purl.obolibrary.org/obo/RO_0002630> <http://purl.obolibrary.org/obo/RO_0002333>) <http://purl.obolibrary.org/obo/RO_0002449>)\nDLSafeRule(Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002180> Variable(<urn:swrl#w>) Variable(<urn:swrl#p>)) ClassAtom(<http://purl.obolibrary.org/obo/BFO_0000015> Variable(<urn:swrl#w>)) ClassAtom(<http://purl.obolibrary.org/obo/BFO_0000015> Variable(<urn:swrl#p>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002018> Variable(<urn:swrl#w>) Variable(<urn:swrl#p>))))\nDLSafeRule(Annotation(<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> \"true\"^^xsd:boolean) Annotation(rdfs:comment \"MF(X)-directly_regulates->MF(Y)-enabled_by->GP(Z) => MF(Y)-has_input->GP(Y) e.g. if 'protein kinase activity'(X) directly_regulates 'protein binding activity (Y)and this is enabled by GP(Z) then X has_input Z\") Annotation(rdfs:label \"infer input from direct reg\") Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002327> Variable(<http://purl.obolibrary.org/obo/ro.owl#z>) Variable(<http://purl.obolibrary.org/obo/ro.owl#y>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002578> Variable(<http://purl.obolibrary.org/obo/ro.owl#x>) Variable(<http://purl.obolibrary.org/obo/ro.owl#y>)) ClassAtom(<http://purl.obolibrary.org/obo/GO_0003674> Variable(<http://purl.obolibrary.org/obo/ro.owl#x>)) ClassAtom(<http://purl.obolibrary.org/obo/GO_0003674> Variable(<http://purl.obolibrary.org/obo/ro.owl#y>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002233> Variable(<http://purl.obolibrary.org/obo/ro.owl#x>) Variable(<http://purl.obolibrary.org/obo/ro.owl#z>))))\nDLSafeRule(Annotation(rdfs:comment \"GP(X)-enables->MF(Y)-has_part->MF(Z) => GP(X) enables MF(Z),\ne.g.  if GP X enables ATPase coupled transporter activity' and 'ATPase coupled transporter activity' has_part 'ATPase activity' then GP(X) enables 'ATPase activity'\") Annotation(rdfs:label \"enabling an MF enables its parts\") Body(ClassAtom(<http://purl.obolibrary.org/obo/GO_0003674> Variable(<urn:swrl#y>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002327> Variable(<urn:swrl#x>) Variable(<urn:swrl#y>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/BFO_0000051> Variable(<urn:swrl#y>) Variable(<urn:swrl#z>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002327> Variable(<urn:swrl#x>) Variable(<urn:swrl#z>))))\nDLSafeRule(Annotation(<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> \"true\"^^xsd:boolean) Annotation(rdfs:comment \"GP(X)-enables->MF(Y)-part_of->BP(Z) => GP(X) involved_in BP(Z) e.g. if X enables 'protein kinase activity' and Y 'part of' 'signal tranduction' then X involved in 'signal transduction'\") Annotation(rdfs:label \"involved in BP\") Body(ClassAtom(<http://purl.obolibrary.org/obo/GO_0008150> Variable(<urn:swrl#z>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/BFO_0000050> Variable(<urn:swrl#y>) Variable(<urn:swrl#z>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002327> Variable(<urn:swrl#x>) Variable(<urn:swrl#y>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002331> Variable(<urn:swrl#x>) Variable(<urn:swrl#z>))))\nDLSafeRule(Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002578> Variable(<urn:swrl#a1>) Variable(<urn:swrl#a2>)) ClassAtom(<http://purl.obolibrary.org/obo/GO_0016301> Variable(<urn:swrl#a1>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002333> Variable(<urn:swrl#a1>) Variable(<urn:swrl#g1>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002333> Variable(<urn:swrl#a2>) Variable(<urn:swrl#g2>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002447> Variable(<urn:swrl#g1>) Variable(<urn:swrl#g2>))))\nDLSafeRule(Annotation(rdfs:comment \"This rule is dubious: added as a quick fix for expected inference in GO-CAM.  The problem is most acute for transmembrane proteins, such as receptors or cell adhesion molecules, which have some subfunctions inside the cell (e.g. kinase activity) and some subfunctions outside (e.g. ligand binding).  Correct annotation of where these functions occurs leads to incorrect inference about the location of the whole protein.  This should probably be weakened to \\\"... -> overlaps\\\"\") Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/BFO_0000066> Variable(<urn:swrl#y>) Variable(<urn:swrl#z>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002327> Variable(<urn:swrl#x>) Variable(<urn:swrl#y>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/BFO_0000050> Variable(<urn:swrl#x>) Variable(<urn:swrl#z>))))\nDLSafeRule(Annotation(rdfs:comment \"If a molecular function (X) has a regulatory subfunction, then any gene product which is an input to that subfunction has an activity that directly_regulates X.  Note:  this is intended for cases where the regaultory subfunction is protein binding, so it could be tightened with an additional clause to specify this.\") Annotation(rdfs:label \"inferring direct reg edge from input to regulatory subfunction\") Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002352> Variable(<urn:swrl#B>) Variable(<urn:swrl#C>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002333> Variable(<urn:swrl#A>) Variable(<urn:swrl#B>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002013> Variable(<urn:swrl#D>) Variable(<urn:swrl#C>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002578> Variable(<urn:swrl#A>) Variable(<urn:swrl#D>))))\nDLSafeRule(Annotation(rdfs:label \"inferring direct neg reg edge from input to regulatory subfunction\") Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002352> Variable(<urn:swrl#B>) Variable(<urn:swrl#C>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002333> Variable(<urn:swrl#A>) Variable(<urn:swrl#B>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002014> Variable(<urn:swrl#D>) Variable(<urn:swrl#C>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002630> Variable(<urn:swrl#A>) Variable(<urn:swrl#D>))))\nDLSafeRule(Annotation(rdfs:label \"inferring direct positive reg edge from input to regulatory subfunction\") Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002352> Variable(<urn:swrl#B>) Variable(<urn:swrl#C>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002333> Variable(<urn:swrl#A>) Variable(<urn:swrl#B>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002015> Variable(<urn:swrl#D>) Variable(<urn:swrl#C>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002629> Variable(<urn:swrl#A>) Variable(<urn:swrl#D>))))\nDLSafeRule(Annotation(rdfs:label \"effector input is compound function input\") Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002233> Variable(<urn:swrl#eff>) Variable(<urn:swrl#in>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002025> Variable(<urn:swrl#mf>) Variable(<urn:swrl#eff>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002233> Variable(<urn:swrl#mf>) Variable(<urn:swrl#in>))))\nDLSafeRule(Annotation(rdfs:label \"Input of effector is input of its parent MF\") Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002233> Variable(<urn:swrl#mf>) Variable(<urn:swrl#in>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002025> Variable(<urn:swrl#mf>) Variable(<urn:swrl#eff>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002233> Variable(<urn:swrl#eff>) Variable(<urn:swrl#in>))))\nDLSafeRule(Annotation(rdfs:comment \"if effector directly regulates X,  its parent MF directly regulates X\") Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002025> Variable(<urn:swrl#mf>) Variable(<urn:swrl#eff>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002578> Variable(<urn:swrl#mf>) Variable(<urn:swrl#mf2>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002578> Variable(<urn:swrl#eff>) Variable(<urn:swrl#mf2>))))\nDLSafeRule(Annotation(rdfs:comment \"if effector directly positively regulates X,  its parent MF directly positively regulates X\") Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002629> Variable(<urn:swrl#mf>) Variable(<urn:swrl#mf2>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002025> Variable(<urn:swrl#mf>) Variable(<urn:swrl#eff>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002629> Variable(<urn:swrl#eff>) Variable(<urn:swrl#mf2>))))\nDLSafeRule(Annotation(rdfs:label \"if effector directly negatively regulates X,  its parent MF directly negatively regulates X\") Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002025> Variable(<urn:swrl#mf>) Variable(<urn:swrl#eff>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002630> Variable(<urn:swrl#mf>) Variable(<urn:swrl#mf2>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002630> Variable(<urn:swrl#eff>) Variable(<urn:swrl#mf2>))))\nDLSafeRule(Annotation(rdfs:label \"'causally downstream of' and 'overlaps' should be disjoint properties (a SWRL rule is required because these are non-simple properties).\") Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002404> Variable(<urn:swrl#x>) Variable(<urn:swrl#y>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002131> Variable(<urn:swrl#x>) Variable(<urn:swrl#y>)))Head(ClassAtom(owl:Nothing Variable(<urn:swrl#x>)) ClassAtom(owl:Nothing Variable(<urn:swrl#y>))))\nDLSafeRule(Annotation(rdfs:label \"'causally upstream of' and 'overlaps' should be disjoint properties (a SWRL rule is required because these are non-simple properties).\") Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002411> Variable(<urn:swrl#x>) Variable(<urn:swrl#y>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002131> Variable(<urn:swrl#x>) Variable(<urn:swrl#y>)))Head(ClassAtom(owl:Nothing Variable(<urn:swrl#x>)) ClassAtom(owl:Nothing Variable(<urn:swrl#y>))))\nDLSafeRule(Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002213> Variable(<urn:swrl#y>) Variable(<urn:swrl#z>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002212> Variable(<urn:swrl#x>) Variable(<urn:swrl#y>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002212> Variable(<urn:swrl#x>) Variable(<urn:swrl#z>))))\nDLSafeRule(Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002213> Variable(<urn:swrl#x>) Variable(<urn:swrl#y>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002212> Variable(<urn:swrl#y>) Variable(<urn:swrl#z>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002212> Variable(<urn:swrl#x>) Variable(<urn:swrl#z>))))\n)
 
 [Term]
 id: BFO:0000002
@@ -202,6 +208,46 @@ xref: PO_GIT:69
 is_a: PO:0009011 ! plant structure
 
 [Term]
+id: PO:0000017
+name: vascular leaf primordium
+namespace: plant_anatomy
+def: "A phyllome primordium (PO:0025128) that develops from a vascular leaf anlagen (PO:0025431) and is part of a vegetative shoot apex (PO:0025223) and is committed to the development of a vascular leaf (PO:0009025)." [POC:curators, POC:Laurel_Cooper]
+synonym: "leaf primordium (exact)" EXACT []
+synonym: "portion of vascular leaf primordium tissue (exact)" EXACT []
+synonym: "primordio de hoja (Spanish, exact)" EXACT Spanish [POC:Maria_Alejandra_Gandolfo]
+synonym: "vascular leaf primordia (exact, plural)" EXACT []
+synonym: "葉原基 (Japanese, exact)" EXACT Japanese [NIG:Yukiko_Yamazaki]
+xref: PO_GIT:466
+is_a: PO:0025128 ! phyllome primordium
+relationship: develops_from PO:0025431 ! vascular leaf anlagen
+relationship: part_of PO:0025223 ! vegetative shoot apex
+
+[Term]
+id: PO:0000018
+name: ovule primordium
+namespace: plant_anatomy
+def: "A floral structure primordium (PO:0025477) that is committed to the development of an ovule (PO:0020003)." [ISBN:0471245208, POC:curators]
+comment: The transition from ovule primordium to ovule occurs when an integument (PO:0020021) begins to develop from the protoderm (PO:0006210).
+synonym: "portion of ovule primordium tissue (exact)" EXACT []
+synonym: "primordio de &#243vulo (Spanish, exact)" EXACT Spanish [POC:Maria_Alejandra_Gandolfo]
+synonym: "胚珠原基（可視的） (Japanese, exact)" EXACT Japanese [NIG:Yukiko_Yamazaki]
+xref: PO_GIT:465
+is_a: PO:0025477 ! floral organ primordium
+
+[Term]
+id: PO:0000019
+name: gynoecium primordium
+namespace: plant_anatomy
+def: "A floral structure primordium (PO:0025477) that is committed to the development of a gynoecium (PO:0009062)." [POC:curators]
+comment: Use carpel primordium (PO:0004703) for the primordium (PO:0025127) of an individual carpel (PO:0009030).
+synonym: "pistil primordium (exact)" EXACT []
+synonym: "portion of gynoecium primordium tissue (exact)" EXACT []
+synonym: "primordio de gineceo (Spanish, exact)" EXACT Spanish [POC:Maria_Alejandra_Gandolfo]
+synonym: "雌蕊原基(可視的）   (Japanese, exact)" EXACT Japanese [NIG:Yukiko_Yamazaki]
+xref: PO_GIT:465
+is_a: PO:0025477 ! floral organ primordium
+
+[Term]
 id: PO:0000037
 name: shoot axis apex
 namespace: plant_anatomy
@@ -244,6 +290,15 @@ synonym: "花芽分裂組織 (Japanese, exact)" EXACT Japanese [NIG:Yukiko_Yamaz
 is_a: PO:0008028 ! reproductive shoot apical meristem
 
 [Term]
+id: PO:0001083
+name: inflorescence development stage
+namespace: plant_structure_development_stage
+def: "A reproductive shoot system development stage (PO:0025530) that has as primary participant a inflorescence (PO:0009049)." [POC:Laurel_Cooper]
+synonym: "panicle development (related)" RELATED [GRO:0007157]
+xref: PO_GIT:517
+is_a: PO:0025530 ! reproductive shoot system development stage
+
+[Term]
 id: PO:0004010
 name: meristematic cell
 namespace: plant_anatomy
@@ -270,6 +325,21 @@ xref: PO_GIT:466
 is_a: PO:0025128 ! phyllome primordium
 is_a: PO:0025477 ! floral organ primordium
 relationship: develops_from PO:0025486 ! stamen anlagen
+
+[Term]
+id: PO:0005029
+name: root primordium
+namespace: plant_anatomy
+def: "A primordium (PO:0025127) that develops from a root anlagen (PO:0025433) and is committed to the development of a root (PO:0009005)." [ISBN:0521288959, POC:curators]
+comment: A root primordium may arise from cells of a pericycle (PO:0006203) in a root in most seed plant (pericyclic lateral root primordium; PO:0025492), from cells of an endodermis (PO:0000252) in ferns and some seed plants (non-pericyclic lateral root primordium: PO:0025493), or from cells of a shoot axis (PO:0025029), in the case of a basal root primordium (PO:0025479) or shoot-borne root primordium (PO:0025480). Transition from root primordium to root occurs with the formation of a root cap (PO:0020123), shortly after the development of a root apical meristem (PO:0020147).
+synonym: "portion of root primordium tissue (exact)" EXACT []
+synonym: "primordio de ra&#237z (Spanish, exact)" EXACT Spanish [POC:Maria_Alejandra_Gandolfo]
+synonym: "root primordia (exact, plural)" EXACT []
+synonym: "根原基（可視的）  (Japanese, exact)" EXACT Japanese [NIG:Yukiko_Yamazaki]
+xref: PO_GIT:467
+is_a: BFO:0000004 ! independent continuant
+is_a: PO:0025127 ! primordium
+relationship: develops_from PO:0025433 ! root anlagen
 
 [Term]
 id: PO:0006001
@@ -323,6 +393,25 @@ xref: PO_GIT:125
 is_a: PO:0009013 ! portion of meristem tissue
 
 [Term]
+id: PO:0006342
+name: infructescence
+namespace: plant_anatomy
+def: "A reproductive shoot system (PO:0025082) that develops from an inflorescence (PO:0009049) and has as parts each infructescence axis (PO:0025242) and all of the fruits (PO:0009001) borne by those axes." [NYBG:Brandon_Sinn, POC:Laurel_Cooper, POC:Ramona_Walls]
+subset: Angiosperm
+subset: Musa
+synonym: "banana bunch (narrow)" NARROW [CO_125:0000014]
+synonym: "fruit bunch (related)" RELATED []
+synonym: "infructescencia (Spanish, exact)" EXACT Spanish [POC:Maria_Alejandra_Gandolfo]
+synonym: "果序 (Japanese, exact)" EXACT Japanese [NIG:Yukiko_Yamazaki]
+xref: PO_GIT:260
+xref: PO_GIT:261
+xref: PO_GIT:71
+is_a: CARO:0000000 ! anatomical entity
+is_a: PO:0025082 ! reproductive shoot system
+relationship: develops_from PO:0009049 ! inflorescence
+relationship: has_part PO:0009001 ! fruit
+
+[Term]
 id: PO:0007033
 name: whole plant development stage
 namespace: plant_structure_development_stage
@@ -341,6 +430,17 @@ is_a: PO:0009012 ! plant structure development stage
 relationship: has_participant PO:0000003 ! whole plant
 
 [Term]
+id: PO:0008016
+name: vegetative shoot apical meristem
+namespace: plant_anatomy
+def: "A shoot apical meristem (PO:0020148) that gives rise to the apical growth of vegetative tissues and organs." [Gramene:Chih-Wei_Tung]
+synonym: "meristema vegetativo apical del epiblasto (epiblastema) (Spanish, exact)" EXACT Spanish [POC:Maria_Alejandra_Gandolfo]
+synonym: "vegetative meristem (related)" RELATED []
+synonym: "栄養シュート頂端分裂組織 (Japanese, exact)" EXACT Japanese [NIG:Yukiko_Yamazaki]
+xref: PO_GIT:36
+is_a: PO:0020148 ! shoot apical meristem
+
+[Term]
 id: PO:0008028
 name: reproductive shoot apical meristem
 namespace: plant_anatomy
@@ -350,6 +450,52 @@ synonym: "生殖シュート頂端 分裂組織 (Japanese, exact)" EXACT Japanes
 xref: PO_GIT:36
 is_a: PO:0020148 ! shoot apical meristem
 relationship: part_of PO:0025222 ! reproductive shoot apex
+
+[Term]
+id: PO:0009001
+name: fruit
+namespace: plant_anatomy
+alt_id: PO:0020067
+alt_id: PO:0020068
+alt_id: PO:0020069
+alt_id: PO:0020070
+alt_id: PO:0020071
+alt_id: PO:0020072
+alt_id: PO:0020073
+alt_id: PO:0020074
+alt_id: PO:0020076
+alt_id: PO:0020077
+alt_id: PO:0020078
+alt_id: PO:0020079
+alt_id: PO:0020080
+alt_id: PO:0020082
+alt_id: PO:0020083
+alt_id: PO:0020087
+alt_id: PO:0020107
+def: "A multi-tissue plant structure (PO:0025496) that develops from a gynoecium (PO:0009062), or a single carpel (PO:0009030), and at maturity may have as parts one or more seeds (PO:0009010)." [NYBG:Brandon_Sinn, NYBG:Dario_Cavaliere, POC:curators, POC:Laurel_Cooper]
+comment: A fruit (PO:0009001) may contain additional plant structures (PO:0009011) that were part of a flower (PO:0009046) and mature along with the gynoecium, such as a receptacle (PO:0009064). A fruit may develop without fertilization in cases of parthenocarpy, apomixis, or other hormone-induced conditions and may not always contain seeds (PO:0009010). When annotating to fruit (PO:0009001) that are referred to as ‘aggregate’, ‘multiple’, or ‘compound’, please annotate directly to the appropriate plant structure, such as receptacle, hypanthium (PO:0009065) or infructescence (PO:0006342). Fruits only occur in angiosperms.
+subset: Angiosperm
+subset: Arabidopsis
+subset: Maize
+subset: Poaceae
+subset: Rice
+subset: TraitNet
+synonym: "aggregate fruit  (broad)" BROAD []
+synonym: "coenocarp (narrow)" NARROW [FNA:c13b1312-1cc5-4ace-98e2-fde12aec09da]
+synonym: "compound fruit  (broad)" BROAD []
+synonym: "dehiscent fruit  (broad)" BROAD []
+synonym: "diaspore  (broad)" BROAD []
+synonym: "frucht (exact, German)" EXACT German [NYBG:Brandon_Sinn, NYBG:Dario_Cavaliere]
+synonym: "fruto (exact, Spanish)" EXACT Spanish [POC:Maria_Alejandra_Gandolfo]
+synonym: "indehiscent fruit  (broad)" BROAD []
+synonym: "multiple fruit  (broad)" BROAD []
+synonym: "propagule  (broad)" BROAD []
+synonym: "syncarp (narrow)" NARROW [FNA:67fa41ae-b735-4d89-b5db-7631b873ef7a]
+synonym: "果実 (exact, Japanese)" EXACT Japanese [NIG:Yukiko_Yamazaki]
+xref: PO_GIT:76
+is_a: BFO:0000004 ! independent continuant
+is_a: PO:0025496 ! multi-tissue plant structure
+relationship: develops_from PO:0009062 ! gynoecium
 
 [Term]
 id: PO:0009002
@@ -372,6 +518,34 @@ disjoint_from: PO:0025001 ! cardinal organ part
 disjoint_from: PO:0025007 ! collective plant organ structure
 
 [Term]
+id: PO:0009005
+name: root
+namespace: plant_anatomy
+alt_id: PO:0003006
+def: "A plant axis (PO:0025004) that lacks shoot axis nodes (PO:0005004) and usually grows indeterminately." [ISBN:978-0879015329, ISBN:9780964022157, NYBG:Brandon_Sinn, NYBG:Dario_Cavaliere, POC:curators, POC:Laurel_Cooper]
+comment: Roots function in the absorption of water and inorganic nutrients, anchoring the plant body to the substrate and supporting it, storage of food and nutrients, and vegetative reproduction. The roots of most vascular plant species enter into symbiosis with soil-borne microorganisms. Roots are usually positively geotropic and found underground, although there are many exceptions such as the aerial roots of orchids. Roots often form secondary thickening from the root lateral meristem (PO:0006308). Commonly thought of as one of the three basic parts of the plant body, along with the shoot axis (PO:0025029) and leaves (PO:0025034).
+subset: Angiosperm
+subset: Gymnosperms
+subset: Maize
+subset: Musa
+subset: Potato
+subset: reference
+subset: Rice
+subset: Tomato
+subset: TraitNet
+synonym: "aerial root (narrow)" NARROW []
+synonym: "climbing root (narrow)" NARROW [FNA:bf0ce902-e91c-401a-92a8-26b20142ce5f]
+synonym: "ra&#237z (Spanish, exact)" EXACT Spanish [POC:Maria_Alejandra_Gandolfo]
+synonym: "radices (exact, plural)" EXACT [FNA:3c46e84c-23e4-416b-91cd-2f7c42e4b13d]
+synonym: "radix (exact)" EXACT [FNA:e6315684-fc99-4976-b39d-b356c4b7e7fd]
+synonym: "根 (Japanese, exact)" EXACT Japanese [NIG:Yukiko_Yamazaki]
+xref: PO_GIT:578
+is_a: BFO:0000004 ! independent continuant
+is_a: PO:0025004 ! plant axis
+relationship: develops_from PO:0005029 ! root primordium
+relationship: part_of PO:0025025 ! root system
+
+[Term]
 id: PO:0009006
 name: shoot system
 namespace: plant_anatomy
@@ -388,6 +562,7 @@ synonym: "tree crown (narrow)" NARROW []
 synonym: "シュート系、苗条系 (Japanese, exact)" EXACT Japanese [NIG:Yukiko_Yamazaki]
 xref: PO_GIT:135
 is_a: PO:0025007 ! collective plant organ structure
+disjoint_from: PO:0025025 ! root system
 
 [Term]
 id: PO:0009007
@@ -437,6 +612,31 @@ xref: PO_GIT:92
 is_a: PO:0000003 ! whole plant
 
 [Term]
+id: PO:0009010
+name: seed
+namespace: plant_anatomy
+def: "A multi-tissue plant structure (PO:0025496) that develops from a plant ovule (PO:0020003) and has as parts a plant embryo (PO:0009009) enclosed in a seed coat (PO:0009088)." [POC:curators]
+comment: A seed generally develops from an ovule (PO:0020003) after fertilization, but may develop without fertilization in the case of apogamy (e.g., adventitious embryos or somatic embryos). A seed is a reproductive unit of seed plants (gymnosperms, angiosperms, and fossil pteridosperms).
+subset: Angiosperm
+subset: Arabidopsis
+subset: Citrus
+subset: Gymnosperms
+subset: Maize
+subset: Poaceae
+subset: Rice
+subset: Tomato
+subset: TraitNet
+synonym: "diaspore (broad)" BROAD []
+synonym: "pyrene (narrow)" NARROW [FNA:f5c50e73-61e3-48ec-b918-6f85b3f40738]
+synonym: "semilla (Spanish, exact)" EXACT Spanish [POC:Maria_Alejandra_Gandolfo]
+synonym: "種子 (Japanese, exact)" EXACT Japanese [NIG:Yukiko_Yamazaki]
+xref: PO_GIT:405
+is_a: BFO:0000004 ! independent continuant
+is_a: PO:0025496 ! multi-tissue plant structure
+relationship: develops_from PO:0020003 ! plant ovule
+relationship: has_part PO:0009009 ! plant embryo
+
+[Term]
 id: PO:0009011
 name: plant structure
 namespace: plant_anatomy
@@ -474,6 +674,48 @@ synonym: "分裂組織 (Japanese, exact)" EXACT Japanese [NIG:Yukiko_Yamazaki]
 xref: PO_GIT:472
 is_a: PO:0009007 ! portion of plant tissue
 relationship: has_part PO:0004010 ! meristematic cell
+
+[Term]
+id: PO:0009025
+name: vascular leaf
+namespace: plant_anatomy
+def: "A leaf (PO:0025034) in a vascular plant." [POC:curators]
+comment: Has vascular tissue. From APweb Glossary: In angiosperms, commonly thought of as one of the three basic parts of the seed plant body, a structure usually of determinate growth, without secondary thickening, and of superficial origin, often flattened and photosynthetic in part, and in the axil of which is found a bud. Occurs in the sporophytic phase of a plant life cycle.
+subset: Angiosperm
+subset: Arabidopsis
+subset: Citrus
+subset: Gymnosperms
+subset: Maize
+subset: Musa
+subset: Potato
+subset: Pteridophytes
+subset: reference
+subset: Rice
+subset: Tomato
+subset: TraitNet
+synonym: "ascidia (narrow)" NARROW [FNA:06544712-db97-4208-b188-c4b756a53c72]
+synonym: "ascidium (narrow)" NARROW [FNA:a97f1513-7684-49d4-92f5-934d1c8b3e1c]
+synonym: "crozier (related)" RELATED [FNA:87e7efa9-89d7-4249-be74-bc22a0466a05]
+synonym: "fiddlehead (narrow)" NARROW [FNA:d894ba18-4523-484c-abab-26d1cac75bc4]
+synonym: "foliage leaf (exact)" EXACT []
+synonym: "frond (narrow)" NARROW []
+synonym: "hoja vascular (Spanish, exact)" EXACT Spanish [POC:Maria_Alejandra_Gandolfo]
+synonym: "leaf, vascular (exact)" EXACT []
+synonym: "macrophyll (related)" RELATED [FNA:c1142d9b-c42a-45e1-93ac-9cbe9575321e]
+synonym: "megaphyll (related)" RELATED [FNA:c26c826a-30d6-494e-a2f1-05540465c9fc]
+synonym: "needle-like leaf (narrow)" NARROW []
+synonym: "pitcher (narrow)" NARROW [FNA:30d8bef3-ad1a-44ed-a995-24c3e342aefd]
+synonym: "pitcher blade (narrow)" NARROW [FNA:d3928bf3-1d8a-4fe5-a728-95c13c3a0f90]
+synonym: "pitcher-blade (narrow)" NARROW [FNA:30c47c20-f459-4518-8657-feed7eb92fe4]
+synonym: "scale-like leaf (narrow)" NARROW []
+synonym: "sterile frond (narrow)" NARROW [FNA:a4dc40f4-92f9-4ba5-b616-a84564f63fed]
+synonym: "trophophyll (narrow)" NARROW [FNA:8654d268-1e4c-4edf-b937-82a965b4edef]
+synonym: "vascular leaves (exact, plural)" EXACT [FNA:c7d9d167-4121-43b0-b2fe-bb1ae9d6d3a6]
+synonym: "維管束のある葉, または維管束植物の葉 (Japanese, exact)" EXACT Japanese [NIG:Yukiko_Yamazaki]
+xref: PO_GIT:137
+is_a: PO:0025034 ! leaf
+relationship: develops_from PO:0000017 ! vascular leaf primordium
+relationship: participates_in PO:0028002 ! sporophyte development stage
 
 [Term]
 id: PO:0009026
@@ -542,6 +784,38 @@ is_a: PO:0025082 ! reproductive shoot system
 relationship: develops_from PO:0000229 ! flower meristem
 
 [Term]
+id: PO:0009049
+name: inflorescence
+namespace: plant_anatomy
+alt_id: PO:0009048
+alt_id: PO:0009050
+alt_id: PO:0020088
+alt_id: PO:0020111
+alt_id: PO:0020112
+alt_id: PO:0020113
+alt_id: PO:0020114
+alt_id: PO:0020115
+alt_id: PO:0020116
+alt_id: PO:0020117
+alt_id: PO:0020118
+alt_id: PO:0020119
+alt_id: PO:0020120
+def: "A reproductive shoot system (PO:0025082) that has as parts all of the shoot axes (PO:0025029) and flowers (PO:0009046; must have two or more) distal to the most distal leaf (PO:0009025)." [NYBG:Brandon_Sinn, NYBG:Dario_Cavaliere, POC:Laurel_Cooper, POC:Ramona_Walls]
+comment: An inflorescence is a reproductive shoot system from which at least two flowers develop. The growth pattern of an inflorescence may be monopodial (single main shoot axis), sympodial (growth only occurs from axillary meristems), or both. An inflorescence axis (PO:0020122) can be determinate or indeterminate. An inflorescence flower pedicel (PO:0009052) is the ultimate axis in an inflorescence. The flower (PO:0009046) of many plants, for example Magnolia spp., is solitary.
+subset: Angiosperm
+subset: reference
+subset: TraitNet
+synonym: "inflorescencia (Spanish, exact)" EXACT Spanish [POC:Maria_Alejandra_Gandolfo]
+synonym: "Triticeae spike (narrow)" NARROW []
+synonym: "花序 (Japanese, exact)" EXACT Japanese [NIG:Yukiko_Yamazaki]
+xref: PO_GIT:260
+xref: PO_GIT:71
+is_a: CARO:0000000 ! anatomical entity
+is_a: PO:0025082 ! reproductive shoot system
+relationship: has_part PO:0009046 ! flower
+relationship: participates_in PO:0001083 ! inflorescence development stage
+
+[Term]
 id: PO:0009061
 name: androecium
 namespace: plant_anatomy
@@ -586,6 +860,54 @@ relationship: develops_from PO:0025478 ! androecium primordium
 relationship: part_of PO:0009046 ! flower
 
 [Term]
+id: PO:0009062
+name: gynoecium
+namespace: plant_anatomy
+alt_id: PO:0006317
+alt_id: PO:0006357
+alt_id: PO:0006365
+alt_id: PO:0006384
+alt_id: PO:0006391
+alt_id: PO:0006394
+alt_id: PO:0006403
+alt_id: PO:0006404
+alt_id: PO:0006423
+alt_id: PO:0006424
+alt_id: PO:0006425
+alt_id: PO:0006426
+alt_id: PO:0025089
+def: "A collective phyllome structure (PO:0025023) composed all of the carpels (PO:0009030) in a flower (PO:0009046)." [POC:curators]
+comment: If annotating gene expression to a gynoecium with a single carpel (PO:0009030), the annotation should go on carpel. A gynoecium with two or more carpels may be either syncarpous (carpels fused) or apopcarpous (carpels free) or the carpels may be partially fused. The word pistil is used synonymously with gynoecium for a synocarpous gynoecium, and synonymously with carpel for an apocarpous gynoecium, whether it has one or more carpels. In Zea mays, gynoecia of tassel florets and of the lower florets of ear spikelets usually do not develop fully, and they are present in a rudimentary state. If you are annotating to this structure for Zea mays or other grasses, please also add an annotation to the corresponding floret type. Choose the most specific term possible from: spikelet floret (PO:0009082), ear floret (PO:0006354), lower floret of pedicellate spikelet of ear (PO:0006353), lower floret of sessile spikelet of ear (PO:0006351), upper floret of pedicellate spikelet of ear (PO:0006350), upper floret of sessile spikelet of ear (PO:0006352), tassel floret (PO:0006310), lower floret of pedicellate spikelet of tassel (PO:0006313), lower floret of sessile spikelet of tassel (PO:0006315), upper floret of pedicellate spikelet of tassel (PO:0006314), upper floret of sessile spikelet of tassel (PO:0006316).
+subset: reference
+subset: TraitNet
+synonym: "apocarpous gynoecium (narrow)" NARROW []
+synonym: "ginoecio (Spanish, exact)" EXACT Spanish [POC:Maria_Alejandra_Gandolfo]
+synonym: "gynaecium (exact)" EXACT [FNA:03f034c5-6bd6-4846-8ef7-c5190d09008c]
+synonym: "gynoecia (exact, plural)" EXACT [FNA:226a743c-7988-4b66-b163-2ce80d7c8a70]
+synonym: "gynoecium of ear floret (narrow)" NARROW []
+synonym: "gynoecium of lower floret of pedicellate spikelet of ear (narrow)" NARROW []
+synonym: "gynoecium of lower floret of pedicellate spikelet of tassel (narrow)" NARROW []
+synonym: "gynoecium of lower floret of sessile spikelet of ear (narrow)" NARROW []
+synonym: "gynoecium of lower floret of sessile spikelet of tassel (narrow)" NARROW []
+synonym: "gynoecium of tassel floret (narrow)" NARROW []
+synonym: "gynoecium of upper floret of pedicellate spikelet of ear (narrow)" NARROW []
+synonym: "gynoecium of upper floret of pedicellate spikelet of tassel (narrow)" NARROW []
+synonym: "gynoecium of upper floret of sessile spikelet of ear (narrow)" NARROW []
+synonym: "gynoecium of upper floret of sessile spikelet of tassel (narrow)" NARROW []
+synonym: "pistil (broad)" BROAD []
+synonym: "Poaceae gynoecium (narrow)" NARROW []
+synonym: "syncarpous gynoecium (narrow)" NARROW []
+synonym: "Zea gynoecium (narrow)" NARROW []
+synonym: "雌蕊群 (Japanese, exact)" EXACT Japanese [NIG:Yukiko_Yamazaki]
+xref: PO_GIT:470
+xref: PO_GIT:71
+xref: PO_GIT:98
+is_a: BFO:0000004 ! independent continuant
+is_a: PO:0025023 ! collective phyllome structure
+relationship: develops_from PO:0000019 ! gynoecium primordium
+relationship: part_of PO:0009046 ! flower
+
+[Term]
 id: PO:0009066
 name: anther
 namespace: plant_anatomy
@@ -606,6 +928,26 @@ is_a: PO:0025007 ! collective plant organ structure
 relationship: develops_from PO:0006089 ! anther primordium
 relationship: has_part PO:0025277 ! pollen sac
 relationship: part_of PO:0009029 ! stamen
+
+[Term]
+id: PO:0020003
+name: plant ovule
+namespace: plant_anatomy
+alt_id: PO:0006457
+alt_id: PO:0006491
+def: "A plant organ (PO:0009008) that has as parts a nucellus (PO:0020020) in which a female gametophyte (PO:0025279) is located, one or two integuments (PO:0020021), and a funicle (PO:0020006)." [POC:curators]
+comment: A seed (PO:0009010) develops from a plant ovule. In angiosperms, a plant ovule is part of a plant ovary (PO:0009072). In conifers, a plant ovule is part of an ovuliferous scale (add term). If you are annotating to this structure for Zea mays or other grasses, please also add an annotation to the corresponding floret type. Choose the most specific term possible from: spikelet floret (PO:0009082), ear floret (PO:0006354), upper floret of pedicellate spikelet of ear (PO:0006350), upper floret of sessile spikelet of ear (PO:0006352).
+subset: reference
+subset: TraitNet
+synonym: "&#243vulo vegetal (Spanish, exact)" EXACT Spanish [POC:Maria_Alejandra_Gandolfo]
+synonym: "Poaceae ovule (narrow)" NARROW []
+synonym: "Zea ovule (narrow)" NARROW []
+synonym: "胚珠 (Japanese, exact)" EXACT Japanese [NIG:Yukiko_Yamazaki]
+xref: PO_GIT:464
+xref: PO_GIT:70
+is_a: BFO:0000004 ! independent continuant
+is_a: PO:0009008 ! plant organ
+relationship: develops_from PO:0000018 ! ovule primordium
 
 [Term]
 id: PO:0020144
@@ -708,6 +1050,23 @@ created_by: Laurel_Cooper
 creation_date: 2010-04-28T11:04:34Z
 
 [Term]
+id: PO:0025025
+name: root system
+namespace: plant_anatomy
+def: "A collective plant organ structure (PO:0025007) that produces root meristems (PO:0006085), the plant structures (PO:0009011) that arise from them and the parts thereof." [POC:curators, POC:Laurel_Cooper]
+comment: Generally the below ground portion of a vascular plant.
+subset: TraitNet
+synonym: "root (broad)" BROAD [FNA:b7ce680b-c6ed-4d2e-81e6-66970f7deff9]
+synonym: "sistema de ra&#237z (Spanish, exact)" EXACT Spanish [POC:Maria_Alejandra_Gandolfo]
+synonym: "根系 (Japanese, exact)" EXACT Japanese [NIG:Yukiko_Yamazaki]
+xref: PO_GIT:136
+is_a: BFO:0000002 ! continuant
+is_a: PO:0025007 ! collective plant organ structure
+relationship: participates_in PO:0028002 ! sporophyte development stage
+created_by: rwalls
+creation_date: 2010-07-01T02:11:26Z
+
+[Term]
 id: PO:0025028
 name: embryo plant cell
 namespace: plant_anatomy
@@ -745,6 +1104,20 @@ is_a: PO:0025004 ! plant axis
 relationship: part_of PO:0009006 ! shoot system
 created_by: rwalls
 creation_date: 2010-07-01T03:46:35Z
+
+[Term]
+id: PO:0025034
+name: leaf
+namespace: plant_anatomy
+def: "A phyllome (PO:0006001) that is not associated with a reproductive structure." [POC:curators]
+subset: TraitNet
+synonym: "hoja (Spanish, exact)" EXACT Spanish [POC:Maria_Alejandra_Gandolfo]
+synonym: "葉 (Japanese, exact)" EXACT Japanese [NIG:Yukiko_Yamazaki]
+xref: PO_GIT:274
+xref: PO_GIT:301
+is_a: PO:0006001 ! phyllome
+created_by: rwalls
+creation_date: 2010-07-12T01:31:44Z
 
 [Term]
 id: PO:0025082
@@ -876,6 +1249,19 @@ created_by: rwalls
 creation_date: 2010-12-20T08:47:03Z
 
 [Term]
+id: PO:0025223
+name: vegetative shoot apex
+namespace: plant_anatomy
+def: "A shoot apex PO:0000037) that has as part a vegetative shoot apical meristem (PO:0008016)." [POC:Laurel_Cooper, POC:Ramona_Walls]
+synonym: "&#225pice vegetativo del epiblasto (epiblastema) (Spanish, exact)" EXACT Spanish [POC:Maria_Alejandra_Gandolfo]
+synonym: "栄養シュート頂、栄養枝頂 (Japanese, exact)" EXACT Japanese [NIG:Yukiko_Yamazaki]
+xref: PO_GIT:234
+is_a: PO:0000037 ! shoot axis apex
+relationship: has_part PO:0008016 ! vegetative shoot apical meristem
+created_by: rwalls
+creation_date: 2010-12-20T08:47:03Z
+
+[Term]
 id: PO:0025233
 name: portion of embryo plant tissue
 namespace: plant_anatomy
@@ -971,6 +1357,21 @@ created_by: rwalls
 creation_date: 2011-10-19T11:12:49Z
 
 [Term]
+id: PO:0025356
+name: bulb
+namespace: plant_anatomy
+def: "A short, enlarged shoot system (PO:0009006) that has as parts a short stem (PO:0009047) in which the shoot internodes (PO:0005005) do not elongate, and one or more buds (PO:0000055) enclosed by fleshy leaves (PO:0009025) or leaf bases (PO:0020040)." [ISBN:9780881928501]
+comment: May serve as a storage and/or perennating organ. Usually underground. A bulb differs from a corm (PO:0025355) by having fleshy leaves or leaf bases. The outer leaves of a bulb are often dry and membranous, rather than fleshy. May bear adventitious roots. Examples include Alium and Tulipa. Not the same structure as a bulbil.
+synonym: "bulblet (narrow)" NARROW []
+synonym: "bulbo (Spanish, exact)" EXACT Spanish [POC:Maria_Alejandra_Gandolfo]
+synonym: "diaspore (broad)" BROAD []
+synonym: "球根、鱗茎 (Japanese, exact)" EXACT Japanese [NIG:Yukiko_Yamazaki]
+xref: PO_GIT:173
+is_a: PO:0009006 ! shoot system
+created_by: rwalls
+creation_date: 2011-11-16T03:39:15Z
+
+[Term]
 id: PO:0025395
 name: floral organ
 namespace: plant_anatomy
@@ -1000,6 +1401,33 @@ is_a: PO:0009013 ! portion of meristem tissue
 relationship: part_of PO:0000225 ! peripheral zone
 created_by: Laurel_Cooper
 creation_date: 2012-02-07T08:20:10Z
+
+[Term]
+id: PO:0025431
+name: vascular leaf anlagen
+namespace: plant_anatomy
+def: "A phyllome anlagen (PO:0025430) that will give rise to a vascular leaf primordium (PO:0000017) and is part of a peripheral zone (PO:0000225) of a shoot apical meristem (PO:0020148)." [PMID:14732442, POC:Laurel_Cooper]
+comment: This is the region where you have the maximum concentration of auxin in the SAM (at least in a few species that have been studied).
+synonym: "leaf meristem (broad)" BROAD []
+synonym: "維管束系葉原基 (Japanese, exact)" EXACT Japanese [NIG:Yukiko_Yamazaki]
+xref: PO_GIT:407
+is_a: PO:0025430 ! phyllome anlagen
+relationship: part_of PO:0008016 ! vegetative shoot apical meristem
+created_by: Laurel_Cooper
+creation_date: 2012-02-07T08:40:37Z
+
+[Term]
+id: PO:0025433
+name: root anlagen
+namespace: plant_anatomy
+def: "A portion of meristem tissue (PO:0009013) that is committed to the development of a root primordium (PO:0005029)." [POC:curators]
+comment: Only detectable by gene expression, not morphology. May arise in a pericycle (PO:0006203), as for lateral roots in most seed plants, an endodermis (PO:0000252), as for lateral roots in ferns, or from parenchyma cells (PO:0000074) that are part a shoot axis (PO:0025029), in the case of a basal root (PO:0025002) or shoot-borne root (PO:0000042).
+synonym: "precursor de ra&#237 (Spanish, exact)" EXACT Spanish [POC:Maria_Alejandra_Gandolfo]
+synonym: "根原基 (Japanese, exact)" EXACT Japanese [NIG:Yukiko_Yamazaki]
+xref: PO_GIT:427
+is_a: PO:0009013 ! portion of meristem tissue
+created_by: Laurel_Cooper
+creation_date: 2012-02-08T01:00:56Z
 
 [Term]
 id: PO:0025477
@@ -1082,6 +1510,19 @@ is_a: PO:0009011 ! plant structure
 relationship: part_of PO:0025496 ! multi-tissue plant structure
 created_by: Laurel_Cooper
 creation_date: 2012-06-11T15:28:44Z
+
+[Term]
+id: PO:0025522
+name: tuber
+namespace: plant_anatomy
+def: "A plant axis (PO:0025004) that is radially enlarged." [POC:curators]
+comment: Functions in storage of photosynthate metabolites. May develop from a branch (PO:0025073) or a root (PO:0009005).  If you are annotating to tuber, you should pick the more specific child term: shoot axis tuber (PO:0004543) or tuberous root tuber (PO:0025476).
+subset: Potato
+synonym: "塊茎 (Japanese, exact)" EXACT Japanese [NIG:Yukiko_Yamazaki]
+xref: PO_GIT:127
+is_a: PO:0025004 ! plant axis
+created_by: Laurel_Cooper
+creation_date: 2012-11-20T18:35:45Z
 
 [Term]
 id: PO:0025527
@@ -1219,13 +1660,6 @@ range: BFO:0000015 ! process
 is_a: RO:0002180 ! has component
 
 [Typedef]
-id: RO:0002019
-name: has ligand
-def: "A relationship that holds between between a receptor and an chemical entity, typically a small molecule or peptide, that carries information between cells or compartments of a cell and which binds the receptor and regulates its effector function." []
-domain: GO:0004872
-is_a: RO:0002233 ! has input
-
-[Typedef]
 id: RO:0002022
 name: directly regulated by
 is_a: RO:0002334 ! regulated by
@@ -1251,7 +1685,6 @@ name: has effector activity
 def: "A 'has effector activity' B if A and B are GO molecular functions (GO_0003674),  A 'has component activity' B and B is the effector (output function) of B.  Each compound function has only one effector activity." [GOC:dos]
 is_functional: true
 is_a: RO:0002017 ! has component activity
-is_a: RO:0002211 ! regulates
 
 [Typedef]
 id: RO:0002086
@@ -1287,6 +1720,7 @@ holds_over_chain: has_part part_of {http://purl.obolibrary.org/obo/RO_0002582="t
 holds_over_chain: has_part RO:0002131
 holds_over_chain: part_of part_of
 is_a: RO:0002323 ! mereotopologically related to
+transitive_over: part_of ! part of
 
 [Typedef]
 id: RO:0002162
@@ -1297,7 +1731,6 @@ holds_over_chain: develops_from RO:0002162
 holds_over_chain: has_part RO:0002162
 holds_over_chain: part_of RO:0002162
 holds_over_chain: RO:0002215 RO:0002162
-holds_over_chain: RO:0002217 RO:0002162
 holds_over_chain: RO:0002254 RO:0002162
 is_a: RO:0002320 ! evolutionarily related to
 
@@ -1332,6 +1765,7 @@ holds_over_chain: RO:0002578 RO:0002578
 is_transitive: true
 is_a: RO:0002411 ! causally upstream of
 inverse_of: RO:0002334 ! regulated by
+transitive_over: RO:0002025 ! has effector activity
 
 [Typedef]
 id: RO:0002212
@@ -1366,20 +1800,6 @@ def: "c stands in this relationship to p if and only if there exists some p' suc
 holds_over_chain: RO:0002215 part_of {http://purl.obolibrary.org/obo/RO_0002582="true"}
 is_a: RO:0002328 ! functionally related to
 is_a: RO:0002500 ! causal agent in process
-
-[Typedef]
-id: RO:0002217
-name: actively participates in
-def: "x actively participates in y if and only if x participates in y and x realizes some active role" []
-is_a: participates_in ! participates in
-inverse_of: RO:0002218 ! obsolete has active participant
-
-[Typedef]
-id: RO:0002218
-name: obsolete has active participant
-def: "x has participant y if and only if x realizes some active role that inheres in y" []
-is_a: has_participant ! has participant
-is_obsolete: true
 
 [Typedef]
 id: RO:0002222
@@ -1490,7 +1910,7 @@ id: RO:0002331
 name: involved in
 def: "c involved_in p if and only if c enables some process p', and p' is part of p" []
 holds_over_chain: RO:0002327 part_of
-is_a: RO:0002217 ! actively participates in
+is_a: participates_in ! participates in
 is_a: RO:0002431 ! involved in or involved in regulation of
 transitive_over: part_of ! part of
 
@@ -1677,25 +2097,31 @@ is_a: RO:0002436 ! molecularly interacts with
 
 [Typedef]
 id: RO:0002448
-name: activity directly regulates activity of
-def: "Holds between molecular entities A and B where A can physically interact with B and in doing so regulates a process that B is capable of.  For example, A and B may be gene products and binding of B by A regulates the kinase activity of B." []
+name: directly regulates activity of
+def: "The entity A, immediately upstream of the entity B, has an activity that regulates an activity performed by B. For example, A and B may be gene products and binding of B by A regulates the kinase activity of B.\n\nA and B can be physically interacting but not necessarily. Immediately upstream means there are no intermediate entity between A and B." []
 synonym: "molecularly controls" EXACT []
+domain: BFO:0000040 ! material entity
+range: BFO:0000040 ! material entity
 is_a: RO:0002436 ! molecularly interacts with
-is_a: RO:0002566 ! causally influences
+is_a: RO:0011002 ! regulates activity of
 
 [Typedef]
 id: RO:0002449
-name: activity directly negatively regulates activity of
-def: "Holds between molecular entities A and B where A can physically interact with B and in doing so negatively regulates a process that B is capable of.  For example, A and B may be gene products and binding of B by A negatively regulates the kinase activity of B." []
+name: directly negatively regulates activity of
+def: "The entity A, immediately upstream of the entity B, has an activity that negatively regulates an activity performed by B. \nFor example, A and B may be gene products and binding of B by A negatively regulates the kinase activity of B." []
 synonym: "molecularly decreases activity of" EXACT []
-is_a: RO:0002448 ! activity directly regulates activity of
+domain: BFO:0000040 ! material entity
+range: BFO:0000040 ! material entity
+is_a: RO:0002448 ! directly regulates activity of
 
 [Typedef]
 id: RO:0002450
-name: activity directly positively regulates activity of
-def: "Holds between molecular entities A and B where A can physically interact with B and in doing so positively regulates a process that B is capable of.  For example, A and B may be gene products and binding of B by A positively regulates the kinase activity of B." []
+name: directly positively regulates activity of
+def: "The entity A, immediately upstream of the entity B, has an activity that positively regulates an activity performed by B. \nFor example, A and B may be gene products and binding of B by A positively regulates the kinase activity of B." []
 synonym: "molecularly increases activity of" EXACT []
-is_a: RO:0002448 ! activity directly regulates activity of
+domain: BFO:0000040 ! material entity
+range: BFO:0000040 ! material entity
+is_a: RO:0002448 ! directly regulates activity of
 
 [Typedef]
 id: RO:0002464
@@ -1731,15 +2157,15 @@ is_a: RO:0002410 ! causally related to
 
 [Typedef]
 id: RO:0002506
-name: causal relation between material entities
-domain: BFO:0000040 ! material entity
-range: BFO:0000040 ! material entity
+name: causal relation between entities
+domain: BFO:0000002 ! continuant
+range: BFO:0000002 ! continuant
 is_a: RO:0002410 ! causally related to
 
 [Typedef]
 id: RO:0002559
 name: causally influenced by
-is_a: RO:0002506 ! causal relation between material entities
+is_a: RO:0002506 ! causal relation between entities
 inverse_of: RO:0002566 ! causally influences
 
 [Typedef]
@@ -1755,8 +2181,10 @@ is_a: RO:0002563 ! interaction relation helper property
 [Typedef]
 id: RO:0002566
 name: causally influences
-def: "Holds between materal entities a and b if the activity of a is causally upstream of the activity of b, or causally upstream of a an activity that modifies b" []
-is_a: RO:0002506 ! causal relation between material entities
+def: "The entity or characteristic A is causally upstream of the entity or characteristic B, A having an effect on B. An entity corresponds to any biological type of entity as long as a mass is measurable. A characteristic corresponds to a particular specificity of an entity (e.g., phenotype, shape, size)." []
+domain: BFO:0000002 ! continuant
+range: BFO:0000002 ! continuant
+is_a: RO:0002506 ! causal relation between entities
 
 [Typedef]
 id: RO:0002578
@@ -1868,6 +2296,14 @@ name: causally upstream of or within, positive effect
 is_a: RO:0002418 ! causally upstream of or within
 
 [Typedef]
+id: RO:0011002
+name: regulates activity of
+def: "The entity A has an activity that regulates an activity of the entity B. For example, A and B are gene products where the catalytic activity of A regulates the kinase activity of B." []
+domain: BFO:0000040 ! material entity
+range: BFO:0000040 ! material entity
+is_a: RO:0002566 ! causally influences
+
+[Typedef]
 id: adjacent_to
 name: adjacent to
 name: adjacent_to
@@ -1961,6 +2397,7 @@ property_value: RO:0001900 RO:0001901
 domain: BFO:0000004 {http://purl.obolibrary.org/obo/IAO_0000116="This is redundant with the more specific 'independent and not spatial region' constraint. We leave in the redundant axiom for use with reasoners that do not use negation."} ! independent continuant
 range: BFO:0000004 {http://purl.obolibrary.org/obo/IAO_0000116="This is redundant with the more specific 'independent and not spatial region' constraint. We leave in the redundant axiom for use with reasoners that do not use negation."} ! independent continuant
 is_transitive: true
+transitive_over: part_of ! part of
 created_by: rwalls
 creation_date: 2012-05-23T09:52:02Z
 

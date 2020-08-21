@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: srpdio/releases/2020-08-20/srpdio-full.owl
+data-version: srpdio/releases/2020-08-21/srpdio-full.owl
 subsetdef: abnormal_slim ""
 subsetdef: Angiosperm "Term for angiosperms"
 subsetdef: Arabidopsis "Term used for Arabidopsis"
@@ -7565,6 +7565,2929 @@ name: concentration of elemental zinc in topsoil
 def: "The concentration of elemental zinc when measured in topsoil." []
 synonym: "topsoil elemental zinc concentration" EXACT []
 is_a: SRPDIO:1000091 ! concentration of elemental zinc in soil
+
+[Term]
+id: SRPDIO:1000276
+name: concentration of ammonium in fresh water
+def: "The concentration of ammonium when measured in fresh water." []
+synonym: "fresh water ammonium concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000277
+name: concentration of iron(2+) in fresh water
+def: "The concentration of iron(2+) when measured in fresh water." []
+synonym: "fresh water iron(2+) concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000278
+name: concentration of bromide in fresh water
+def: "The concentration of bromide when measured in fresh water." []
+synonym: "fresh water bromide concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000279
+name: concentration of chloride in fresh water
+def: "The concentration of chloride when measured in fresh water." []
+synonym: "fresh water chloride concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000280
+name: concentration of fluoride in fresh water
+def: "The concentration of fluoride when measured in fresh water." []
+synonym: "fresh water fluoride concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000281
+name: concentration of nitrite in fresh water
+def: "The concentration of nitrite when measured in fresh water." []
+synonym: "fresh water nitrite concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000282
+name: concentration of nitrate in fresh water
+def: "The concentration of nitrate when measured in fresh water." []
+synonym: "fresh water nitrate concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000283
+name: concentration of phosphate(3_) in fresh water
+def: "The concentration of phosphate(3_) when measured in fresh water." []
+synonym: "fresh water phosphate(3_) concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1000284
+name: concentration of sulfate in fresh water
+def: "The concentration of sulfate when measured in fresh water." []
+synonym: "fresh water sulfate concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:1500000
+name: alkalinity of fresh water
+def: "The alkalinity of some fresh water." []
+synonym: "fresh water alkalinity" EXACT []
+is_a: PATO:0001430
+intersection_of: PATO:0001430
+intersection_of: RO:0000052 ENVO:00002011 ! inheres in
+relationship: RO:0000052 ENVO:00002011 ! inheres in
+
+[Term]
+id: SRPDIO:1500001
+name: conductivity of fresh water
+def: "The conductivity of some fresh water." []
+synonym: "fresh water conductivity" EXACT []
+is_a: PATO:0001757
+intersection_of: PATO:0001757
+intersection_of: RO:0000052 ENVO:00002011 ! inheres in
+relationship: RO:0000052 ENVO:00002011 ! inheres in
+
+[Term]
+id: SRPDIO:1500002
+name: acidity of fresh water
+def: "The acidity of some fresh water." []
+synonym: "fresh water acidity" EXACT []
+is_a: PATO:0001842
+intersection_of: PATO:0001842
+intersection_of: RO:0000052 ENVO:00002011 ! inheres in
+relationship: RO:0000052 ENVO:00002011 ! inheres in
+
+[Term]
+id: SRPDIO:1500003
+name: temperature of fresh water
+def: "The temperature of some fresh water." []
+synonym: "fresh water temperature" EXACT []
+is_a: PATO:0000146 ! temperature
+intersection_of: PATO:0000146 ! temperature
+intersection_of: RO:0000052 ENVO:00002011 ! inheres in
+relationship: RO:0000052 ENVO:00002011 ! inheres in
+
+[Term]
+id: SRPDIO:1500004
+name: alkalinity of soil
+def: "The alkalinity of some soil." []
+synonym: "soil alkalinity" EXACT []
+is_a: SRPDIO:1500007 ! alkalinity of environmental material
+intersection_of: PATO:0001430
+intersection_of: RO:0000052 ENVO:00001998 ! inheres in soil
+relationship: RO:0000052 ENVO:00001998 ! inheres in soil
+
+[Term]
+id: SRPDIO:1500005
+name: conductivity of soil
+def: "The conductivity of some soil." []
+synonym: "soil conductivity" EXACT []
+is_a: SRPDIO:1500008 ! conductivity of environmental material
+intersection_of: PATO:0001757
+intersection_of: RO:0000052 ENVO:00001998 ! inheres in soil
+relationship: RO:0000052 ENVO:00001998 ! inheres in soil
+
+[Term]
+id: SRPDIO:1500006
+name: water composition of soil
+def: "The water composition of some soil." []
+synonym: "soil water composition" EXACT []
+is_a: PATO:0001800
+intersection_of: PATO:0001800
+intersection_of: RO:0000052 ENVO:00001998 ! inheres in soil
+relationship: RO:0000052 ENVO:00001998 ! inheres in soil
+
+[Term]
+id: SRPDIO:1500007
+name: alkalinity of environmental material
+def: "The alkalinity of some environmental material." []
+synonym: "environmental material alkalinity" EXACT []
+is_a: PATO:0001430
+intersection_of: PATO:0001430
+intersection_of: RO:0000052 ENVO:00010483 ! inheres in environmental material
+relationship: RO:0000052 ENVO:00010483 ! inheres in environmental material
+
+[Term]
+id: SRPDIO:1500008
+name: conductivity of environmental material
+def: "The conductivity of some environmental material." []
+synonym: "environmental material conductivity" EXACT []
+is_a: PATO:0001757
+intersection_of: PATO:0001757
+intersection_of: RO:0000052 ENVO:00010483 ! inheres in environmental material
+relationship: RO:0000052 ENVO:00010483 ! inheres in environmental material
+
+[Term]
+id: SRPDIO:1500009
+name: acidity of environmental material
+def: "The acidity of some environmental material." []
+synonym: "environmental material acidity" EXACT []
+is_a: PATO:0001842
+intersection_of: PATO:0001842
+intersection_of: RO:0000052 ENVO:00010483 ! inheres in environmental material
+relationship: RO:0000052 ENVO:00010483 ! inheres in environmental material
+
+[Term]
+id: SRPDIO:2000000
+name: concentration of elemental aluminium in shoot system
+def: "The concentration of elemental aluminium when measured in shoot system." []
+is_a: SRPDIO:2000046 ! concentration of elemental aluminium in plant structure
+
+[Term]
+id: SRPDIO:2000001
+name: concentration of elemental antimony in shoot system
+def: "The concentration of elemental antimony when measured in shoot system." []
+is_a: SRPDIO:2000047 ! concentration of elemental antimony in plant structure
+
+[Term]
+id: SRPDIO:2000002
+name: concentration of elemental arsenic in shoot system
+def: "The concentration of elemental arsenic when measured in shoot system." []
+is_a: SRPDIO:2000048 ! concentration of elemental arsenic in plant structure
+
+[Term]
+id: SRPDIO:2000003
+name: concentration of elemental barium in shoot system
+def: "The concentration of elemental barium when measured in shoot system." []
+is_a: SRPDIO:2000049 ! concentration of elemental barium in plant structure
+
+[Term]
+id: SRPDIO:2000004
+name: concentration of elemental beryllium in shoot system
+def: "The concentration of elemental beryllium when measured in shoot system." []
+is_a: SRPDIO:2000050 ! concentration of elemental beryllium in plant structure
+
+[Term]
+id: SRPDIO:2000005
+name: concentration of elemental bismuth in shoot system
+def: "The concentration of elemental bismuth when measured in shoot system." []
+is_a: SRPDIO:2000051 ! concentration of elemental bismuth in plant structure
+
+[Term]
+id: SRPDIO:2000006
+name: concentration of elemental boron in shoot system
+def: "The concentration of elemental boron when measured in shoot system." []
+is_a: SRPDIO:2000052 ! concentration of elemental boron in plant structure
+
+[Term]
+id: SRPDIO:2000007
+name: concentration of elemental cadmium in shoot system
+def: "The concentration of elemental cadmium when measured in shoot system." []
+is_a: SRPDIO:2000053 ! concentration of elemental cadmium in plant structure
+
+[Term]
+id: SRPDIO:2000008
+name: concentration of elemental caesium in shoot system
+def: "The concentration of elemental caesium when measured in shoot system." []
+is_a: SRPDIO:2000054 ! concentration of elemental caesium in plant structure
+
+[Term]
+id: SRPDIO:2000009
+name: concentration of elemental calcium in shoot system
+def: "The concentration of elemental calcium when measured in shoot system." []
+is_a: SRPDIO:2000055 ! concentration of elemental calcium in plant structure
+
+[Term]
+id: SRPDIO:2000010
+name: concentration of elemental cerium in shoot system
+def: "The concentration of elemental cerium when measured in shoot system." []
+is_a: SRPDIO:2000056 ! concentration of elemental cerium in plant structure
+
+[Term]
+id: SRPDIO:2000011
+name: concentration of elemental chromium in shoot system
+def: "The concentration of elemental chromium when measured in shoot system." []
+is_a: SRPDIO:2000057 ! concentration of elemental chromium in plant structure
+
+[Term]
+id: SRPDIO:2000012
+name: concentration of elemental cobalt in shoot system
+def: "The concentration of elemental cobalt when measured in shoot system." []
+is_a: SRPDIO:2000058 ! concentration of elemental cobalt in plant structure
+
+[Term]
+id: SRPDIO:2000013
+name: concentration of elemental copper in shoot system
+def: "The concentration of elemental copper when measured in shoot system." []
+is_a: SRPDIO:2000059 ! concentration of elemental copper in plant structure
+
+[Term]
+id: SRPDIO:2000014
+name: concentration of elemental gallium in shoot system
+def: "The concentration of elemental gallium when measured in shoot system." []
+is_a: SRPDIO:2000060 ! concentration of elemental gallium in plant structure
+
+[Term]
+id: SRPDIO:2000015
+name: concentration of elemental gold in shoot system
+def: "The concentration of elemental gold when measured in shoot system." []
+is_a: SRPDIO:2000061 ! concentration of elemental gold in plant structure
+
+[Term]
+id: SRPDIO:2000016
+name: concentration of elemental indium in shoot system
+def: "The concentration of elemental indium when measured in shoot system." []
+is_a: SRPDIO:2000062 ! concentration of elemental indium in plant structure
+
+[Term]
+id: SRPDIO:2000017
+name: concentration of elemental iron in shoot system
+def: "The concentration of elemental iron when measured in shoot system." []
+is_a: SRPDIO:2000063 ! concentration of elemental iron in plant structure
+
+[Term]
+id: SRPDIO:2000018
+name: concentration of elemental lanthanum in shoot system
+def: "The concentration of elemental lanthanum when measured in shoot system." []
+is_a: SRPDIO:2000064 ! concentration of elemental lanthanum in plant structure
+
+[Term]
+id: SRPDIO:2000019
+name: concentration of elemental lead in shoot system
+def: "The concentration of elemental lead when measured in shoot system." []
+is_a: SRPDIO:2000065 ! concentration of elemental lead in plant structure
+
+[Term]
+id: SRPDIO:2000020
+name: concentration of elemental lithium in shoot system
+def: "The concentration of elemental lithium when measured in shoot system." []
+is_a: SRPDIO:2000066 ! concentration of elemental lithium in plant structure
+
+[Term]
+id: SRPDIO:2000021
+name: concentration of elemental magnesium in shoot system
+def: "The concentration of elemental magnesium when measured in shoot system." []
+is_a: SRPDIO:2000067 ! concentration of elemental magnesium in plant structure
+
+[Term]
+id: SRPDIO:2000022
+name: concentration of elemental manganese in shoot system
+def: "The concentration of elemental manganese when measured in shoot system." []
+is_a: SRPDIO:2000068 ! concentration of elemental manganese in plant structure
+
+[Term]
+id: SRPDIO:2000023
+name: concentration of elemental mercury in shoot system
+def: "The concentration of elemental mercury when measured in shoot system." []
+is_a: SRPDIO:2000069 ! concentration of elemental mercury in plant structure
+
+[Term]
+id: SRPDIO:2000024
+name: concentration of elemental molybdenum in shoot system
+def: "The concentration of elemental molybdenum when measured in shoot system." []
+is_a: SRPDIO:2000070 ! concentration of elemental molybdenum in plant structure
+
+[Term]
+id: SRPDIO:2000025
+name: concentration of elemental nickel in shoot system
+def: "The concentration of elemental nickel when measured in shoot system." []
+is_a: SRPDIO:2000071 ! concentration of elemental nickel in plant structure
+
+[Term]
+id: SRPDIO:2000026
+name: concentration of elemental niobium in shoot system
+def: "The concentration of elemental niobium when measured in shoot system." []
+is_a: SRPDIO:2000072 ! concentration of elemental niobium in plant structure
+
+[Term]
+id: SRPDIO:2000027
+name: concentration of elemental phosphorus in shoot system
+def: "The concentration of elemental phosphorus when measured in shoot system." []
+is_a: SRPDIO:2000073 ! concentration of elemental phosphorus in plant structure
+
+[Term]
+id: SRPDIO:2000028
+name: concentration of elemental potassium in shoot system
+def: "The concentration of elemental potassium when measured in shoot system." []
+is_a: SRPDIO:2000074 ! concentration of elemental potassium in plant structure
+
+[Term]
+id: SRPDIO:2000029
+name: concentration of elemental rubidium in shoot system
+def: "The concentration of elemental rubidium when measured in shoot system." []
+is_a: SRPDIO:2000075 ! concentration of elemental rubidium in plant structure
+
+[Term]
+id: SRPDIO:2000030
+name: concentration of elemental selenium in shoot system
+def: "The concentration of elemental selenium when measured in shoot system." []
+is_a: SRPDIO:2000076 ! concentration of elemental selenium in plant structure
+
+[Term]
+id: SRPDIO:2000031
+name: concentration of elemental silicon in shoot system
+def: "The concentration of elemental silicon when measured in shoot system." []
+is_a: SRPDIO:2000077 ! concentration of elemental silicon in plant structure
+
+[Term]
+id: SRPDIO:2000032
+name: concentration of elemental silver in shoot system
+def: "The concentration of elemental silver when measured in shoot system." []
+is_a: SRPDIO:2000078 ! concentration of elemental silver in plant structure
+
+[Term]
+id: SRPDIO:2000033
+name: concentration of elemental sodium in shoot system
+def: "The concentration of elemental sodium when measured in shoot system." []
+is_a: SRPDIO:2000079 ! concentration of elemental sodium in plant structure
+
+[Term]
+id: SRPDIO:2000034
+name: concentration of elemental strontium in shoot system
+def: "The concentration of elemental strontium when measured in shoot system." []
+is_a: SRPDIO:2000080 ! concentration of elemental strontium in plant structure
+
+[Term]
+id: SRPDIO:2000035
+name: concentration of elemental sulfur in shoot system
+def: "The concentration of elemental sulfur when measured in shoot system." []
+is_a: SRPDIO:2000081 ! concentration of elemental sulfur in plant structure
+
+[Term]
+id: SRPDIO:2000036
+name: concentration of elemental tellurium in shoot system
+def: "The concentration of elemental tellurium when measured in shoot system." []
+is_a: SRPDIO:2000082 ! concentration of elemental tellurium in plant structure
+
+[Term]
+id: SRPDIO:2000037
+name: concentration of elemental thallium in shoot system
+def: "The concentration of elemental thallium when measured in shoot system." []
+is_a: SRPDIO:2000083 ! concentration of elemental thallium in plant structure
+
+[Term]
+id: SRPDIO:2000038
+name: concentration of elemental thorium in shoot system
+def: "The concentration of elemental thorium when measured in shoot system." []
+is_a: SRPDIO:2000084 ! concentration of elemental thorium in plant structure
+
+[Term]
+id: SRPDIO:2000039
+name: concentration of elemental tin in shoot system
+def: "The concentration of elemental tin when measured in shoot system." []
+is_a: SRPDIO:2000085 ! concentration of elemental tin in plant structure
+
+[Term]
+id: SRPDIO:2000040
+name: concentration of elemental titanium in shoot system
+def: "The concentration of elemental titanium when measured in shoot system." []
+is_a: SRPDIO:2000086 ! concentration of elemental titanium in plant structure
+
+[Term]
+id: SRPDIO:2000041
+name: concentration of elemental tungsten in shoot system
+def: "The concentration of elemental tungsten when measured in shoot system." []
+is_a: SRPDIO:2000087 ! concentration of elemental tungsten in plant structure
+
+[Term]
+id: SRPDIO:2000042
+name: concentration of elemental uranium in shoot system
+def: "The concentration of elemental uranium when measured in shoot system." []
+is_a: SRPDIO:2000088 ! concentration of elemental uranium in plant structure
+
+[Term]
+id: SRPDIO:2000043
+name: concentration of elemental vanadium in shoot system
+def: "The concentration of elemental vanadium when measured in shoot system." []
+is_a: SRPDIO:2000089 ! concentration of elemental vanadium in plant structure
+
+[Term]
+id: SRPDIO:2000044
+name: concentration of elemental yttrium in shoot system
+def: "The concentration of elemental yttrium when measured in shoot system." []
+is_a: SRPDIO:2000090 ! concentration of elemental yttrium in plant structure
+
+[Term]
+id: SRPDIO:2000045
+name: concentration of elemental zinc in shoot system
+def: "The concentration of elemental zinc when measured in shoot system." []
+is_a: SRPDIO:2000091 ! concentration of elemental zinc in plant structure
+
+[Term]
+id: SRPDIO:2000046
+name: concentration of elemental aluminium in plant structure
+def: "The concentration of elemental aluminium when measured in plant structure." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000047
+name: concentration of elemental antimony in plant structure
+def: "The concentration of elemental antimony when measured in plant structure." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000048
+name: concentration of elemental arsenic in plant structure
+def: "The concentration of elemental arsenic when measured in plant structure." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000049
+name: concentration of elemental barium in plant structure
+def: "The concentration of elemental barium when measured in plant structure." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000050
+name: concentration of elemental beryllium in plant structure
+def: "The concentration of elemental beryllium when measured in plant structure." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000051
+name: concentration of elemental bismuth in plant structure
+def: "The concentration of elemental bismuth when measured in plant structure." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000052
+name: concentration of elemental boron in plant structure
+def: "The concentration of elemental boron when measured in plant structure." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000053
+name: concentration of elemental cadmium in plant structure
+def: "The concentration of elemental cadmium when measured in plant structure." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000054
+name: concentration of elemental caesium in plant structure
+def: "The concentration of elemental caesium when measured in plant structure." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000055
+name: concentration of elemental calcium in plant structure
+def: "The concentration of elemental calcium when measured in plant structure." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000056
+name: concentration of elemental cerium in plant structure
+def: "The concentration of elemental cerium when measured in plant structure." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000057
+name: concentration of elemental chromium in plant structure
+def: "The concentration of elemental chromium when measured in plant structure." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000058
+name: concentration of elemental cobalt in plant structure
+def: "The concentration of elemental cobalt when measured in plant structure." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000059
+name: concentration of elemental copper in plant structure
+def: "The concentration of elemental copper when measured in plant structure." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000060
+name: concentration of elemental gallium in plant structure
+def: "The concentration of elemental gallium when measured in plant structure." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000061
+name: concentration of elemental gold in plant structure
+def: "The concentration of elemental gold when measured in plant structure." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000062
+name: concentration of elemental indium in plant structure
+def: "The concentration of elemental indium when measured in plant structure." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000063
+name: concentration of elemental iron in plant structure
+def: "The concentration of elemental iron when measured in plant structure." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000064
+name: concentration of elemental lanthanum in plant structure
+def: "The concentration of elemental lanthanum when measured in plant structure." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000065
+name: concentration of elemental lead in plant structure
+def: "The concentration of elemental lead when measured in plant structure." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000066
+name: concentration of elemental lithium in plant structure
+def: "The concentration of elemental lithium when measured in plant structure." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000067
+name: concentration of elemental magnesium in plant structure
+def: "The concentration of elemental magnesium when measured in plant structure." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000068
+name: concentration of elemental manganese in plant structure
+def: "The concentration of elemental manganese when measured in plant structure." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000069
+name: concentration of elemental mercury in plant structure
+def: "The concentration of elemental mercury when measured in plant structure." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000070
+name: concentration of elemental molybdenum in plant structure
+def: "The concentration of elemental molybdenum when measured in plant structure." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000071
+name: concentration of elemental nickel in plant structure
+def: "The concentration of elemental nickel when measured in plant structure." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000072
+name: concentration of elemental niobium in plant structure
+def: "The concentration of elemental niobium when measured in plant structure." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000073
+name: concentration of elemental phosphorus in plant structure
+def: "The concentration of elemental phosphorus when measured in plant structure." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000074
+name: concentration of elemental potassium in plant structure
+def: "The concentration of elemental potassium when measured in plant structure." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000075
+name: concentration of elemental rubidium in plant structure
+def: "The concentration of elemental rubidium when measured in plant structure." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000076
+name: concentration of elemental selenium in plant structure
+def: "The concentration of elemental selenium when measured in plant structure." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000077
+name: concentration of elemental silicon in plant structure
+def: "The concentration of elemental silicon when measured in plant structure." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000078
+name: concentration of elemental silver in plant structure
+def: "The concentration of elemental silver when measured in plant structure." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000079
+name: concentration of elemental sodium in plant structure
+def: "The concentration of elemental sodium when measured in plant structure." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000080
+name: concentration of elemental strontium in plant structure
+def: "The concentration of elemental strontium when measured in plant structure." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000081
+name: concentration of elemental sulfur in plant structure
+def: "The concentration of elemental sulfur when measured in plant structure." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000082
+name: concentration of elemental tellurium in plant structure
+def: "The concentration of elemental tellurium when measured in plant structure." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000083
+name: concentration of elemental thallium in plant structure
+def: "The concentration of elemental thallium when measured in plant structure." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000084
+name: concentration of elemental thorium in plant structure
+def: "The concentration of elemental thorium when measured in plant structure." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000085
+name: concentration of elemental tin in plant structure
+def: "The concentration of elemental tin when measured in plant structure." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000086
+name: concentration of elemental titanium in plant structure
+def: "The concentration of elemental titanium when measured in plant structure." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000087
+name: concentration of elemental tungsten in plant structure
+def: "The concentration of elemental tungsten when measured in plant structure." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000088
+name: concentration of elemental uranium in plant structure
+def: "The concentration of elemental uranium when measured in plant structure." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000089
+name: concentration of elemental vanadium in plant structure
+def: "The concentration of elemental vanadium when measured in plant structure." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000090
+name: concentration of elemental yttrium in plant structure
+def: "The concentration of elemental yttrium when measured in plant structure." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000091
+name: concentration of elemental zinc in plant structure
+def: "The concentration of elemental zinc when measured in plant structure." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000092
+name: concentration of elemental aluminium in bulb
+def: "The concentration of elemental aluminium when measured in bulb." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000093
+name: concentration of elemental antimony in bulb
+def: "The concentration of elemental antimony when measured in bulb." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000094
+name: concentration of elemental arsenic in bulb
+def: "The concentration of elemental arsenic when measured in bulb." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000095
+name: concentration of elemental barium in bulb
+def: "The concentration of elemental barium when measured in bulb." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000096
+name: concentration of elemental beryllium in bulb
+def: "The concentration of elemental beryllium when measured in bulb." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000097
+name: concentration of elemental bismuth in bulb
+def: "The concentration of elemental bismuth when measured in bulb." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000098
+name: concentration of elemental boron in bulb
+def: "The concentration of elemental boron when measured in bulb." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000099
+name: concentration of elemental cadmium in bulb
+def: "The concentration of elemental cadmium when measured in bulb." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000100
+name: concentration of elemental caesium in bulb
+def: "The concentration of elemental caesium when measured in bulb." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000101
+name: concentration of elemental calcium in bulb
+def: "The concentration of elemental calcium when measured in bulb." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000102
+name: concentration of elemental cerium in bulb
+def: "The concentration of elemental cerium when measured in bulb." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000103
+name: concentration of elemental chromium in bulb
+def: "The concentration of elemental chromium when measured in bulb." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000104
+name: concentration of elemental cobalt in bulb
+def: "The concentration of elemental cobalt when measured in bulb." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000105
+name: concentration of elemental copper in bulb
+def: "The concentration of elemental copper when measured in bulb." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000106
+name: concentration of elemental gallium in bulb
+def: "The concentration of elemental gallium when measured in bulb." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000107
+name: concentration of elemental gold in bulb
+def: "The concentration of elemental gold when measured in bulb." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000108
+name: concentration of elemental indium in bulb
+def: "The concentration of elemental indium when measured in bulb." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000109
+name: concentration of elemental iron in bulb
+def: "The concentration of elemental iron when measured in bulb." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000110
+name: concentration of elemental lanthanum in bulb
+def: "The concentration of elemental lanthanum when measured in bulb." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000111
+name: concentration of elemental lead in bulb
+def: "The concentration of elemental lead when measured in bulb." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000112
+name: concentration of elemental lithium in bulb
+def: "The concentration of elemental lithium when measured in bulb." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000113
+name: concentration of elemental magnesium in bulb
+def: "The concentration of elemental magnesium when measured in bulb." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000114
+name: concentration of elemental manganese in bulb
+def: "The concentration of elemental manganese when measured in bulb." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000115
+name: concentration of elemental mercury in bulb
+def: "The concentration of elemental mercury when measured in bulb." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000116
+name: concentration of elemental molybdenum in bulb
+def: "The concentration of elemental molybdenum when measured in bulb." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000117
+name: concentration of elemental nickel in bulb
+def: "The concentration of elemental nickel when measured in bulb." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000118
+name: concentration of elemental niobium in bulb
+def: "The concentration of elemental niobium when measured in bulb." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000119
+name: concentration of elemental phosphorus in bulb
+def: "The concentration of elemental phosphorus when measured in bulb." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000120
+name: concentration of elemental potassium in bulb
+def: "The concentration of elemental potassium when measured in bulb." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000121
+name: concentration of elemental rubidium in bulb
+def: "The concentration of elemental rubidium when measured in bulb." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000122
+name: concentration of elemental selenium in bulb
+def: "The concentration of elemental selenium when measured in bulb." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000123
+name: concentration of elemental silicon in bulb
+def: "The concentration of elemental silicon when measured in bulb." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000124
+name: concentration of elemental silver in bulb
+def: "The concentration of elemental silver when measured in bulb." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000125
+name: concentration of elemental sodium in bulb
+def: "The concentration of elemental sodium when measured in bulb." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000126
+name: concentration of elemental strontium in bulb
+def: "The concentration of elemental strontium when measured in bulb." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000127
+name: concentration of elemental sulfur in bulb
+def: "The concentration of elemental sulfur when measured in bulb." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000128
+name: concentration of elemental tellurium in bulb
+def: "The concentration of elemental tellurium when measured in bulb." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000129
+name: concentration of elemental thallium in bulb
+def: "The concentration of elemental thallium when measured in bulb." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000130
+name: concentration of elemental thorium in bulb
+def: "The concentration of elemental thorium when measured in bulb." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000131
+name: concentration of elemental tin in bulb
+def: "The concentration of elemental tin when measured in bulb." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000132
+name: concentration of elemental titanium in bulb
+def: "The concentration of elemental titanium when measured in bulb." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000133
+name: concentration of elemental tungsten in bulb
+def: "The concentration of elemental tungsten when measured in bulb." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000134
+name: concentration of elemental uranium in bulb
+def: "The concentration of elemental uranium when measured in bulb." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000135
+name: concentration of elemental vanadium in bulb
+def: "The concentration of elemental vanadium when measured in bulb." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000136
+name: concentration of elemental yttrium in bulb
+def: "The concentration of elemental yttrium when measured in bulb." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000137
+name: concentration of elemental zinc in bulb
+def: "The concentration of elemental zinc when measured in bulb." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000138
+name: concentration of elemental aluminium in fruit
+def: "The concentration of elemental aluminium when measured in fruit." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000139
+name: concentration of elemental antimony in fruit
+def: "The concentration of elemental antimony when measured in fruit." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000140
+name: concentration of elemental arsenic in fruit
+def: "The concentration of elemental arsenic when measured in fruit." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000141
+name: concentration of elemental barium in fruit
+def: "The concentration of elemental barium when measured in fruit." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000142
+name: concentration of elemental beryllium in fruit
+def: "The concentration of elemental beryllium when measured in fruit." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000143
+name: concentration of elemental bismuth in fruit
+def: "The concentration of elemental bismuth when measured in fruit." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000144
+name: concentration of elemental boron in fruit
+def: "The concentration of elemental boron when measured in fruit." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000145
+name: concentration of elemental cadmium in fruit
+def: "The concentration of elemental cadmium when measured in fruit." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000146
+name: concentration of elemental caesium in fruit
+def: "The concentration of elemental caesium when measured in fruit." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000147
+name: concentration of elemental calcium in fruit
+def: "The concentration of elemental calcium when measured in fruit." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000148
+name: concentration of elemental cerium in fruit
+def: "The concentration of elemental cerium when measured in fruit." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000149
+name: concentration of elemental chromium in fruit
+def: "The concentration of elemental chromium when measured in fruit." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000150
+name: concentration of elemental cobalt in fruit
+def: "The concentration of elemental cobalt when measured in fruit." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000151
+name: concentration of elemental copper in fruit
+def: "The concentration of elemental copper when measured in fruit." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000152
+name: concentration of elemental gallium in fruit
+def: "The concentration of elemental gallium when measured in fruit." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000153
+name: concentration of elemental gold in fruit
+def: "The concentration of elemental gold when measured in fruit." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000154
+name: concentration of elemental indium in fruit
+def: "The concentration of elemental indium when measured in fruit." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000155
+name: concentration of elemental iron in fruit
+def: "The concentration of elemental iron when measured in fruit." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000156
+name: concentration of elemental lanthanum in fruit
+def: "The concentration of elemental lanthanum when measured in fruit." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000157
+name: concentration of elemental lead in fruit
+def: "The concentration of elemental lead when measured in fruit." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000158
+name: concentration of elemental lithium in fruit
+def: "The concentration of elemental lithium when measured in fruit." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000159
+name: concentration of elemental magnesium in fruit
+def: "The concentration of elemental magnesium when measured in fruit." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000160
+name: concentration of elemental manganese in fruit
+def: "The concentration of elemental manganese when measured in fruit." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000161
+name: concentration of elemental mercury in fruit
+def: "The concentration of elemental mercury when measured in fruit." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000162
+name: concentration of elemental molybdenum in fruit
+def: "The concentration of elemental molybdenum when measured in fruit." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000163
+name: concentration of elemental nickel in fruit
+def: "The concentration of elemental nickel when measured in fruit." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000164
+name: concentration of elemental niobium in fruit
+def: "The concentration of elemental niobium when measured in fruit." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000165
+name: concentration of elemental phosphorus in fruit
+def: "The concentration of elemental phosphorus when measured in fruit." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000166
+name: concentration of elemental potassium in fruit
+def: "The concentration of elemental potassium when measured in fruit." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000167
+name: concentration of elemental rubidium in fruit
+def: "The concentration of elemental rubidium when measured in fruit." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000168
+name: concentration of elemental selenium in fruit
+def: "The concentration of elemental selenium when measured in fruit." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000169
+name: concentration of elemental silicon in fruit
+def: "The concentration of elemental silicon when measured in fruit." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000170
+name: concentration of elemental silver in fruit
+def: "The concentration of elemental silver when measured in fruit." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000171
+name: concentration of elemental sodium in fruit
+def: "The concentration of elemental sodium when measured in fruit." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000172
+name: concentration of elemental strontium in fruit
+def: "The concentration of elemental strontium when measured in fruit." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000173
+name: concentration of elemental sulfur in fruit
+def: "The concentration of elemental sulfur when measured in fruit." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000174
+name: concentration of elemental tellurium in fruit
+def: "The concentration of elemental tellurium when measured in fruit." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000175
+name: concentration of elemental thallium in fruit
+def: "The concentration of elemental thallium when measured in fruit." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000176
+name: concentration of elemental thorium in fruit
+def: "The concentration of elemental thorium when measured in fruit." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000177
+name: concentration of elemental tin in fruit
+def: "The concentration of elemental tin when measured in fruit." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000178
+name: concentration of elemental titanium in fruit
+def: "The concentration of elemental titanium when measured in fruit." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000179
+name: concentration of elemental tungsten in fruit
+def: "The concentration of elemental tungsten when measured in fruit." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000180
+name: concentration of elemental uranium in fruit
+def: "The concentration of elemental uranium when measured in fruit." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000181
+name: concentration of elemental vanadium in fruit
+def: "The concentration of elemental vanadium when measured in fruit." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000182
+name: concentration of elemental yttrium in fruit
+def: "The concentration of elemental yttrium when measured in fruit." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000183
+name: concentration of elemental zinc in fruit
+def: "The concentration of elemental zinc when measured in fruit." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000184
+name: concentration of elemental aluminium in infructescence
+def: "The concentration of elemental aluminium when measured in infructescence." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000185
+name: concentration of elemental antimony in infructescence
+def: "The concentration of elemental antimony when measured in infructescence." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000186
+name: concentration of elemental arsenic in infructescence
+def: "The concentration of elemental arsenic when measured in infructescence." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000187
+name: concentration of elemental barium in infructescence
+def: "The concentration of elemental barium when measured in infructescence." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000188
+name: concentration of elemental beryllium in infructescence
+def: "The concentration of elemental beryllium when measured in infructescence." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000189
+name: concentration of elemental bismuth in infructescence
+def: "The concentration of elemental bismuth when measured in infructescence." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000190
+name: concentration of elemental boron in infructescence
+def: "The concentration of elemental boron when measured in infructescence." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000191
+name: concentration of elemental cadmium in infructescence
+def: "The concentration of elemental cadmium when measured in infructescence." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000192
+name: concentration of elemental caesium in infructescence
+def: "The concentration of elemental caesium when measured in infructescence." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000193
+name: concentration of elemental calcium in infructescence
+def: "The concentration of elemental calcium when measured in infructescence." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000194
+name: concentration of elemental cerium in infructescence
+def: "The concentration of elemental cerium when measured in infructescence." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000195
+name: concentration of elemental chromium in infructescence
+def: "The concentration of elemental chromium when measured in infructescence." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000196
+name: concentration of elemental cobalt in infructescence
+def: "The concentration of elemental cobalt when measured in infructescence." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000197
+name: concentration of elemental copper in infructescence
+def: "The concentration of elemental copper when measured in infructescence." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000198
+name: concentration of elemental gallium in infructescence
+def: "The concentration of elemental gallium when measured in infructescence." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000199
+name: concentration of elemental gold in infructescence
+def: "The concentration of elemental gold when measured in infructescence." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000200
+name: concentration of elemental indium in infructescence
+def: "The concentration of elemental indium when measured in infructescence." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000201
+name: concentration of elemental iron in infructescence
+def: "The concentration of elemental iron when measured in infructescence." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000202
+name: concentration of elemental lanthanum in infructescence
+def: "The concentration of elemental lanthanum when measured in infructescence." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000203
+name: concentration of elemental lead in infructescence
+def: "The concentration of elemental lead when measured in infructescence." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000204
+name: concentration of elemental lithium in infructescence
+def: "The concentration of elemental lithium when measured in infructescence." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000205
+name: concentration of elemental magnesium in infructescence
+def: "The concentration of elemental magnesium when measured in infructescence." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000206
+name: concentration of elemental manganese in infructescence
+def: "The concentration of elemental manganese when measured in infructescence." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000207
+name: concentration of elemental mercury in infructescence
+def: "The concentration of elemental mercury when measured in infructescence." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000208
+name: concentration of elemental molybdenum in infructescence
+def: "The concentration of elemental molybdenum when measured in infructescence." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000209
+name: concentration of elemental nickel in infructescence
+def: "The concentration of elemental nickel when measured in infructescence." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000210
+name: concentration of elemental niobium in infructescence
+def: "The concentration of elemental niobium when measured in infructescence." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000211
+name: concentration of elemental phosphorus in infructescence
+def: "The concentration of elemental phosphorus when measured in infructescence." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000212
+name: concentration of elemental potassium in infructescence
+def: "The concentration of elemental potassium when measured in infructescence." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000213
+name: concentration of elemental rubidium in infructescence
+def: "The concentration of elemental rubidium when measured in infructescence." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000214
+name: concentration of elemental selenium in infructescence
+def: "The concentration of elemental selenium when measured in infructescence." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000215
+name: concentration of elemental silicon in infructescence
+def: "The concentration of elemental silicon when measured in infructescence." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000216
+name: concentration of elemental silver in infructescence
+def: "The concentration of elemental silver when measured in infructescence." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000217
+name: concentration of elemental sodium in infructescence
+def: "The concentration of elemental sodium when measured in infructescence." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000218
+name: concentration of elemental strontium in infructescence
+def: "The concentration of elemental strontium when measured in infructescence." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000219
+name: concentration of elemental sulfur in infructescence
+def: "The concentration of elemental sulfur when measured in infructescence." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000220
+name: concentration of elemental tellurium in infructescence
+def: "The concentration of elemental tellurium when measured in infructescence." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000221
+name: concentration of elemental thallium in infructescence
+def: "The concentration of elemental thallium when measured in infructescence." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000222
+name: concentration of elemental thorium in infructescence
+def: "The concentration of elemental thorium when measured in infructescence." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000223
+name: concentration of elemental tin in infructescence
+def: "The concentration of elemental tin when measured in infructescence." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000224
+name: concentration of elemental titanium in infructescence
+def: "The concentration of elemental titanium when measured in infructescence." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000225
+name: concentration of elemental tungsten in infructescence
+def: "The concentration of elemental tungsten when measured in infructescence." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000226
+name: concentration of elemental uranium in infructescence
+def: "The concentration of elemental uranium when measured in infructescence." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000227
+name: concentration of elemental vanadium in infructescence
+def: "The concentration of elemental vanadium when measured in infructescence." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000228
+name: concentration of elemental yttrium in infructescence
+def: "The concentration of elemental yttrium when measured in infructescence." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000229
+name: concentration of elemental zinc in infructescence
+def: "The concentration of elemental zinc when measured in infructescence." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000230
+name: concentration of elemental aluminium in vascular leaf
+def: "The concentration of elemental aluminium when measured in vascular leaf." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000231
+name: concentration of elemental antimony in vascular leaf
+def: "The concentration of elemental antimony when measured in vascular leaf." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000232
+name: concentration of elemental arsenic in vascular leaf
+def: "The concentration of elemental arsenic when measured in vascular leaf." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000233
+name: concentration of elemental barium in vascular leaf
+def: "The concentration of elemental barium when measured in vascular leaf." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000234
+name: concentration of elemental beryllium in vascular leaf
+def: "The concentration of elemental beryllium when measured in vascular leaf." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000235
+name: concentration of elemental bismuth in vascular leaf
+def: "The concentration of elemental bismuth when measured in vascular leaf." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000236
+name: concentration of elemental boron in vascular leaf
+def: "The concentration of elemental boron when measured in vascular leaf." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000237
+name: concentration of elemental cadmium in vascular leaf
+def: "The concentration of elemental cadmium when measured in vascular leaf." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000238
+name: concentration of elemental caesium in vascular leaf
+def: "The concentration of elemental caesium when measured in vascular leaf." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000239
+name: concentration of elemental calcium in vascular leaf
+def: "The concentration of elemental calcium when measured in vascular leaf." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000240
+name: concentration of elemental cerium in vascular leaf
+def: "The concentration of elemental cerium when measured in vascular leaf." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000241
+name: concentration of elemental chromium in vascular leaf
+def: "The concentration of elemental chromium when measured in vascular leaf." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000242
+name: concentration of elemental cobalt in vascular leaf
+def: "The concentration of elemental cobalt when measured in vascular leaf." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000243
+name: concentration of elemental copper in vascular leaf
+def: "The concentration of elemental copper when measured in vascular leaf." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000244
+name: concentration of elemental gallium in vascular leaf
+def: "The concentration of elemental gallium when measured in vascular leaf." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000245
+name: concentration of elemental gold in vascular leaf
+def: "The concentration of elemental gold when measured in vascular leaf." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000246
+name: concentration of elemental indium in vascular leaf
+def: "The concentration of elemental indium when measured in vascular leaf." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000247
+name: concentration of elemental iron in vascular leaf
+def: "The concentration of elemental iron when measured in vascular leaf." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000248
+name: concentration of elemental lanthanum in vascular leaf
+def: "The concentration of elemental lanthanum when measured in vascular leaf." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000249
+name: concentration of elemental lead in vascular leaf
+def: "The concentration of elemental lead when measured in vascular leaf." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000250
+name: concentration of elemental lithium in vascular leaf
+def: "The concentration of elemental lithium when measured in vascular leaf." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000251
+name: concentration of elemental magnesium in vascular leaf
+def: "The concentration of elemental magnesium when measured in vascular leaf." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000252
+name: concentration of elemental manganese in vascular leaf
+def: "The concentration of elemental manganese when measured in vascular leaf." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000253
+name: concentration of elemental mercury in vascular leaf
+def: "The concentration of elemental mercury when measured in vascular leaf." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000254
+name: concentration of elemental molybdenum in vascular leaf
+def: "The concentration of elemental molybdenum when measured in vascular leaf." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000255
+name: concentration of elemental nickel in vascular leaf
+def: "The concentration of elemental nickel when measured in vascular leaf." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000256
+name: concentration of elemental niobium in vascular leaf
+def: "The concentration of elemental niobium when measured in vascular leaf." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000257
+name: concentration of elemental phosphorus in vascular leaf
+def: "The concentration of elemental phosphorus when measured in vascular leaf." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000258
+name: concentration of elemental potassium in vascular leaf
+def: "The concentration of elemental potassium when measured in vascular leaf." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000259
+name: concentration of elemental rubidium in vascular leaf
+def: "The concentration of elemental rubidium when measured in vascular leaf." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000260
+name: concentration of elemental selenium in vascular leaf
+def: "The concentration of elemental selenium when measured in vascular leaf." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000261
+name: concentration of elemental silicon in vascular leaf
+def: "The concentration of elemental silicon when measured in vascular leaf." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000262
+name: concentration of elemental silver in vascular leaf
+def: "The concentration of elemental silver when measured in vascular leaf." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000263
+name: concentration of elemental sodium in vascular leaf
+def: "The concentration of elemental sodium when measured in vascular leaf." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000264
+name: concentration of elemental strontium in vascular leaf
+def: "The concentration of elemental strontium when measured in vascular leaf." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000265
+name: concentration of elemental sulfur in vascular leaf
+def: "The concentration of elemental sulfur when measured in vascular leaf." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000266
+name: concentration of elemental tellurium in vascular leaf
+def: "The concentration of elemental tellurium when measured in vascular leaf." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000267
+name: concentration of elemental thallium in vascular leaf
+def: "The concentration of elemental thallium when measured in vascular leaf." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000268
+name: concentration of elemental thorium in vascular leaf
+def: "The concentration of elemental thorium when measured in vascular leaf." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000269
+name: concentration of elemental tin in vascular leaf
+def: "The concentration of elemental tin when measured in vascular leaf." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000270
+name: concentration of elemental titanium in vascular leaf
+def: "The concentration of elemental titanium when measured in vascular leaf." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000271
+name: concentration of elemental tungsten in vascular leaf
+def: "The concentration of elemental tungsten when measured in vascular leaf." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000272
+name: concentration of elemental uranium in vascular leaf
+def: "The concentration of elemental uranium when measured in vascular leaf." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000273
+name: concentration of elemental vanadium in vascular leaf
+def: "The concentration of elemental vanadium when measured in vascular leaf." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000274
+name: concentration of elemental yttrium in vascular leaf
+def: "The concentration of elemental yttrium when measured in vascular leaf." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000275
+name: concentration of elemental zinc in vascular leaf
+def: "The concentration of elemental zinc when measured in vascular leaf." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000276
+name: concentration of elemental aluminium in seed
+def: "The concentration of elemental aluminium when measured in seed." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000277
+name: concentration of elemental antimony in seed
+def: "The concentration of elemental antimony when measured in seed." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000278
+name: concentration of elemental arsenic in seed
+def: "The concentration of elemental arsenic when measured in seed." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000279
+name: concentration of elemental barium in seed
+def: "The concentration of elemental barium when measured in seed." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000280
+name: concentration of elemental beryllium in seed
+def: "The concentration of elemental beryllium when measured in seed." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000281
+name: concentration of elemental bismuth in seed
+def: "The concentration of elemental bismuth when measured in seed." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000282
+name: concentration of elemental boron in seed
+def: "The concentration of elemental boron when measured in seed." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000283
+name: concentration of elemental cadmium in seed
+def: "The concentration of elemental cadmium when measured in seed." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000284
+name: concentration of elemental caesium in seed
+def: "The concentration of elemental caesium when measured in seed." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000285
+name: concentration of elemental calcium in seed
+def: "The concentration of elemental calcium when measured in seed." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000286
+name: concentration of elemental cerium in seed
+def: "The concentration of elemental cerium when measured in seed." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000287
+name: concentration of elemental chromium in seed
+def: "The concentration of elemental chromium when measured in seed." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000288
+name: concentration of elemental cobalt in seed
+def: "The concentration of elemental cobalt when measured in seed." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000289
+name: concentration of elemental copper in seed
+def: "The concentration of elemental copper when measured in seed." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000290
+name: concentration of elemental gallium in seed
+def: "The concentration of elemental gallium when measured in seed." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000291
+name: concentration of elemental gold in seed
+def: "The concentration of elemental gold when measured in seed." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000292
+name: concentration of elemental indium in seed
+def: "The concentration of elemental indium when measured in seed." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000293
+name: concentration of elemental iron in seed
+def: "The concentration of elemental iron when measured in seed." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000294
+name: concentration of elemental lanthanum in seed
+def: "The concentration of elemental lanthanum when measured in seed." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000295
+name: concentration of elemental lead in seed
+def: "The concentration of elemental lead when measured in seed." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000296
+name: concentration of elemental lithium in seed
+def: "The concentration of elemental lithium when measured in seed." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000297
+name: concentration of elemental magnesium in seed
+def: "The concentration of elemental magnesium when measured in seed." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000298
+name: concentration of elemental manganese in seed
+def: "The concentration of elemental manganese when measured in seed." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000299
+name: concentration of elemental mercury in seed
+def: "The concentration of elemental mercury when measured in seed." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000300
+name: concentration of elemental molybdenum in seed
+def: "The concentration of elemental molybdenum when measured in seed." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000301
+name: concentration of elemental nickel in seed
+def: "The concentration of elemental nickel when measured in seed." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000302
+name: concentration of elemental niobium in seed
+def: "The concentration of elemental niobium when measured in seed." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000303
+name: concentration of elemental phosphorus in seed
+def: "The concentration of elemental phosphorus when measured in seed." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000304
+name: concentration of elemental potassium in seed
+def: "The concentration of elemental potassium when measured in seed." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000305
+name: concentration of elemental rubidium in seed
+def: "The concentration of elemental rubidium when measured in seed." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000306
+name: concentration of elemental selenium in seed
+def: "The concentration of elemental selenium when measured in seed." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000307
+name: concentration of elemental silicon in seed
+def: "The concentration of elemental silicon when measured in seed." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000308
+name: concentration of elemental silver in seed
+def: "The concentration of elemental silver when measured in seed." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000309
+name: concentration of elemental sodium in seed
+def: "The concentration of elemental sodium when measured in seed." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000310
+name: concentration of elemental strontium in seed
+def: "The concentration of elemental strontium when measured in seed." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000311
+name: concentration of elemental sulfur in seed
+def: "The concentration of elemental sulfur when measured in seed." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000312
+name: concentration of elemental tellurium in seed
+def: "The concentration of elemental tellurium when measured in seed." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000313
+name: concentration of elemental thallium in seed
+def: "The concentration of elemental thallium when measured in seed." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000314
+name: concentration of elemental thorium in seed
+def: "The concentration of elemental thorium when measured in seed." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000315
+name: concentration of elemental tin in seed
+def: "The concentration of elemental tin when measured in seed." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000316
+name: concentration of elemental titanium in seed
+def: "The concentration of elemental titanium when measured in seed." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000317
+name: concentration of elemental tungsten in seed
+def: "The concentration of elemental tungsten when measured in seed." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000318
+name: concentration of elemental uranium in seed
+def: "The concentration of elemental uranium when measured in seed." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000319
+name: concentration of elemental vanadium in seed
+def: "The concentration of elemental vanadium when measured in seed." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000320
+name: concentration of elemental yttrium in seed
+def: "The concentration of elemental yttrium when measured in seed." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000321
+name: concentration of elemental zinc in seed
+def: "The concentration of elemental zinc when measured in seed." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000322
+name: concentration of elemental aluminium in root
+def: "The concentration of elemental aluminium when measured in root." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000323
+name: concentration of elemental antimony in root
+def: "The concentration of elemental antimony when measured in root." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000324
+name: concentration of elemental arsenic in root
+def: "The concentration of elemental arsenic when measured in root." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000325
+name: concentration of elemental barium in root
+def: "The concentration of elemental barium when measured in root." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000326
+name: concentration of elemental beryllium in root
+def: "The concentration of elemental beryllium when measured in root." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000327
+name: concentration of elemental bismuth in root
+def: "The concentration of elemental bismuth when measured in root." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000328
+name: concentration of elemental boron in root
+def: "The concentration of elemental boron when measured in root." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000329
+name: concentration of elemental cadmium in root
+def: "The concentration of elemental cadmium when measured in root." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000330
+name: concentration of elemental caesium in root
+def: "The concentration of elemental caesium when measured in root." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000331
+name: concentration of elemental calcium in root
+def: "The concentration of elemental calcium when measured in root." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000332
+name: concentration of elemental cerium in root
+def: "The concentration of elemental cerium when measured in root." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000333
+name: concentration of elemental chromium in root
+def: "The concentration of elemental chromium when measured in root." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000334
+name: concentration of elemental cobalt in root
+def: "The concentration of elemental cobalt when measured in root." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000335
+name: concentration of elemental copper in root
+def: "The concentration of elemental copper when measured in root." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000336
+name: concentration of elemental gallium in root
+def: "The concentration of elemental gallium when measured in root." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000337
+name: concentration of elemental gold in root
+def: "The concentration of elemental gold when measured in root." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000338
+name: concentration of elemental indium in root
+def: "The concentration of elemental indium when measured in root." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000339
+name: concentration of elemental iron in root
+def: "The concentration of elemental iron when measured in root." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000340
+name: concentration of elemental lanthanum in root
+def: "The concentration of elemental lanthanum when measured in root." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000341
+name: concentration of elemental lead in root
+def: "The concentration of elemental lead when measured in root." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000342
+name: concentration of elemental lithium in root
+def: "The concentration of elemental lithium when measured in root." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000343
+name: concentration of elemental magnesium in root
+def: "The concentration of elemental magnesium when measured in root." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000344
+name: concentration of elemental manganese in root
+def: "The concentration of elemental manganese when measured in root." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000345
+name: concentration of elemental mercury in root
+def: "The concentration of elemental mercury when measured in root." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000346
+name: concentration of elemental molybdenum in root
+def: "The concentration of elemental molybdenum when measured in root." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000347
+name: concentration of elemental nickel in root
+def: "The concentration of elemental nickel when measured in root." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000348
+name: concentration of elemental niobium in root
+def: "The concentration of elemental niobium when measured in root." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000349
+name: concentration of elemental phosphorus in root
+def: "The concentration of elemental phosphorus when measured in root." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000350
+name: concentration of elemental potassium in root
+def: "The concentration of elemental potassium when measured in root." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000351
+name: concentration of elemental rubidium in root
+def: "The concentration of elemental rubidium when measured in root." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000352
+name: concentration of elemental selenium in root
+def: "The concentration of elemental selenium when measured in root." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000353
+name: concentration of elemental silicon in root
+def: "The concentration of elemental silicon when measured in root." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000354
+name: concentration of elemental silver in root
+def: "The concentration of elemental silver when measured in root." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000355
+name: concentration of elemental sodium in root
+def: "The concentration of elemental sodium when measured in root." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000356
+name: concentration of elemental strontium in root
+def: "The concentration of elemental strontium when measured in root." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000357
+name: concentration of elemental sulfur in root
+def: "The concentration of elemental sulfur when measured in root." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000358
+name: concentration of elemental tellurium in root
+def: "The concentration of elemental tellurium when measured in root." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000359
+name: concentration of elemental thallium in root
+def: "The concentration of elemental thallium when measured in root." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000360
+name: concentration of elemental thorium in root
+def: "The concentration of elemental thorium when measured in root." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000361
+name: concentration of elemental tin in root
+def: "The concentration of elemental tin when measured in root." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000362
+name: concentration of elemental titanium in root
+def: "The concentration of elemental titanium when measured in root." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000363
+name: concentration of elemental tungsten in root
+def: "The concentration of elemental tungsten when measured in root." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000364
+name: concentration of elemental uranium in root
+def: "The concentration of elemental uranium when measured in root." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000365
+name: concentration of elemental vanadium in root
+def: "The concentration of elemental vanadium when measured in root." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000366
+name: concentration of elemental yttrium in root
+def: "The concentration of elemental yttrium when measured in root." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000367
+name: concentration of elemental zinc in root
+def: "The concentration of elemental zinc when measured in root." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000368
+name: concentration of elemental aluminium in tuber
+def: "The concentration of elemental aluminium when measured in tuber." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000369
+name: concentration of elemental antimony in tuber
+def: "The concentration of elemental antimony when measured in tuber." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000370
+name: concentration of elemental arsenic in tuber
+def: "The concentration of elemental arsenic when measured in tuber." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000371
+name: concentration of elemental barium in tuber
+def: "The concentration of elemental barium when measured in tuber." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000372
+name: concentration of elemental beryllium in tuber
+def: "The concentration of elemental beryllium when measured in tuber." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000373
+name: concentration of elemental bismuth in tuber
+def: "The concentration of elemental bismuth when measured in tuber." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000374
+name: concentration of elemental boron in tuber
+def: "The concentration of elemental boron when measured in tuber." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000375
+name: concentration of elemental cadmium in tuber
+def: "The concentration of elemental cadmium when measured in tuber." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000376
+name: concentration of elemental caesium in tuber
+def: "The concentration of elemental caesium when measured in tuber." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000377
+name: concentration of elemental calcium in tuber
+def: "The concentration of elemental calcium when measured in tuber." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000378
+name: concentration of elemental cerium in tuber
+def: "The concentration of elemental cerium when measured in tuber." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000379
+name: concentration of elemental chromium in tuber
+def: "The concentration of elemental chromium when measured in tuber." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000380
+name: concentration of elemental cobalt in tuber
+def: "The concentration of elemental cobalt when measured in tuber." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000381
+name: concentration of elemental copper in tuber
+def: "The concentration of elemental copper when measured in tuber." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000382
+name: concentration of elemental gallium in tuber
+def: "The concentration of elemental gallium when measured in tuber." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000383
+name: concentration of elemental gold in tuber
+def: "The concentration of elemental gold when measured in tuber." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000384
+name: concentration of elemental indium in tuber
+def: "The concentration of elemental indium when measured in tuber." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000385
+name: concentration of elemental iron in tuber
+def: "The concentration of elemental iron when measured in tuber." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000386
+name: concentration of elemental lanthanum in tuber
+def: "The concentration of elemental lanthanum when measured in tuber." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000387
+name: concentration of elemental lead in tuber
+def: "The concentration of elemental lead when measured in tuber." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000388
+name: concentration of elemental lithium in tuber
+def: "The concentration of elemental lithium when measured in tuber." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000389
+name: concentration of elemental magnesium in tuber
+def: "The concentration of elemental magnesium when measured in tuber." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000390
+name: concentration of elemental manganese in tuber
+def: "The concentration of elemental manganese when measured in tuber." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000391
+name: concentration of elemental mercury in tuber
+def: "The concentration of elemental mercury when measured in tuber." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000392
+name: concentration of elemental molybdenum in tuber
+def: "The concentration of elemental molybdenum when measured in tuber." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000393
+name: concentration of elemental nickel in tuber
+def: "The concentration of elemental nickel when measured in tuber." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000394
+name: concentration of elemental niobium in tuber
+def: "The concentration of elemental niobium when measured in tuber." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000395
+name: concentration of elemental phosphorus in tuber
+def: "The concentration of elemental phosphorus when measured in tuber." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000396
+name: concentration of elemental potassium in tuber
+def: "The concentration of elemental potassium when measured in tuber." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000397
+name: concentration of elemental rubidium in tuber
+def: "The concentration of elemental rubidium when measured in tuber." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000398
+name: concentration of elemental selenium in tuber
+def: "The concentration of elemental selenium when measured in tuber." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000399
+name: concentration of elemental silicon in tuber
+def: "The concentration of elemental silicon when measured in tuber." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000400
+name: concentration of elemental silver in tuber
+def: "The concentration of elemental silver when measured in tuber." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000401
+name: concentration of elemental sodium in tuber
+def: "The concentration of elemental sodium when measured in tuber." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000402
+name: concentration of elemental strontium in tuber
+def: "The concentration of elemental strontium when measured in tuber." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000403
+name: concentration of elemental sulfur in tuber
+def: "The concentration of elemental sulfur when measured in tuber." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000404
+name: concentration of elemental tellurium in tuber
+def: "The concentration of elemental tellurium when measured in tuber." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000405
+name: concentration of elemental thallium in tuber
+def: "The concentration of elemental thallium when measured in tuber." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000406
+name: concentration of elemental thorium in tuber
+def: "The concentration of elemental thorium when measured in tuber." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000407
+name: concentration of elemental tin in tuber
+def: "The concentration of elemental tin when measured in tuber." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000408
+name: concentration of elemental titanium in tuber
+def: "The concentration of elemental titanium when measured in tuber." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000409
+name: concentration of elemental tungsten in tuber
+def: "The concentration of elemental tungsten when measured in tuber." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000410
+name: concentration of elemental uranium in tuber
+def: "The concentration of elemental uranium when measured in tuber." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000411
+name: concentration of elemental vanadium in tuber
+def: "The concentration of elemental vanadium when measured in tuber." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000412
+name: concentration of elemental yttrium in tuber
+def: "The concentration of elemental yttrium when measured in tuber." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000413
+name: concentration of elemental zinc in tuber
+def: "The concentration of elemental zinc when measured in tuber." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000414
+name: concentration of elemental aluminium in root system
+def: "The concentration of elemental aluminium when measured in root system." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000415
+name: concentration of elemental antimony in root system
+def: "The concentration of elemental antimony when measured in root system." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000416
+name: concentration of elemental arsenic in root system
+def: "The concentration of elemental arsenic when measured in root system." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000417
+name: concentration of elemental barium in root system
+def: "The concentration of elemental barium when measured in root system." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000418
+name: concentration of elemental beryllium in root system
+def: "The concentration of elemental beryllium when measured in root system." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000419
+name: concentration of elemental bismuth in root system
+def: "The concentration of elemental bismuth when measured in root system." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000420
+name: concentration of elemental boron in root system
+def: "The concentration of elemental boron when measured in root system." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000421
+name: concentration of elemental cadmium in root system
+def: "The concentration of elemental cadmium when measured in root system." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000422
+name: concentration of elemental caesium in root system
+def: "The concentration of elemental caesium when measured in root system." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000423
+name: concentration of elemental calcium in root system
+def: "The concentration of elemental calcium when measured in root system." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000424
+name: concentration of elemental cerium in root system
+def: "The concentration of elemental cerium when measured in root system." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000425
+name: concentration of elemental chromium in root system
+def: "The concentration of elemental chromium when measured in root system." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000426
+name: concentration of elemental cobalt in root system
+def: "The concentration of elemental cobalt when measured in root system." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000427
+name: concentration of elemental copper in root system
+def: "The concentration of elemental copper when measured in root system." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000428
+name: concentration of elemental gallium in root system
+def: "The concentration of elemental gallium when measured in root system." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000429
+name: concentration of elemental gold in root system
+def: "The concentration of elemental gold when measured in root system." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000430
+name: concentration of elemental indium in root system
+def: "The concentration of elemental indium when measured in root system." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000431
+name: concentration of elemental iron in root system
+def: "The concentration of elemental iron when measured in root system." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000432
+name: concentration of elemental lanthanum in root system
+def: "The concentration of elemental lanthanum when measured in root system." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000433
+name: concentration of elemental lead in root system
+def: "The concentration of elemental lead when measured in root system." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000434
+name: concentration of elemental lithium in root system
+def: "The concentration of elemental lithium when measured in root system." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000435
+name: concentration of elemental magnesium in root system
+def: "The concentration of elemental magnesium when measured in root system." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000436
+name: concentration of elemental manganese in root system
+def: "The concentration of elemental manganese when measured in root system." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000437
+name: concentration of elemental mercury in root system
+def: "The concentration of elemental mercury when measured in root system." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000438
+name: concentration of elemental molybdenum in root system
+def: "The concentration of elemental molybdenum when measured in root system." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000439
+name: concentration of elemental nickel in root system
+def: "The concentration of elemental nickel when measured in root system." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000440
+name: concentration of elemental niobium in root system
+def: "The concentration of elemental niobium when measured in root system." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000441
+name: concentration of elemental phosphorus in root system
+def: "The concentration of elemental phosphorus when measured in root system." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000442
+name: concentration of elemental potassium in root system
+def: "The concentration of elemental potassium when measured in root system." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000443
+name: concentration of elemental rubidium in root system
+def: "The concentration of elemental rubidium when measured in root system." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000444
+name: concentration of elemental selenium in root system
+def: "The concentration of elemental selenium when measured in root system." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000445
+name: concentration of elemental silicon in root system
+def: "The concentration of elemental silicon when measured in root system." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000446
+name: concentration of elemental silver in root system
+def: "The concentration of elemental silver when measured in root system." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000447
+name: concentration of elemental sodium in root system
+def: "The concentration of elemental sodium when measured in root system." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000448
+name: concentration of elemental strontium in root system
+def: "The concentration of elemental strontium when measured in root system." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000449
+name: concentration of elemental sulfur in root system
+def: "The concentration of elemental sulfur when measured in root system." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000450
+name: concentration of elemental tellurium in root system
+def: "The concentration of elemental tellurium when measured in root system." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000451
+name: concentration of elemental thallium in root system
+def: "The concentration of elemental thallium when measured in root system." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000452
+name: concentration of elemental thorium in root system
+def: "The concentration of elemental thorium when measured in root system." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000453
+name: concentration of elemental tin in root system
+def: "The concentration of elemental tin when measured in root system." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000454
+name: concentration of elemental titanium in root system
+def: "The concentration of elemental titanium when measured in root system." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000455
+name: concentration of elemental tungsten in root system
+def: "The concentration of elemental tungsten when measured in root system." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000456
+name: concentration of elemental uranium in root system
+def: "The concentration of elemental uranium when measured in root system." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000457
+name: concentration of elemental vanadium in root system
+def: "The concentration of elemental vanadium when measured in root system." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000458
+name: concentration of elemental yttrium in root system
+def: "The concentration of elemental yttrium when measured in root system." []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: SRPDIO:2000459
+name: concentration of elemental zinc in root system
+def: "The concentration of elemental zinc when measured in root system." []
+is_a: PATO:0000033 ! concentration of
 
 [Term]
 id: Subset
