@@ -6,3 +6,6 @@ ENVO:00005744 #allotment garden soil
 ENVO:00005779 #vegetable garden soil
 ENVO:00005748 #dry soil
 ENVO:00002011 #fresh water
+ENVO:09200010 #acidity of soil
+ENVO:09200016 #conductivity of soil
+ENVO:09200012 #temperature of soil
