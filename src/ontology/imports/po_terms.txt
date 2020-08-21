@@ -1,4 +1,11 @@
 PO:0000000
-PO:0000001
-PO:0000002
-
+PO:0000001 #plant embryo proper
+PO:0000002 #anther wall
+PO:0006342 #infructescence
+PO:0009001 #fruit
+PO:0009005 #root
+PO:0009010 #seed
+PO:0009025 #vascular leaf
+PO:0025025 #root system
+PO:0025356 #bulb
+PO:0025522 #tuber
