@@ -1,2 +1,3 @@
-PATO:0000001
-
+PATO:0000001 #quality
+PATO:0001430 #alkaline
+PATO:0000033 #concentration of
