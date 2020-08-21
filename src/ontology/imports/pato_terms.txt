@@ -1,3 +1,8 @@
 PATO:0000001 #quality
 PATO:0001430 #alkaline
 PATO:0000033 #concentration of
+PATO:0000146 #temperature
+PATO:0001430 #alkalinity
+PATO:0001757 #conductivity
+PATO:0001842 #acidity
+PATO:0001800 #water composition
