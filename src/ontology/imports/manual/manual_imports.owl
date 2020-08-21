@@ -1,0 +1,164 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/srpdio/imports/manual/manual_imports.owl#"
+     xml:base="http://purl.obolibrary.org/obo/srpdio/imports/manual/manual_imports.owl"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+     xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
+     xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:subsets="http://purl.obolibrary.org/obo/ro/subsets#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/srpdio/imports/manual/manual_imports.owl">
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/srpdio/releases/2020-06-29/imports/manual/manual_imports.owl"/>
+    </owl:Ontology>
+
+
+    <!--
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes added manually that were'nt coming in via the ROBOT imports module
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00002263 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00002263">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_00001998"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000011"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00001998"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000011"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000011"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A portion of soil which is found in a garden.</obo:IAO_0000115>
+        <rdfs:label>garden soil</rdfs:label>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00002011 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00002011">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002006"/>
+        <obo:IAO_0000115>Water which has a low concentration of dissolved solutes, particularly that of sodium chloride.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>EcoLexicon:fresh_water</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>LTER:216</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SWEETRealm:FreshWater</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Fresh_water</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>freshwater</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>sweet water</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:inSubset>envoEmpo</oboInOwl:inSubset>
+        <oboInOwl:inSubset>envoPolar</oboInOwl:inSubset>
+        <rdfs:comment>The lower bound of solute concentration required for water to be considered freshwater is variable, but is always less than that of seawater, and often cited as less than 1 gram of solutes per 1 litre of water.</rdfs:comment>
+        <rdfs:label>fresh water</rdfs:label>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_09200010 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_09200010">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001842"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00001998"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001842"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00001998"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>The acidity of some soil.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>soil acidity</oboInOwl:hasExactSynonym>
+        <rdfs:label>acidity of soil</rdfs:label>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_09200016 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_09200016">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001757"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00001998"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001757"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00001998"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>The conductivity of some soil.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>soil conductivity</oboInOwl:hasExactSynonym>
+        <rdfs:label>conductivity of soil</rdfs:label>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_09200012 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_09200012">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000146"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00001998"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_09200000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00001998"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>The temperature of some soil.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>soil temperature</oboInOwl:hasExactSynonym>
+        <rdfs:label>temperature of soil</rdfs:label>
+    </owl:Class>
+    
+
+
+</rdf:RDF>
