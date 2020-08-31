@@ -3,7 +3,7 @@
 
 # Superfund Research Project Data Integration Ontology
 
-This ontology is used to integrate data from multiple Superfund Research Program (SRP) centers, include the University of Arizona, UC San Diego, and the Colorado School of mines. SRPDIO uses descriptive terms from the Environment Ontology (ENVO), the Plant Ontology (PO) and the Phenotype and Trait Ontology (PO), along with the observation model from the BioCollections Ontology (BCO), to merge quantitative data into a single searchable database.
+This ontology is used to integrate data from multiple Superfund Research Program (SRP) centers, include the University of Arizona, UC San Diego, and the Colorado School of mines. SRPDIO uses descriptive terms from the Environment Ontology (ENVO), the Plant Ontology (PO) and the Phenotype and Trait Ontology (PATO), along with the observation model from the BioCollections Ontology (BCO), to merge quantitative data into a single searchable database.
 
 More information will be available at http://obofoundry.org/ontology/srpdio after the ontology is published.
 
