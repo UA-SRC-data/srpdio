@@ -45,9 +45,9 @@
     
 
 
-    <!-- SRPDIO:4000000 -->
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_4000000 -->
 
-    <Class rdf:about="SRPDIO:4000000">
+    <Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_4000000">
         <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Standin term for &quot;total organic carbon&quot; that will be added to ENVO and replaced here.</obo:IAO_0000116>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kai Blumberg</obo:IAO_0000117>
         <rdfs:label xml:lang="en">total organic carbon</rdfs:label>
