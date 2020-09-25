@@ -125,7 +125,7 @@ modules/%.owl: ../modules/%.csv ../patterns/%.yaml curie_map.yaml
 
 #Targets for ROBOT template modules
 modules/SRPDIO_internal_vocab.owl: ../modules/SRPDIO_internal_vocab.csv
-	$(ROBOT) template --template $< -i imports/ro_import.owl -o ../$@.tmp.owl && mv ../$@.tmp.owl ../$@
+	$(ROBOT) template --template $< -i imports/ro_import.owl --prefix "SRPDIO:http://purl.obolibrary.org/obo/SRPDIO_" -o ../$@.tmp.owl && mv ../$@.tmp.owl ../$@
 
 
 ## Merge module ontologies
