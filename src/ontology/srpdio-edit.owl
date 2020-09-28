@@ -23,6 +23,7 @@
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/srpdio.owl">
+        <owl:imports rdf:resource="http://purl.obolibrary.org/srpdio/modules/SRPDIO_internal_vocab.owl"/>
         <dc:description>None</dc:description>
         <dc:title>Superfund Research Project Data Integration Ontology</dc:title>
         <terms:license>Unspecified</terms:license>
