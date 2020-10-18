@@ -106,7 +106,7 @@ all_subsets: $(SUBSET_FILES)
 
 
 ## DOSDP pattern targets modivied from ENVO version
-MODS = chemical_concentration entity_attribute plant_part_concentration
+MODS = chemical_concentration entity_attribute plant_part_concentration SRPDIO_internal_vocab
 ALL_MODS_OWL = $(patsubst %, modules/%.owl, $(MODS))
 ALL_MODS_CSV = $(patsubst %, modules/%.csv, $(MODS))
 
@@ -115,12 +115,18 @@ all_modules: all_modules_owl #all_modules_obo
 all_modules_owl: $(ALL_MODS_OWL)
 #all_modules_obo: $(patsubst %, modules/%.obo, $(MODS))
 
+# Targets for DOSDP modules
 modules/%.owl: ../modules/%.csv ../patterns/%.yaml curie_map.yaml
 	dosdp-tools --table-format=csv --template=../patterns/$*.yaml --outfile=../modules/$*.tmp.owl --obo-prefixes=true generate --infile=../modules/$*.csv
 	$(ROBOT) annotate --input ../modules/$*.tmp.owl -O http://purl.obolibrary.org/obo/srpdio/modules/$*.owl --output ../modules/$*.owl && rm ../modules/$*.tmp.owl
 
 # modules/%.obo: ../modules/%.owl
 # 	owltools $< -o -f obo ../$@.tmp && grep -v ^owl-axioms ../$@.tmp > ../$@
+
+#Targets for ROBOT template modules
+modules/SRPDIO_internal_vocab.owl: ../modules/SRPDIO_internal_vocab.csv
+	$(ROBOT) template --template $< -i imports/ro_import.owl --prefix "SRPDIO:http://purl.obolibrary.org/obo/SRPDIO_" --ontology-iri "http://purl.obolibrary.org/srpdio/modules/SRPDIO_internal_vocab.owl" -o $@.tmp.owl && mv $@.tmp.owl $@
+
 
 ## Merge module ontologies
 # see https://robot.obolibrary.org/merge

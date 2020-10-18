@@ -74,5 +74,14 @@ Datatype: idrange:5
         xsd:integer[>= 3000000 , <= 3999999]
 
 
+Datatype: idrange:6
+
+    Annotations:
+        allocatedto: "SRPDIO_internal_vocab"
+
+    EquivalentTo:
+        xsd:integer[>= 4000000 , <= 4999999]
+
+
 Datatype: xsd:integer
 Datatype: rdf:PlainLiteral
