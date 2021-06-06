@@ -8,7 +8,7 @@ income poverty,number of persons for whom income status has been determined,ejs,
 income poverty,number of persons with low income (less than 2x the poverty level),ejs,people per census block group
 income poverty,percent persons with low income (less than 2x the poverty level),ejs,percent of people in census block group
 age,number of people,age by number of disabilities,people per census block group
-age,number of people age 25 and above,ejs,people per census block group
+age,number of people 25 years and over,ejs,people per census block group
 age,number of people under age 5,ejs,people per census block group
 age,percent of people under age 5,ejs,percent of people in census block group
 age,number of people over age 64,ejs,people per census block group
@@ -17,21 +17,21 @@ disability status,number of people,disability status,people per census block gro
 disability status,number of grandparents living with own grandchildren,grandparents responsible for grandchildren,people per census block group
 employment status,number of people 16 years and over,sex by age by employment status,people per census block group
 employment status,number of people,employment status by disability status,people per census block group
-***household and housing units,group quarters type,household population
+***household and housing units,group quarters type,household population,??
 household and housing units,number of households,ejs,households per census block group
 household and housing units,number of housing units,ejs,housing units per census block group
 household and housing units,number housing units built prior to 1960,ejs,housing units per census block group
 household and housing units,percent housing units built prior to 1960,ejs,percent of housing units in census block group
-miscellaneous,number of people 25 years and over,education
-miscellaneous,less than high school education count,education ejs
-miscellaneous,percent less than high school education,education ejs
-miscellaneous,civilian employed population 16 years and over,occupation
-miscellaneous,linguistically isolated count,langague spoken ejs
-miscellaneous,percent linguistically isolated,langague spoken ejs
-miscellaneous,citizens in voting-age population,voting population
-miscellaneous,number of households,computing devise
-miscellaneous,number of people,computing devise
-miscellaneous,number of households,internet accesss
-miscellaneous,number of people,veteran population
-miscellaneous,minority population count,minority population ejs
-miscellaneous,percent minority population,minority population ejs
+miscellaneous,number of people 25 years and over,education,people per census block group
+miscellaneous,number of people with less than high school education,education ejs,people per census block group
+miscellaneous,percent less than high school education,education ejs,percent of people in census block group
+miscellaneous,civilian employed population 16 years and over,occupation,percent of people in census block group
+miscellaneous,number of linguistically isolated people,langague spoken ejs,people per census block group
+miscellaneous,percent linguistically isolated,langague spoken ejs,percent of people in census block group
+miscellaneous,citizens in voting-age population,voting population,people per census block group
+miscellaneous,number of households,computing devise,households per census block group
+miscellaneous,number of people,computing devise,people per census block group
+miscellaneous,number of households,internet accesss,households per census block group
+miscellaneous,number of people,veteran population,people per census block group
+miscellaneous,minority population count,minority population ejs,people per census block group
+miscellaneous,percent minority population,minority population ejs,percent of people in census block group

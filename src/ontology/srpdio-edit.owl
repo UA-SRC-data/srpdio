@@ -30132,14 +30132,6 @@ Classes for population already  exist in IDO (&apos;organism population&apos;, I
     
 
 
-    <!-- http://purl.obolibrary.org/obo/SRPDIO_00000000 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_00000000">
-        <rdfs:label xml:lang="en">root node</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/SRPDIO_0000001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_0000001">

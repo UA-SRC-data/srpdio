@@ -6,3 +6,5 @@ PATO:0001430 #alkalinity
 PATO:0001757 #conductivity
 PATO:0001842 #acidity
 PATO:0001800 #water composition
+PATO:0000011 #age
+PATO:0000047 #sex
