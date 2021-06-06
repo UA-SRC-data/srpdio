@@ -33,7 +33,7 @@ TODAY ?= $(shell date +%Y-%m-%d)
 OBODATE ?= $(shell date +'%d:%m:%Y %H:%M')
 
 
-FORMATS = $(sort  owl obo owl)
+FORMATS = owl
 FORMATS_INCL_TSV = $(sort $(FORMAT) tsv)
 RELEASE_ARTEFACTS = $(sort  full base base full)
 
@@ -67,7 +67,7 @@ all_main: $(MAIN_FILES)
 ##
 ## By default this is the cross-product of IMPORT_MODULES x FORMATS
 
-IMPORTS =  po pato envo # ro pco bco to uo chebi sdgio
+IMPORTS =  po pato envo pco # ro bco to uo chebi sdgio
 
 IMPORT_ROOTS = $(patsubst %, imports/%_import, $(IMPORTS))
 IMPORT_FILES = $(foreach n,$(IMPORT_ROOTS), $(foreach f,$(FORMATS), $(n).$(f)))
@@ -77,7 +77,7 @@ all_imports: $(IMPORT_FILES)
 
 all_imports_owl: $(foreach n,$(IMPORT_ROOTS), $(n).owl)
 
-all_imports_obo: $(foreach n,$(IMPORT_ROOTS), $(n).obo)
+#all_imports_obo: $(foreach n,$(IMPORT_ROOTS), $(n).obo)
 
 
 ## -- subset targets --
@@ -97,31 +97,37 @@ all_subsets: $(SUBSET_FILES)
 ##
 
 # ## orginal ODK version
-# PATTERNS =
-#
-# PATTERN_ROOTS = $(patsubst %, $(PATTERNDIR)/%, $(PATTERNS))
-# PATTERN_FILES = $(foreach n,$(PATTERN_ROOTS), $(n).owl)
-#
-# all_patterns: $(PATTERN_FILES)
+PATTERNS = chemical_concentration entity_attribute plant_part_concentration
+PATTERN_ROOTS = $(patsubst %, $(PATTERNDIR)/%, $(PATTERNS))
+PATTERN_FILES = $(foreach n,$(PATTERN_ROOTS), $(n).owl)
 
+all_patterns: $(PATTERN_FILES)
 
-## DOSDP pattern targets modivied from ENVO version
-MODS = chemical_concentration entity_attribute plant_part_concentration SRPDIO_internal_vocab
-ALL_MODS_OWL = $(patsubst %, modules/%.owl, $(MODS))
-ALL_MODS_CSV = $(patsubst %, modules/%.csv, $(MODS))
+# Targets for DOSDP modules
+patterns/%.owl: ../patterns/%.csv ../patterns/%.yaml curie_map.yaml
+	dosdp-tools --table-format=csv --template=../patterns/$*.yaml --outfile=../pattterns/$*.tmp.owl --obo-prefixes=true generate --infile=../patterns/$*.csv
+	$(ROBOT) annotate --input ../patterns/$*.tmp.owl -O http://purl.obolibrary.org/obo/srpdio/patterns/$*.owl --output ../patterns/$*.owl && rm ../patterns/$*.tmp.owl
+# modules/%.obo: ../modules/%.owl
+# 	owltools $< -o -f obo ../$@.tmp && grep -v ^owl-axioms ../$@.tmp > ../$@
+
+## DOSDP pattern targets modified from ENVO version
+#RW edited this file to revert to the normal DOSDP pattern
+#MODS = chemical_concentration entity_attribute plant_part_concentration SRPDIO_internal_vocab
+#ALL_MODS_OWL = $(patsubst %, modules/%.owl, $(MODS))
+#ALL_MODS_CSV = $(patsubst %, modules/%.csv, $(MODS))
 
 ## Modules make targets modified from ENVO's version
+
+## --robot modules--
+
+MODULES = SRPDIO_internal_vocab
+ALL_MODS_OWL = $(patsubst %, modules/%.owl, $(MODULES))
+ALL_MODS_CSV = $(patsubst %, modules/%.csv, $(MODULES))
+
 all_modules: all_modules_owl #all_modules_obo
 all_modules_owl: $(ALL_MODS_OWL)
 #all_modules_obo: $(patsubst %, modules/%.obo, $(MODS))
 
-# Targets for DOSDP modules
-modules/%.owl: ../modules/%.csv ../patterns/%.yaml curie_map.yaml
-	dosdp-tools --table-format=csv --template=../patterns/$*.yaml --outfile=../modules/$*.tmp.owl --obo-prefixes=true generate --infile=../modules/$*.csv
-	$(ROBOT) annotate --input ../modules/$*.tmp.owl -O http://purl.obolibrary.org/obo/srpdio/modules/$*.owl --output ../modules/$*.owl && rm ../modules/$*.tmp.owl
-
-# modules/%.obo: ../modules/%.owl
-# 	owltools $< -o -f obo ../$@.tmp && grep -v ^owl-axioms ../$@.tmp > ../$@
 
 #Targets for ROBOT template modules
 modules/SRPDIO_internal_vocab.owl: ../modules/SRPDIO_internal_vocab.csv
@@ -131,7 +137,7 @@ modules/SRPDIO_internal_vocab.owl: ../modules/SRPDIO_internal_vocab.csv
 ## Merge module ontologies
 # see https://robot.obolibrary.org/merge
 merge_modules:
-	$(ROBOT) merge --input srpdio-edit.owl --input ../modules/chemical_concentration.owl --input ../modules/entity_attribute.owl --input ../modules/plant_part_concentration.owl --input imports/manual/manual_imports.owl --output srpdio-edit.owl
+	$(ROBOT) merge --input srpdio-edit.owl --input ../patterns/chemical_concentration.owl --input ../patterns/entity_attribute.owl --input ../patterns/plant_part_concentration.owl --input imports/manual/manual_imports.owl --output srpdio-edit.owl
 	#--inputs "../modules/*.owl"
 
 
