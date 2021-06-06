@@ -1,0 +1,73 @@
+pattern_name: acs_income_poverty
+
+classes: 
+  organismal entity: PCO:0000031
+  quality: PATOO:0000001 
+
+relations:
+  inheres in: RO:0000052  #characteristic of
+  bearer of: RO:0000053   #has characteristic
+  has disability status: SRPDIO:0000001
+  has poverty status: SRPDIO:0000002
+  has race: SRPDIO:0000003
+  has age: SRPDIO:0000004
+  has household size: SRPDIO:0000005
+  has Foodstamp/SNAP status: SRPDIO:0000006
+  mortgage status: SRPDIO:0000007
+  labor force status: SRPDIO:0000008
+  employment status: SRPDIO:0000009
+  has per capita income: SRPDIO:0000010
+    
+vars: 
+  enity: "'organismal enity'"
+  root_quality: SRPDIO:0000011
+  quality1: SRPDIO:0000011
+  quality2: SRPDIO:0000011
+  quality3: SRPDIO:0000011
+  rel1: RO:0000053   #has characteristic
+  rel2: RO:0000053   #has characteristic
+  rel3: RO:0000053   #has characteristic
+  rel4: RO:0000053   #has characteristic
+  acs_var_id: string
+
+name:
+  text: "%s"
+  vars:
+    - root_quality
+    - quality1
+    - quality2
+    - quality3
+    - quality4
+
+annotationProperties:
+#  exact_synonym: oio:hasExactSynonym
+acs_var_id: 
+
+annotations: 
+#  - annotationProperty: exact_synonym
+#    text: "%s %s concentration"
+#    vars:
+#      - material
+#      - chemical
+
+def: 
+  text: "%s by %s by s% by s%."
+  vars:
+    - root_quality
+    - quality1
+    - quality2
+    - quality3
+    
+equivalentTo: 
+  text: "%s and 'characteristic of' some (%s and ('%s some %s) and (%s some #s) and (%s some #s) and (%s some #s))"
+  vars:
+    - root_quality
+    - entity
+    - rel1
+    - quality1
+    - rel2 
+    - quality2
+    - rel3
+    - quality3
+    - rel4
+    - quality4

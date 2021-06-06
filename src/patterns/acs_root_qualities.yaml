@@ -1,0 +1,45 @@
+pattern_name: acs_income_poverty
+
+classes: 
+  organismal entity: PCO:0000031
+  root quality: SRPDIO:0000000
+  quality1: SRPDIO:0000000
+  quality2: SRPDIO:0000000
+  quality3: SRPDIO:0000000
+
+relations:
+  inheres in: RO:0000052  #characteristic of
+  bearer of: RO:0000053   #has characteristic
+    
+vars: 
+  enity: "'organismal enity'"
+  material: "'environmental material'"
+
+name:
+  text: "concentration of %s in %s"
+  vars:
+    - chemical
+    - material
+
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym
+
+annotations: 
+  - annotationProperty: exact_synonym
+    text: "%s %s concentration"
+    vars:
+      - material
+      - chemical
+
+def: 
+  text: "The concentration of %s when measured in %s."
+  vars:
+    - chemical
+    - material
+    
+equivalentTo: 
+  text: "'concentration of' and 'inheres in' some (%s and 'part of' some %s)"
+  vars:
+    - chemical
+    - material
+

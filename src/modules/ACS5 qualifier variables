@@ -1,0 +1,68 @@
+ACS5 qualifier variables,,
+category,variable,sheet
+income poverty,household size,median household income
+income poverty,race or ethnicity,median household income
+income poverty,age,median household income
+income poverty,Food Stamps or SNAP status,median household income
+income poverty,househould mortgage status,median household income
+income poverty,poverty status,income at or below poverty level
+income poverty,sex,income at or below poverty level
+income poverty,labor force status,income at or below poverty level
+income poverty,employment status,income at or below poverty level
+income poverty,race or ethnicity,per capita income
+income poverty,race or ethnicity,ratio of income to poverty
+income poverty,disability status,ratio of income to poverty
+age,age,age by number of disabilities
+age,disability status,age by number of disabilities
+age,poverty status,age by number of disabilities
+disability status,age,disability status
+disability status,disability status,disability status
+disability status,insurance coverage,disability status
+disability status,insurance type,disability status
+disability status,disability status,grandparents responsible for grandchildren
+disability status,grandparent responsibe for grandchildren,grandparents responsible for grandchildren
+disability status,grandparent age,grandparents responsible for grandchildren
+employment status,sex,sex by age by employment status
+employment status,age,sex by age by employment status
+employment status,labor force status,sex by age by employment status
+employment status,civilian status,sex by age by employment status
+employment status,employment status,sex by age by employment status
+employment status,race or ethnicity,sex by age by employment status
+employment status,labor force status,employment status by disability status
+employment status,employment status,employment status by disability status
+employment status,disability status,employment status by disability status
+***household and housing units,group institutionalized status,household population
+***household and housing units,group institution type,household population
+***household and housing units,noninstitution group type,household population
+***household and housing units,age,household population
+***household and housing units,disability,household population
+miscellaneous,educational attainment,education
+miscellaneous,labor force status,education
+miscellaneous,language spoken at home,education
+miscellaneous,occupation general category,occupation
+miscellaneous,occupation mid-category,occupation
+miscellaneous,occupation specific category,occupation
+miscellaneous,sex,occupation
+miscellaneous,age,voting population
+miscellaneous,educational attainment,voting population
+miscellaneous,age,computing devise
+miscellaneous,educational attainment,computing devise
+miscellaneous,has a computer,computing devise
+miscellaneous,first type of computer,computing devise
+miscellaneous,second type of computer,computing devise
+miscellaneous,internet subscription,computing devise
+miscellaneous,labor force status,computing devise
+miscellaneous,employment status,computing devise
+miscellaneous,has a computer,internet accesss
+miscellaneous,internet subscription,internet accesss
+miscellaneous,first internet subscription type,internet accesss
+miscellaneous,second internet subscription type,internet accesss
+miscellaneous,age,veteran population
+miscellaneous,veteran status,veteran population
+miscellaneous,poverty status,veteran population
+miscellaneous,disability status,veteran population
+
+
+
+
+
