@@ -53073,6 +53073,7 @@ Classes for population already  exist in IDO (&apos;organism population&apos;, I
     <!-- http://purl.obolibrary.org/obo/SRPDIO_4000000 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_4000000">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
         <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Standin term for &quot;total organic carbon&quot; that will be added to ENVO and replaced here.</obo:IAO_0000116>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kai Blumberg</obo:IAO_0000117>
         <rdfs:label xml:lang="en">total organic carbon</rdfs:label>

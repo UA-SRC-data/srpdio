@@ -137,7 +137,7 @@ modules/SRPDIO_internal_vocab.owl: ../modules/SRPDIO_internal_vocab.csv
 ## Merge module ontologies
 # see https://robot.obolibrary.org/merge
 merge_modules:
-	$(ROBOT) merge --input srpdio-edit.owl --input ../patterns/chemical_concentration.owl --input ../patterns/entity_attribute.owl --input ../patterns/plant_part_concentration.owl --input imports/manual/manual_imports.owl --output srpdio-edit.owl
+	$(ROBOT) merge --input srpdio-edit.owl --input ../patterns/chemical_concentration.owl --input ../patterns/entity_attribute.owl --input ../patterns/plant_part_concentration.owl --input imports/manual/manual_imports.owl --input modules/SRPDIO_internal_vocab.owl --output srpdio-edit.owl
 	#--inputs "../modules/*.owl"
 
 
