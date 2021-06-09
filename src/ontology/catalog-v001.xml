@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/srpdio/releases/2020-06-29/imports/manual/manual_imports.owl" uri="imports/manual/manual_imports.owl"/>
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/srpdio/modules/entity_attribute.owl" uri="file:/Users/rwalls/gh/srpdio/src/patterns/entity_attribute.owl"/>
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/srpdio/modules/plant_part_concentration.owl" uri="file:/Users/rwalls/gh/srpdio/src/patterns/plant_part_concentration.owl"/>
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/srpdio/modules/chemical_concentration.owl" uri="file:/Users/rwalls/gh/srpdio/src/patterns/chemical_concentration.owl"/>
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/srpdio/releases/2021-06-08/imports/po_import.owl" uri="imports/po_import.owl"/>
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/srpdio/releases/2021-06-08/imports/envo_import.owl" uri="imports/envo_import.owl"/>
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/srpdio/releases/2021-06-08/imports/pco_import.owl" uri="imports/pco_import.owl"/>
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/srpdio/releases/2021-06-08/imports/po_import.owl" uri="imports/po_import.owl"/>
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/srpdio/releases/2021-06-08/imports/pato_import.owl" uri="imports/pato_import.owl"/>
     <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/srpdio/modules/SRPDIO_internal_vocab.owl" uri="modules/SRPDIO_internal_vocab.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/srpdio/imports/po_import.owl" uri="imports/po_import.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/srpdio/imports/po_import.obo" uri="imports/po_import.obo"/>
