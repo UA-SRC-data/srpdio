@@ -7,16 +7,7 @@ classes:
 relations:
   inheres in: RO:0000052  #characteristic of
   bearer of: RO:0000053   #has characteristic
-  has disability status: SRPDIO:0000001
-  has poverty status: SRPDIO:0000002
-  has race: SRPDIO:0000003
-  has age: SRPDIO:0000004
-  has household size: SRPDIO:0000005
-  has Foodstamp/SNAP status: SRPDIO:0000006
-  mortgage status: SRPDIO:0000007
-  labor force status: SRPDIO:0000008
-  employment status: SRPDIO:0000009
-  has per capita income: SRPDIO:0000010
+  has quality: RO:0000053
     
 vars: 
   enity: "'organismal enity'"
@@ -24,10 +15,10 @@ vars:
   quality1: SRPDIO:0000011
   quality2: SRPDIO:0000011
   quality3: SRPDIO:0000011
-  rel1: RO:0000053   #has characteristic
-  rel2: RO:0000053   #has characteristic
-  rel3: RO:0000053   #has characteristic
-  rel4: RO:0000053   #has characteristic
+  rel1: RO:0000053   #has quality
+  rel2: RO:0000053   #has quality
+  rel3: RO:0000053   #has quality
+  rel4: RO:0000053   #has quality
   acs_var_id: string
 
 name:

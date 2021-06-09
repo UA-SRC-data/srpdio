@@ -1,6 +1,6 @@
 This folder contains the YAML files that control how modules are built using DOSDP patterns.
 
-The CSV input files and the output OWL files are in ../modules.
+It also contains the CSV input files and the output OWL files.
 
 SRPDIO uses the following pattern-based modules:
 - chemical concentration - the concentrations of chemicals in environmental substances that aren't plants (e.g., water, soil)
@@ -11,4 +11,6 @@ SRPDIO uses the following pattern-based modules:
 - TODO: acs5 - variables from the US Census based American Community Survey
 
 
-Other modules are generated using robot. Their source CSVs are also in ../modules.
+Non DOSDP modules are generated using robot. Their source CSVs and output OWL files are also in ../modules.
+
+Import modules are in ../source/imports.
