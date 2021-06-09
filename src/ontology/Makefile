@@ -227,11 +227,6 @@ $(ONTOLOGYTERMS): $(SRC) $(OTHER_SRC)
 
 
 
-
-
-
-
-
 # base: OTHER sources of interest, such as definitions owl
 $(ONT)-base.owl: $(SRC) $(OTHER_SRC)
 	$(ROBOT) remove --input $< --select imports --trim false \
