@@ -1,6 +1,6 @@
-﻿Ontology ID,parent class,label,definition,definition source,English syn.,term editor,editor note,subclass axiom,equivaleny axiom,Curation notes,source,unit,EJP concept,EJS variable ID,Unit
-ID,SC %,AL rdfs:label@en,AL IAO:0000115@en,A IAO:0000119 SPLIT=|,AL oboInOwl:hasExactSynonym@en,A IAO:0000117 SPLIT=|,A IAO:0000116 SPLIT=|,,,,,A add annotation property for default unit,A add annotation property for EJS concept,A add annotation property for EJS var ID,A add annotation property for default unit
-SRPDIO:1000000,STATO:0000047,number of people,,,,,,is about' some 'collection of humans',,,acs5,percent of people in census block group,,,
+﻿Ontology ID,parent class,label,definition,definition source,English syn.,term editor,editor note,subclass axiom,equivaleny axiom,Curation notes,source,unit,EJP concept,EJS variable ID,DBXREF
+ID,SC %,AL rdfs:label@en,AL IAO:0000115@en,A IAO:0000119 SPLIT=|,AL oboInOwl:hasExactSynonym@en,A IAO:0000117 SPLIT=|,A IAO:0000116 SPLIT=|,,,,A DC:source SPLIT=|,A SRPDIO:4000003,A SRPDIO:4000004,A SRPDIO:4000005,A oboInOwl:hasDbXref
+SRPDIO:1000000,STATO:0000047,number of people,A count datum that is the number of people in some area.,,,,,is about' some 'collection of humans',,,acs5,percent of people in census block group,,,
 SRPDIO:1000001,SRPDIO:1000000,number of people 16 years and over,,,,,,is about' some age,,,acs5,dollers per year per household,,,
 SRPDIO:1000002,SRPDIO:1000001,civilian employed population 16 years and over,,,,,,is about' some age,,,acs5,people per census block group,,,
 SRPDIO:1000003,SRPDIO:1000001,number of citizens in voting-age population,,,,,,is about' some age,,,acs5,people per census block group,,,
@@ -10,8 +10,8 @@ SRPDIO:1000006,SRPDIO:1000000,number of grandparents living with own grandchildr
 SRPDIO:1000007,SRPDIO:1000000,number of people in group quarters  (5 types),,,,,,is about' some 'housing quality',,,acs5,people per census block group,,,
 SRPDIO:1000008,SRPDIO:1000000,number of people in group quarters (3 types),,,,,,is about' some 'housing quality',,,acs5,people per census block group,,,
 SRPDIO:1000009,SRPDIO:1000000,number of people in households,,,,,,is about' some 'housing quality',,,acs5,people per census block group,,,
-SRPDIO:1000010,OMRSE_00000501,median household income in the past 12 months (in 2018 inflation-adjusted dollars),,,,,,is about' some 'income quality',,,acs5,people per census block group,,,
-SRPDIO:1000011,OMRSE_00000501,per capita income in the past 12 months (in 2018 inflation-adjusted dollars),,,,,,is about' some 'income quality',,,acs5,dollars per year per person,,,
+SRPDIO:1000010,OMRSE:00000501,median household income in the past 12 months (in 2018 inflation-adjusted dollars),,,,,,is about' some 'income quality',,,acs5,people per census block group,,,
+SRPDIO:1000011,OMRSE:00000501,per capita income in the past 12 months (in 2018 inflation-adjusted dollars),,,,,,is about' some 'income quality',,,acs5,dollars per year per person,,,
 SRPDIO:1000012,SRPDIO:1000000,number of persons for whom income status has been determined,,,,,,is about' some 'income quality',,,ejs,people per census block group,persons for whom income status has been determined,ACSIPOVBAS,
 SRPDIO:1000013,SRPDIO:1000000,number of persons with low income (less than 2x the poverty level),,,,,,is about' some 'poverty status',,,ejs,people per census block group,low Income (less than 2x the poverty level),LOWINCOME,
 SRPDIO:1000014,UO:0000187,percent persons with low income (less than 2x the poverty level),,,,,,is about' some 'poverty status',,,ejs,percent of people in census block group,percent Low Income (less than 2x the poverty level),LOWINCPCT,
@@ -30,6 +30,6 @@ SRPDIO:1000027,UO:0000187,percent linguistically isolated,,,,,,is about' some 'q
 SRPDIO:1000028,SRPDIO:1000000,minority population count,,,,,,is about' some 'belongs to a minority group',,,ejs,people per census block group,Minority Population,MINORPOP,
 SRPDIO:1000029,UO:0000187,percent minority population,,,,,,is about' some 'belongs to a minority group',,,ejs,percent of people in census block group,Pct. Minority Population,MINORPCT,
 SRPDIO:1000030,IAO:0000109,measurement datum about age of people,,,,,,,measurement datum' and ('is about' some age),,rlw,,,,
-SRPDIO:1000031,,measurement datum about income status ,,,,,,,measurement datum' and ('is about' some 'income quality'),,rlw,,,,
-SRPDIO:1000032,,measurement datum about housing quality,,,,,,,measurement datum' and ('is about' some 'housing quality'),,,,,,
-SRPDIO:1000033,,measurement datum about language spoken,,,,,,,measurement datum' and ('is about' some 'language spoken'),,,,,,
+SRPDIO:1000031,IAO:0000109,measurement datum about income status ,,,,,,,measurement datum' and ('is about' some 'income quality'),,rlw,,,,
+SRPDIO:1000032,IAO:0000109,measurement datum about housing quality,,,,,,,measurement datum' and ('is about' some 'housing quality'),,,,,,
+SRPDIO:1000033,IAO:0000109,measurement datum about language spoken,,,,,,,measurement datum' and ('is about' some 'language spoken'),,,,,,
