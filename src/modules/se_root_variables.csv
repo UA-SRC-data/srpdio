@@ -1,37 +1,38 @@
-ACS5 root variables,,,
-category,variable,sheet,unit
-income poverty,median household income in the past 12 months (in 2018 inflation-adjusted dollars),median household income,dollers per year per household
-income poverty,number of people,income at or below poverty level,people per census block group
-income poverty,per capita income in the past 12 months (in 2018 inflation-adjusted dollars),per capita income,dollars per year per person
-income poverty,ratio of income to poverty level in the past 12 months,ratio of income to poverty,ratio of block group
-income poverty,number of persons for whom income status has been determined,ejs,people per census block group
-income poverty,number of persons with low income (less than 2x the poverty level),ejs,people per census block group
-income poverty,percent persons with low income (less than 2x the poverty level),ejs,percent of people in census block group
-age,number of people,age by number of disabilities,people per census block group
-age,number of people 25 years and over,ejs,people per census block group
-age,number of people under age 5,ejs,people per census block group
-age,percent of people under age 5,ejs,percent of people in census block group
-age,number of people over age 64,ejs,people per census block group
-age,percent of people over age 64,ejs,percent of people in census block group
-disability status,number of people,disability status,people per census block group
-disability status,number of grandparents living with own grandchildren,grandparents responsible for grandchildren,people per census block group
-employment status,number of people 16 years and over,sex by age by employment status,people per census block group
-employment status,number of people,employment status by disability status,people per census block group
-***household and housing units,group quarters type,household population,??
-household and housing units,number of households,ejs,households per census block group
-household and housing units,number of housing units,ejs,housing units per census block group
-household and housing units,number housing units built prior to 1960,ejs,housing units per census block group
-household and housing units,percent housing units built prior to 1960,ejs,percent of housing units in census block group
-miscellaneous,number of people 25 years and over,education,people per census block group
-miscellaneous,number of people with less than high school education,education ejs,people per census block group
-miscellaneous,percent less than high school education,education ejs,percent of people in census block group
-miscellaneous,civilian employed population 16 years and over,occupation,percent of people in census block group
-miscellaneous,number of linguistically isolated people,langague spoken ejs,people per census block group
-miscellaneous,percent linguistically isolated,langague spoken ejs,percent of people in census block group
-miscellaneous,citizens in voting-age population,voting population,people per census block group
-miscellaneous,number of households,computing devise,households per census block group
-miscellaneous,number of people,computing devise,people per census block group
-miscellaneous,number of households,internet accesss,households per census block group
-miscellaneous,number of people,veteran population,people per census block group
-miscellaneous,minority population count,minority population ejs,people per census block group
-miscellaneous,percent minority population,minority population ejs,percent of people in census block group
+category,variable,sheet,source,unit,qualifier,qualifier,qualifier,qualifier,qualifier,qualifier,qualifier,qualifier
+income poverty,median household income in the past 12 months (in 2018 inflation-adjusted dollars),median household income,acs5,dollers per year per household,household size,race or ethnicity,Food Stamps or SNAP status,mortgage status,,,,
+income poverty,number of people,income at or below poverty level,acs5,people per census block group,pverty status,sex,labor force status,employment status,,,,
+income poverty,per capita income in the past 12 months (in 2018 inflation-adjusted dollars),per capita income,acs5,dollars per year per person,race,,,,,,,
+income poverty,number of people,ratio of income to poverty,acs5,people per census block group,ratio of income to poverty level in the past 12 months,disability status,,,,,,
+income poverty,number of persons for whom income status has been determined,ejs,ejs,people per census block group,,,,,,,,
+income poverty,number of persons with low income (less than 2x the poverty level),ejs,ejs,people per census block group,,,,,,,,
+income poverty,percent persons with low income (less than 2x the poverty level),ejs,ejs,percent of people in census block group,,,,,,,,
+age,number of people,age by number of disabilities,acs5,people per census block group,age,disability status,poverty status,,,,,
+age,number of people 25 years and over,ejs,ejs,people per census block group,,,,,,,,
+age,number of people under age 5,ejs,ejs,people per census block group,,,,,,,,
+age,percent of people under age 5,ejs,ejs,percent of people in census block group,,,,,,,,
+age,number of people over age 64,ejs,ejs,people per census block group,,,,,,,,
+age,percent of people over age 64,ejs,ejs,percent of people in census block group,,,,,,,,
+disability status,number of people,disability status,acs5,people per census block group,age,disability status,health insurance coverage,health insurance type,,,,
+disability status,number of grandparents living with own grandchildren,grandparents responsible for grandchildren,acs5,people per census block group,disability status,grandparent responsibe for grandchildren,grandparent age,,,,,
+employment status,number of people 16 years and over,sex by age by employment status,acs5,people per census block group,sex,age,labor force status,employment status,race or ethnicity,,,
+employment status,number of people,employment status by disability status,acs5,people per census block group,labor force status,employment status,disability status,,,,,
+household and housing units,number of people in group quarters (3 types),household population,acs5,people per census block group,group institutionalized status,group institution type,noninstitution group type,age,disability status,,,
+household and housing units,number of people in group quarters  (5 types),household population,acs5,people per census block group,group institutionalized status,group institution type,noninstitution group type,age,disability status,,,
+household and housing units,number of people in households,household population,acs5,people per census block group,,,,,,,,
+household and housing units,number of households,ejs,ejs,households per census block group,,,,,,,,
+household and housing units,number of housing units,ejs,ejs,housing units per census block group,,,,,,,,
+household and housing units,number housing units built prior to 1960,ejs,ejs,housing units per census block group,,,,,,,,
+household and housing units,percent housing units built prior to 1960,ejs,ejs,percent of housing units in census block group,,,,,,,,
+miscellaneous,number of people 25 years and over,education,acs5,people per census block group,educational attainment,labor force status,language spoken at home,,,,,
+miscellaneous,number of people with less than high school education,education ejs,ejs,people per census block group,,,,,,,,
+miscellaneous,percent less than high school education,education ejs,ejs,percent of people in census block group,,,,,,,,
+miscellaneous,civilian employed population 16 years and over,occupation,acs5,percent of people in census block group,occupation general category,occupation mid-category,occupation specific category,,,,,
+miscellaneous,number of linguistically isolated people,langague spoken ejs,ejs,people per census block group,,,,,,,,
+miscellaneous,percent linguistically isolated,langague spoken ejs,ejs,percent of people in census block group,,,,,,,,
+miscellaneous,number of citizens in voting-age population,voting population,acs5,people per census block group,age,educational attainment,,,,,,
+miscellaneous,number of people,computing devise,acs5,people per census block group,age,educational attainment,has a computer,first type of computer,second type of computer,,,
+miscellaneous,number of people,computing devise,acs5,people per census block group,educational attainment,second type of computer,internet subscription,labor force status,employment status,,,
+miscellaneous,number of people,internet accesss,acs5,people per census block group,has a computer,internet subscription,first internet subscription type,second internet subscription type,,,,
+miscellaneous,number of civilians 18 year and older,veteran population,acs5,people per census block group,age,veteran status,poverty status,disability status,,,,
+miscellaneous,minority population count,minority population ejs,ejs,people per census block group,,,,,,,,
+miscellaneous,percent minority population,minority population ejs,ejs,percent of people in census block group,,,,,,,,

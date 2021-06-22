@@ -1,0 +1,2 @@
+STATO:0000047 #count
+STATO:0000184 #ratio

@@ -1,63 +1,60 @@
-ACS5 qualifier variables,,
-category,variable,sheet
-income poverty,household size,median household income
-income poverty,race or ethnicity,median household income
-income poverty,age,median household income
-income poverty,Food Stamps or SNAP status,median household income
-income poverty,househould mortgage status,median household income
-income poverty,poverty status,income at or below poverty level
-income poverty,sex,income at or below poverty level
-income poverty,labor force status,income at or below poverty level
-income poverty,employment status,income at or below poverty level
-income poverty,race or ethnicity,per capita income
-income poverty,race or ethnicity,ratio of income to poverty
-income poverty,disability status,ratio of income to poverty
-age,age,age by number of disabilities
-age,disability status,age by number of disabilities
-age,poverty status,age by number of disabilities
-disability status,age,disability status
-disability status,disability status,disability status
-disability status,insurance coverage,disability status
-disability status,insurance type,disability status
-disability status,disability status,grandparents responsible for grandchildren
-disability status,grandparent responsibe for grandchildren,grandparents responsible for grandchildren
-disability status,grandparent age,grandparents responsible for grandchildren
-employment status,sex,sex by age by employment status
-employment status,age,sex by age by employment status
-employment status,labor force status,sex by age by employment status
-employment status,civilian status,sex by age by employment status
-employment status,employment status,sex by age by employment status
-employment status,race or ethnicity,sex by age by employment status
-employment status,labor force status,employment status by disability status
-employment status,employment status,employment status by disability status
-employment status,disability status,employment status by disability status
-***household and housing units,group institutionalized status,household population
-***household and housing units,group institution type,household population
-***household and housing units,noninstitution group type,household population
-***household and housing units,age,household population
-***household and housing units,disability,household population
-miscellaneous,educational attainment,education
-miscellaneous,labor force status,education
-miscellaneous,language spoken at home,education
-miscellaneous,occupation general category,occupation
-miscellaneous,occupation mid-category,occupation
-miscellaneous,occupation specific category,occupation
-miscellaneous,sex,occupation
-miscellaneous,age,voting population
-miscellaneous,educational attainment,voting population
-miscellaneous,age,computing devise
-miscellaneous,educational attainment,computing devise
-miscellaneous,has a computer,computing devise
-miscellaneous,first type of computer,computing devise
-miscellaneous,second type of computer,computing devise
-miscellaneous,internet subscription,computing devise
-miscellaneous,labor force status,computing devise
-miscellaneous,employment status,computing devise
-miscellaneous,has a computer,internet accesss
-miscellaneous,internet subscription,internet accesss
-miscellaneous,first internet subscription type,internet accesss
-miscellaneous,second internet subscription type,internet accesss
-miscellaneous,age,veteran population
-miscellaneous,veteran status,veteran population
-miscellaneous,poverty status,veteran population
-miscellaneous,disability status,veteran population
+category,variable,sheet,root variable,source,unit
+income poverty,household size,median household income,median household income in the past 12 months (in 2018 inflation-adjusted dollars),acs5,enum
+income poverty,race or ethnicity,median household income,median household income in the past 12 months (in 2018 inflation-adjusted dollars),acs5,enum
+income poverty,age,median household income,median household income in the past 12 months (in 2018 inflation-adjusted dollars),acs5,enum
+income poverty,Food Stamps or SNAP status,median household income,median household income in the past 12 months (in 2018 inflation-adjusted dollars),acs5,enum
+income poverty,househould mortgage status,median household income,median household income in the past 12 months (in 2018 inflation-adjusted dollars),acs5,enum
+income poverty,poverty status,income at or below poverty level,number of people,acs5,enum
+income poverty,sex,income at or below poverty level,number of people,acs5,enum
+income poverty,labor force status,income at or below poverty level,number of people,acs5,enum
+income poverty,employment status,income at or below poverty level,number of people,acs5,enum
+income poverty,race or ethnicity,per capita income,per capita income in the past 12 months (in 2018 inflation-adjusted dollars),acs5,enum
+income poverty,ratio of income to poverty level in the past 12 months,ratio of income to poverty,number of people,acs5,enum
+income poverty,disability status,ratio of income to poverty,number of people,acs5,enum
+age,age,age by number of disabilities,number of people,acs5,enum
+age,disability status,age by number of disabilities,number of people,acs5,enum
+age,poverty status,age by number of disabilities,number of people,acs5,enum
+disability status,age,disability status,number of people,acs5,enum
+disability status,disability status,disability status,number of people,acs5,enum
+disability status,health insurance coverage,disability status,number of people,acs5,enum
+disability status,health insurance type,disability status,number of people,acs5,enum
+disability status,disability status,grandparents responsible for grandchildren,number of grandparents living with own grandchildren,acs5,enum
+disability status,grandparent responsibe for grandchildren,grandparent responsibility for grandchildren,number of grandparents living with own grandchildren,acs5,enum
+disability status,grandparent age,grandparents responsible for grandchildren,number of grandparents living with own grandchildren,acs5,enum
+employment status,sex,sex by age by employment status,number of people 16 years and over,acs5,enum
+employment status,age,sex by age by employment status,number of people 16 years and over,acs5,enum
+employment status,labor force status,sex by age by employment status,number of people 16 years and over,acs5,enum
+employment status,civilian status,sex by age by employment status,number of people 16 years and over,acs5,enum
+employment status,employment status,sex by age by employment status,number of people 16 years and over,acs5,enum
+employment status,race or ethnicity,sex by age by employment status,number of people 16 years and over,acs5,enum
+employment status,labor force status,employment status by disability status,number of people,acs5,enum
+employment status,employment status,employment status by disability status,number of people,acs5,enum
+employment status,disability status,employment status by disability status,number of people,acs5,enum
+household and housing units,group institutionalized status,household population,number of people in group quarters (3 types) and number of people in group quarters  (5 types),acs5,enum
+household and housing units,institutionalized group type,household population,number of people in group quarters (3 types) and number of people in group quarters  (5 types),acs5,enum
+household and housing units,noninstitution group type,household population,number of people in group quarters (3 types) and number of people in group quarters  (5 types),acs5,enum
+household and housing units,age,household population,number of people in group quarters (3 types) and number of people in group quarters  (5 types),acs5,enum
+household and housing unitsdisability status,disability status,household population,number of people in group quarters (3 types) and number of people in group quarters  (5 types),acs5,enum
+miscellaneous,educational attainment,education,number of people 25 years and over,acs5,enum
+miscellaneous,labor force status,education,number of people 25 years and over,acs5,enum
+miscellaneous,language spoken at home,education,number of people 25 years and over,acs5,enum
+miscellaneous,occupation general category,occupation,civilian employed population 16 years and over,acs5,enum
+miscellaneous,occupation mid-category,occupation,civilian employed population 16 years and over,acs5,enum
+miscellaneous,occupation specific category,occupation,civilian employed population 16 years and over,acs5,enum
+miscellaneous,sex,occupation,civilian employed population 16 years and over,acs5,enum
+miscellaneous,age,voting population,number of citizens in voting-age population,acs5,enum
+miscellaneous,educational attainment,voting population,number of citizens in voting-age population,acs5,enum
+miscellaneous,age,computing devise,number of people,acs5,enum
+miscellaneous,educational attainment,computing devise,number of people,acs5,enum
+miscellaneous,computing device status,computing devise,number of people,acs5,enum
+miscellaneous,type of computer in househould,computing devise,number of people,acs5,enum
+miscellaneous,internet subscription,computing devise,number of people,acs5,enum
+miscellaneous,labor force status,computing devise,number of people,acs5,enum
+miscellaneous,employment status,computing devise,number of people,acs5,enum
+miscellaneous,computing device status,internet accesss,number of people,acs5,enum
+miscellaneous,internet subscription,internet accesss,number of people,acs5,enum
+miscellaneous,internet subscription type,internet accesss,number of people,acs5,enum
+miscellaneous,age,veteran population,number of civilians 18 year and older,acs5,enum
+miscellaneous,veteran status,veteran population,number of civilians 18 year and older,acs5,enum
+miscellaneous,poverty status,veteran population,number of civilians 18 year and older,acs5,enum
+miscellaneous,disability status,veteran population,number of civilians 18 year and older,acs5,enum
