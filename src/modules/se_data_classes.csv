@@ -1,5 +1,5 @@
 ﻿Ontology ID,parent class,label,definition,definition source,English syn.,term editor,editor note,subclass axiom,equivaleny axiom,Curation notes,source,unit,EJP concept,EJS variable ID,DBXREF
-ID,SC %,AL rdfs:label@en,AL IAO:0000115@en,A IAO:0000119 SPLIT=|,AL oboInOwl:hasExactSynonym@en,A IAO:0000117 SPLIT=|,A IAO:0000116 SPLIT=|,,,,A DC:source SPLIT=|,A SRPDIO:4000003,A SRPDIO:4000004,A SRPDIO:4000005,A oboInOwl:hasDbXref
+ID,SC %,AL rdfs:label@en,AL IAO:0000115@en,A IAO:0000119 SPLIT=|,AL oboInOwl:hasExactSynonym@en,A IAO:0000117 SPLIT=|,A IAO:0000116 SPLIT=|,SC %,EC %,,A DC:source SPLIT=|,A SRPDIO:4000003,A SRPDIO:4000004,A SRPDIO:4000005,A oboInOwl:hasDbXref
 SRPDIO:1000000,STATO:0000047,number of people,A count datum that is the number of people in some area.,,,,,is about' some 'collection of humans',,,acs5,percent of people in census block group,,,
 SRPDIO:1000001,SRPDIO:1000000,number of people 16 years and over,,,,,,is about' some age,,,acs5,dollers per year per household,,,
 SRPDIO:1000002,SRPDIO:1000001,civilian employed population 16 years and over,,,,,,is about' some age,,,acs5,people per census block group,,,

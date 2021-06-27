@@ -1,4 +1,5 @@
-PCO:0000000
-PCO:0000001
-PCO:0000002
-
+PCO:0000000 #collection of organisms
+PCO:0000001 #population of organisms
+PCO:0000002 #ecological community
+PCO:0000027 #collection of humans
+PCO:0000024 #household

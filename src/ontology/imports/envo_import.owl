@@ -16,9 +16,9 @@
      xmlns:taxslim="http://purl.obolibrary.org/obo/ncbitaxon/subsets/taxslim#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/srpdio/imports/envo_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/srpdio/releases/2021-06-21/imports/envo_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/srpdio/releases/2021-06-27/imports/envo_import.owl"/>
         <dc:source rdf:resource="http://purl.obolibrary.org/obo/envo/releases/2021-05-14/envo.owl"/>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2021-06-21</owl:versionInfo>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2021-06-27</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -4475,7 +4475,7 @@ The lower boundary that separates soil from the nonsoil underneath is most diffi
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000023"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>The marine pelagic biome (pelagic meaning open sea) is that of the marine water column, from the surface to the greatest depths.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>ISBN:978-0-7506-3384-0</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:978-0-7506-3384-0</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -4497,7 +4497,7 @@ The lower boundary that separates soil from the nonsoil underneath is most diffi
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>The neritic epipelagic zone biome comprises the marine water column above a continental shelf.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:978-0-444-82619-0</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>ISBN:978-0-7506-3384-0</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:978-0-7506-3384-0</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORCID:0000-0002-4366-3088</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -4519,7 +4519,7 @@ The lower boundary that separates soil from the nonsoil underneath is most diffi
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>The oceanic epipelagic zone biome comprises the marine water column offshore, beyond a continental shelf.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:978-0-444-82619-0</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>ISBN:978-0-7506-3384-0</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:978-0-7506-3384-0</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORCID:0000-0002-4366-3088</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -6542,7 +6542,7 @@ https://en.wikipedia.org/wiki/  Ecozones correspond to the floristic kingdoms of
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000739"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>An environmental system which can sustain and allow the growth of an ecological population.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EnvO:EnvO</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EnvO:EnvO</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
