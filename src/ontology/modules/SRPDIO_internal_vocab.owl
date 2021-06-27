@@ -102,15 +102,15 @@
     
 
 
-    <!-- &apos;PCO:collection of humans&apos; -->
-
-    <owl:Class rdf:about="&apos;PCO:collection of humans&apos;"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/CHEBI_24431 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCO_0000027 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PCO_0000027"/>
     
 
 
@@ -128,7 +128,7 @@
     <!-- http://purl.obolibrary.org/obo/SRPDIO_4000001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_4000001">
-        <rdfs:subClassOf rdf:resource="&apos;PCO:collection of humans&apos;"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCO_0000027"/>
         <obo:IAO_0000115 xml:lang="en">All of the people living in a shared group quarters (e.g., institution or dormatory) in some geographic area like a census block or state. Group quarters population contrasts with household population.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0001-8815-0078</obo:IAO_0000117>
         <rdfs:label xml:lang="en">group quarters population of some area</rdfs:label>
@@ -139,7 +139,7 @@
     <!-- http://purl.obolibrary.org/obo/SRPDIO_4000002 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_4000002">
-        <rdfs:subClassOf rdf:resource="&apos;PCO:collection of humans&apos;"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCO_0000027"/>
         <obo:IAO_0000115 xml:lang="en">All of the people living as part of a household in some geographic area like a census block or state. Household population contrasts with some group quarters population.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0001-8815-0078</obo:IAO_0000117>
         <rdfs:label xml:lang="en">household population of some area</rdfs:label>
