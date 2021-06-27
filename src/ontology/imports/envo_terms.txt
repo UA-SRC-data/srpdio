@@ -1,7 +1,7 @@
-ENVO:00010483	#environmental material
-ENVO:00001998	#soil
-ENVO:00002006	#liquid water
-ENVO:00002263	#garden soil
+ENVO:00010483 #environmental material
+ENVO:00001998 #soil
+ENVO:00002006 #liquid water
+ENVO:00002263 #garden soil
 ENVO:00005744 #allotment garden soil
 ENVO:00005779 #vegetable garden soil
 ENVO:00005748 #dry soil

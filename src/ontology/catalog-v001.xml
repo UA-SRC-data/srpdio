@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/srpdio/releases/2021-06-27/imports/uo_import.owl" uri="imports/uo_import.owl"/>
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/srpdio/releases/2021-06-27/imports/stato_import.owl" uri="imports/stato_import.owl"/>
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/srpdio/releases/2021-06-27/imports/ro_import.owl" uri="imports/ro_import.owl"/>
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/srpdio/releases/2021-06-27/imports/po_import.owl" uri="imports/po_import.owl"/>
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/srpdio/releases/2021-06-27/imports/pco_import.owl" uri="imports/pco_import.owl"/>
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/srpdio/releases/2021-06-27/imports/pato_import.owl" uri="imports/pato_import.owl"/>
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/srpdio/releases/2021-06-27/imports/omrse_import.owl" uri="imports/omrse_import.owl"/>
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/srpdio/releases/2021-06-27/imports/iao_import.owl" uri="imports/iao_import.owl"/>
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/srpdio/releases/2021-06-27/imports/exo_import.owl" uri="imports/exo_import.owl"/>
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/srpdio/releases/2021-06-27/imports/envo_import.owl" uri="imports/envo_import.owl"/>
     <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/srpdio/releases/2021-06-21/imports/po_import.owl" uri="imports/po_import.owl"/>
     <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/srpdio/releases/2021-06-21/imports/pco_import.owl" uri="imports/pco_import.owl"/>
     <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/srpdio/releases/2021-06-21/imports/pato_import.owl" uri="imports/pato_import.owl"/>

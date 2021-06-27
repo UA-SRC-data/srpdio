@@ -13,6 +13,7 @@
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:pato="http://purl.obolibrary.org/obo/pato#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:swrl="http://www.w3.org/2003/11/swrl#"
      xmlns:chebi="http://purl.obolibrary.org/obo/chebi/"
      xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
@@ -27,16 +28,16 @@
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/srpdio/modules/chemical_concentration.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/srpdio/modules/entity_attribute.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/srpdio/modules/plant_part_concentration.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/srpdio/releases/2020-06-29/imports/manual/manual_imports.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/srpdio/releases/2021-06-21/imports/envo_import.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/srpdio/releases/2021-06-21/imports/exo_import.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/srpdio/releases/2021-06-21/imports/iao_import.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/srpdio/releases/2021-06-21/imports/omrse_import.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/srpdio/releases/2021-06-21/imports/pato_import.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/srpdio/releases/2021-06-21/imports/pco_import.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/srpdio/releases/2021-06-21/imports/po_import.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/srpdio/releases/2021-06-21/imports/stato_import.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/srpdio/releases/2021-06-21/imports/uo_import.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/srpdio/releases/2021-06-27/imports/envo_import.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/srpdio/releases/2021-06-27/imports/exo_import.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/srpdio/releases/2021-06-27/imports/iao_import.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/srpdio/releases/2021-06-27/imports/omrse_import.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/srpdio/releases/2021-06-27/imports/pato_import.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/srpdio/releases/2021-06-27/imports/pco_import.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/srpdio/releases/2021-06-27/imports/po_import.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/srpdio/releases/2021-06-27/imports/ro_import.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/srpdio/releases/2021-06-27/imports/stato_import.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/srpdio/releases/2021-06-27/imports/uo_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/srpdio/modules/SRPDIO_internal_vocab.owl"/>
         <dc:description>None</dc:description>
         <dc:title>Superfund Researc Project Data Integration Ontology</dc:title>
