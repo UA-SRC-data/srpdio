@@ -277,6 +277,7 @@ mirror/envo.owl: mirror/envo.trigger
 	if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I $(URIBASE)/envo.owl -o $@.tmp.owl && mv $@.tmp.owl $@; fi
 .PRECIOUS: mirror/%.owl
 
+
 ## ONTOLOGY: ro
 ## Copy of ro is re-downloaded whenever source changes
 mirror/ro.trigger: $(SRC)
@@ -346,17 +347,16 @@ all_modules_obo: $(patsubst %, modules/%.obo, $(MODS))
 
 #Targets for ROBOT template modules
 modules/SRPDIO_internal_vocab.owl: ../modules/SRPDIO_internal_vocab.csv
-	$(ROBOT) template --template $< -i imports/ro_import.owl --prefix "SRPDIO:http://purl.obolibrary.org/obo/SRPDIO_" --ontology-iri "http://purl.obolibrary.org/srpdio/modules/SRPDIO_internal_vocab.owl" -o $@.tmp.owl && mv $@.tmp.owl $@
-## TODO: move RO import out of here
+	$(ROBOT) template --template $< --prefix "SRPDIO: $(ONTBASE)" --ontology-iri $(ONTBASE)/$@ -o $@.tmp.owl && mv $@.tmp.owl $@
 ## TODO: fix manual creation of chebi imports
 
 
-modules/se_data_classes.owl: ../modules/se_data_classes.csv
-	$(ROBOT) template --template $< --prefix "SRPDIO:http://purl.obolibrary.org/obo/SRPDIO_" --ontology-iri "http://purl.obolibrary.org/srpdio/modules/se_data_classes.owl" -o $@.tmp.owl && mv $@.tmp.owl $@
+modules/se_data_classes.owl: /modules/se_data_classes.csv
+	$(ROBOT) template --template $< --prefix "SRPDIO: $(ONTBASE)" --ontology-iri $(ONTBASE)/$@ -o $@.tmp.owl && mv $@.tmp.owl $@
 
 
 modules/se_categorical_qualities.owl: ../modules/se_categorical_qualities.csv
-	$(ROBOT) template --template $< --prefix "SRPDIO:http://purl.obolibrary.org/obo/SRPDIO_" --ontology-iri "http://purl.obolibrary.org/srpdio/modules/se_categorical_qualities.owl" -o $@.tmp.owl && mv $@.tmp.owl $@
+	$(ROBOT) template --template $< --prefix "SRPDIO: $(ONTBASE)" --ontology-iri $(ONTBASE)/$@ -o $@.tmp.owl && mv $@.tmp.owl $@
 
 
 # ----------------------------------------
