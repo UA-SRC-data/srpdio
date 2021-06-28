@@ -85,7 +85,7 @@ all_main: $(MAIN_FILES)
 ## By default this is the cross-product of IMPORT_MODULES x FORMATS
 
 
-IMPORTS =  po pato pco envo ro iao omrse stato uo exo
+IMPORTS =  po pato pco envo ro iao omrse stato uo exo chebi
 
 IMPORT_ROOTS = $(patsubst %, imports/%_import, $(IMPORTS))
 IMPORT_OWL_FILES = $(foreach n,$(IMPORT_ROOTS), $(n).owl)
@@ -239,7 +239,7 @@ refresh-%:
 
 IMP=true # Global parameter to bypass import generation
 MIR=true # Global parameter to bypass mirror generation
-IMP_LARGE=true # Global parameter to bypass handling of large imports
+IMP_LARGE=false # Global parameter to bypass handling of large imports
 
 
 ## ONTOLOGY: po
