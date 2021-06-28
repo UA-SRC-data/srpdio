@@ -1,3 +1,9 @@
-Ontology ID,parent class,label,definition,definition source,English syn.,term editor,editor note,Curation notes
-ID,SC %,AL rdfs:label@en,AL IAO:0000115@en,A IAO:0000119 SPLIT=|,AL oboInOwl:hasExactSynonym@en,A IAO:0000117 SPLIT=|,A IAO:0000116 SPLIT=|,
-SRPDIO:4000000,CHEBI:24431,total organic carbon,,,,Kai Blumberg,"Standin term for ""total organic carbon"" that will be added to ENVO and replaced here.",Corresponds to the parameter: `NPOC (ppm)` from the EUC2_CSM dataset from @Christopher Kotalik. Term for TOC to be added later to ENVO. 
+Ontology ID,type,parent class,label,definition,definition source,English syn.,term editor,editor note,Curation notes
+ID,TYPE,SC %,AL rdfs:label@en,AL IAO:0000115@en,A IAO:0000119 SPLIT=|,AL oboInOwl:hasExactSynonym@en,A IAO:0000117 SPLIT=|,A IAO:0000116 SPLIT=|,
+SRPDIO:4000000,class,CHEBI:24431,total organic carbon,,,,Kai Blumberg,"Standin term for ""total organic carbon"" that will be added to ENVO and replaced here.",Corresponds to the parameter: `NPOC (ppm)` from the EUC2_CSM dataset from @Christopher Kotalik. Term for TOC to be added later to ENVO. 
+SRPDIO:4000001,class,PCO:0000027,group quarters population of some area,"All of the people living in a shared group quarters (e.g., institution or dormatory) in some geographic area like a census block or state. Group quarters population contrasts with household population.",,,https://orcid.org/0000-0001-8815-0078,,
+SRPDIO:4000002,class,PCO:0000027,household population of some area,All of the people living as part of a household in some geographic area like a census block or state. Household population contrasts with some group quarters population.,,,https://orcid.org/0000-0001-8815-0078,,
+SRPDIO:4000003,annotation property,,UA-SRC preferred unit,The unit being used by default in the UA superfund research center. Can be over-ridden.,,,https://orcid.org/0000-0001-8815-0078,,
+SRPDIO:4000004,annotation property,,EJP concept,The concept label from Environmental Justice Screening tool.,,,https://orcid.org/0000-0001-8815-0078,,
+SRPDIO:4000005,data property,,EJS variable ID,The concept identifier from Environmental Justice Screening tool.,,,https://orcid.org/0000-0001-8815-0078,,
+SRPDIO:4000006,data property,,ACS5 variable ID,The concept identifier from American Community Survey.,,,https://orcid.org/0000-0001-8815-0078,,
