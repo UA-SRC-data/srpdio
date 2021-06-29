@@ -108,6 +108,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ENVO_00001998 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00001998"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PCO_0000027 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PCO_0000027"/>
@@ -150,6 +156,7 @@
     <!-- http://purl.obolibrary.org/obo/srpdio4000007 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/srpdio4000007">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00001998"/>
         <obo:IAO_0000115 xml:lang="en">The top layer of soil, sometimes called the A horizon, as opposed to deeper soil layers.</obo:IAO_0000115>
         <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This is a temporary SRPDIO term. Should be replaced by a term from another ontology.</obo:IAO_0000116>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0001-8815-0078</obo:IAO_0000117>
