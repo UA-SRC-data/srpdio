@@ -59,6 +59,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/BFO_0000002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000002"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ExO_0000034 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ExO_0000034"/>
@@ -250,9 +256,9 @@
     <!-- http://purl.obolibrary.org/obo/srpdio1001015 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/srpdio1001015">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000001"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0001-8815-0078</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">income quality</rdfs:label>
+        <rdfs:label xml:lang="en">income quality or measure</rdfs:label>
     </owl:Class>
     
 
@@ -309,6 +315,7 @@
     <!-- http://purl.obolibrary.org/obo/srpdio1001020 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/srpdio1001020">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
         <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acs5</DC:source>
         <obo:IAO_0000115 xml:lang="en">Whether or not a person has health insurance.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0001-8815-0078</obo:IAO_0000117>
