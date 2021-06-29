@@ -32,4 +32,4 @@ SRPDIO:1000029,UO:0000187,percent minority population,,,,,,('is about' some 'bel
 SRPDIO:1000030,IAO:0000109,measurement datum about age of people,,,,,,,('measurement datum' and ('is about' some age)),,rlw,,,,
 SRPDIO:1000031,IAO:0000109,measurement datum about income status ,,,,,,,('measurement datum' and ('is about' some 'income quality')),,rlw,,,,
 SRPDIO:1000032,IAO:0000109,measurement datum about housing quality,,,,,,,('measurement datum' and ('is about' some 'housing quality')),,,,,,
-SRPDIO:1000033,IAO:0000109,measurement datum about language spoken,,,,,,,('measurement datum' and ('is about' some 'language spoken')),,,,,,
+SRPDIO:1000033,IAO:0000109,measurement datum about language spoken,,,,,,,('measurement datum' and ('is about' some 'quality about langauge spoken')),,,,,,
