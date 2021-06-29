@@ -7,3 +7,4 @@ SRPDIO:4000003,annotation property,,UA-SRC preferred unit,The unit being used by
 SRPDIO:4000004,annotation property,,EJP concept,The concept label from Environmental Justice Screening tool.,,,https://orcid.org/0000-0001-8815-0078,,
 SRPDIO:4000005,data property,,EJS variable ID,The concept identifier from Environmental Justice Screening tool.,,,https://orcid.org/0000-0001-8815-0078,,
 SRPDIO:4000006,data property,,ACS5 variable ID,The concept identifier from American Community Survey.,,,https://orcid.org/0000-0001-8815-0078,,
+SRPDIO:4000007,class,,top soil,"The top layer of soil, sometimes called the A horizon, as opposed to deeper soil layers.",,,https://orcid.org/0000-0001-8815-0078,This is a temporary SRPDIO term. Should be replaced by a term from another ontology.,"Term is required for Garden Roots data, to distinguish it from the more general term of soil."
