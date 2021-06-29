@@ -348,7 +348,6 @@ all_modules_obo: $(patsubst %, modules/%.obo, $(MODS))
 #Targets for ROBOT template modules
 modules/SRPDIO_internal_vocab.owl: ../modules/SRPDIO_internal_vocab.csv
 	$(ROBOT) template --template $< --prefix "SRPDIO: $(ONTBASE)" --ontology-iri $(ONTBASE)/$@ -o $@.tmp.owl && mv $@.tmp.owl $@
-## TODO: fix manual creation of chebi imports
 
 
 modules/se_data_classes.owl: ../modules/se_data_classes.csv
@@ -474,4 +473,4 @@ update_repo:
 	
 
 
-#include srpdio.Makefile
+include srpdio.Makefile
