@@ -1,5 +1,5 @@
 ﻿Ontology ID,parent class,parent class label,label,definition,definition source,English syn.,term editor,editor note,subclass axiom,equivaleny axiom,Curation notes,source,DBXREF
-ID,SC %,,AL rdfs:label@en,AL IAO:0000115@en,A IAO:0000119 SPLIT=|,AL oboInOwl:hasExactSynonym@en,A IAO:0000117 SPLIT=|,A IAO:0000116 SPLIT=|,,,,A DC:source,A oboInOwl:hasDbXref
+ID,SC %,,AL rdfs:label@en,AL IAO:0000115@en,A IAO:0000119 SPLIT=|,AL oboInOwl:hasExactSynonym@en,A IAO:0000117 SPLIT=|,A IAO:0000116 SPLIT=|,SC % SPLIT=|,,,A DC:source,A oboInOwl:hasDbXref
 SRPDIO:1001000,PATO:0000001,quality,civilian status,Whether or not a person is enrolled in the armed forces.,,,https://orcid.org/0000-0001-8815-0078,,,,,acs5,
 SRPDIO:1001001,PATO:0000001,quality,disability status,Whether or not a person has a disability.,,,https://orcid.org/0000-0001-8815-0078,,,,,acs5,
 SRPDIO:1001002,PATO:0000001,quality,educational attainment,Level of educaiton achieved.,,,https://orcid.org/0000-0001-8815-0078,,,,,acs5,
