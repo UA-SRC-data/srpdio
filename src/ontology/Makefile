@@ -231,6 +231,10 @@ refresh-%:
 	make IMP=true IMP_LARGE=true MIR=true PAT=false imports/$*_import.owl -B
 
 
+## TODO: fix manual creation of chebi imports.
+# Chebi is now created using ROBOT extract. Need to add to the makefile.
+
+
 
 # ----------------------------------------
 # Mirroring upstream ontologies
@@ -348,7 +352,6 @@ all_modules_obo: $(patsubst %, modules/%.obo, $(MODS))
 #Targets for ROBOT template modules
 modules/SRPDIO_internal_vocab.owl: ../modules/SRPDIO_internal_vocab.csv
 	$(ROBOT) template --template $< --prefix "SRPDIO: $(ONTBASE)" --ontology-iri $(ONTBASE)/$@ -o $@.tmp.owl && mv $@.tmp.owl $@
-
 
 modules/se_data_classes.owl: ../modules/se_data_classes.csv
 	$(ROBOT) template --template $< --input srpdio-edit.owl --prefix "SRPDIO: $(ONTBASE)" --ontology-iri $(ONTBASE)/$@ -o $@.tmp.owl && mv $@.tmp.owl $@
