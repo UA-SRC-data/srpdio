@@ -17,8 +17,8 @@ R.Walls used the initial categorization to gather all of the required variable i
 
 Walls then manually manipulated these sheets to make separate files for each module, as described below.
 
-##Root variables/measurement data module (ACS and EJS)
-The root variablees are what is actually being measured, that is numerical data that have values, including:
+##Root (data) variables/measurement data module (ACS and EJS)
+The data variablees are what is actually being measured, that is numerical data that have values, including:
 - number of people
 - per capita income in the past 12 months (in 2018 inflation-adjusted dollars)
 - etc.
@@ -29,7 +29,7 @@ Classes for the root variables are subclass of
 - UO:0000187 percent
 - IAO:0000109 measurement datum
 
-The variables in `se_root_variables.csv` were organized and expanded to create `se_data_classes.csv` file is used to create a module with classes for information content entities from both EJS and ACS5. 
+The variables in `se_root_variables.csv` were organized and expanded to create `se_data_classes.csv` file is used to create a module with classes for information content entities from both EJS and ACS5. The module is stored in src/ontology/modules/se_data_classes.owl
 
 ##EJS module
 
