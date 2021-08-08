@@ -9,9 +9,9 @@ We are using a number of socio-economic varibles to understand vulnerabilities a
 
 D. Kaufman and M. Ramirez-Andreotta reviewed all data available from EJS and ACS5 and selected variables that were important to our study. This resulted in a list of variables at https://github.com/UA-SRC-data/data_loaders/blob/master/acs5/acs_variables_to_download.csv and https://github.com/UA-SRC-data/data_loaders/blob/master/ejscreen/ejs_traits.csv. Note: Not all varibles in those lists are being used. 
 
-D. Kaufman created an initial categorization of the variables for both EJS and ACS5, in which specific variables for this study were chosen. 
+Kaufman created an initial categorization of the variables for both EJS and ACS5, in which specific variables for this study were chosen. 
 
-R.Walls used the initial categorization to gather all of the required variable into googl sheets at https://drive.google.com/drive/folders/1npFP_tMnzAGkPP_QtXoTEitbDj4mCbMW?usp=sharing. She then used the text to columns function to break each variable into its component parts, which are categorical variables (see ACS5, below). She manually specified what the root quality for each ACS5 variable was (e.g, number of people, per capita income in the past 12 months (in 2018 inflation-adjusted dollars)). Root qualities are continuous or count variables. Walls manually created csv files with the root qualities and categorical qualities from both ACS and EJS:
+R. Walls used the initial categorization to gather all of the required variable into googl sheets at https://drive.google.com/drive/folders/1npFP_tMnzAGkPP_QtXoTEitbDj4mCbMW?usp=sharing. She then used the text to columns function to break each variable into its component parts, which are categorical variables (see ACS5, below). She manually specified what the root quality for each ACS5 variable was (e.g, number of people, per capita income in the past 12 months (in 2018 inflation-adjusted dollars)). Root qualities are continuous or count variables. Walls manually created csv files with the root qualities and categorical qualities from both ACS and EJS:
 - `se_root_variables.csv`
 - `se_qualifier_variables.csv`
 
@@ -41,10 +41,12 @@ The American Community Survey (ACS5) contains thousands of variables, of which w
 
 The counts are categorized by combinations of multipe factors. For example, under "POVERTY STATUS IN THE PAST 12 MONTHS OF INDIVIDUALS BY SEX BY EMPLOYMENT STATUS", there is a specific variable (B17005_004E) that is the number of people per census block group who have income in the past 12 months below poverty level, are male, and are in labor force (Estimate!!Total!!Income in the past 12 months below poverty level!!Male!!In labor force).
 
-
 We treat these factors as categorical qualities, subclasse of PATO:quality. We first made or imported classes for each axis of variation. For example, there is a quality "labor force status" with sub-classes "in labor force" and "not in labor force". Likewise, there is a quality "race or ethnicity" with subclasses for each of the categories used by ACS5 (e.g., WHITE ALONE HOUSEHOLDER, BLACK OR AFRICAN AMERICAN ALONE HOUSEHOLDER, AMERICAN INDIAN AND ALASKA NATIVE ALONE HOUSEHOLDER). For sex, we imported "phenotypic sex" from PATO, with its suclasses for "male" and "female".
 
 We also included some grouping categories, such as `age category`, `housing quality`, or `quality about a language spoken`. These grouping categories are used to logically define measurement datum classes that group together different data classes based on what they are about. This aids in browsing and searching.
+
+## Final variables
+The leaf nodes for all the variables are constructed using design patterns. See the readme file under src/pattern/acs5_variable_sheets
 - 
 
 

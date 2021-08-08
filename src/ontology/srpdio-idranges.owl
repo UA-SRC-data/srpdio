@@ -62,7 +62,7 @@ Datatype: idrange:4
         allocatedto: "plant_part_concentration DOSDP"
 
     EquivalentTo:
-        xsd:integer[>= 2000000 , <= 2499999]
+        xsd:integer[>= 2000000 , <= 2009999]
 
 
 Datatype: idrange:5
@@ -82,6 +82,29 @@ Datatype: idrange:6
     EquivalentTo:
         xsd:integer[>= 4000000 , <= 4999999]
 
+Datatype: idrange:7
+
+    Annotations:
+        allocatedto: "ACS5-1"
+
+    EquivalentTo:
+        xsd:integer[>= 2010000 , <= 2019999]
+
+Datatype: idrange:8
+
+    Annotations:
+        allocatedto: "ACS5-2"
+
+    EquivalentTo:
+        xsd:integer[>= 2020000 , <= 2029999]
+
+Datatype: idrange:9
+
+    Annotations:
+        allocatedto: "ACS5-3"
+
+    EquivalentTo:
+        xsd:integer[>= 2030000 , <= 2039999]
 
 Datatype: xsd:integer
 Datatype: rdf:PlainLiteral
