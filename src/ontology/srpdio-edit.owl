@@ -23,12 +23,14 @@
      xmlns:chebi1="http://purl.obolibrary.org/obo/chebi#2"
      xmlns:chebi2="http://purl.obolibrary.org/obo/chebi#3"
      xmlns:chebi3="http://purl.obolibrary.org/obo/chebi#1"
+     xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
      xmlns:subsets="http://purl.obolibrary.org/obo/ro/subsets#"
      xmlns:taxslim="http://purl.obolibrary.org/obo/ncbitaxon/subsets/taxslim#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#"
      xmlns:oboInOwl1="oboInOwl:">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/srpdio.owl">
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/omo/2020-06-08/omo.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/srpdio/chemical_concentration.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/srpdio/entity_attribute.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/srpdio/plant_part_concentration.owl"/>
