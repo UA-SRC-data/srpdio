@@ -1,0 +1,61 @@
+pattern_name: age_x_disability
+
+classes: 
+  quality: PATOO:0000001 
+  measurement datum: IAO:0000109
+
+relations:
+  is about: IAO:0000136
+    
+vars: 
+  base_datum: IAO:0000109 #measurement datum
+  var1: PATOO:0000001 #quality
+  var2: PATOO:0000001 
+  acs_var_id: string
+  acs_concept: string
+  acs_label: string
+
+name:
+  text: "%s by %s by %s"
+  vars:
+    - base_datum
+    - quality1
+    - quality2
+
+def: 
+  text: "The %s in a given area by %s by s%."
+  vars:
+    - base_datum
+    - quality1
+    - quality2
+    
+equivalentTo: 
+  text: "%s and (('is about' some %s) and ('is about' some %s))"
+  vars:
+    - base_datum
+    - quality1
+    - quality2
+
+#annotationProperties:
+#  exact_synonym: oio:hasExactSynonym
+# acs_var_id: IAO:0000118 #alternative term
+# acs_concept: SRPDIO:4000008 #ACS5 concept
+# acs_label: SRPDIO:4000009 #ACS5 label
+
+#annotations: 
+#  - annotationProperty: acs_var_id
+#    text: "%s"
+#    vars:
+#      - acs_var_id
+
+#annotations: 
+#  - annotationProperty: acs_concept
+#    text: "%s"
+#    vars:
+#      - acs_concept
+
+#annotations: 
+#  - annotationProperty: acs_label
+#    text: "%s"
+#    vars:
+#      - acs_label
