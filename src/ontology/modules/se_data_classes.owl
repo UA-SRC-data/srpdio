@@ -35,21 +35,21 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/srpdio4000003 -->
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_4000003 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/srpdio4000003"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/SRPDIO_4000003"/>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/srpdio4000004 -->
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_4000004 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/srpdio4000004"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/SRPDIO_4000004"/>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/srpdio4000005 -->
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_4000005 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/srpdio4000005"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/SRPDIO_4000005"/>
     
 
 
@@ -105,21 +105,9 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/STATO_0000047 -->
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_1000000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/STATO_0000047"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UO_0000187 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000187"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/srpdio1000000 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/srpdio1000000">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1000000">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000047"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -129,16 +117,16 @@
         </rdfs:subClassOf>
         <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acs5</DC:source>
         <obo:IAO_0000115 xml:lang="en">A count datum that is the number of people in some area.</obo:IAO_0000115>
-        <obo:srpdio4000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">percent of people in census block group</obo:srpdio4000003>
+        <obo:SRPDIO_4000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">people in census block group</obo:SRPDIO_4000003>
         <rdfs:label xml:lang="en">number of people</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/srpdio1000001 -->
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_1000001 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/srpdio1000001">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/srpdio1000000"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1000001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
@@ -146,16 +134,16 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acs5</DC:source>
-        <obo:srpdio4000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dollers per year per household</obo:srpdio4000003>
+        <obo:SRPDIO_4000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dollers per year per household</obo:SRPDIO_4000003>
         <rdfs:label xml:lang="en">number of people 16 years and over</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/srpdio1000002 -->
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_1000002 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/srpdio1000002">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/srpdio1000001"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1000002">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1000001"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
@@ -163,16 +151,16 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acs5</DC:source>
-        <obo:srpdio4000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">people per census block group</obo:srpdio4000003>
+        <obo:SRPDIO_4000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">people per census block group</obo:SRPDIO_4000003>
         <rdfs:label xml:lang="en">civilian employed population 16 years and over</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/srpdio1000003 -->
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_1000003 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/srpdio1000003">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/srpdio1000001"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1000003">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1000001"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
@@ -180,16 +168,16 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acs5</DC:source>
-        <obo:srpdio4000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">people per census block group</obo:srpdio4000003>
+        <obo:SRPDIO_4000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">people per census block group</obo:SRPDIO_4000003>
         <rdfs:label xml:lang="en">number of citizens in voting-age population</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/srpdio1000004 -->
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_1000004 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/srpdio1000004">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/srpdio1000001"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1000004">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1000001"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
@@ -198,188 +186,182 @@
         </rdfs:subClassOf>
         <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acs5</DC:source>
         <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ejs</DC:source>
-        <obo:srpdio4000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">people per census block group</obo:srpdio4000003>
-        <obo:srpdio4000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Population age 25 and above</obo:srpdio4000004>
-        <obo:srpdio4000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACSEDUCBAS</obo:srpdio4000005>
+        <obo:SRPDIO_4000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">people per census block group</obo:SRPDIO_4000003>
+        <obo:SRPDIO_4000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Population age 25 and above</obo:SRPDIO_4000004>
+        <obo:SRPDIO_4000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACSEDUCBAS</obo:SRPDIO_4000005>
         <rdfs:label xml:lang="en">number of people 25 years and over</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/srpdio1000005 -->
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_1000005 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/srpdio1000005">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/srpdio1000001"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1000005">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1000001"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/srpdio1001016"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001016"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acs5</DC:source>
-        <obo:srpdio4000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">people per census block group</obo:srpdio4000003>
+        <obo:SRPDIO_4000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">people per census block group</obo:SRPDIO_4000003>
         <rdfs:label xml:lang="en">number of civilians 18 year and older</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/srpdio1000006 -->
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_1000006 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/srpdio1000006">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/srpdio1000000"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1000006">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1000000"/>
         <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acs5</DC:source>
-        <obo:srpdio4000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">people per census block group</obo:srpdio4000003>
+        <obo:SRPDIO_4000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">people per census block group</obo:SRPDIO_4000003>
         <rdfs:label xml:lang="en">number of grandparents living with own grandchildren</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/srpdio1000007 -->
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_1000007 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/srpdio1000007">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/srpdio1000000"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1000007">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/srpdio1001011"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001011"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acs5</DC:source>
-        <obo:srpdio4000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">people per census block group</obo:srpdio4000003>
+        <obo:SRPDIO_4000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">people per census block group</obo:SRPDIO_4000003>
         <rdfs:label xml:lang="en">number of people in group quarters  (5 types)</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/srpdio1000008 -->
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_1000008 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/srpdio1000008">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/srpdio1000000"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1000008">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/srpdio1001011"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001011"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acs5</DC:source>
-        <obo:srpdio4000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">people per census block group</obo:srpdio4000003>
+        <obo:SRPDIO_4000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">people per census block group</obo:SRPDIO_4000003>
         <rdfs:label xml:lang="en">number of people in group quarters (3 types)</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/srpdio1000009 -->
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_1000009 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/srpdio1000009">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/srpdio1000000"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/srpdio1001011"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1000009">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1000000"/>
         <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acs5</DC:source>
-        <obo:srpdio4000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">people per census block group</obo:srpdio4000003>
+        <obo:SRPDIO_4000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">people per census block group</obo:SRPDIO_4000003>
         <rdfs:label xml:lang="en">number of people in households</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/srpdio1000010 -->
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_1000010 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/srpdio1000010">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1000010">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000501"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/srpdio1001015"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001015"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acs5</DC:source>
-        <obo:srpdio4000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">people per census block group</obo:srpdio4000003>
+        <obo:SRPDIO_4000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">people per census block group</obo:SRPDIO_4000003>
         <rdfs:label xml:lang="en">median household income in the past 12 months (in 2018 inflation-adjusted dollars)</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/srpdio1000011 -->
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_1000011 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/srpdio1000011">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1000011">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000501"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/srpdio1001015"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001015"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acs5</DC:source>
-        <obo:srpdio4000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dollars per year per person</obo:srpdio4000003>
+        <obo:SRPDIO_4000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dollars per year per person</obo:SRPDIO_4000003>
         <rdfs:label xml:lang="en">per capita income in the past 12 months (in 2018 inflation-adjusted dollars)</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/srpdio1000012 -->
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_1000012 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/srpdio1000012">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/srpdio1000000"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1000012">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/srpdio1001015"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001015"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ejs</DC:source>
-        <obo:srpdio4000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">people per census block group</obo:srpdio4000003>
-        <obo:srpdio4000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">persons for whom income status has been determined</obo:srpdio4000004>
-        <obo:srpdio4000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACSIPOVBAS</obo:srpdio4000005>
+        <obo:SRPDIO_4000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">people per census block group</obo:SRPDIO_4000003>
+        <obo:SRPDIO_4000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">persons for whom income status has been determined</obo:SRPDIO_4000004>
+        <obo:SRPDIO_4000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACSIPOVBAS</obo:SRPDIO_4000005>
         <rdfs:label xml:lang="en">number of persons for whom income status has been determined</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/srpdio1000013 -->
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_1000013 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/srpdio1000013">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/srpdio1000000"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1000013">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/srpdio1001016"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001016"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ejs</DC:source>
-        <obo:srpdio4000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">people per census block group</obo:srpdio4000003>
-        <obo:srpdio4000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">low Income (less than 2x the poverty level)</obo:srpdio4000004>
-        <obo:srpdio4000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LOWINCOME</obo:srpdio4000005>
+        <obo:SRPDIO_4000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">people per census block group</obo:SRPDIO_4000003>
+        <obo:SRPDIO_4000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">low Income (less than 2x the poverty level)</obo:SRPDIO_4000004>
+        <obo:SRPDIO_4000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LOWINCOME</obo:SRPDIO_4000005>
         <rdfs:label xml:lang="en">number of persons with low income (less than 2x the poverty level)</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/srpdio1000014 -->
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_1000014 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/srpdio1000014">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1000014">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000187"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/srpdio1001016"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001016"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ejs</DC:source>
-        <obo:srpdio4000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">percent of people in census block group</obo:srpdio4000003>
-        <obo:srpdio4000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">percent Low Income (less than 2x the poverty level)</obo:srpdio4000004>
-        <obo:srpdio4000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LOWINCPCT</obo:srpdio4000005>
+        <obo:SRPDIO_4000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">percent of people in census block group</obo:SRPDIO_4000003>
+        <obo:SRPDIO_4000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">percent Low Income (less than 2x the poverty level)</obo:SRPDIO_4000004>
+        <obo:SRPDIO_4000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LOWINCPCT</obo:SRPDIO_4000005>
         <rdfs:label xml:lang="en">percent persons with low income (less than 2x the poverty level)</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/srpdio1000015 -->
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_1000015 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/srpdio1000015">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/srpdio1000000"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1000015">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
@@ -387,17 +369,17 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ejs</DC:source>
-        <obo:srpdio4000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">people per census block group</obo:srpdio4000003>
-        <obo:srpdio4000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Under Age 5</obo:srpdio4000004>
-        <obo:srpdio4000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UNDER5</obo:srpdio4000005>
+        <obo:SRPDIO_4000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">people per census block group</obo:SRPDIO_4000003>
+        <obo:SRPDIO_4000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Under Age 5</obo:SRPDIO_4000004>
+        <obo:SRPDIO_4000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UNDER5</obo:SRPDIO_4000005>
         <rdfs:label xml:lang="en">number of people under age 5</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/srpdio1000017 -->
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_1000017 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/srpdio1000017">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1000017">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000187"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -406,18 +388,18 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ejs</DC:source>
-        <obo:srpdio4000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">percent of people in census block group</obo:srpdio4000003>
-        <obo:srpdio4000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pct. Under Age 5</obo:srpdio4000004>
-        <obo:srpdio4000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UNDER5PCT</obo:srpdio4000005>
+        <obo:SRPDIO_4000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">percent of people in census block group</obo:SRPDIO_4000003>
+        <obo:SRPDIO_4000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pct. Under Age 5</obo:SRPDIO_4000004>
+        <obo:SRPDIO_4000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UNDER5PCT</obo:SRPDIO_4000005>
         <rdfs:label xml:lang="en">percent of people under age 5</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/srpdio1000018 -->
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_1000018 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/srpdio1000018">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/srpdio1000004"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1000018">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1000004"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
@@ -425,17 +407,17 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ejs</DC:source>
-        <obo:srpdio4000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">people per census block group</obo:srpdio4000003>
-        <obo:srpdio4000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Over Age 64</obo:srpdio4000004>
-        <obo:srpdio4000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OVER64</obo:srpdio4000005>
+        <obo:SRPDIO_4000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">people per census block group</obo:SRPDIO_4000003>
+        <obo:SRPDIO_4000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Over Age 64</obo:SRPDIO_4000004>
+        <obo:SRPDIO_4000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OVER64</obo:SRPDIO_4000005>
         <rdfs:label xml:lang="en">number of people over age 64</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/srpdio1000019 -->
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_1000019 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/srpdio1000019">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1000019">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000187"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -444,207 +426,207 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ejs</DC:source>
-        <obo:srpdio4000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">percent of people in census block group</obo:srpdio4000003>
-        <obo:srpdio4000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pct. Over Age 64</obo:srpdio4000004>
-        <obo:srpdio4000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OVER64PCT</obo:srpdio4000005>
+        <obo:SRPDIO_4000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">percent of people in census block group</obo:SRPDIO_4000003>
+        <obo:SRPDIO_4000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pct. Over Age 64</obo:SRPDIO_4000004>
+        <obo:SRPDIO_4000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OVER64PCT</obo:SRPDIO_4000005>
         <rdfs:label xml:lang="en">percent of people over age 64</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/srpdio1000020 -->
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_1000020 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/srpdio1000020">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1000020">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000047"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/srpdio1001011"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001011"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ejs</DC:source>
-        <obo:srpdio4000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">households per census block group</obo:srpdio4000003>
-        <obo:srpdio4000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Households</obo:srpdio4000004>
-        <obo:srpdio4000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACSTOTHH</obo:srpdio4000005>
+        <obo:SRPDIO_4000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">households per census block group</obo:SRPDIO_4000003>
+        <obo:SRPDIO_4000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Households</obo:SRPDIO_4000004>
+        <obo:SRPDIO_4000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACSTOTHH</obo:SRPDIO_4000005>
         <rdfs:label xml:lang="en">number of households</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/srpdio1000021 -->
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_1000021 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/srpdio1000021">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1000021">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000047"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/srpdio1001011"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001011"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ejs</DC:source>
-        <obo:srpdio4000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">housing units per census block group</obo:srpdio4000003>
-        <obo:srpdio4000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Housing Units</obo:srpdio4000004>
-        <obo:srpdio4000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACSTOTHU</obo:srpdio4000005>
+        <obo:SRPDIO_4000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">housing units per census block group</obo:SRPDIO_4000003>
+        <obo:SRPDIO_4000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Housing Units</obo:SRPDIO_4000004>
+        <obo:SRPDIO_4000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACSTOTHU</obo:SRPDIO_4000005>
         <rdfs:label xml:lang="en">number of housing units</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/srpdio1000022 -->
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_1000022 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/srpdio1000022">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/srpdio1000021"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1000022">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1000021"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/srpdio1001011"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001011"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ejs</DC:source>
-        <obo:srpdio4000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">housing units per census block group</obo:srpdio4000003>
-        <obo:srpdio4000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Housing Units Built Prior to 1960 (lead paint indicator)</obo:srpdio4000004>
-        <obo:srpdio4000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRE1960</obo:srpdio4000005>
+        <obo:SRPDIO_4000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">housing units per census block group</obo:SRPDIO_4000003>
+        <obo:SRPDIO_4000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Housing Units Built Prior to 1960 (lead paint indicator)</obo:SRPDIO_4000004>
+        <obo:SRPDIO_4000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRE1960</obo:SRPDIO_4000005>
         <rdfs:label xml:lang="en">number housing units built prior to 1960</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/srpdio1000023 -->
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_1000023 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/srpdio1000023">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1000023">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000187"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/srpdio1001011"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001011"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ejs</DC:source>
-        <obo:srpdio4000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">percent of housing units in census block group</obo:srpdio4000003>
-        <obo:srpdio4000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pct. Housing Units Built Prior to 1960 (lead paint indicator)</obo:srpdio4000004>
-        <obo:srpdio4000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRE1960PCT</obo:srpdio4000005>
+        <obo:SRPDIO_4000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">percent of housing units in census block group</obo:SRPDIO_4000003>
+        <obo:SRPDIO_4000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pct. Housing Units Built Prior to 1960 (lead paint indicator)</obo:SRPDIO_4000004>
+        <obo:SRPDIO_4000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRE1960PCT</obo:SRPDIO_4000005>
         <rdfs:label xml:lang="en">percent housing units built prior to 1960</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/srpdio1000024 -->
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_1000024 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/srpdio1000024">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/srpdio1000000"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1000024">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/srpdio1001002"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001002"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ejs</DC:source>
-        <obo:srpdio4000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">people per census block group</obo:srpdio4000003>
-        <obo:srpdio4000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Less than High School Education</obo:srpdio4000004>
-        <obo:srpdio4000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LESSHS</obo:srpdio4000005>
+        <obo:SRPDIO_4000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">people per census block group</obo:SRPDIO_4000003>
+        <obo:SRPDIO_4000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Less than High School Education</obo:SRPDIO_4000004>
+        <obo:SRPDIO_4000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LESSHS</obo:SRPDIO_4000005>
         <rdfs:label xml:lang="en">number of people with less than high school education</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/srpdio1000025 -->
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_1000025 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/srpdio1000025">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1000025">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000187"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/srpdio1001002"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001002"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ejs</DC:source>
-        <obo:srpdio4000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">percent of people in census block group</obo:srpdio4000003>
-        <obo:srpdio4000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pct. Less than High School Education</obo:srpdio4000004>
-        <obo:srpdio4000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LESSHSPCT</obo:srpdio4000005>
+        <obo:SRPDIO_4000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">percent of people in census block group</obo:SRPDIO_4000003>
+        <obo:SRPDIO_4000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pct. Less than High School Education</obo:SRPDIO_4000004>
+        <obo:SRPDIO_4000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LESSHSPCT</obo:SRPDIO_4000005>
         <rdfs:label xml:lang="en">percent less than high school education</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/srpdio1000026 -->
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_1000026 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/srpdio1000026">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/srpdio1000000"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1000026">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/srpdio1001027"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001027"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ejs</DC:source>
-        <obo:srpdio4000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">people per census block group</obo:srpdio4000003>
-        <obo:srpdio4000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Linguistically Isolated</obo:srpdio4000004>
-        <obo:srpdio4000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LINGISO</obo:srpdio4000005>
+        <obo:SRPDIO_4000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">people per census block group</obo:SRPDIO_4000003>
+        <obo:SRPDIO_4000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Linguistically Isolated</obo:SRPDIO_4000004>
+        <obo:SRPDIO_4000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LINGISO</obo:SRPDIO_4000005>
         <rdfs:label xml:lang="en">number of linguistically isolated people</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/srpdio1000027 -->
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_1000027 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/srpdio1000027">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1000027">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000187"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/srpdio1001027"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001027"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ejs</DC:source>
-        <obo:srpdio4000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">percent of people in census block group</obo:srpdio4000003>
-        <obo:srpdio4000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pct. Linguistically Isolated</obo:srpdio4000004>
-        <obo:srpdio4000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LINGISOPCT</obo:srpdio4000005>
+        <obo:SRPDIO_4000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">percent of people in census block group</obo:SRPDIO_4000003>
+        <obo:SRPDIO_4000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pct. Linguistically Isolated</obo:SRPDIO_4000004>
+        <obo:SRPDIO_4000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LINGISOPCT</obo:SRPDIO_4000005>
         <rdfs:label xml:lang="en">percent linguistically isolated</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/srpdio1000028 -->
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_1000028 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/srpdio1000028">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/srpdio1000000"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1000028">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/srpdio1001029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001029"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ejs</DC:source>
-        <obo:srpdio4000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">people per census block group</obo:srpdio4000003>
-        <obo:srpdio4000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Minority Population</obo:srpdio4000004>
-        <obo:srpdio4000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MINORPOP</obo:srpdio4000005>
+        <obo:SRPDIO_4000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">people per census block group</obo:SRPDIO_4000003>
+        <obo:SRPDIO_4000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Minority Population</obo:SRPDIO_4000004>
+        <obo:SRPDIO_4000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MINORPOP</obo:SRPDIO_4000005>
         <rdfs:label xml:lang="en">minority population count</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/srpdio1000029 -->
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_1000029 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/srpdio1000029">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1000029">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000187"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/srpdio1001029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001029"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ejs</DC:source>
-        <obo:srpdio4000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">percent of people in census block group</obo:srpdio4000003>
-        <obo:srpdio4000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pct. Minority Population</obo:srpdio4000004>
-        <obo:srpdio4000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MINORPCT</obo:srpdio4000005>
+        <obo:SRPDIO_4000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">percent of people in census block group</obo:SRPDIO_4000003>
+        <obo:SRPDIO_4000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pct. Minority Population</obo:SRPDIO_4000004>
+        <obo:SRPDIO_4000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MINORPCT</obo:SRPDIO_4000005>
         <rdfs:label xml:lang="en">percent minority population</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/srpdio1000030 -->
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_1000030 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/srpdio1000030">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1000030">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -663,16 +645,16 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/srpdio1000031 -->
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_1000031 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/srpdio1000031">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1000031">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000109"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/srpdio1001015"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001015"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -684,16 +666,16 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/srpdio1000032 -->
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_1000032 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/srpdio1000032">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1000032">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000109"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/srpdio1001011"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001011"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -704,16 +686,16 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/srpdio1000033 -->
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_1000033 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/srpdio1000033">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1000033">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000109"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/srpdio1001027"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001027"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -724,39 +706,51 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/srpdio1001002 -->
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_1001002 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/srpdio1001002"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1001002"/>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/srpdio1001011 -->
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_1001011 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/srpdio1001011"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1001011"/>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/srpdio1001015 -->
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_1001015 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/srpdio1001015"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1001015"/>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/srpdio1001016 -->
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_1001016 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/srpdio1001016"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1001016"/>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/srpdio1001027 -->
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_1001027 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/srpdio1001027"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1001027"/>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/srpdio1001029 -->
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_1001029 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/srpdio1001029"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1001029"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/STATO_0000047 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/STATO_0000047"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000187 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000187"/>
 </rdf:RDF>
 
 
