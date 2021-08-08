@@ -60,34 +60,43 @@
     
 
 
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Data properties
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
     <!-- http://purl.obolibrary.org/obo/srpdio4000005 -->
 
-    <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/srpdio4000005">
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/srpdio4000005">
         <obo:IAO_0000115 xml:lang="en">The concept identifier from Environmental Justice Screening tool.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0001-8815-0078</obo:IAO_0000117>
         <rdfs:label xml:lang="en">EJS variable ID</rdfs:label>
-    </owl:DatatypeProperty>
+    </owl:AnnotationProperty>
     
 
 
     <!-- http://purl.obolibrary.org/obo/srpdio4000006 -->
 
-    <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/srpdio4000006">
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/srpdio4000006">
         <obo:IAO_0000115 xml:lang="en">The concept identifier from American Community Survey.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0001-8815-0078</obo:IAO_0000117>
         <rdfs:label xml:lang="en">ACS5 variable ID</rdfs:label>
-    </owl:DatatypeProperty>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/srpdio4000008 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/srpdio4000008">
+        <obo:IAO_0000115 xml:lang="en">The concept label from American Community Survey.  Corresponds to &quot;Concept in vars.csv&quot;.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0001-8815-0078</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">ACS5 concept</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/srpdio4000009 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/srpdio4000009">
+        <obo:IAO_0000115 xml:lang="en">The factorial label from American Community Survey. Corresponds to &quot;Original label&quot;.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0001-8815-0078</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">ACS5 label</rdfs:label>
+    </owl:AnnotationProperty>
     
 
 

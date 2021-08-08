@@ -5,6 +5,8 @@ SRPDIO:4000001,class,PCO:0000027,group quarters population of some area,"All of 
 SRPDIO:4000002,class,PCO:0000027,household population of some area,All of the people living as part of a household in some geographic area like a census block or state. Household population contrasts with some group quarters population.,,,https://orcid.org/0000-0001-8815-0078,,
 SRPDIO:4000003,annotation property,,UA-SRC preferred unit,The unit being used by default in the UA superfund research center. Can be over-ridden.,,,https://orcid.org/0000-0001-8815-0078,,
 SRPDIO:4000004,annotation property,,EJP concept,The concept label from Environmental Justice Screening tool.,,,https://orcid.org/0000-0001-8815-0078,,
-SRPDIO:4000005,data property,,EJS variable ID,The concept identifier from Environmental Justice Screening tool.,,,https://orcid.org/0000-0001-8815-0078,,
-SRPDIO:4000006,data property,,ACS5 variable ID,The concept identifier from American Community Survey.,,,https://orcid.org/0000-0001-8815-0078,,
+SRPDIO:4000005,annotation property,,EJS variable ID,The concept identifier from Environmental Justice Screening tool.,,,https://orcid.org/0000-0001-8815-0078,,
+SRPDIO:4000006,annotation property,,ACS5 variable ID,The concept identifier from American Community Survey.,,,https://orcid.org/0000-0001-8815-0078,,
 SRPDIO:4000007,class,ENVO:00001998,top soil,"The top layer of soil, sometimes called the A horizon, as opposed to deeper soil layers.",,,https://orcid.org/0000-0001-8815-0078,This is a temporary SRPDIO term. Should be replaced by a term from another ontology.,"Term is required for Garden Roots data, to distinguish it from the more general term of soil."
+SRPDIO:4000008,annotation property,,ACS5 concept,"The concept label from American Community Survey.  Corresponds to ""Concept in vars.csv"".",,,https://orcid.org/0000-0001-8815-0078,,
+SRPDIO:4000009,annotation property,,ACS5 label,"The factorial label from American Community Survey. Corresponds to ""Original label"".",,,https://orcid.org/0000-0001-8815-0078,,

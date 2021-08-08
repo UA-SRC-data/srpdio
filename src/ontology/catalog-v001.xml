@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/omo/2020-06-08/omo.owl" uri="http://purl.obolibrary.org/obo/omo.owl"/>
     <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/srpdio/chemical_concentration.owl" uri="file:/Users/rwalls/gh/srpdio/src/patterns/chemical_concentration.owl"/>
     <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/srpdio/plant_part_concentration.owl" uri="file:/Users/rwalls/gh/srpdio/src/patterns/plant_part_concentration.owl"/>
     <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/srpdio/entity_attribute.owl" uri="file:/Users/rwalls/gh/srpdio/src/patterns/entity_attribute.owl"/>
