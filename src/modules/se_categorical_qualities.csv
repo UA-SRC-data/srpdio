@@ -62,7 +62,7 @@ SRPDIO:1001059,SRPDIO:1001053,with an Internet subscription,satellite Internet s
 SRPDIO:1001060,SRPDIO:1001005,internet access,without an Internet subscription,,,,https://orcid.org/0000-0001-8815-0078,,,,,acs5,
 SRPDIO:1001061,SRPDIO:1001060,Without an Internet subscription,internet access without a subscription,,,,https://orcid.org/0000-0001-8815-0078,,,,,acs5,
 SRPDIO:1001062,SRPDIO:1001005,internet access,no Internet access,,,,https://orcid.org/0000-0001-8815-0078,,,,,acs5,
-SRPDIO:1001063,SRPDIO:1001008,age category,under 18 years,,,,https://orcid.org/0000-0001-8815-0078,,,,,acs5,
+SRPDIO:1001063,SRPDIO:1001179,under 19 years,under 18 years,,,,https://orcid.org/0000-0001-8815-0078,,,,,acs5,
 SRPDIO:1001064,SRPDIO:1001008,age category,16 to 64 years,,,,https://orcid.org/0000-0001-8815-0078,,,,,acs5,
 SRPDIO:1001065,SRPDIO:1001064,16 to 64 years,18 to 64 years,,,,https://orcid.org/0000-0001-8815-0078,,,,,acs5,
 SRPDIO:1001066,SRPDIO:1001064,16 to 64 years,16 to 19 years,,,,https://orcid.org/0000-0001-8815-0078,,,,,acs5,
@@ -178,3 +178,4 @@ SRPDIO:1001175,SRPDIO:1001028,language spoken at home,speak only English,,,,http
 SRPDIO:1001176,SRPDIO:1001028,language spoken at home,speak other Indo-European languages,,,,https://orcid.org/0000-0001-8815-0078,,,,,acs5,
 SRPDIO:1001177,SRPDIO:1001028,language spoken at home,speak Spanish,,,,https://orcid.org/0000-0001-8815-0078,,,,,acs5,
 SRPDIO:1001178,SRPDIO:1001028,language spoken at home,speak other languages,,,,https://orcid.org/0000-0001-8815-0078,,,,,acs5,
+SRPDIO:1001179,SRPDIO:1001008,age category,under 19 years,,,,https://orcid.org/0000-0001-8815-0078,,,,,acs5,
