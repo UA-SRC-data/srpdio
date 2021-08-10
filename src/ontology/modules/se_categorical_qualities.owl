@@ -180,7 +180,7 @@
     <!-- http://purl.obolibrary.org/obo/SRPDIO_1001009 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1001009">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001006"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001008"/>
         <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acs5</DC:source>
         <obo:IAO_0000115 xml:lang="en">The age of a grandparent binned into numerical groups.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0001-8815-0078</obo:IAO_0000117>
@@ -1012,6 +1012,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1001083">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001009"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001065"/>
         <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acs5</DC:source>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0001-8815-0078</obo:IAO_0000117>
         <rdfs:label xml:lang="en">grandparent age 30 to 59 years</rdfs:label>
@@ -1022,6 +1023,7 @@
     <!-- http://purl.obolibrary.org/obo/SRPDIO_1001084 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1001084">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001008"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001009"/>
         <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acs5</DC:source>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0001-8815-0078</obo:IAO_0000117>

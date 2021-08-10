@@ -1,5 +1,5 @@
 ﻿Ontology ID,parent class,parent class label,label,definition,definition source,English syn.,term editor,editor note,subclass axiom,equivaleny axiom,Curation notes,source,DBXREF
-ID,SC %,,AL rdfs:label@en,AL IAO:0000115@en,A IAO:0000119 SPLIT=|,AL oboInOwl:hasExactSynonym@en,A IAO:0000117 SPLIT=|,A IAO:0000116 SPLIT=|,SC % SPLIT=|,,,A DC:source,A oboInOwl:hasDbXref
+ID,SC % SPLIT=|,,AL rdfs:label@en,AL IAO:0000115@en,A IAO:0000119 SPLIT=|,AL oboInOwl:hasExactSynonym@en,A IAO:0000117 SPLIT=|,A IAO:0000116 SPLIT=|,SC % SPLIT=|,,,A DC:source,A oboInOwl:hasDbXref
 SRPDIO:1001000,PATO:0000001,quality,civilian status,Whether or not a person is enrolled in the armed forces.,,,https://orcid.org/0000-0001-8815-0078,,,,,acs5,
 SRPDIO:1001001,PATO:0000001,quality,disability status,Whether or not a person has a disability.,,,https://orcid.org/0000-0001-8815-0078,,,,,acs5,
 SRPDIO:1001002,PATO:0000001,quality,educational attainment,Level of educaiton achieved.,,,https://orcid.org/0000-0001-8815-0078,,,,,acs5,
@@ -8,7 +8,7 @@ SRPDIO:1001004,PATO:0000001,quality,computer and internet access,Whether or not 
 SRPDIO:1001005,SRPDIO:1001004,computer and internet access,internet access,Whether or not a person lives in a household that has an internet subscription and what type.,,,https://orcid.org/0000-0001-8815-0078,,,,,acs5,
 SRPDIO:1001006,SRPDIO:1001004,computer and internet access,type of computer in household,The type of computer in a household.,,,https://orcid.org/0000-0001-8815-0078,,,,,acs5,
 SRPDIO:1001008,PATO:0000011,age,age category,The age of a person binned into numerical groups.,,,https://orcid.org/0000-0001-8815-0078,,,,,,
-SRPDIO:1001009,SRPDIO:1001006,age category,grandparent age category,The age of a grandparent binned into numerical groups.,,,https://orcid.org/0000-0001-8815-0078,,,,,acs5,
+SRPDIO:1001009,SRPDIO:1001008,age category,grandparent age category,The age of a grandparent binned into numerical groups.,,,https://orcid.org/0000-0001-8815-0078,,,,,acs5,
 SRPDIO:1001010,PATO:0000001,quality,grandparent responsibility for grandchildren,Whether or not a grandparent is responsible for their own grandchild or grandchildren.,,,https://orcid.org/0000-0001-8815-0078,,,,,acs5,
 SRPDIO:1001011,PATO:0000001,quality,housing quality,A quality of person or group of people that describes their housing situation.,,,https://orcid.org/0000-0001-8815-0078,,,,,,
 SRPDIO:1001012,SRPDIO:1001011,housing quality,group quarters type,"A type of group living quarters, whether institutional or not.",,,https://orcid.org/0000-0001-8815-0078,,,,,,
@@ -82,8 +82,8 @@ SRPDIO:1001079,SRPDIO:1001008,age category,65 years and over,,,,https://orcid.or
 SRPDIO:1001080,SRPDIO:1001079,65 years and over,65 to 69 years,,,,https://orcid.org/0000-0001-8815-0078,,,,,acs5,
 SRPDIO:1001081,SRPDIO:1001008,age category,75 years and over,,,,https://orcid.org/0000-0001-8815-0078,,,,,acs5,
 SRPDIO:1001082,SRPDIO:1001081,75 years and over,70 to 74 years,,,,https://orcid.org/0000-0001-8815-0078,,,,,acs5,
-SRPDIO:1001083,SRPDIO:1001009,grandparent age category,grandparent age 30 to 59 years,,,,https://orcid.org/0000-0001-8815-0078,,,,,acs5,
-SRPDIO:1001084,SRPDIO:1001009,grandparent age category,grandparent age 60 years and over,,,,https://orcid.org/0000-0001-8815-0078,,,,,acs5,
+SRPDIO:1001083,SRPDIO:1001009|SRPDIO:1001065,grandparent age category,grandparent age 30 to 59 years,,,,https://orcid.org/0000-0001-8815-0078,,,,,acs5,
+SRPDIO:1001084,SRPDIO:1001009|SRPDIO:1001008,grandparent age category,grandparent age 60 years and over,,,,https://orcid.org/0000-0001-8815-0078,,,,,acs5,
 SRPDIO:1001085,SRPDIO:1001008,age category,group population age category,,,,https://orcid.org/0000-0001-8815-0078,,,,,acs5,
 SRPDIO:1001086,SRPDIO:1001085,group population age category,group population under 18 years,,,,https://orcid.org/0000-0001-8815-0078,,SRPDIO:1001063,,,acs5,
 SRPDIO:1001087,SRPDIO:1001085,group population age category,group population 18 to 64 years,,,,https://orcid.org/0000-0001-8815-0078,,SRPDIO:1001065,,,acs5,
