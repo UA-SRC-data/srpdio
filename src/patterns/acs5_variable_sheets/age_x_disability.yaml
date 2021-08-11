@@ -1,15 +1,15 @@
 pattern_name: age_x_disability
 
 classes: 
-  quality: PATO:0000001
+  continuant: BFO:0000002
   number of people: SRPDIO:1000000
 
 relations:
   is about: IAO:0000136
     
 vars: 
-  var1: PATO:0000001 #quality
-  var2: PATO:0000001
+  var1: BFO:0000002
+  var2: BFO:0000002
   acs_var_id: string
   acs_concept: string
   acs_label: string
