@@ -1,0 +1,59 @@
+pattern_name: acs_3vars
+#For ACS5 variables that are some measure by three categorical variables (e.g., number of people by age by disability status by income)
+
+classes: 
+  continuant: BFO:0000002
+  number of people: SRPDIO:1000000
+
+relations:
+  is about: IAO:0000136
+    
+vars: 
+  var1: BFO:0000002
+  var2: BFO:0000002
+  var3: BFO:0000002
+  acs_var_id: string
+  acs_concept: string
+  acs_label: string
+
+name:
+  text: "number of people by %s by %s by %s"
+  vars:
+    - var1
+    - var2
+    - var3
+
+def: 
+  text: "The number of people in a given area by %s by %s by %s."
+  vars:
+    - var1
+    - var2
+    - var3
+    
+equivalentTo: 
+  text: "'number of people' and ('is about' some %s) and ('is about' some %s) and ('is about' some %s)"
+  vars:
+    - var1
+    - var2
+    - var3
+
+annotationProperties:
+#  exact_synonym: oio:hasExactSynonym
+ acs_var_id: SRPDIO:4000006
+ acs_concept: SRPDIO:4000008
+ acs_label: SRPDIO:4000009
+
+annotations: 
+  - annotationProperty: acs_var_id
+    text: "%s"
+    vars:
+      - acs_var_id
+  - annotationProperty: acs_concept
+    text: "%s"
+    vars:
+      - acs_concept
+  - annotationProperty: acs_label
+    text: "%s"
+    vars:
+      - acs_label
+
