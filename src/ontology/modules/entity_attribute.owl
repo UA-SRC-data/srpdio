@@ -1,0 +1,305 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/srpdio/entity_attribute.owl#"
+     xml:base="http://purl.obolibrary.org/obo/srpdio/entity_attribute.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/srpdio/entity_attribute.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000052 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000052"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00001998 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00001998"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00002011 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00002011"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00010483 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00010483"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000146 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000146"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001430 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001430"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001757 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001757"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001800 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001800"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001842 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001842"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_1500000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1500000">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001430"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002011"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The alkalinity of some fresh water.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fresh water alkalinity</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alkalinity of fresh water</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_1500001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1500001">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001757"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002011"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The conductivity of some fresh water.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fresh water conductivity</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">conductivity of fresh water</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_1500002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1500002">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001842"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002011"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The acidity of some fresh water.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fresh water acidity</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acidity of fresh water</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_1500003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1500003">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000146"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002011"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The temperature of some fresh water.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fresh water temperature</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">temperature of fresh water</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_1500004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1500004">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001430"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00001998"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The alkalinity of some soil.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">soil alkalinity</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alkalinity of soil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_1500006 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1500006">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001800"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00001998"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The water composition of some soil.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">soil water composition</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">water composition of soil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_1500007 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1500007">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001430"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00010483"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The alkalinity of some environmental material.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">environmental material alkalinity</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alkalinity of environmental material</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_1500008 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1500008">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001757"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00010483"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The conductivity of some environmental material.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">environmental material conductivity</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">conductivity of environmental material</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_1500009 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1500009">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001842"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00010483"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The acidity of some environmental material.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">environmental material acidity</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acidity of environmental material</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
+
