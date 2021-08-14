@@ -135,7 +135,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1001004">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000001"/>
-        <obo:IAO_0000115 xml:lang="en">Whether or not a person has a computer or access to the internet.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Whether or not a houshold has a computer or access to the internet.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0001-8815-0078</obo:IAO_0000117>
         <rdfs:label xml:lang="en">computer and internet access</rdfs:label>
     </owl:Class>
@@ -159,9 +159,9 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1001006">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001004"/>
         <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acs5</DC:source>
-        <obo:IAO_0000115 xml:lang="en">The type of computer in a household.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Whether or not a household has a computing device</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0001-8815-0078</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">type of computer in household</rdfs:label>
+        <rdfs:label xml:lang="en">computing device status</rdfs:label>
     </owl:Class>
     
 
@@ -290,18 +290,6 @@
         <obo:IAO_0000115 xml:lang="en">The ratio of income to poverty level in the past 12 months for a person or household.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0001-8815-0078</obo:IAO_0000117>
         <rdfs:label xml:lang="en">ratio of income to poverty level in the past 12 months</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/SRPDIO_1001019 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1001019">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000001"/>
-        <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acs5</DC:source>
-        <obo:IAO_0000115 xml:lang="en">Whether or not a person has a computer.</obo:IAO_0000115>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0001-8815-0078</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">computing device status</rdfs:label>
     </owl:Class>
     
 
@@ -593,7 +581,7 @@
     <!-- http://purl.obolibrary.org/obo/SRPDIO_1001045 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1001045">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001006"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001112"/>
         <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acs5</DC:source>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0001-8815-0078</obo:IAO_0000117>
         <rdfs:label xml:lang="en">desktop or laptop computer in household</rdfs:label>
@@ -615,7 +603,7 @@
     <!-- http://purl.obolibrary.org/obo/SRPDIO_1001047 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1001047">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001006"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001112"/>
         <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acs5</DC:source>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0001-8815-0078</obo:IAO_0000117>
         <rdfs:label xml:lang="en">smartphone in household</rdfs:label>
@@ -637,7 +625,7 @@
     <!-- http://purl.obolibrary.org/obo/SRPDIO_1001049 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1001049">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001006"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001112"/>
         <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acs5</DC:source>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0001-8815-0078</obo:IAO_0000117>
         <rdfs:label xml:lang="en">tablet or other portable wireless computer in household</rdfs:label>
@@ -659,7 +647,7 @@
     <!-- http://purl.obolibrary.org/obo/SRPDIO_1001051 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1001051">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001006"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001112"/>
         <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acs5</DC:source>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0001-8815-0078</obo:IAO_0000117>
         <rdfs:label xml:lang="en">other computer in household</rdfs:label>
@@ -1349,7 +1337,7 @@
     <!-- http://purl.obolibrary.org/obo/SRPDIO_1001112 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1001112">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001019"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001006"/>
         <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acs5</DC:source>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0001-8815-0078</obo:IAO_0000117>
         <rdfs:label xml:lang="en">has one or more types of computing devices</rdfs:label>
@@ -1360,21 +1348,10 @@
     <!-- http://purl.obolibrary.org/obo/SRPDIO_1001113 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1001113">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001019"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001006"/>
         <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acs5</DC:source>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0001-8815-0078</obo:IAO_0000117>
         <rdfs:label xml:lang="en">no computer</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/SRPDIO_1001114 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1001114">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001112"/>
-        <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acs5</DC:source>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0001-8815-0078</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">has a computer</rdfs:label>
     </owl:Class>
     
 
