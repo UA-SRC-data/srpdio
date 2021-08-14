@@ -24,7 +24,7 @@ name:
     - var3
 
 def: 
-  text: "The number of people in a given area by %s by %s by %s."
+  text: "The number of people in a defined area by %s by %s by %s."
   vars:
     - var1
     - var2
