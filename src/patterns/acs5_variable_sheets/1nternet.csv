@@ -1,0 +1,17 @@
+﻿defined_class,var1,var1_label,acs_var_id,acs_label,acs_concept
+SRPDIO:2010145,SRPDIO:1001005,internet access,B28002_001E,Estimate!!Total,PRESENCE AND TYPES OF INTERNET SUBSCRIPTIONS IN HOUSEHOLD
+SRPDIO:2010146,SRPDIO:1001053,with an Internet subscription,B28002_002E,Estimate!!Total!!With an Internet subscription,PRESENCE AND TYPES OF INTERNET SUBSCRIPTIONS IN HOUSEHOLD
+SRPDIO:2010147,SRPDIO:1001056,with dial-up Internet subscription alone/Dial-up with no other type of Internet subscription,B28002_003E,Estimate!!Total!!With an Internet subscription!!Dial-up with no other type of Internet subscription,PRESENCE AND TYPES OF INTERNET SUBSCRIPTIONS IN HOUSEHOLD
+SRPDIO:2010148,SRPDIO:1001054,with a broadband Internet subscription/broadband of any type,B28002_004E,Estimate!!Total!!With an Internet subscription!!Broadband of any type,PRESENCE AND TYPES OF INTERNET SUBSCRIPTIONS IN HOUSEHOLD
+SRPDIO:2010149,SRPDIO:1001057,cellular data plan,B28002_005E,Estimate!!Total!!With an Internet subscription!!Cellular data plan,PRESENCE AND TYPES OF INTERNET SUBSCRIPTIONS IN HOUSEHOLD
+SRPDIO:2010150,SRPDIO:1001183,cellular data plan with no other type of Internet subscription,B28002_006E,Estimate!!Total!!With an Internet subscription!!Cellular data plan!!Cellular data plan with no other type of Internet subscription,PRESENCE AND TYPES OF INTERNET SUBSCRIPTIONS IN HOUSEHOLD
+SRPDIO:2010151,SRPDIO:1001055,"broadband such as cable, fiber optic or DSL",B28002_007E,"Estimate!!Total!!With an Internet subscription!!Broadband such as cable, fiber optic or DSL",PRESENCE AND TYPES OF INTERNET SUBSCRIPTIONS IN HOUSEHOLD
+SRPDIO:2010152,SRPDIO:1001181,"broadband such as cable, fiber optic or DSL with no other type of Internet subscription",B28002_008E,"Estimate!!Total!!With an Internet subscription!!Broadband such as cable, fiber optic or DSL!!Broadband such as cable, fiber optic or DSL with no other type of Internet subscription",PRESENCE AND TYPES OF INTERNET SUBSCRIPTIONS IN HOUSEHOLD
+SRPDIO:2010153,SRPDIO:1001059,satellite Internet service,B28002_009E,Estimate!!Total!!With an Internet subscription!!Satellite Internet service,PRESENCE AND TYPES OF INTERNET SUBSCRIPTIONS IN HOUSEHOLD
+SRPDIO:2010154,SRPDIO:1001184,satellite Internet service with no other type of Internet subscription,B28002_010E,Estimate!!Total!!With an Internet subscription!!Satellite Internet service!!Satellite Internet service with no other type of Internet subscription,PRESENCE AND TYPES OF INTERNET SUBSCRIPTIONS IN HOUSEHOLD
+SRPDIO:2010155,SRPDIO:1001058,other service with no other type of Internet subscription,B28002_011E,Estimate!!Total!!With an Internet subscription!!Other service with no other type of Internet subscription,PRESENCE AND TYPES OF INTERNET SUBSCRIPTIONS IN HOUSEHOLD
+SRPDIO:2010156,SRPDIO:1001061,internet access without a subscription,B28002_012E,Estimate!!Total!!Internet access without a subscription,PRESENCE AND TYPES OF INTERNET SUBSCRIPTIONS IN HOUSEHOLD
+SRPDIO:2010157,SRPDIO:1001062,no Internet access,B28002_013E,Estimate!!Total!!No Internet access,PRESENCE AND TYPES OF INTERNET SUBSCRIPTIONS IN HOUSEHOLD
+,,,,,
+,,,,,
+,,,,,

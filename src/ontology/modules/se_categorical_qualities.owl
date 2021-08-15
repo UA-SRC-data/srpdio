@@ -42,6 +42,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IAO_0000119 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119"/>
+    
+
+
     <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
@@ -294,6 +300,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_1001019 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1001019">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001026"/>
+        <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acs5</DC:source>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0001-8815-0078</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">two or more races</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/SRPDIO_1001020 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1001020">
@@ -507,7 +524,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001002"/>
         <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acs5</DC:source>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0001-8815-0078</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">less than high school graduate</rdfs:label>
+        <rdfs:label xml:lang="en">less than high school graduate or equivalency</rdfs:label>
     </owl:Class>
     
 
@@ -515,7 +532,7 @@
     <!-- http://purl.obolibrary.org/obo/SRPDIO_1001039 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1001039">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001186"/>
         <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acs5</DC:source>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0001-8815-0078</obo:IAO_0000117>
         <rdfs:label xml:lang="en">some college or associate&apos;s degree</rdfs:label>
@@ -537,7 +554,7 @@
     <!-- http://purl.obolibrary.org/obo/SRPDIO_1001041 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1001041">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001039"/>
         <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acs5</DC:source>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0001-8815-0078</obo:IAO_0000117>
         <rdfs:label xml:lang="en">bachelor&apos;s degree or higher</rdfs:label>
@@ -881,7 +898,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001064"/>
         <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acs5</DC:source>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0001-8815-0078</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">35 to 44 years</rdfs:label>
+        <rdfs:label xml:lang="en">62 to 64 years</rdfs:label>
     </owl:Class>
     
 
@@ -988,7 +1005,7 @@
     <!-- http://purl.obolibrary.org/obo/SRPDIO_1001082 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1001082">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001081"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001079"/>
         <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acs5</DC:source>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0001-8815-0078</obo:IAO_0000117>
         <rdfs:label xml:lang="en">70 to 74 years</rdfs:label>
@@ -1356,6 +1373,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_1001114 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1001114">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001024"/>
+        <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acs5</DC:source>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0001-8815-0078</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">in labor force</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/SRPDIO_1001115 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1001115">
@@ -1491,10 +1519,10 @@
     <!-- http://purl.obolibrary.org/obo/SRPDIO_1001127 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1001127">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001024"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001114"/>
         <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acs5</DC:source>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0001-8815-0078</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">in labor force</rdfs:label>
+        <rdfs:label xml:lang="en">in civilian labor force</rdfs:label>
     </owl:Class>
     
 
@@ -1582,7 +1610,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001026"/>
         <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acs5</DC:source>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0001-8815-0078</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">native Hawaiian and other Pacific Islander</rdfs:label>
+        <rdfs:label xml:lang="en">native Hawaiian and other Pacific Islander alone</rdfs:label>
     </owl:Class>
     
 
@@ -1615,7 +1643,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001137"/>
         <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acs5</DC:source>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0001-8815-0078</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">white alone, not hispanic</rdfs:label>
+        <rdfs:label xml:lang="en">white alone, not hispanic or latino</rdfs:label>
     </owl:Class>
     
 
@@ -2078,6 +2106,118 @@
         <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acs5</DC:source>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0001-8815-0078</obo:IAO_0000117>
         <rdfs:label xml:lang="en">19 to 64 years</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_1001181 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1001181">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001055"/>
+        <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acs5</DC:source>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0001-8815-0078</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">broadband such as cable, fiber optic or DSL with no other type of Internet subscription</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_1001182 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1001182">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001057"/>
+        <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acs5</DC:source>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0001-8815-0078</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">cellular data plan alone or with dial-up</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_1001183 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1001183">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001057"/>
+        <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acs5</DC:source>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0001-8815-0078</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">cellular data plan with no other type of Internet subscription</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_1001184 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1001184">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001059"/>
+        <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acs5</DC:source>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0001-8815-0078</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">satellite Internet service with no other type of Internet subscription</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_1001185 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1001185">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001054"/>
+        <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acs5</DC:source>
+        <obo:IAO_0000115 xml:lang="en">Wireless broadband Internet access services offered over fixed networks that allow consumers to access the Internet from a fixed point while stationary and often require a direct line-of-sight between the wireless transmitter and receiver. </obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0001-8815-0078</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.fcc.gov/general/types-broadband-connections</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">with a fixed broadband Internet subscription</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_1001186 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1001186">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001037"/>
+        <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acs5</DC:source>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0001-8815-0078</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">high school graduate (includes equivalency), some college or associate&apos;s degree</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_1001187 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1001187">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001003"/>
+        <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acs5</DC:source>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0001-8815-0078</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">not employed because not in labor force</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_1001188 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1001188">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001185"/>
+        <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acs5</DC:source>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0001-8815-0078</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">with a fixed broadband Internet subscription with a cellular data plan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_1001189 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1001189">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001185"/>
+        <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acs5</DC:source>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0001-8815-0078</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">with a fixed broadband Internet subscription without a cellular data plan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_1001190 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1001190">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001054"/>
+        <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acs5</DC:source>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0001-8815-0078</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">with a broadband Internet subscription with cellular data plan alone or with dial-up</rdfs:label>
     </owl:Class>
     
 
