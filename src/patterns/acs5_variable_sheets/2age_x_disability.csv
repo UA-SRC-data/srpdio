@@ -1,14 +1,14 @@
-﻿defined_class,var1,var1_label,var2,var2_label,acs_var_id,acs_label,acs_concept
-SRPDIO:2010000,SRPDIO:1001008,age category,SRPDIO:1001001,disability status,C18108_001E,Estimate!!Total,AGE BY NUMBER OF DISABILITIES
-SRPDIO:2010001,SRPDIO:1001063,under 18 years,SRPDIO:1001001,disability status,C18108_002E,Estimate!!Total!!Under 18 years,AGE BY NUMBER OF DISABILITIES
-SRPDIO:2010002,SRPDIO:1001063,under 18 years,SRPDIO:1001032,with one type of disability,C18108_003E,Estimate!!Total!!Under 18 years!!With one type of disability,AGE BY NUMBER OF DISABILITIES
-SRPDIO:2010003,SRPDIO:1001063,under 18 years,SRPDIO:1001033,with two or more types of disability,C18108_004E,Estimate!!Total!!Under 18 years!!With two or more types of disability,AGE BY NUMBER OF DISABILITIES
-SRPDIO:2010004,SRPDIO:1001063,under 18 years,SRPDIO:1001034,no disability,C18108_005E,Estimate!!Total!!Under 18 years!!No disability,AGE BY NUMBER OF DISABILITIES
-SRPDIO:2010005,SRPDIO:1001065,18 to 64 years,SRPDIO:1001001,disability status,C18108_006E,Estimate!!Total!!18 to 64 years,AGE BY NUMBER OF DISABILITIES
-SRPDIO:2010006,SRPDIO:1001065,18 to 64 years,SRPDIO:1001032,with one type of disability,C18108_007E,Estimate!!Total!!18 to 64 years!!With one type of disability,AGE BY NUMBER OF DISABILITIES
-SRPDIO:2010007,SRPDIO:1001065,18 to 64 years,SRPDIO:1001033,with two or more types of disability,C18108_008E,Estimate!!Total!!18 to 64 years!!With two or more types of disability,AGE BY NUMBER OF DISABILITIES
-SRPDIO:2010008,SRPDIO:1001065,18 to 64 years,SRPDIO:1001034,no disability,C18108_009E,Estimate!!Total!!18 to 64 years!!No disability,AGE BY NUMBER OF DISABILITIES
-SRPDIO:2010009,SRPDIO:1001079,65 years and over,SRPDIO:1001001,disability status,C18108_010E,Estimate!!Total!!65 years and over,AGE BY NUMBER OF DISABILITIES
-SRPDIO:2010010,SRPDIO:1001079,65 years and over,SRPDIO:1001032,with one type of disability,C18108_011E,Estimate!!Total!!65 years and over!!With one type of disability,AGE BY NUMBER OF DISABILITIES
-SRPDIO:2010011,SRPDIO:1001079,65 years and over,SRPDIO:1001033,with two or more types of disability,C18108_012E,Estimate!!Total!!65 years and over!!With two or more types of disability,AGE BY NUMBER OF DISABILITIES
-SRPDIO:2010012,SRPDIO:1001079,65 years and over,SRPDIO:1001034,no disability,C18108_013E,Estimate!!Total!!65 years and over!!No disability,AGE BY NUMBER OF DISABILITIES
+﻿defined_class,count,count_label,var1,var1_label,var2,var2_label,acs_var_id,acs_label,acs_concept
+SRPDIO:2010000,SRPDIO:1000000,number of people,SRPDIO:1001008,age category,SRPDIO:1001001,disability status,C18108_001E,Estimate!!Total,AGE BY NUMBER OF DISABILITIES
+SRPDIO:2010001,SRPDIO:1000000,number of people,SRPDIO:1001063,under 18 years,SRPDIO:1001001,disability status,C18108_002E,Estimate!!Total!!Under 18 years,AGE BY NUMBER OF DISABILITIES
+SRPDIO:2010002,SRPDIO:1000000,number of people,SRPDIO:1001063,under 18 years,SRPDIO:1001032,with one type of disability,C18108_003E,Estimate!!Total!!Under 18 years!!With one type of disability,AGE BY NUMBER OF DISABILITIES
+SRPDIO:2010003,SRPDIO:1000000,number of people,SRPDIO:1001063,under 18 years,SRPDIO:1001033,with two or more types of disability,C18108_004E,Estimate!!Total!!Under 18 years!!With two or more types of disability,AGE BY NUMBER OF DISABILITIES
+SRPDIO:2010004,SRPDIO:1000000,number of people,SRPDIO:1001063,under 18 years,SRPDIO:1001034,no disability,C18108_005E,Estimate!!Total!!Under 18 years!!No disability,AGE BY NUMBER OF DISABILITIES
+SRPDIO:2010005,SRPDIO:1000000,number of people,SRPDIO:1001065,18 to 64 years,SRPDIO:1001001,disability status,C18108_006E,Estimate!!Total!!18 to 64 years,AGE BY NUMBER OF DISABILITIES
+SRPDIO:2010006,SRPDIO:1000000,number of people,SRPDIO:1001065,18 to 64 years,SRPDIO:1001032,with one type of disability,C18108_007E,Estimate!!Total!!18 to 64 years!!With one type of disability,AGE BY NUMBER OF DISABILITIES
+SRPDIO:2010007,SRPDIO:1000000,number of people,SRPDIO:1001065,18 to 64 years,SRPDIO:1001033,with two or more types of disability,C18108_008E,Estimate!!Total!!18 to 64 years!!With two or more types of disability,AGE BY NUMBER OF DISABILITIES
+SRPDIO:2010008,SRPDIO:1000000,number of people,SRPDIO:1001065,18 to 64 years,SRPDIO:1001034,no disability,C18108_009E,Estimate!!Total!!18 to 64 years!!No disability,AGE BY NUMBER OF DISABILITIES
+SRPDIO:2010009,SRPDIO:1000000,number of people,SRPDIO:1001079,65 years and over,SRPDIO:1001001,disability status,C18108_010E,Estimate!!Total!!65 years and over,AGE BY NUMBER OF DISABILITIES
+SRPDIO:2010010,SRPDIO:1000000,number of people,SRPDIO:1001079,65 years and over,SRPDIO:1001032,with one type of disability,C18108_011E,Estimate!!Total!!65 years and over!!With one type of disability,AGE BY NUMBER OF DISABILITIES
+SRPDIO:2010011,SRPDIO:1000000,number of people,SRPDIO:1001079,65 years and over,SRPDIO:1001033,with two or more types of disability,C18108_012E,Estimate!!Total!!65 years and over!!With two or more types of disability,AGE BY NUMBER OF DISABILITIES
+SRPDIO:2010012,SRPDIO:1000000,number of people,SRPDIO:1001079,65 years and over,SRPDIO:1001034,no disability,C18108_013E,Estimate!!Total!!65 years and over!!No disability,AGE BY NUMBER OF DISABILITIES
