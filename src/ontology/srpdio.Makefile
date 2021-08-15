@@ -9,6 +9,18 @@ ACS_PATTERN_OUT = modules/acs
 PATTERNS = entity_attribute plant_part_concentration chemical_concentration
 PATTERN_ROOTS = $(patsubst %, $(PATTERN_OUT)/%, $(PATTERNS))
 PATTERN_FILES = $(foreach n,$(PATTERN_ROOTS), $(n).owl)
+
+
+# Targets for non-acs5 DOSDP modules
+
+all_modules:: $(PATTERN_FILES)
+
+modules/%.owl:: $(PATTERNDIR)/%.csv $(PATTERNDIR)/%.yaml #curie_map.yaml
+	dosdp-tools generate --obo-prefixes=true --table-format=csv --template=$(PATTERNDIR)/$*.yaml --infile=$(PATTERNDIR)/$*.csv --outfile=$(PATTERN_OUT)/$*.tmp.owl
+	$(ROBOT) annotate --input $(PATTERN_OUT)/$*.tmp.owl -O $(ONTBASE)/$*.owl --output $(PATTERN_OUT)/$*.owl && rm $(PATTERN_OUT)/$*.tmp.owl
+
+# Targets for acs5 DOSDP modules
+
 ACS_PATTERNDIR = ../patterns/acs5_variable_sheets
 ACS_2VAROUT = modules/acs_2vars
 ACS_PATTERNS2 = age_x_disability
@@ -18,15 +30,6 @@ ACS_PATTERNS3 = age_x_disability_x_poverty age_x_disability_x_insurance
 ACS_3VAROUT = modules/acs_3vars
 ACS_PATTERN3_ROOTS = $(patsubst %, $(PATTERN_OUT)/%, $(ACS_PATTERNS3))
 ACS_PATTERN3_FILES = $(foreach n,$(ACS_PATTERN3_ROOTS), $(n).owl)
-
-
-# Targets for DOSDP modules
-
-all_modules:: $(PATTERN_FILES)
-
-modules/%.owl:: $(PATTERNDIR)/%.csv $(PATTERNDIR)/%.yaml #curie_map.yaml
-	dosdp-tools generate --obo-prefixes=true --table-format=csv --template=$(PATTERNDIR)/$*.yaml --outfile=$(PATTERN_OUT)/$*.tmp.owl --infile=$(PATTERNDIR)/$*.csv
-	$(ROBOT) annotate --input $(PATTERN_OUT)/$*.tmp.owl -O http://purl.obolibrary.org/obo/srpdio/$*.owl --output $(PATTERN_OUT)/$*.owl && rm $(PATTERN_OUT)/$*.tmp.owl
 
 all_acs_modules: acs_patterns2 acs_patterns3
 acs_patterns2: $(ACS_PATTERN2_FILES)

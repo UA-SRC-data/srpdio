@@ -1,14 +1,15 @@
 pattern_name: acs_2vars
-#For ACS5 variables that are some meausre by two categorical variables (e.g., number of people by age by disability status)
+#For ACS5 variables that are some count by two categorical variables (e.g., number of people by age by disability status)
 
 classes: 
   continuant: BFO:0000002
-  number of people: SRPDIO:1000000
+
 
 relations:
   is about: IAO:0000136
     
 vars: 
+  count: STATO:0000047
   var1: BFO:0000002
   var2: BFO:0000002
   acs_var_id: string
@@ -16,20 +17,23 @@ vars:
   acs_label: string
 
 name:
-  text: "number of people by %s by %s"
+  text: "s% by %s by %s"
   vars:
+    - count
     - var1
     - var2
 
 def: 
-  text: "The number of people in a defined area by %s by %s."
+  text: "The %s in a defined area by %s by %s."
   vars:
+    - count
     - var1
     - var2
     
 equivalentTo: 
-  text: "'number of people' and ('is about' some %s) and ('is about' some %s)"
+  text: "%s and ('is about' some %s) and ('is about' some %s)"
   vars:
+    - count
     - var1
     - var2
 
