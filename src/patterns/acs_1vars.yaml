@@ -1,5 +1,5 @@
-pattern_name: acs_2vars
-#For ACS5 variables that are some count by two categorical variables (e.g., number of people by age by disability status)
+pattern_name: acs_1vars
+#For ACS5 variables that are some count by one categorical variable (e.g., number of people by age)
 
 classes: 
   continuant: BFO:0000002
@@ -16,7 +16,7 @@ vars:
   acs_label: string
 
 name:
-  text: "s% by %s"
+  text: "%s by %s"
   vars:
     - count
     - var1
