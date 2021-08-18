@@ -256,9 +256,10 @@
     <!-- http://purl.obolibrary.org/obo/SRPDIO_1001015 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1001015">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000001"/>
+        <obo:IAO_0000115 xml:lang="en">A guality of a person or household pertaining to their income.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0001-8815-0078</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">income quality or measure</rdfs:label>
+        <rdfs:label xml:lang="en">income quality</rdfs:label>
     </owl:Class>
     
 
@@ -289,14 +290,7 @@
 
     <!-- http://purl.obolibrary.org/obo/SRPDIO_1001018 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1001018">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001015"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000184"/>
-        <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acs5</DC:source>
-        <obo:IAO_0000115 xml:lang="en">The ratio of income to poverty level in the past 12 months for a person or household.</obo:IAO_0000115>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0001-8815-0078</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">ratio of income to poverty level in the past 12 months</rdfs:label>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1001018"/>
     
 
 
@@ -2222,9 +2216,14 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/STATO_0000184 -->
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_1001191 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/STATO_0000184"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1001191">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001021"/>
+        <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acs5</DC:source>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0001-8815-0078</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">7-person households</rdfs:label>
+    </owl:Class>
 </rdf:RDF>
 
 

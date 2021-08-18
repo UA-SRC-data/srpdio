@@ -1,5 +1,5 @@
 pattern_name: acs_3vars
-#For ACS5 variables that are some count by three categorical variables (e.g., number of people by age by disability status by employment status)
+#For ACS5 variables that are some datum by three categorical variables (e.g., number of people by age by disability status by employment status)
 
 classes: 
   continuant: BFO:0000002
@@ -9,7 +9,7 @@ relations:
   is about: IAO:0000136
     
 vars: 
-  count: STATO:0000047
+  datum: IAO:0000109
   var1: BFO:0000002
   var2: BFO:0000002
   var3: BFO:0000002
@@ -20,7 +20,7 @@ vars:
 name:
   text: "%s by %s by %s by %s"
   vars:
-    - count
+    - datum
     - var1
     - var2
     - var3
@@ -28,7 +28,7 @@ name:
 def: 
   text: "The %s in a defined area by %s by %s by %s."
   vars:
-    - count
+    - datum
     - var1
     - var2
     - var3
@@ -36,7 +36,7 @@ def:
 equivalentTo: 
   text: "%s and ('is about' some %s) and ('is about' some %s)and ('is about' some %s)"
   vars:
-    - count
+    - datum
     - var1
     - var2
     - var3
