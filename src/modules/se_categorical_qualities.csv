@@ -191,3 +191,6 @@ SRPDIO:1001188,with a fixed broadband Internet subscription with a cellular data
 SRPDIO:1001189,with a fixed broadband Internet subscription without a cellular data plan,SRPDIO:1001185,with a fixed broadband Internet subscription,,,,https://orcid.org/0000-0001-8815-0078,,,,,acs5,
 SRPDIO:1001190,with a broadband Internet subscription with cellular data plan alone or with dial-up,SRPDIO:1001054,with a broadband Internet subscription/broadband of any type,,,,https://orcid.org/0000-0001-8815-0078,,,,,acs5,
 SRPDIO:1001191,7-person households,SRPDIO:1001021,household size,,,,https://orcid.org/0000-0001-8815-0078,,,,,acs5,
+SRPDIO:1001192,"9th to 12th grade, no diploma",SRPDIO:1001002,educational attainment,,,,https://orcid.org/0000-0001-8815-0078,,,,,acs5,
+SRPDIO:1001193,associate's degree,SRPDIO:1001002,educational attainment,,,,https://orcid.org/0000-0001-8815-0078,,,,,acs5,
+SRPDIO:1001194,bachelor's degree,SRPDIO:1001002,educational attainment,,,,https://orcid.org/0000-0001-8815-0078,,,,,acs5,
