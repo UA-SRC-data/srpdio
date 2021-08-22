@@ -1,4 +1,4 @@
-﻿defined_class,count,count_label,var1,var1_label,acs_var_id,acs_label,acs_concept
+﻿defined_class,datum,count_label,var1,var1_label,acs_var_id,acs_label,acs_concept
 SRPDIO:2010145,SRPDIO:1000000,number of people,SRPDIO:1001005,internet access,B28002_001E,Estimate!!Total,PRESENCE AND TYPES OF INTERNET SUBSCRIPTIONS IN HOUSEHOLD
 SRPDIO:2010146,SRPDIO:1000000,number of people,SRPDIO:1001053,with an Internet subscription,B28002_002E,Estimate!!Total!!With an Internet subscription,PRESENCE AND TYPES OF INTERNET SUBSCRIPTIONS IN HOUSEHOLD
 SRPDIO:2010147,SRPDIO:1000000,number of people,SRPDIO:1001056,with dial-up Internet subscription alone/Dial-up with no other type of Internet subscription,B28002_003E,Estimate!!Total!!With an Internet subscription!!Dial-up with no other type of Internet subscription,PRESENCE AND TYPES OF INTERNET SUBSCRIPTIONS IN HOUSEHOLD

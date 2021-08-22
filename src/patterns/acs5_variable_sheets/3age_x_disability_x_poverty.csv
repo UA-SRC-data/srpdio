@@ -1,4 +1,4 @@
-﻿defined_class,count,var1,var1_label,var2,var2_label,var3,var3_label,acs_var_id,acs_label,acs_concept
+﻿defined_class,datum,var1,var1_label,var2,var2_label,var3,var3_label,acs_var_id,acs_label,acs_concept
 SRPDIO:2010013,SRPDIO:1000000,SRPDIO:1001008,age category,SRPDIO:1001001,disability status,SRPDIO:1001016,poverty status,C18130_001E,Estimate!!Total,AGE BY DISABILITY STATUS BY POVERTY STATUS
 SRPDIO:2010014,SRPDIO:1000000,SRPDIO:1001063,under 18 years,SRPDIO:1001001,disability status,SRPDIO:1001016,poverty status,C18130_002E,Estimate!!Total!!Under 18 years,AGE BY DISABILITY STATUS BY POVERTY STATUS
 SRPDIO:2010015,SRPDIO:1000000,SRPDIO:1001063,under 18 years,SRPDIO:1001035,with a disability/with any disability,SRPDIO:1001016,poverty status,C18130_003E,Estimate!!Total!!Under 18 years!!With a disability,AGE BY DISABILITY STATUS BY POVERTY STATUS

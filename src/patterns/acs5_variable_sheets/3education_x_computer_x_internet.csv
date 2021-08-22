@@ -1,4 +1,4 @@
-﻿defined_class,count,var1,var1_label,var2,var2_label,var3,var3_label,acs_var_id,acs_label,acs_concept
+﻿defined_class,datum,var1,var1_label,var2,var2_label,var3,var3_label,acs_var_id,acs_label,acs_concept
 SRPDIO:2010099,SRPDIO:1000000,SRPDIO:1001002,educational attainment,SRPDIO:1001006,computing device status,SRPDIO:1001005,internet access,B28006_001E,Estimate!!Total,EDUCATIONAL ATTAINMENT BY PRESENCE OF A COMPUTER AND TYPES OF INTERNET SUBSCRIPTION IN HOUSEHOLD
 SRPDIO:2010100,SRPDIO:1000000,SRPDIO:1001038,less than high school graduate or equivalency,SRPDIO:1001006,computing device status,SRPDIO:1001005,internet access,B28006_002E,Estimate!!Total!!Less than high school graduate or equivalency,EDUCATIONAL ATTAINMENT BY PRESENCE OF A COMPUTER AND TYPES OF INTERNET SUBSCRIPTION IN HOUSEHOLD
 SRPDIO:2010101,SRPDIO:1000000,SRPDIO:1001038,less than high school graduate or equivalency,SRPDIO:1001112,has one or more types of computing devices,SRPDIO:1001005,internet access,B28006_003E,Estimate!!Total!!Less than high school graduate or equivalency!!Has a computer,EDUCATIONAL ATTAINMENT BY PRESENCE OF A COMPUTER AND TYPES OF INTERNET SUBSCRIPTION IN HOUSEHOLD

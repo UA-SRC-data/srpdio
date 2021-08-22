@@ -1,4 +1,4 @@
-﻿defined_class,count,count_label,var1,var1_label,var2,var2_label,var3,var3_label,acs_var_id,acs_label,acs_concept
+﻿defined_class,datum,count_label,var1,var1_label,var2,var2_label,var3,var3_label,acs_var_id,acs_label,acs_concept
 SRPDIO:2010080,SRPDIO:1000000,number of people,SRPDIO:1001008,age category,SRPDIO:1001006,computing device status,SRPDIO:1001005,internet access,B28005_001E,Estimate!!Total,AGE BY PRESENCE OF A COMPUTER AND TYPES OF INTERNET SUBSCRIPTION IN HOUSEHOLD
 SRPDIO:2010081,SRPDIO:1000000,number of people,SRPDIO:1001063,under 18 years,SRPDIO:1001006,computing device status,SRPDIO:1001005,internet access,B28005_002E,Estimate!!Total!!Under 18 years,AGE BY PRESENCE OF A COMPUTER AND TYPES OF INTERNET SUBSCRIPTION IN HOUSEHOLD
 SRPDIO:2010082,SRPDIO:1000000,number of people,SRPDIO:1001063,under 18 years,SRPDIO:1001112,has one or more types of computing devices,SRPDIO:1001005,internet access,B28005_003E,Estimate!!Total!!Under 18 years!!Has a computer,AGE BY PRESENCE OF A COMPUTER AND TYPES OF INTERNET SUBSCRIPTION IN HOUSEHOLD

@@ -1,4 +1,4 @@
-﻿defined_class,count,count_label,var1,var1_label,var2,var2_label,acs_var_id,acs_label,acs_concept
+﻿defined_class,datum,count_label,var1,var1_label,var2,var2_label,acs_var_id,acs_label,acs_concept
 SRPDIO:2010000,SRPDIO:1000000,number of people,SRPDIO:1001008,age category,SRPDIO:1001001,disability status,C18108_001E,Estimate!!Total,AGE BY NUMBER OF DISABILITIES
 SRPDIO:2010001,SRPDIO:1000000,number of people,SRPDIO:1001063,under 18 years,SRPDIO:1001001,disability status,C18108_002E,Estimate!!Total!!Under 18 years,AGE BY NUMBER OF DISABILITIES
 SRPDIO:2010002,SRPDIO:1000000,number of people,SRPDIO:1001063,under 18 years,SRPDIO:1001032,with one type of disability,C18108_003E,Estimate!!Total!!Under 18 years!!With one type of disability,AGE BY NUMBER OF DISABILITIES
