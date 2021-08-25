@@ -1,0 +1,549 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/srpdio/1citizen_x_age_or_ed_or_poverty.owl#"
+     xml:base="http://purl.obolibrary.org/obo/srpdio/1citizen_x_age_or_ed_or_poverty.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/srpdio/1citizen_x_age_or_ed_or_poverty.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_4000006 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/SRPDIO_4000006"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_4000008 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/SRPDIO_4000008"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_4000009 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/SRPDIO_4000009"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000136 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000136"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_1000003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1000003"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_1001002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1001002"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_1001008 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1001008"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_1001016 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1001016"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_1001036 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1001036"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_1001037 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1001037"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_1001040 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1001040"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_1001042 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1001042"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_1001076 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1001076"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_1001077 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1001077"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_1001078 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1001078"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_1001079 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1001079"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_1001103 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1001103"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_1001104 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1001104"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_1001192 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1001192"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_1001193 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1001193"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_1001194 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1001194"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_2010715 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_2010715">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1000003"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001008"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000003 in a defined area by age category.</obo:IAO_0000115>
+        <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B29001_001E</obo:SRPDIO_4000006>
+        <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CITIZEN, VOTING-AGE POPULATION BY AGE</obo:SRPDIO_4000008>
+        <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total</obo:SRPDIO_4000009>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000003 by age category</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_2010716 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_2010716">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1000003"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001076"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000003 in a defined area by 18 to 29 years.</obo:IAO_0000115>
+        <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B29001_002E</obo:SRPDIO_4000006>
+        <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CITIZEN, VOTING-AGE POPULATION BY AGE</obo:SRPDIO_4000008>
+        <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!18 to 29 years</obo:SRPDIO_4000009>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000003 by 18 to 29 years</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_2010717 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_2010717">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1000003"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001077"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000003 in a defined area by 30 to 44 years.</obo:IAO_0000115>
+        <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B29001_003E</obo:SRPDIO_4000006>
+        <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CITIZEN, VOTING-AGE POPULATION BY AGE</obo:SRPDIO_4000008>
+        <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!30 to 44 years</obo:SRPDIO_4000009>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000003 by 30 to 44 years</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_2010718 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_2010718">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1000003"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001078"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000003 in a defined area by 45 to 64 years.</obo:IAO_0000115>
+        <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B29001_004E</obo:SRPDIO_4000006>
+        <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CITIZEN, VOTING-AGE POPULATION BY AGE</obo:SRPDIO_4000008>
+        <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!45 to 64 years</obo:SRPDIO_4000009>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000003 by 45 to 64 years</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_2010719 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_2010719">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1000003"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001079"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000003 in a defined area by 65 years and over.</obo:IAO_0000115>
+        <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B29001_005E</obo:SRPDIO_4000006>
+        <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CITIZEN, VOTING-AGE POPULATION BY AGE</obo:SRPDIO_4000008>
+        <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!65 years and over</obo:SRPDIO_4000009>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000003 by 65 years and over</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_2010720 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_2010720">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1000003"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001002"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000003 in a defined area by educational attainment.</obo:IAO_0000115>
+        <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B29001_005E</obo:SRPDIO_4000006>
+        <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CITIZEN, VOTING-AGE POPULATION BY AGE</obo:SRPDIO_4000008>
+        <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!65 years and over</obo:SRPDIO_4000009>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000003 by educational attainment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_2010721 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_2010721">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1000003"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001036"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000003 in a defined area by less than 9th grade.</obo:IAO_0000115>
+        <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B29002_002E</obo:SRPDIO_4000006>
+        <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CITIZEN, VOTING-AGE POPULATION BY EDUCATIONAL ATTAINMENT</obo:SRPDIO_4000008>
+        <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!Less than 9th grade</obo:SRPDIO_4000009>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000003 by less than 9th grade</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_2010722 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_2010722">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1000003"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001192"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000003 in a defined area by 9th to 12th grade, no diploma.</obo:IAO_0000115>
+        <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B29002_003E</obo:SRPDIO_4000006>
+        <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CITIZEN, VOTING-AGE POPULATION BY EDUCATIONAL ATTAINMENT</obo:SRPDIO_4000008>
+        <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!9th to 12th grade, no diploma</obo:SRPDIO_4000009>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000003 by 9th to 12th grade, no diploma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_2010723 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_2010723">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1000003"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001037"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000003 in a defined area by high school graduate (includes equivalency).</obo:IAO_0000115>
+        <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B29002_004E</obo:SRPDIO_4000006>
+        <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CITIZEN, VOTING-AGE POPULATION BY EDUCATIONAL ATTAINMENT</obo:SRPDIO_4000008>
+        <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!High school graduate (includes equivalency)</obo:SRPDIO_4000009>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000003 by high school graduate (includes equivalency)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_2010724 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_2010724">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1000003"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001040"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000003 in a defined area by some college, no degree.</obo:IAO_0000115>
+        <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B29002_005E</obo:SRPDIO_4000006>
+        <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CITIZEN, VOTING-AGE POPULATION BY EDUCATIONAL ATTAINMENT</obo:SRPDIO_4000008>
+        <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!Some college, no degree</obo:SRPDIO_4000009>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000003 by some college, no degree</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_2010725 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_2010725">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1000003"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001193"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000003 in a defined area by associate&apos;s degree.</obo:IAO_0000115>
+        <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B29002_006E</obo:SRPDIO_4000006>
+        <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CITIZEN, VOTING-AGE POPULATION BY EDUCATIONAL ATTAINMENT</obo:SRPDIO_4000008>
+        <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!Associate&apos;s degree</obo:SRPDIO_4000009>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000003 by associate&apos;s degree</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_2010726 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_2010726">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1000003"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001194"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000003 in a defined area by bachelor&apos;s degree.</obo:IAO_0000115>
+        <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B29002_007E</obo:SRPDIO_4000006>
+        <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CITIZEN, VOTING-AGE POPULATION BY EDUCATIONAL ATTAINMENT</obo:SRPDIO_4000008>
+        <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!Bachelor&apos;s degree</obo:SRPDIO_4000009>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000003 by bachelor&apos;s degree</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_2010727 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_2010727">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1000003"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001042"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000003 in a defined area by graduate or professional degree.</obo:IAO_0000115>
+        <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B29002_008E</obo:SRPDIO_4000006>
+        <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CITIZEN, VOTING-AGE POPULATION BY EDUCATIONAL ATTAINMENT</obo:SRPDIO_4000008>
+        <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!Graduate or professional degree</obo:SRPDIO_4000009>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000003 by graduate or professional degree</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_2010728 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_2010728">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1000003"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001016"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000003 in a defined area by poverty status.</obo:IAO_0000115>
+        <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B29003_001E</obo:SRPDIO_4000006>
+        <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CITIZEN, VOTING-AGE POPULATION BY POVERTY STATUS</obo:SRPDIO_4000008>
+        <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total</obo:SRPDIO_4000009>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000003 by poverty status</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_2010729 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_2010729">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1000003"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001103"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000003 in a defined area by income in the past 12 months below poverty level.</obo:IAO_0000115>
+        <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B29003_002E</obo:SRPDIO_4000006>
+        <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CITIZEN, VOTING-AGE POPULATION BY POVERTY STATUS</obo:SRPDIO_4000008>
+        <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!Income in the past 12 months below poverty level</obo:SRPDIO_4000009>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000003 by income in the past 12 months below poverty level</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_2010730 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_2010730">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1000003"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001104"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000003 in a defined area by income in the past 12 months at or above poverty level.</obo:IAO_0000115>
+        <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B29003_003E</obo:SRPDIO_4000006>
+        <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CITIZEN, VOTING-AGE POPULATION BY POVERTY STATUS</obo:SRPDIO_4000008>
+        <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!Income in the past 12 months at or above the poverty level</obo:SRPDIO_4000009>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000003 by income in the past 12 months at or above poverty level</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
+

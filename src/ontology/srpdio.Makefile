@@ -45,7 +45,7 @@ ACS_PATTERN4_FILES = $(foreach n,$(ACS_PATTERN4_ROOTS), $(n).owl)
 
 ACS_PATTERNS5 = 5sex_x_age_x_labor_x_civ_x_employ
 ACS5 = modules/acs5
-ACS_PATTERN5_ROOTS = $(patsubst %, $(ACS3)/%, $(ACS_PATTERNS5))
+ACS_PATTERN5_ROOTS = $(patsubst %, $(ACS5)/%, $(ACS_PATTERNS5))
 ACS_PATTERN5_FILES = $(foreach n,$(ACS_PATTERN5_ROOTS), $(n).owl)
 
 ACS_PATTERNS6 = 6sex_x_age_x_lab_x_civ_x_empl_x_race
