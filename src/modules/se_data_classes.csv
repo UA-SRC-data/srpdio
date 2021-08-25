@@ -5,7 +5,7 @@ SRPDIO:1000001,SRPDIO:1000000,number of people 16 years and over,,,,,,('is about
 SRPDIO:1000002,SRPDIO:1000001,civilian employed population 16 years and over,,,,,,('is about' some age),,,acs5,people per census block group,,,
 SRPDIO:1000003,SRPDIO:1000001,number of citizens in voting-age population,,,,,,('is about' some age),,,acs5,people per census block group,,,
 SRPDIO:1000004,SRPDIO:1000001,number of people 25 years and over,,,,,,('is about' some age),,,acs5|ejs,people per census block group,Population age 25 and above,ACSEDUCBAS,
-SRPDIO:1000005,SRPDIO:1000001,number of civilians 18 year and older,,,,,,('is about' some 'poverty status'),,,acs5,people per census block group,,,
+SRPDIO:1000005,SRPDIO:1000001,number of civilians 18 year and older,,,,,,('is about' some 'collection of humans'),,,acs5,people per census block group,,,
 SRPDIO:1000006,SRPDIO:1000000,number of grandparents living with own grandchildren,,,,,,('is about' some 'collection of humans'),,,acs5,people per census block group,,,
 SRPDIO:1000007,SRPDIO:1000000,number of people living in group quarters,,,,,,('is about' some 'housing quality'),,,acs5,people per census block group,,,
 ,,,,,,,,,,,,,,,

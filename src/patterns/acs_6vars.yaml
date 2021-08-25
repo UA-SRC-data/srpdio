@@ -1,5 +1,5 @@
 pattern_name: acs_3vars
-#For ACS5 variables that are some datum by three categorical variables (e.g., number of people by age by disability status by employment status)
+#For ACS5 variables that are some datum by six categorical variables
 
 classes: 
   continuant: BFO:0000002
@@ -13,33 +13,46 @@ vars:
   var1: BFO:0000002
   var2: BFO:0000002
   var3: BFO:0000002
+  var4: BFO:0000002
+  var5: BFO:0000002
+  var6: BFO:0000002
   acs_var_id: string
   acs_concept: string
   acs_label: string
 
 name:
-  text: "%s by %s by %s by %s"
+  text: "%s by %s by %s by %s by %s by %s by %s"
   vars:
     - datum
     - var1
     - var2
     - var3
+    - var4
+    - var5
+    - var6
+
 
 def: 
-  text: "The %s in a defined area by %s by %s by %s."
+  text: "The %s in a defined area by %s by %s by %s by %s by %s by %s."
   vars:
     - datum
     - var1
     - var2
     - var3
+    - var4
+    - var5
+    - var6
     
 equivalentTo: 
-  text: "%s and ('is about' some %s) and ('is about' some %s) and ('is about' some %s)"
+  text: "%s and ('is about' some %s) and ('is about' some %s) and ('is about' some %s) and ('is about' some %s) and ('is about' some %s) and ('is about' some %s)"
   vars:
     - datum
     - var1
     - var2
     - var3
+    - var4
+    - var5
+    - var6
 
 annotationProperties:
 #  exact_synonym: oio:hasExactSynonym
