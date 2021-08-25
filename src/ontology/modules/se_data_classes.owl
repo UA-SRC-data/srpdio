@@ -35,6 +35,18 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IAO_0000116 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000119 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/SRPDIO_4000003 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/SRPDIO_4000003"/>
@@ -134,7 +146,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acs5</DC:source>
-        <obo:SRPDIO_4000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dollers per year per household</obo:SRPDIO_4000003>
+        <obo:SRPDIO_4000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">people per census block group</obo:SRPDIO_4000003>
         <rdfs:label xml:lang="en">number of people 16 years and over</rdfs:label>
     </owl:Class>
     
@@ -201,7 +213,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001016"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PCO_0000027"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acs5</DC:source>
@@ -215,6 +227,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1000006">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PCO_0000027"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acs5</DC:source>
         <obo:SRPDIO_4000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">people per census block group</obo:SRPDIO_4000003>
         <rdfs:label xml:lang="en">number of grandparents living with own grandchildren</rdfs:label>
@@ -239,6 +257,23 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_1000008 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1000008">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000184"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001015"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acs5</DC:source>
+        <obo:IAO_0000115 xml:lang="en">The ratio of income to poverty level in the past 12 months for a person or household.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">ratio of income to poverty level in the past 12 months</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/SRPDIO_1000009 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1000009">
@@ -251,7 +286,7 @@
         </rdfs:subClassOf>
         <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acs5</DC:source>
         <obo:SRPDIO_4000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">people per census block group</obo:SRPDIO_4000003>
-        <rdfs:label xml:lang="en">number of people living in households</rdfs:label>
+        <rdfs:label xml:lang="en">number of  people living in households</rdfs:label>
     </owl:Class>
     
 
@@ -266,6 +301,9 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001015"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acs</DC:source>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B29004_001E</obo:IAO_0000119>
+        <obo:SRPDIO_4000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dollers per year per household</obo:SRPDIO_4000003>
         <rdfs:label xml:lang="en">median household income in the past 12 months (in 2018 inflation-adjusted dollars)</rdfs:label>
     </owl:Class>
     
@@ -281,6 +319,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001015"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:SRPDIO_4000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dollers per year per person</obo:SRPDIO_4000003>
         <rdfs:label xml:lang="en">per capita income in the past 12 months (in 2018 inflation-adjusted dollars)</rdfs:label>
     </owl:Class>
     
@@ -666,6 +705,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/>
+        <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rlw</DC:source>
         <rdfs:label xml:lang="en">measurement datum about housing quality</rdfs:label>
     </owl:Class>
     
@@ -686,24 +726,8 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/>
+        <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rlw</DC:source>
         <rdfs:label xml:lang="en">measurement datum about language spoken</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/SRPDIO_1000034 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1000034">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000184"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001015"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acs5</DC:source>
-        <obo:IAO_0000115 xml:lang="en">The ratio of income to poverty level in the past 12 months for a person or household.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">ratio of income to poverty level in the past 12 months</rdfs:label>
     </owl:Class>
     
 
@@ -744,6 +768,66 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_1001107 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1001107">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1000008"/>
+        <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acs5</DC:source>
+        <obo:IAO_0000115 xml:lang="en">ratio of income to poverty level in the past 12 months</obo:IAO_0000115>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0001-8815-0078</obo:IAO_0000116>
+        <rdfs:label xml:lang="en">Under .50</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_1001108 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1001108">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1000008"/>
+        <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acs5</DC:source>
+        <obo:IAO_0000115 xml:lang="en">ratio of income to poverty level in the past 12 months</obo:IAO_0000115>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0001-8815-0078</obo:IAO_0000116>
+        <rdfs:label xml:lang="en">.50 to .99</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_1001109 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1001109">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1000008"/>
+        <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acs5</DC:source>
+        <obo:IAO_0000115 xml:lang="en">ratio of income to poverty level in the past 12 months</obo:IAO_0000115>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0001-8815-0078</obo:IAO_0000116>
+        <rdfs:label xml:lang="en">1.00 to 1.49</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_1001110 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1001110">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1000008"/>
+        <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acs5</DC:source>
+        <obo:IAO_0000115 xml:lang="en">ratio of income to poverty level in the past 12 months</obo:IAO_0000115>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0001-8815-0078</obo:IAO_0000116>
+        <rdfs:label xml:lang="en">1.50 to 1.99</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_1001111 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1001111">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1000008"/>
+        <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acs5</DC:source>
+        <obo:IAO_0000115 xml:lang="en">ratio of income to poverty level in the past 12 months</obo:IAO_0000115>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0001-8815-0078</obo:IAO_0000116>
+        <rdfs:label xml:lang="en">2.00 and over</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/STATO_0000047 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/STATO_0000047"/>
@@ -763,5 +847,5 @@
 
 
 
-<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
 

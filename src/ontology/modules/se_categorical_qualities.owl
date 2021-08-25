@@ -288,12 +288,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/SRPDIO_1001018 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1001018"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/SRPDIO_1001019 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1001019">
@@ -1290,61 +1284,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/SRPDIO_1001107 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1001107">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001018"/>
-        <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acs5</DC:source>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0001-8815-0078</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">Under .50</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/SRPDIO_1001108 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1001108">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001018"/>
-        <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acs5</DC:source>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0001-8815-0078</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">.50 to .99</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/SRPDIO_1001109 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1001109">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001018"/>
-        <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acs5</DC:source>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0001-8815-0078</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">1.00 to 1.49</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/SRPDIO_1001110 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1001110">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001018"/>
-        <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acs5</DC:source>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0001-8815-0078</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">1.50 to 1.99</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/SRPDIO_1001111 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1001111">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001018"/>
-        <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acs5</DC:source>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0001-8815-0078</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">2.00 and over</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/SRPDIO_1001112 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1001112">
@@ -2223,6 +2162,39 @@
         <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acs5</DC:source>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0001-8815-0078</obo:IAO_0000117>
         <rdfs:label xml:lang="en">7-person households</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_1001192 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1001192">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001002"/>
+        <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acs5</DC:source>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0001-8815-0078</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">9th to 12th grade, no diploma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_1001193 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1001193">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001002"/>
+        <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acs5</DC:source>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0001-8815-0078</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">associate&apos;s degree</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_1001194 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1001194">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001002"/>
+        <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acs5</DC:source>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0001-8815-0078</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">bachelor&apos;s degree</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
