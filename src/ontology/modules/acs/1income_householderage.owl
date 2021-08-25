@@ -1,0 +1,230 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/srpdio/1income_householderage.owl#"
+     xml:base="http://purl.obolibrary.org/obo/srpdio/1income_householderage.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/srpdio/1income_householderage.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_4000006 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/SRPDIO_4000006"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_4000008 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/SRPDIO_4000008"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_4000009 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/SRPDIO_4000009"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000136 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000136"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_1000010 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1000010"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_1001089 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1001089"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_1001090 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1001090"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_1001091 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1001091"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_1001092 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1001092"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_1001093 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1001093"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_2010688 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_2010688">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1000010"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001089"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000010 in a defined area by householder age category.</obo:IAO_0000115>
+        <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B19049_001E</obo:SRPDIO_4000006>
+        <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEDIAN HOUSEHOLD INCOME IN THE PAST 12 MONTHS (IN 2018 INFLATION-ADJUSTED DOLLARS) BY AGE OF HOUSEHOLDER</obo:SRPDIO_4000008>
+        <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Median household income in the past 12 months (in 2018 inflation-adjusted dollars) --!!Total</obo:SRPDIO_4000009>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000010 by householder age category</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_2010689 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_2010689">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1000010"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001090"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000010 in a defined area by householder under 25 years.</obo:IAO_0000115>
+        <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B19049_002E</obo:SRPDIO_4000006>
+        <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEDIAN HOUSEHOLD INCOME IN THE PAST 12 MONTHS (IN 2018 INFLATION-ADJUSTED DOLLARS) BY AGE OF HOUSEHOLDER</obo:SRPDIO_4000008>
+        <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Median household income in the past 12 months (in 2018 inflation-adjusted dollars) --!!Householder under 25 years</obo:SRPDIO_4000009>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000010 by householder under 25 years</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_2010690 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_2010690">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1000010"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001091"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000010 in a defined area by householder 25 to 44 years.</obo:IAO_0000115>
+        <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B19049_003E</obo:SRPDIO_4000006>
+        <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEDIAN HOUSEHOLD INCOME IN THE PAST 12 MONTHS (IN 2018 INFLATION-ADJUSTED DOLLARS) BY AGE OF HOUSEHOLDER</obo:SRPDIO_4000008>
+        <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Median household income in the past 12 months (in 2018 inflation-adjusted dollars) --!!Householder 25 to 44 years</obo:SRPDIO_4000009>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000010 by householder 25 to 44 years</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_2010691 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_2010691">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1000010"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001092"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000010 in a defined area by householder 45 to 64 years.</obo:IAO_0000115>
+        <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B19049_004E</obo:SRPDIO_4000006>
+        <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEDIAN HOUSEHOLD INCOME IN THE PAST 12 MONTHS (IN 2018 INFLATION-ADJUSTED DOLLARS) BY AGE OF HOUSEHOLDER</obo:SRPDIO_4000008>
+        <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Median household income in the past 12 months (in 2018 inflation-adjusted dollars) --!!Householder 45 to 64 years</obo:SRPDIO_4000009>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000010 by householder 45 to 64 years</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_2010692 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_2010692">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1000010"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001093"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000010 in a defined area by householder 65 years and over.</obo:IAO_0000115>
+        <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B19049_005E</obo:SRPDIO_4000006>
+        <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEDIAN HOUSEHOLD INCOME IN THE PAST 12 MONTHS (IN 2018 INFLATION-ADJUSTED DOLLARS) BY AGE OF HOUSEHOLDER</obo:SRPDIO_4000008>
+        <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Median household income in the past 12 months (in 2018 inflation-adjusted dollars) --!!Householder 65 years and over</obo:SRPDIO_4000009>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000010 by householder 65 years and over</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
+
