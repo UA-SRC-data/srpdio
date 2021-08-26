@@ -186,11 +186,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000000 in a defined area by educational attainment by labor force status by language spoken at home.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by educational attainment by labor force status by language spoken at home.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B16010_001E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDUCATIONAL ATTAINMENT AND EMPLOYMENT STATUS BY LANGUAGE SPOKEN AT HOME FOR THE POPULATION 25 YEARS AND OVER</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000000 by educational attainment by labor force status by language spoken at home</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by educational attainment by labor force status by language spoken at home</rdfs:label>
     </owl:Class>
     
 
@@ -217,11 +217,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000000 in a defined area by less than high school graduate or equivalency by labor force status by language spoken at home.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by less than high school graduate or equivalency by labor force status by language spoken at home.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B16010_002E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDUCATIONAL ATTAINMENT AND EMPLOYMENT STATUS BY LANGUAGE SPOKEN AT HOME FOR THE POPULATION 25 YEARS AND OVER</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!Less than high school graduate</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000000 by less than high school graduate or equivalency by labor force status by language spoken at home</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by less than high school graduate or equivalency by labor force status by language spoken at home</rdfs:label>
     </owl:Class>
     
 
@@ -248,11 +248,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000000 in a defined area by less than high school graduate or equivalency by in labor force by language spoken at home.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by less than high school graduate or equivalency by in labor force by language spoken at home.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B16010_003E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDUCATIONAL ATTAINMENT AND EMPLOYMENT STATUS BY LANGUAGE SPOKEN AT HOME FOR THE POPULATION 25 YEARS AND OVER</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!Less than high school graduate!!In labor force</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000000 by less than high school graduate or equivalency by in labor force by language spoken at home</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by less than high school graduate or equivalency by in labor force by language spoken at home</rdfs:label>
     </owl:Class>
     
 
@@ -279,11 +279,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000000 in a defined area by less than high school graduate or equivalency by in labor force by speak only English.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by less than high school graduate or equivalency by in labor force by speak only English.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B16010_004E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDUCATIONAL ATTAINMENT AND EMPLOYMENT STATUS BY LANGUAGE SPOKEN AT HOME FOR THE POPULATION 25 YEARS AND OVER</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!Less than high school graduate!!In labor force!!Speak only English</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000000 by less than high school graduate or equivalency by in labor force by speak only English</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by less than high school graduate or equivalency by in labor force by speak only English</rdfs:label>
     </owl:Class>
     
 
@@ -310,11 +310,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000000 in a defined area by less than high school graduate or equivalency by in labor force by speak Spanish.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by less than high school graduate or equivalency by in labor force by speak Spanish.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B16010_005E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDUCATIONAL ATTAINMENT AND EMPLOYMENT STATUS BY LANGUAGE SPOKEN AT HOME FOR THE POPULATION 25 YEARS AND OVER</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!Less than high school graduate!!In labor force!!Speak Spanish</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000000 by less than high school graduate or equivalency by in labor force by speak Spanish</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by less than high school graduate or equivalency by in labor force by speak Spanish</rdfs:label>
     </owl:Class>
     
 
@@ -341,11 +341,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000000 in a defined area by less than high school graduate or equivalency by in labor force by speak other Indo-European languages.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by less than high school graduate or equivalency by in labor force by speak other Indo-European languages.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B16010_006E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDUCATIONAL ATTAINMENT AND EMPLOYMENT STATUS BY LANGUAGE SPOKEN AT HOME FOR THE POPULATION 25 YEARS AND OVER</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!Less than high school graduate!!In labor force!!Speak other Indo-European languages</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000000 by less than high school graduate or equivalency by in labor force by speak other Indo-European languages</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by less than high school graduate or equivalency by in labor force by speak other Indo-European languages</rdfs:label>
     </owl:Class>
     
 
@@ -372,11 +372,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000000 in a defined area by less than high school graduate or equivalency by in labor force by speak Asian and Pacific Island languages.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by less than high school graduate or equivalency by in labor force by speak Asian and Pacific Island languages.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B16010_007E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDUCATIONAL ATTAINMENT AND EMPLOYMENT STATUS BY LANGUAGE SPOKEN AT HOME FOR THE POPULATION 25 YEARS AND OVER</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!Less than high school graduate!!In labor force!!Speak Asian and Pacific Island languages</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000000 by less than high school graduate or equivalency by in labor force by speak Asian and Pacific Island languages</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by less than high school graduate or equivalency by in labor force by speak Asian and Pacific Island languages</rdfs:label>
     </owl:Class>
     
 
@@ -403,11 +403,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000000 in a defined area by less than high school graduate or equivalency by in labor force by speak other languages.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by less than high school graduate or equivalency by in labor force by speak other languages.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B16010_008E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDUCATIONAL ATTAINMENT AND EMPLOYMENT STATUS BY LANGUAGE SPOKEN AT HOME FOR THE POPULATION 25 YEARS AND OVER</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!Less than high school graduate!!In labor force!!Speak other languages</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000000 by less than high school graduate or equivalency by in labor force by speak other languages</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by less than high school graduate or equivalency by in labor force by speak other languages</rdfs:label>
     </owl:Class>
     
 
@@ -434,11 +434,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000000 in a defined area by less than high school graduate or equivalency by not in labor force by language spoken at home.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by less than high school graduate or equivalency by not in labor force by language spoken at home.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B16010_009E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDUCATIONAL ATTAINMENT AND EMPLOYMENT STATUS BY LANGUAGE SPOKEN AT HOME FOR THE POPULATION 25 YEARS AND OVER</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!Less than high school graduate!!Not in labor force</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000000 by less than high school graduate or equivalency by not in labor force by language spoken at home</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by less than high school graduate or equivalency by not in labor force by language spoken at home</rdfs:label>
     </owl:Class>
     
 
@@ -465,11 +465,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000000 in a defined area by less than high school graduate or equivalency by not in labor force by speak only English.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by less than high school graduate or equivalency by not in labor force by speak only English.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B16010_010E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDUCATIONAL ATTAINMENT AND EMPLOYMENT STATUS BY LANGUAGE SPOKEN AT HOME FOR THE POPULATION 25 YEARS AND OVER</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!Less than high school graduate!!Not in labor force!!Speak only English</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000000 by less than high school graduate or equivalency by not in labor force by speak only English</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by less than high school graduate or equivalency by not in labor force by speak only English</rdfs:label>
     </owl:Class>
     
 
@@ -496,11 +496,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000000 in a defined area by less than high school graduate or equivalency by not in labor force by speak Spanish.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by less than high school graduate or equivalency by not in labor force by speak Spanish.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B16010_011E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDUCATIONAL ATTAINMENT AND EMPLOYMENT STATUS BY LANGUAGE SPOKEN AT HOME FOR THE POPULATION 25 YEARS AND OVER</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!Less than high school graduate!!Not in labor force!!Speak Spanish</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000000 by less than high school graduate or equivalency by not in labor force by speak Spanish</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by less than high school graduate or equivalency by not in labor force by speak Spanish</rdfs:label>
     </owl:Class>
     
 
@@ -527,11 +527,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000000 in a defined area by less than high school graduate or equivalency by not in labor force by speak other Indo-European languages.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by less than high school graduate or equivalency by not in labor force by speak other Indo-European languages.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B16010_012E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDUCATIONAL ATTAINMENT AND EMPLOYMENT STATUS BY LANGUAGE SPOKEN AT HOME FOR THE POPULATION 25 YEARS AND OVER</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!Less than high school graduate!!Not in labor force!!Speak other Indo-European languages</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000000 by less than high school graduate or equivalency by not in labor force by speak other Indo-European languages</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by less than high school graduate or equivalency by not in labor force by speak other Indo-European languages</rdfs:label>
     </owl:Class>
     
 
@@ -558,11 +558,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000000 in a defined area by less than high school graduate or equivalency by not in labor force by speak Asian and Pacific Island languages.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by less than high school graduate or equivalency by not in labor force by speak Asian and Pacific Island languages.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B16010_013E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDUCATIONAL ATTAINMENT AND EMPLOYMENT STATUS BY LANGUAGE SPOKEN AT HOME FOR THE POPULATION 25 YEARS AND OVER</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!Less than high school graduate!!Not in labor force!!Speak Asian and Pacific Island languages</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000000 by less than high school graduate or equivalency by not in labor force by speak Asian and Pacific Island languages</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by less than high school graduate or equivalency by not in labor force by speak Asian and Pacific Island languages</rdfs:label>
     </owl:Class>
     
 
@@ -589,11 +589,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000000 in a defined area by less than high school graduate or equivalency by not in labor force by speak other languages.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by less than high school graduate or equivalency by not in labor force by speak other languages.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B16010_014E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDUCATIONAL ATTAINMENT AND EMPLOYMENT STATUS BY LANGUAGE SPOKEN AT HOME FOR THE POPULATION 25 YEARS AND OVER</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!Less than high school graduate!!Not in labor force!!Speak other languages</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000000 by less than high school graduate or equivalency by not in labor force by speak other languages</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by less than high school graduate or equivalency by not in labor force by speak other languages</rdfs:label>
     </owl:Class>
     
 
@@ -620,11 +620,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000000 in a defined area by high school graduate (includes equivalency) by labor force status by language spoken at home.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by high school graduate (includes equivalency) by labor force status by language spoken at home.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B16010_015E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDUCATIONAL ATTAINMENT AND EMPLOYMENT STATUS BY LANGUAGE SPOKEN AT HOME FOR THE POPULATION 25 YEARS AND OVER</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!High school graduate (includes equivalency)</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000000 by high school graduate (includes equivalency) by labor force status by language spoken at home</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by high school graduate (includes equivalency) by labor force status by language spoken at home</rdfs:label>
     </owl:Class>
     
 
@@ -651,11 +651,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000000 in a defined area by high school graduate (includes equivalency) by in labor force by language spoken at home.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by high school graduate (includes equivalency) by in labor force by language spoken at home.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B16010_016E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDUCATIONAL ATTAINMENT AND EMPLOYMENT STATUS BY LANGUAGE SPOKEN AT HOME FOR THE POPULATION 25 YEARS AND OVER</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!High school graduate (includes equivalency)!!In labor force</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000000 by high school graduate (includes equivalency) by in labor force by language spoken at home</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by high school graduate (includes equivalency) by in labor force by language spoken at home</rdfs:label>
     </owl:Class>
     
 
@@ -682,11 +682,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000000 in a defined area by high school graduate (includes equivalency) by in labor force by speak only English.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by high school graduate (includes equivalency) by in labor force by speak only English.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B16010_017E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDUCATIONAL ATTAINMENT AND EMPLOYMENT STATUS BY LANGUAGE SPOKEN AT HOME FOR THE POPULATION 25 YEARS AND OVER</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!High school graduate (includes equivalency)!!In labor force!!Speak only English</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000000 by high school graduate (includes equivalency) by in labor force by speak only English</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by high school graduate (includes equivalency) by in labor force by speak only English</rdfs:label>
     </owl:Class>
     
 
@@ -713,11 +713,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000000 in a defined area by high school graduate (includes equivalency) by in labor force by speak Spanish.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by high school graduate (includes equivalency) by in labor force by speak Spanish.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B16010_018E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDUCATIONAL ATTAINMENT AND EMPLOYMENT STATUS BY LANGUAGE SPOKEN AT HOME FOR THE POPULATION 25 YEARS AND OVER</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!High school graduate (includes equivalency)!!In labor force!!Speak Spanish</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000000 by high school graduate (includes equivalency) by in labor force by speak Spanish</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by high school graduate (includes equivalency) by in labor force by speak Spanish</rdfs:label>
     </owl:Class>
     
 
@@ -744,11 +744,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000000 in a defined area by high school graduate (includes equivalency) by in labor force by speak other Indo-European languages.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by high school graduate (includes equivalency) by in labor force by speak other Indo-European languages.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B16010_019E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDUCATIONAL ATTAINMENT AND EMPLOYMENT STATUS BY LANGUAGE SPOKEN AT HOME FOR THE POPULATION 25 YEARS AND OVER</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!High school graduate (includes equivalency)!!In labor force!!Speak other Indo-European languages</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000000 by high school graduate (includes equivalency) by in labor force by speak other Indo-European languages</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by high school graduate (includes equivalency) by in labor force by speak other Indo-European languages</rdfs:label>
     </owl:Class>
     
 
@@ -775,11 +775,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000000 in a defined area by high school graduate (includes equivalency) by in labor force by speak Asian and Pacific Island languages.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by high school graduate (includes equivalency) by in labor force by speak Asian and Pacific Island languages.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B16010_020E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDUCATIONAL ATTAINMENT AND EMPLOYMENT STATUS BY LANGUAGE SPOKEN AT HOME FOR THE POPULATION 25 YEARS AND OVER</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!High school graduate (includes equivalency)!!In labor force!!Speak Asian and Pacific Island languages</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000000 by high school graduate (includes equivalency) by in labor force by speak Asian and Pacific Island languages</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by high school graduate (includes equivalency) by in labor force by speak Asian and Pacific Island languages</rdfs:label>
     </owl:Class>
     
 
@@ -806,11 +806,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000000 in a defined area by high school graduate (includes equivalency) by in labor force by speak other languages.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by high school graduate (includes equivalency) by in labor force by speak other languages.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B16010_021E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDUCATIONAL ATTAINMENT AND EMPLOYMENT STATUS BY LANGUAGE SPOKEN AT HOME FOR THE POPULATION 25 YEARS AND OVER</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!High school graduate (includes equivalency)!!In labor force!!Speak other languages</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000000 by high school graduate (includes equivalency) by in labor force by speak other languages</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by high school graduate (includes equivalency) by in labor force by speak other languages</rdfs:label>
     </owl:Class>
     
 
@@ -837,11 +837,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000000 in a defined area by high school graduate (includes equivalency) by not in labor force by language spoken at home.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by high school graduate (includes equivalency) by not in labor force by language spoken at home.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B16010_022E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDUCATIONAL ATTAINMENT AND EMPLOYMENT STATUS BY LANGUAGE SPOKEN AT HOME FOR THE POPULATION 25 YEARS AND OVER</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!High school graduate (includes equivalency)!!Not in labor force</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000000 by high school graduate (includes equivalency) by not in labor force by language spoken at home</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by high school graduate (includes equivalency) by not in labor force by language spoken at home</rdfs:label>
     </owl:Class>
     
 
@@ -868,11 +868,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000000 in a defined area by high school graduate (includes equivalency) by not in labor force by speak only English.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by high school graduate (includes equivalency) by not in labor force by speak only English.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B16010_023E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDUCATIONAL ATTAINMENT AND EMPLOYMENT STATUS BY LANGUAGE SPOKEN AT HOME FOR THE POPULATION 25 YEARS AND OVER</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!High school graduate (includes equivalency)!!Not in labor force!!Speak only English</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000000 by high school graduate (includes equivalency) by not in labor force by speak only English</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by high school graduate (includes equivalency) by not in labor force by speak only English</rdfs:label>
     </owl:Class>
     
 
@@ -899,11 +899,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000000 in a defined area by high school graduate (includes equivalency) by not in labor force by speak Spanish.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by high school graduate (includes equivalency) by not in labor force by speak Spanish.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B16010_024E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDUCATIONAL ATTAINMENT AND EMPLOYMENT STATUS BY LANGUAGE SPOKEN AT HOME FOR THE POPULATION 25 YEARS AND OVER</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!High school graduate (includes equivalency)!!Not in labor force!!Speak Spanish</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000000 by high school graduate (includes equivalency) by not in labor force by speak Spanish</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by high school graduate (includes equivalency) by not in labor force by speak Spanish</rdfs:label>
     </owl:Class>
     
 
@@ -930,11 +930,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000000 in a defined area by high school graduate (includes equivalency) by not in labor force by speak other Indo-European languages.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by high school graduate (includes equivalency) by not in labor force by speak other Indo-European languages.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B16010_025E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDUCATIONAL ATTAINMENT AND EMPLOYMENT STATUS BY LANGUAGE SPOKEN AT HOME FOR THE POPULATION 25 YEARS AND OVER</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!High school graduate (includes equivalency)!!Not in labor force!!Speak other Indo-European languages</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000000 by high school graduate (includes equivalency) by not in labor force by speak other Indo-European languages</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by high school graduate (includes equivalency) by not in labor force by speak other Indo-European languages</rdfs:label>
     </owl:Class>
     
 
@@ -961,11 +961,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000000 in a defined area by high school graduate (includes equivalency) by not in labor force by speak Asian and Pacific Island languages.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by high school graduate (includes equivalency) by not in labor force by speak Asian and Pacific Island languages.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B16010_026E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDUCATIONAL ATTAINMENT AND EMPLOYMENT STATUS BY LANGUAGE SPOKEN AT HOME FOR THE POPULATION 25 YEARS AND OVER</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!High school graduate (includes equivalency)!!Not in labor force!!Speak Asian and Pacific Island languages</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000000 by high school graduate (includes equivalency) by not in labor force by speak Asian and Pacific Island languages</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by high school graduate (includes equivalency) by not in labor force by speak Asian and Pacific Island languages</rdfs:label>
     </owl:Class>
     
 
@@ -992,11 +992,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000000 in a defined area by high school graduate (includes equivalency) by not in labor force by speak other languages.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by high school graduate (includes equivalency) by not in labor force by speak other languages.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B16010_027E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDUCATIONAL ATTAINMENT AND EMPLOYMENT STATUS BY LANGUAGE SPOKEN AT HOME FOR THE POPULATION 25 YEARS AND OVER</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!High school graduate (includes equivalency)!!Not in labor force!!Speak other languages</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000000 by high school graduate (includes equivalency) by not in labor force by speak other languages</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by high school graduate (includes equivalency) by not in labor force by speak other languages</rdfs:label>
     </owl:Class>
     
 
@@ -1023,11 +1023,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000000 in a defined area by some college or associate&apos;s degree by labor force status by language spoken at home.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by some college or associate&apos;s degree by labor force status by language spoken at home.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B16010_028E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDUCATIONAL ATTAINMENT AND EMPLOYMENT STATUS BY LANGUAGE SPOKEN AT HOME FOR THE POPULATION 25 YEARS AND OVER</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!Some college or associate&apos;s degree</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000000 by some college or associate&apos;s degree by labor force status by language spoken at home</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by some college or associate&apos;s degree by labor force status by language spoken at home</rdfs:label>
     </owl:Class>
     
 
@@ -1054,11 +1054,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000000 in a defined area by some college or associate&apos;s degree by in labor force by language spoken at home.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by some college or associate&apos;s degree by in labor force by language spoken at home.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B16010_029E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDUCATIONAL ATTAINMENT AND EMPLOYMENT STATUS BY LANGUAGE SPOKEN AT HOME FOR THE POPULATION 25 YEARS AND OVER</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!Some college or associate&apos;s degree!!In labor force</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000000 by some college or associate&apos;s degree by in labor force by language spoken at home</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by some college or associate&apos;s degree by in labor force by language spoken at home</rdfs:label>
     </owl:Class>
     
 
@@ -1085,11 +1085,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000000 in a defined area by some college or associate&apos;s degree by in labor force by speak only English.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by some college or associate&apos;s degree by in labor force by speak only English.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B16010_030E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDUCATIONAL ATTAINMENT AND EMPLOYMENT STATUS BY LANGUAGE SPOKEN AT HOME FOR THE POPULATION 25 YEARS AND OVER</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!Some college or associate&apos;s degree!!In labor force!!Speak only English</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000000 by some college or associate&apos;s degree by in labor force by speak only English</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by some college or associate&apos;s degree by in labor force by speak only English</rdfs:label>
     </owl:Class>
     
 
@@ -1116,11 +1116,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000000 in a defined area by some college or associate&apos;s degree by in labor force by speak Spanish.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by some college or associate&apos;s degree by in labor force by speak Spanish.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B16010_031E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDUCATIONAL ATTAINMENT AND EMPLOYMENT STATUS BY LANGUAGE SPOKEN AT HOME FOR THE POPULATION 25 YEARS AND OVER</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!Some college or associate&apos;s degree!!In labor force!!Speak Spanish</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000000 by some college or associate&apos;s degree by in labor force by speak Spanish</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by some college or associate&apos;s degree by in labor force by speak Spanish</rdfs:label>
     </owl:Class>
     
 
@@ -1147,11 +1147,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000000 in a defined area by some college or associate&apos;s degree by in labor force by speak other Indo-European languages.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by some college or associate&apos;s degree by in labor force by speak other Indo-European languages.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B16010_032E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDUCATIONAL ATTAINMENT AND EMPLOYMENT STATUS BY LANGUAGE SPOKEN AT HOME FOR THE POPULATION 25 YEARS AND OVER</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!Some college or associate&apos;s degree!!In labor force!!Speak other Indo-European languages</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000000 by some college or associate&apos;s degree by in labor force by speak other Indo-European languages</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by some college or associate&apos;s degree by in labor force by speak other Indo-European languages</rdfs:label>
     </owl:Class>
     
 
@@ -1178,11 +1178,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000000 in a defined area by some college or associate&apos;s degree by in labor force by speak Asian and Pacific Island languages.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by some college or associate&apos;s degree by in labor force by speak Asian and Pacific Island languages.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B16010_033E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDUCATIONAL ATTAINMENT AND EMPLOYMENT STATUS BY LANGUAGE SPOKEN AT HOME FOR THE POPULATION 25 YEARS AND OVER</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!Some college or associate&apos;s degree!!In labor force!!Speak Asian and Pacific Island languages</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000000 by some college or associate&apos;s degree by in labor force by speak Asian and Pacific Island languages</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by some college or associate&apos;s degree by in labor force by speak Asian and Pacific Island languages</rdfs:label>
     </owl:Class>
     
 
@@ -1209,11 +1209,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000000 in a defined area by some college or associate&apos;s degree by in labor force by speak other languages.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by some college or associate&apos;s degree by in labor force by speak other languages.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B16010_034E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDUCATIONAL ATTAINMENT AND EMPLOYMENT STATUS BY LANGUAGE SPOKEN AT HOME FOR THE POPULATION 25 YEARS AND OVER</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!Some college or associate&apos;s degree!!In labor force!!Speak other languages</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000000 by some college or associate&apos;s degree by in labor force by speak other languages</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by some college or associate&apos;s degree by in labor force by speak other languages</rdfs:label>
     </owl:Class>
     
 
@@ -1240,11 +1240,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000000 in a defined area by some college or associate&apos;s degree by not in labor force by language spoken at home.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by some college or associate&apos;s degree by not in labor force by language spoken at home.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B16010_035E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDUCATIONAL ATTAINMENT AND EMPLOYMENT STATUS BY LANGUAGE SPOKEN AT HOME FOR THE POPULATION 25 YEARS AND OVER</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!Some college or associate&apos;s degree!!Not in labor force</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000000 by some college or associate&apos;s degree by not in labor force by language spoken at home</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by some college or associate&apos;s degree by not in labor force by language spoken at home</rdfs:label>
     </owl:Class>
     
 
@@ -1271,11 +1271,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000000 in a defined area by some college or associate&apos;s degree by not in labor force by speak only English.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by some college or associate&apos;s degree by not in labor force by speak only English.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B16010_036E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDUCATIONAL ATTAINMENT AND EMPLOYMENT STATUS BY LANGUAGE SPOKEN AT HOME FOR THE POPULATION 25 YEARS AND OVER</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!Some college or associate&apos;s degree!!Not in labor force!!Speak only English</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000000 by some college or associate&apos;s degree by not in labor force by speak only English</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by some college or associate&apos;s degree by not in labor force by speak only English</rdfs:label>
     </owl:Class>
     
 
@@ -1302,11 +1302,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000000 in a defined area by some college or associate&apos;s degree by not in labor force by speak Spanish.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by some college or associate&apos;s degree by not in labor force by speak Spanish.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B16010_037E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDUCATIONAL ATTAINMENT AND EMPLOYMENT STATUS BY LANGUAGE SPOKEN AT HOME FOR THE POPULATION 25 YEARS AND OVER</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!Some college or associate&apos;s degree!!Not in labor force!!Speak Spanish</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000000 by some college or associate&apos;s degree by not in labor force by speak Spanish</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by some college or associate&apos;s degree by not in labor force by speak Spanish</rdfs:label>
     </owl:Class>
     
 
@@ -1333,11 +1333,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000000 in a defined area by some college or associate&apos;s degree by not in labor force by speak other Indo-European languages.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by some college or associate&apos;s degree by not in labor force by speak other Indo-European languages.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B16010_038E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDUCATIONAL ATTAINMENT AND EMPLOYMENT STATUS BY LANGUAGE SPOKEN AT HOME FOR THE POPULATION 25 YEARS AND OVER</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!Some college or associate&apos;s degree!!Not in labor force!!Speak other Indo-European languages</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000000 by some college or associate&apos;s degree by not in labor force by speak other Indo-European languages</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by some college or associate&apos;s degree by not in labor force by speak other Indo-European languages</rdfs:label>
     </owl:Class>
     
 
@@ -1364,11 +1364,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000000 in a defined area by some college or associate&apos;s degree by not in labor force by speak Asian and Pacific Island languages.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by some college or associate&apos;s degree by not in labor force by speak Asian and Pacific Island languages.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B16010_039E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDUCATIONAL ATTAINMENT AND EMPLOYMENT STATUS BY LANGUAGE SPOKEN AT HOME FOR THE POPULATION 25 YEARS AND OVER</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!Some college or associate&apos;s degree!!Not in labor force!!Speak Asian and Pacific Island languages</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000000 by some college or associate&apos;s degree by not in labor force by speak Asian and Pacific Island languages</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by some college or associate&apos;s degree by not in labor force by speak Asian and Pacific Island languages</rdfs:label>
     </owl:Class>
     
 
@@ -1395,11 +1395,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000000 in a defined area by some college or associate&apos;s degree by not in labor force by speak other languages.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by some college or associate&apos;s degree by not in labor force by speak other languages.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B16010_040E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDUCATIONAL ATTAINMENT AND EMPLOYMENT STATUS BY LANGUAGE SPOKEN AT HOME FOR THE POPULATION 25 YEARS AND OVER</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!Some college or associate&apos;s degree!!Not in labor force!!Speak other languages</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000000 by some college or associate&apos;s degree by not in labor force by speak other languages</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by some college or associate&apos;s degree by not in labor force by speak other languages</rdfs:label>
     </owl:Class>
     
 
@@ -1426,11 +1426,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000000 in a defined area by bachelor&apos;s degree or higher by labor force status by language spoken at home.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by bachelor&apos;s degree or higher by labor force status by language spoken at home.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B16010_041E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDUCATIONAL ATTAINMENT AND EMPLOYMENT STATUS BY LANGUAGE SPOKEN AT HOME FOR THE POPULATION 25 YEARS AND OVER</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!Bachelor&apos;s degree or higher</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000000 by bachelor&apos;s degree or higher by labor force status by language spoken at home</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by bachelor&apos;s degree or higher by labor force status by language spoken at home</rdfs:label>
     </owl:Class>
     
 
@@ -1457,11 +1457,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000000 in a defined area by bachelor&apos;s degree or higher by in labor force by language spoken at home.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by bachelor&apos;s degree or higher by in labor force by language spoken at home.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B16010_042E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDUCATIONAL ATTAINMENT AND EMPLOYMENT STATUS BY LANGUAGE SPOKEN AT HOME FOR THE POPULATION 25 YEARS AND OVER</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!Bachelor&apos;s degree or higher!!In labor force</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000000 by bachelor&apos;s degree or higher by in labor force by language spoken at home</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by bachelor&apos;s degree or higher by in labor force by language spoken at home</rdfs:label>
     </owl:Class>
     
 
@@ -1488,11 +1488,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000000 in a defined area by bachelor&apos;s degree or higher by in labor force by speak only English.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by bachelor&apos;s degree or higher by in labor force by speak only English.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B16010_043E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDUCATIONAL ATTAINMENT AND EMPLOYMENT STATUS BY LANGUAGE SPOKEN AT HOME FOR THE POPULATION 25 YEARS AND OVER</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!Bachelor&apos;s degree or higher!!In labor force!!Speak only English</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000000 by bachelor&apos;s degree or higher by in labor force by speak only English</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by bachelor&apos;s degree or higher by in labor force by speak only English</rdfs:label>
     </owl:Class>
     
 
@@ -1519,11 +1519,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000000 in a defined area by bachelor&apos;s degree or higher by in labor force by speak Spanish.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by bachelor&apos;s degree or higher by in labor force by speak Spanish.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B16010_044E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDUCATIONAL ATTAINMENT AND EMPLOYMENT STATUS BY LANGUAGE SPOKEN AT HOME FOR THE POPULATION 25 YEARS AND OVER</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!Bachelor&apos;s degree or higher!!In labor force!!Speak Spanish</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000000 by bachelor&apos;s degree or higher by in labor force by speak Spanish</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by bachelor&apos;s degree or higher by in labor force by speak Spanish</rdfs:label>
     </owl:Class>
     
 
@@ -1550,11 +1550,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000000 in a defined area by bachelor&apos;s degree or higher by in labor force by speak other Indo-European languages.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by bachelor&apos;s degree or higher by in labor force by speak other Indo-European languages.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B16010_045E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDUCATIONAL ATTAINMENT AND EMPLOYMENT STATUS BY LANGUAGE SPOKEN AT HOME FOR THE POPULATION 25 YEARS AND OVER</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!Bachelor&apos;s degree or higher!!In labor force!!Speak other Indo-European languages</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000000 by bachelor&apos;s degree or higher by in labor force by speak other Indo-European languages</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by bachelor&apos;s degree or higher by in labor force by speak other Indo-European languages</rdfs:label>
     </owl:Class>
     
 
@@ -1581,11 +1581,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000000 in a defined area by bachelor&apos;s degree or higher by in labor force by speak Asian and Pacific Island languages.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by bachelor&apos;s degree or higher by in labor force by speak Asian and Pacific Island languages.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B16010_046E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDUCATIONAL ATTAINMENT AND EMPLOYMENT STATUS BY LANGUAGE SPOKEN AT HOME FOR THE POPULATION 25 YEARS AND OVER</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!Bachelor&apos;s degree or higher!!In labor force!!Speak Asian and Pacific Island languages</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000000 by bachelor&apos;s degree or higher by in labor force by speak Asian and Pacific Island languages</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by bachelor&apos;s degree or higher by in labor force by speak Asian and Pacific Island languages</rdfs:label>
     </owl:Class>
     
 
@@ -1612,11 +1612,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000000 in a defined area by bachelor&apos;s degree or higher by in labor force by speak other languages.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by bachelor&apos;s degree or higher by in labor force by speak other languages.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B16010_047E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDUCATIONAL ATTAINMENT AND EMPLOYMENT STATUS BY LANGUAGE SPOKEN AT HOME FOR THE POPULATION 25 YEARS AND OVER</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!Bachelor&apos;s degree or higher!!In labor force!!Speak other languages</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000000 by bachelor&apos;s degree or higher by in labor force by speak other languages</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by bachelor&apos;s degree or higher by in labor force by speak other languages</rdfs:label>
     </owl:Class>
     
 
@@ -1643,11 +1643,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000000 in a defined area by bachelor&apos;s degree or higher by not in labor force by language spoken at home.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by bachelor&apos;s degree or higher by not in labor force by language spoken at home.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B16010_048E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDUCATIONAL ATTAINMENT AND EMPLOYMENT STATUS BY LANGUAGE SPOKEN AT HOME FOR THE POPULATION 25 YEARS AND OVER</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!Bachelor&apos;s degree or higher!!Not in labor force</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000000 by bachelor&apos;s degree or higher by not in labor force by language spoken at home</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by bachelor&apos;s degree or higher by not in labor force by language spoken at home</rdfs:label>
     </owl:Class>
     
 
@@ -1674,11 +1674,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000000 in a defined area by bachelor&apos;s degree or higher by not in labor force by speak only English.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by bachelor&apos;s degree or higher by not in labor force by speak only English.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B16010_049E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDUCATIONAL ATTAINMENT AND EMPLOYMENT STATUS BY LANGUAGE SPOKEN AT HOME FOR THE POPULATION 25 YEARS AND OVER</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!Bachelor&apos;s degree or higher!!Not in labor force!!Speak only English</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000000 by bachelor&apos;s degree or higher by not in labor force by speak only English</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by bachelor&apos;s degree or higher by not in labor force by speak only English</rdfs:label>
     </owl:Class>
     
 
@@ -1705,11 +1705,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000000 in a defined area by bachelor&apos;s degree or higher by not in labor force by speak Spanish.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by bachelor&apos;s degree or higher by not in labor force by speak Spanish.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B16010_050E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDUCATIONAL ATTAINMENT AND EMPLOYMENT STATUS BY LANGUAGE SPOKEN AT HOME FOR THE POPULATION 25 YEARS AND OVER</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!Bachelor&apos;s degree or higher!!Not in labor force!!Speak Spanish</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000000 by bachelor&apos;s degree or higher by not in labor force by speak Spanish</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by bachelor&apos;s degree or higher by not in labor force by speak Spanish</rdfs:label>
     </owl:Class>
     
 
@@ -1736,11 +1736,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000000 in a defined area by bachelor&apos;s degree or higher by not in labor force by speak other Indo-European languages.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by bachelor&apos;s degree or higher by not in labor force by speak other Indo-European languages.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B16010_051E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDUCATIONAL ATTAINMENT AND EMPLOYMENT STATUS BY LANGUAGE SPOKEN AT HOME FOR THE POPULATION 25 YEARS AND OVER</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!Bachelor&apos;s degree or higher!!Not in labor force!!Speak other Indo-European languages</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000000 by bachelor&apos;s degree or higher by not in labor force by speak other Indo-European languages</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by bachelor&apos;s degree or higher by not in labor force by speak other Indo-European languages</rdfs:label>
     </owl:Class>
     
 
@@ -1767,11 +1767,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000000 in a defined area by bachelor&apos;s degree or higher by not in labor force by speak Asian and Pacific Island languages.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by bachelor&apos;s degree or higher by not in labor force by speak Asian and Pacific Island languages.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B16010_052E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDUCATIONAL ATTAINMENT AND EMPLOYMENT STATUS BY LANGUAGE SPOKEN AT HOME FOR THE POPULATION 25 YEARS AND OVER</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!Bachelor&apos;s degree or higher!!Not in labor force!!Speak Asian and Pacific Island languages</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000000 by bachelor&apos;s degree or higher by not in labor force by speak Asian and Pacific Island languages</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by bachelor&apos;s degree or higher by not in labor force by speak Asian and Pacific Island languages</rdfs:label>
     </owl:Class>
     
 
@@ -1798,11 +1798,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000000 in a defined area by bachelor&apos;s degree or higher by not in labor force by speak other languages.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by bachelor&apos;s degree or higher by not in labor force by speak other languages.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B16010_053E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDUCATIONAL ATTAINMENT AND EMPLOYMENT STATUS BY LANGUAGE SPOKEN AT HOME FOR THE POPULATION 25 YEARS AND OVER</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!Bachelor&apos;s degree or higher!!Not in labor force!!Speak other languages</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000000 by bachelor&apos;s degree or higher by not in labor force by speak other languages</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by bachelor&apos;s degree or higher by not in labor force by speak other languages</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 

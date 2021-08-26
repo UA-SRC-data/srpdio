@@ -178,11 +178,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000005 in a defined area by age category by veteran status by poverty status by disability status.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of civilians 18 year and older in a defined area by age category by veteran status by poverty status by disability status.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C21007_001E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AGE BY VETERAN STATUS BY POVERTY STATUS IN THE PAST 12 MONTHS BY DISABILITY STATUS FOR THE CIVILIAN POPULATION 18 YEARS AND OVER</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000005 by age category by veteran status by poverty status by disability status</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of civilians 18 year and older by age category by veteran status by poverty status by disability status</rdfs:label>
     </owl:Class>
     
 
@@ -213,11 +213,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000005 in a defined area by 18 to 64 years by veteran status by poverty status by disability status.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of civilians 18 year and older in a defined area by 18 to 64 years by veteran status by poverty status by disability status.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C21007_002E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AGE BY VETERAN STATUS BY POVERTY STATUS IN THE PAST 12 MONTHS BY DISABILITY STATUS FOR THE CIVILIAN POPULATION 18 YEARS AND OVER</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!18 to 64 years</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000005 by 18 to 64 years by veteran status by poverty status by disability status</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of civilians 18 year and older by 18 to 64 years by veteran status by poverty status by disability status</rdfs:label>
     </owl:Class>
     
 
@@ -248,11 +248,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000005 in a defined area by 18 to 64 years by veteran by poverty status by disability status.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of civilians 18 year and older in a defined area by 18 to 64 years by veteran by poverty status by disability status.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C21007_003E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AGE BY VETERAN STATUS BY POVERTY STATUS IN THE PAST 12 MONTHS BY DISABILITY STATUS FOR THE CIVILIAN POPULATION 18 YEARS AND OVER</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!18 to 64 years!!Veteran</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000005 by 18 to 64 years by veteran by poverty status by disability status</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of civilians 18 year and older by 18 to 64 years by veteran by poverty status by disability status</rdfs:label>
     </owl:Class>
     
 
@@ -283,11 +283,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000005 in a defined area by 18 to 64 years by veteran by income in the past 12 months below poverty level by disability status.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of civilians 18 year and older in a defined area by 18 to 64 years by veteran by income in the past 12 months below poverty level by disability status.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C21007_004E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AGE BY VETERAN STATUS BY POVERTY STATUS IN THE PAST 12 MONTHS BY DISABILITY STATUS FOR THE CIVILIAN POPULATION 18 YEARS AND OVER</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!18 to 64 years!!Veteran!!Income in the past 12 months below poverty level</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000005 by 18 to 64 years by veteran by income in the past 12 months below poverty level by disability status</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of civilians 18 year and older by 18 to 64 years by veteran by income in the past 12 months below poverty level by disability status</rdfs:label>
     </owl:Class>
     
 
@@ -318,11 +318,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000005 in a defined area by 18 to 64 years by veteran by income in the past 12 months below poverty level by with a disability/with any disability.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of civilians 18 year and older in a defined area by 18 to 64 years by veteran by income in the past 12 months below poverty level by with a disability/with any disability.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C21007_005E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AGE BY VETERAN STATUS BY POVERTY STATUS IN THE PAST 12 MONTHS BY DISABILITY STATUS FOR THE CIVILIAN POPULATION 18 YEARS AND OVER</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!18 to 64 years!!Veteran!!Income in the past 12 months below poverty level!!With a disability</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000005 by 18 to 64 years by veteran by income in the past 12 months below poverty level by with a disability/with any disability</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of civilians 18 year and older by 18 to 64 years by veteran by income in the past 12 months below poverty level by with a disability/with any disability</rdfs:label>
     </owl:Class>
     
 
@@ -353,11 +353,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000005 in a defined area by 18 to 64 years by veteran by income in the past 12 months below poverty level by no disability.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of civilians 18 year and older in a defined area by 18 to 64 years by veteran by income in the past 12 months below poverty level by no disability.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C21007_006E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AGE BY VETERAN STATUS BY POVERTY STATUS IN THE PAST 12 MONTHS BY DISABILITY STATUS FOR THE CIVILIAN POPULATION 18 YEARS AND OVER</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!18 to 64 years!!Veteran!!Income in the past 12 months below poverty level!!No disability</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000005 by 18 to 64 years by veteran by income in the past 12 months below poverty level by no disability</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of civilians 18 year and older by 18 to 64 years by veteran by income in the past 12 months below poverty level by no disability</rdfs:label>
     </owl:Class>
     
 
@@ -388,11 +388,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000005 in a defined area by 18 to 64 years by veteran by income in the past 12 months at or above poverty level by disability status.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of civilians 18 year and older in a defined area by 18 to 64 years by veteran by income in the past 12 months at or above poverty level by disability status.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C21007_007E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AGE BY VETERAN STATUS BY POVERTY STATUS IN THE PAST 12 MONTHS BY DISABILITY STATUS FOR THE CIVILIAN POPULATION 18 YEARS AND OVER</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!18 to 64 years!!Veteran!!Income in the past 12 months at or above poverty level</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000005 by 18 to 64 years by veteran by income in the past 12 months at or above poverty level by disability status</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of civilians 18 year and older by 18 to 64 years by veteran by income in the past 12 months at or above poverty level by disability status</rdfs:label>
     </owl:Class>
     
 
@@ -423,11 +423,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000005 in a defined area by 18 to 64 years by veteran by income in the past 12 months at or above poverty level by with a disability/with any disability.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of civilians 18 year and older in a defined area by 18 to 64 years by veteran by income in the past 12 months at or above poverty level by with a disability/with any disability.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C21007_008E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AGE BY VETERAN STATUS BY POVERTY STATUS IN THE PAST 12 MONTHS BY DISABILITY STATUS FOR THE CIVILIAN POPULATION 18 YEARS AND OVER</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!18 to 64 years!!Veteran!!Income in the past 12 months at or above poverty level!!With a disability</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000005 by 18 to 64 years by veteran by income in the past 12 months at or above poverty level by with a disability/with any disability</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of civilians 18 year and older by 18 to 64 years by veteran by income in the past 12 months at or above poverty level by with a disability/with any disability</rdfs:label>
     </owl:Class>
     
 
@@ -458,11 +458,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000005 in a defined area by 18 to 64 years by veteran by income in the past 12 months at or above poverty level by no disability.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of civilians 18 year and older in a defined area by 18 to 64 years by veteran by income in the past 12 months at or above poverty level by no disability.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C21007_009E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AGE BY VETERAN STATUS BY POVERTY STATUS IN THE PAST 12 MONTHS BY DISABILITY STATUS FOR THE CIVILIAN POPULATION 18 YEARS AND OVER</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!18 to 64 years!!Veteran!!Income in the past 12 months at or above poverty level!!No disability</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000005 by 18 to 64 years by veteran by income in the past 12 months at or above poverty level by no disability</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of civilians 18 year and older by 18 to 64 years by veteran by income in the past 12 months at or above poverty level by no disability</rdfs:label>
     </owl:Class>
     
 
@@ -493,11 +493,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000005 in a defined area by 18 to 64 years by nonveteran by poverty status by disability status.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of civilians 18 year and older in a defined area by 18 to 64 years by nonveteran by poverty status by disability status.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C21007_010E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AGE BY VETERAN STATUS BY POVERTY STATUS IN THE PAST 12 MONTHS BY DISABILITY STATUS FOR THE CIVILIAN POPULATION 18 YEARS AND OVER</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!18 to 64 years!!Nonveteran</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000005 by 18 to 64 years by nonveteran by poverty status by disability status</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of civilians 18 year and older by 18 to 64 years by nonveteran by poverty status by disability status</rdfs:label>
     </owl:Class>
     
 
@@ -528,11 +528,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000005 in a defined area by 18 to 64 years by nonveteran by income in the past 12 months below poverty level by disability status.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of civilians 18 year and older in a defined area by 18 to 64 years by nonveteran by income in the past 12 months below poverty level by disability status.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C21007_011E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AGE BY VETERAN STATUS BY POVERTY STATUS IN THE PAST 12 MONTHS BY DISABILITY STATUS FOR THE CIVILIAN POPULATION 18 YEARS AND OVER</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!18 to 64 years!!Nonveteran!!Income in the past 12 months below poverty level</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000005 by 18 to 64 years by nonveteran by income in the past 12 months below poverty level by disability status</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of civilians 18 year and older by 18 to 64 years by nonveteran by income in the past 12 months below poverty level by disability status</rdfs:label>
     </owl:Class>
     
 
@@ -563,11 +563,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000005 in a defined area by 18 to 64 years by nonveteran by income in the past 12 months below poverty level by with a disability/with any disability.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of civilians 18 year and older in a defined area by 18 to 64 years by nonveteran by income in the past 12 months below poverty level by with a disability/with any disability.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C21007_012E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AGE BY VETERAN STATUS BY POVERTY STATUS IN THE PAST 12 MONTHS BY DISABILITY STATUS FOR THE CIVILIAN POPULATION 18 YEARS AND OVER</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!18 to 64 years!!Nonveteran!!Income in the past 12 months below poverty level!!With a disability</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000005 by 18 to 64 years by nonveteran by income in the past 12 months below poverty level by with a disability/with any disability</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of civilians 18 year and older by 18 to 64 years by nonveteran by income in the past 12 months below poverty level by with a disability/with any disability</rdfs:label>
     </owl:Class>
     
 
@@ -598,11 +598,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000005 in a defined area by 18 to 64 years by nonveteran by income in the past 12 months below poverty level by no disability.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of civilians 18 year and older in a defined area by 18 to 64 years by nonveteran by income in the past 12 months below poverty level by no disability.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C21007_013E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AGE BY VETERAN STATUS BY POVERTY STATUS IN THE PAST 12 MONTHS BY DISABILITY STATUS FOR THE CIVILIAN POPULATION 18 YEARS AND OVER</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!18 to 64 years!!Nonveteran!!Income in the past 12 months below poverty level!!No disability</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000005 by 18 to 64 years by nonveteran by income in the past 12 months below poverty level by no disability</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of civilians 18 year and older by 18 to 64 years by nonveteran by income in the past 12 months below poverty level by no disability</rdfs:label>
     </owl:Class>
     
 
@@ -633,11 +633,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000005 in a defined area by 18 to 64 years by nonveteran by income in the past 12 months at or above poverty level by disability status.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of civilians 18 year and older in a defined area by 18 to 64 years by nonveteran by income in the past 12 months at or above poverty level by disability status.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C21007_014E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AGE BY VETERAN STATUS BY POVERTY STATUS IN THE PAST 12 MONTHS BY DISABILITY STATUS FOR THE CIVILIAN POPULATION 18 YEARS AND OVER</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!18 to 64 years!!Nonveteran!!Income in the past 12 months at or above poverty level</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000005 by 18 to 64 years by nonveteran by income in the past 12 months at or above poverty level by disability status</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of civilians 18 year and older by 18 to 64 years by nonveteran by income in the past 12 months at or above poverty level by disability status</rdfs:label>
     </owl:Class>
     
 
@@ -668,11 +668,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000005 in a defined area by 18 to 64 years by nonveteran by income in the past 12 months at or above poverty level by with a disability/with any disability.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of civilians 18 year and older in a defined area by 18 to 64 years by nonveteran by income in the past 12 months at or above poverty level by with a disability/with any disability.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C21007_015E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AGE BY VETERAN STATUS BY POVERTY STATUS IN THE PAST 12 MONTHS BY DISABILITY STATUS FOR THE CIVILIAN POPULATION 18 YEARS AND OVER</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!18 to 64 years!!Nonveteran!!Income in the past 12 months at or above poverty level!!With a disability</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000005 by 18 to 64 years by nonveteran by income in the past 12 months at or above poverty level by with a disability/with any disability</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of civilians 18 year and older by 18 to 64 years by nonveteran by income in the past 12 months at or above poverty level by with a disability/with any disability</rdfs:label>
     </owl:Class>
     
 
@@ -703,11 +703,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000005 in a defined area by 18 to 64 years by nonveteran by income in the past 12 months at or above poverty level by no disability.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of civilians 18 year and older in a defined area by 18 to 64 years by nonveteran by income in the past 12 months at or above poverty level by no disability.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C21007_016E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AGE BY VETERAN STATUS BY POVERTY STATUS IN THE PAST 12 MONTHS BY DISABILITY STATUS FOR THE CIVILIAN POPULATION 18 YEARS AND OVER</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!18 to 64 years!!Nonveteran!!Income in the past 12 months at or above poverty level!!No disability</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000005 by 18 to 64 years by nonveteran by income in the past 12 months at or above poverty level by no disability</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of civilians 18 year and older by 18 to 64 years by nonveteran by income in the past 12 months at or above poverty level by no disability</rdfs:label>
     </owl:Class>
     
 
@@ -738,11 +738,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000005 in a defined area by 65 years and over by veteran status by poverty status by disability status.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of civilians 18 year and older in a defined area by 65 years and over by veteran status by poverty status by disability status.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C21007_017E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AGE BY VETERAN STATUS BY POVERTY STATUS IN THE PAST 12 MONTHS BY DISABILITY STATUS FOR THE CIVILIAN POPULATION 18 YEARS AND OVER</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!65 years and over</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000005 by 65 years and over by veteran status by poverty status by disability status</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of civilians 18 year and older by 65 years and over by veteran status by poverty status by disability status</rdfs:label>
     </owl:Class>
     
 
@@ -773,11 +773,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000005 in a defined area by 65 years and over by veteran by poverty status by disability status.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of civilians 18 year and older in a defined area by 65 years and over by veteran by poverty status by disability status.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C21007_018E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AGE BY VETERAN STATUS BY POVERTY STATUS IN THE PAST 12 MONTHS BY DISABILITY STATUS FOR THE CIVILIAN POPULATION 18 YEARS AND OVER</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!65 years and over!!Veteran</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000005 by 65 years and over by veteran by poverty status by disability status</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of civilians 18 year and older by 65 years and over by veteran by poverty status by disability status</rdfs:label>
     </owl:Class>
     
 
@@ -808,11 +808,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000005 in a defined area by 65 years and over by veteran by income in the past 12 months below poverty level by disability status.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of civilians 18 year and older in a defined area by 65 years and over by veteran by income in the past 12 months below poverty level by disability status.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C21007_019E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AGE BY VETERAN STATUS BY POVERTY STATUS IN THE PAST 12 MONTHS BY DISABILITY STATUS FOR THE CIVILIAN POPULATION 18 YEARS AND OVER</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!65 years and over!!Veteran!!Income in the past 12 months below poverty level</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000005 by 65 years and over by veteran by income in the past 12 months below poverty level by disability status</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of civilians 18 year and older by 65 years and over by veteran by income in the past 12 months below poverty level by disability status</rdfs:label>
     </owl:Class>
     
 
@@ -843,11 +843,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000005 in a defined area by 65 years and over by veteran by income in the past 12 months below poverty level by with a disability/with any disability.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of civilians 18 year and older in a defined area by 65 years and over by veteran by income in the past 12 months below poverty level by with a disability/with any disability.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C21007_020E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AGE BY VETERAN STATUS BY POVERTY STATUS IN THE PAST 12 MONTHS BY DISABILITY STATUS FOR THE CIVILIAN POPULATION 18 YEARS AND OVER</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!65 years and over!!Veteran!!Income in the past 12 months below poverty level!!With a disability</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000005 by 65 years and over by veteran by income in the past 12 months below poverty level by with a disability/with any disability</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of civilians 18 year and older by 65 years and over by veteran by income in the past 12 months below poverty level by with a disability/with any disability</rdfs:label>
     </owl:Class>
     
 
@@ -878,11 +878,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000005 in a defined area by 65 years and over by veteran by income in the past 12 months below poverty level by no disability.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of civilians 18 year and older in a defined area by 65 years and over by veteran by income in the past 12 months below poverty level by no disability.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C21007_021E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AGE BY VETERAN STATUS BY POVERTY STATUS IN THE PAST 12 MONTHS BY DISABILITY STATUS FOR THE CIVILIAN POPULATION 18 YEARS AND OVER</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!65 years and over!!Veteran!!Income in the past 12 months below poverty level!!No disability</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000005 by 65 years and over by veteran by income in the past 12 months below poverty level by no disability</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of civilians 18 year and older by 65 years and over by veteran by income in the past 12 months below poverty level by no disability</rdfs:label>
     </owl:Class>
     
 
@@ -913,11 +913,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000005 in a defined area by 65 years and over by veteran by income in the past 12 months at or above poverty level by disability status.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of civilians 18 year and older in a defined area by 65 years and over by veteran by income in the past 12 months at or above poverty level by disability status.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C21007_022E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AGE BY VETERAN STATUS BY POVERTY STATUS IN THE PAST 12 MONTHS BY DISABILITY STATUS FOR THE CIVILIAN POPULATION 18 YEARS AND OVER</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!65 years and over!!Veteran!!Income in the past 12 months at or above poverty level</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000005 by 65 years and over by veteran by income in the past 12 months at or above poverty level by disability status</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of civilians 18 year and older by 65 years and over by veteran by income in the past 12 months at or above poverty level by disability status</rdfs:label>
     </owl:Class>
     
 
@@ -948,11 +948,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000005 in a defined area by 65 years and over by veteran by income in the past 12 months at or above poverty level by with a disability/with any disability.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of civilians 18 year and older in a defined area by 65 years and over by veteran by income in the past 12 months at or above poverty level by with a disability/with any disability.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C21007_023E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AGE BY VETERAN STATUS BY POVERTY STATUS IN THE PAST 12 MONTHS BY DISABILITY STATUS FOR THE CIVILIAN POPULATION 18 YEARS AND OVER</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!65 years and over!!Veteran!!Income in the past 12 months at or above poverty level!!With a disability</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000005 by 65 years and over by veteran by income in the past 12 months at or above poverty level by with a disability/with any disability</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of civilians 18 year and older by 65 years and over by veteran by income in the past 12 months at or above poverty level by with a disability/with any disability</rdfs:label>
     </owl:Class>
     
 
@@ -983,11 +983,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000005 in a defined area by 65 years and over by veteran by income in the past 12 months at or above poverty level by no disability.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of civilians 18 year and older in a defined area by 65 years and over by veteran by income in the past 12 months at or above poverty level by no disability.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C21007_024E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AGE BY VETERAN STATUS BY POVERTY STATUS IN THE PAST 12 MONTHS BY DISABILITY STATUS FOR THE CIVILIAN POPULATION 18 YEARS AND OVER</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!65 years and over!!Veteran!!Income in the past 12 months at or above poverty level!!No disability</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000005 by 65 years and over by veteran by income in the past 12 months at or above poverty level by no disability</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of civilians 18 year and older by 65 years and over by veteran by income in the past 12 months at or above poverty level by no disability</rdfs:label>
     </owl:Class>
     
 
@@ -1018,11 +1018,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000005 in a defined area by 65 years and over by nonveteran by poverty status by disability status.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of civilians 18 year and older in a defined area by 65 years and over by nonveteran by poverty status by disability status.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C21007_025E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AGE BY VETERAN STATUS BY POVERTY STATUS IN THE PAST 12 MONTHS BY DISABILITY STATUS FOR THE CIVILIAN POPULATION 18 YEARS AND OVER</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!65 years and over!!Nonveteran</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000005 by 65 years and over by nonveteran by poverty status by disability status</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of civilians 18 year and older by 65 years and over by nonveteran by poverty status by disability status</rdfs:label>
     </owl:Class>
     
 
@@ -1053,11 +1053,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000005 in a defined area by 65 years and over by nonveteran by income in the past 12 months below poverty level by disability status.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of civilians 18 year and older in a defined area by 65 years and over by nonveteran by income in the past 12 months below poverty level by disability status.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C21007_026E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AGE BY VETERAN STATUS BY POVERTY STATUS IN THE PAST 12 MONTHS BY DISABILITY STATUS FOR THE CIVILIAN POPULATION 18 YEARS AND OVER</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!65 years and over!!Nonveteran!!Income in the past 12 months below poverty level</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000005 by 65 years and over by nonveteran by income in the past 12 months below poverty level by disability status</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of civilians 18 year and older by 65 years and over by nonveteran by income in the past 12 months below poverty level by disability status</rdfs:label>
     </owl:Class>
     
 
@@ -1088,11 +1088,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000005 in a defined area by 65 years and over by nonveteran by income in the past 12 months below poverty level by with a disability/with any disability.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of civilians 18 year and older in a defined area by 65 years and over by nonveteran by income in the past 12 months below poverty level by with a disability/with any disability.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C21007_027E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AGE BY VETERAN STATUS BY POVERTY STATUS IN THE PAST 12 MONTHS BY DISABILITY STATUS FOR THE CIVILIAN POPULATION 18 YEARS AND OVER</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!65 years and over!!Nonveteran!!Income in the past 12 months below poverty level!!With a disability</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000005 by 65 years and over by nonveteran by income in the past 12 months below poverty level by with a disability/with any disability</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of civilians 18 year and older by 65 years and over by nonveteran by income in the past 12 months below poverty level by with a disability/with any disability</rdfs:label>
     </owl:Class>
     
 
@@ -1123,11 +1123,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000005 in a defined area by 65 years and over by nonveteran by income in the past 12 months below poverty level by no disability.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of civilians 18 year and older in a defined area by 65 years and over by nonveteran by income in the past 12 months below poverty level by no disability.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C21007_028E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AGE BY VETERAN STATUS BY POVERTY STATUS IN THE PAST 12 MONTHS BY DISABILITY STATUS FOR THE CIVILIAN POPULATION 18 YEARS AND OVER</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!65 years and over!!Nonveteran!!Income in the past 12 months below poverty level!!No disability</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000005 by 65 years and over by nonveteran by income in the past 12 months below poverty level by no disability</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of civilians 18 year and older by 65 years and over by nonveteran by income in the past 12 months below poverty level by no disability</rdfs:label>
     </owl:Class>
     
 
@@ -1158,11 +1158,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000005 in a defined area by 65 years and over by nonveteran by income in the past 12 months at or above poverty level by disability status.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of civilians 18 year and older in a defined area by 65 years and over by nonveteran by income in the past 12 months at or above poverty level by disability status.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C21007_029E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AGE BY VETERAN STATUS BY POVERTY STATUS IN THE PAST 12 MONTHS BY DISABILITY STATUS FOR THE CIVILIAN POPULATION 18 YEARS AND OVER</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!65 years and over!!Nonveteran!!Income in the past 12 months at or above poverty level</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000005 by 65 years and over by nonveteran by income in the past 12 months at or above poverty level by disability status</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of civilians 18 year and older by 65 years and over by nonveteran by income in the past 12 months at or above poverty level by disability status</rdfs:label>
     </owl:Class>
     
 
@@ -1193,11 +1193,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000005 in a defined area by 65 years and over by nonveteran by income in the past 12 months at or above poverty level by with a disability/with any disability.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of civilians 18 year and older in a defined area by 65 years and over by nonveteran by income in the past 12 months at or above poverty level by with a disability/with any disability.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C21007_030E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AGE BY VETERAN STATUS BY POVERTY STATUS IN THE PAST 12 MONTHS BY DISABILITY STATUS FOR THE CIVILIAN POPULATION 18 YEARS AND OVER</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!65 years and over!!Nonveteran!!Income in the past 12 months at or above poverty level!!With a disability</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000005 by 65 years and over by nonveteran by income in the past 12 months at or above poverty level by with a disability/with any disability</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of civilians 18 year and older by 65 years and over by nonveteran by income in the past 12 months at or above poverty level by with a disability/with any disability</rdfs:label>
     </owl:Class>
     
 
@@ -1228,11 +1228,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000005 in a defined area by 65 years and over by nonveteran by income in the past 12 months at or above poverty level by no disability.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of civilians 18 year and older in a defined area by 65 years and over by nonveteran by income in the past 12 months at or above poverty level by no disability.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C21007_031E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AGE BY VETERAN STATUS BY POVERTY STATUS IN THE PAST 12 MONTHS BY DISABILITY STATUS FOR THE CIVILIAN POPULATION 18 YEARS AND OVER</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!65 years and over!!Nonveteran!!Income in the past 12 months at or above poverty level!!No disability</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000005 by 65 years and over by nonveteran by income in the past 12 months at or above poverty level by no disability</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of civilians 18 year and older by 65 years and over by nonveteran by income in the past 12 months at or above poverty level by no disability</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 

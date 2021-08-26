@@ -154,11 +154,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000010 in a defined area by ACS race or ethnicity.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The median household income in the past 12 months (in 2018 inflation-adjusted dollars) in a defined area by ACS race or ethnicity.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B19013_001E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEDIAN HOUSEHOLD INCOME IN THE PAST 12 MONTHS (IN 2018 INFLATION-ADJUSTED DOLLARS)</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Median household income in the past 12 months (in 2018 inflation-adjusted dollars)</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000010 by ACS race or ethnicity</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">median household income in the past 12 months (in 2018 inflation-adjusted dollars) by ACS race or ethnicity</rdfs:label>
     </owl:Class>
     
 
@@ -177,11 +177,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000010 in a defined area by white alone.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The median household income in the past 12 months (in 2018 inflation-adjusted dollars) in a defined area by white alone.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B19013A_001E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEDIAN HOUSEHOLD INCOME IN THE PAST 12 MONTHS (IN 2018 INFLATION-ADJUSTED DOLLARS) (WHITE ALONE HOUSEHOLDER)</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Median household income in the past 12 months (in 2018 inflation-adjusted dollars)</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000010 by white alone</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">median household income in the past 12 months (in 2018 inflation-adjusted dollars) by white alone</rdfs:label>
     </owl:Class>
     
 
@@ -200,11 +200,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000010 in a defined area by black or African American alone.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The median household income in the past 12 months (in 2018 inflation-adjusted dollars) in a defined area by black or African American alone.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B19013B_001E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEDIAN HOUSEHOLD INCOME IN THE PAST 12 MONTHS (IN 2018 INFLATION-ADJUSTED DOLLARS) (BLACK OR AFRICAN AMERICAN ALONE HOUSEHOLDER)</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Median household income in the past 12 months (in 2018 inflation-adjusted dollars)</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000010 by black or African American alone</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">median household income in the past 12 months (in 2018 inflation-adjusted dollars) by black or African American alone</rdfs:label>
     </owl:Class>
     
 
@@ -223,11 +223,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000010 in a defined area by American Indian and Alaskan native alone.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The median household income in the past 12 months (in 2018 inflation-adjusted dollars) in a defined area by American Indian and Alaskan native alone.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B19013C_001E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEDIAN HOUSEHOLD INCOME IN THE PAST 12 MONTHS (IN 2018 INFLATION-ADJUSTED DOLLARS) (AMERICAN INDIAN AND ALASKA NATIVE ALONE HOUSEHOLDER)</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Median household income in the past 12 months (in 2018 inflation-adjusted dollars)</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000010 by American Indian and Alaskan native alone</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">median household income in the past 12 months (in 2018 inflation-adjusted dollars) by American Indian and Alaskan native alone</rdfs:label>
     </owl:Class>
     
 
@@ -246,11 +246,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000010 in a defined area by Asian alone.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The median household income in the past 12 months (in 2018 inflation-adjusted dollars) in a defined area by Asian alone.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B19013D_001E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEDIAN HOUSEHOLD INCOME IN THE PAST 12 MONTHS (IN 2018 INFLATION-ADJUSTED DOLLARS) (ASIAN ALONE HOUSEHOLDER)</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Median household income in the past 12 months (in 2018 inflation-adjusted dollars)</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000010 by Asian alone</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">median household income in the past 12 months (in 2018 inflation-adjusted dollars) by Asian alone</rdfs:label>
     </owl:Class>
     
 
@@ -269,11 +269,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000010 in a defined area by native Hawaiian and other Pacific Islander alone.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The median household income in the past 12 months (in 2018 inflation-adjusted dollars) in a defined area by native Hawaiian and other Pacific Islander alone.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B19013E_001E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEDIAN HOUSEHOLD INCOME IN THE PAST 12 MONTHS (IN 2018 INFLATION-ADJUSTED DOLLARS) (NATIVE HAWAIIAN AND OTHER PACIFIC ISLANDER ALONE HOUSEHOLDER)</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Median household income in the past 12 months (in 2018 inflation-adjusted dollars)</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000010 by native Hawaiian and other Pacific Islander alone</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">median household income in the past 12 months (in 2018 inflation-adjusted dollars) by native Hawaiian and other Pacific Islander alone</rdfs:label>
     </owl:Class>
     
 
@@ -292,11 +292,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000010 in a defined area by some other race alone.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The median household income in the past 12 months (in 2018 inflation-adjusted dollars) in a defined area by some other race alone.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B19013F_001E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEDIAN HOUSEHOLD INCOME IN THE PAST 12 MONTHS (IN 2018 INFLATION-ADJUSTED DOLLARS) (SOME OTHER RACE ALONE HOUSEHOLDER)</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Median household income in the past 12 months (in 2018 inflation-adjusted dollars)</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000010 by some other race alone</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">median household income in the past 12 months (in 2018 inflation-adjusted dollars) by some other race alone</rdfs:label>
     </owl:Class>
     
 
@@ -315,11 +315,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000010 in a defined area by two or more races.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The median household income in the past 12 months (in 2018 inflation-adjusted dollars) in a defined area by two or more races.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B19013G_001E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEDIAN HOUSEHOLD INCOME IN THE PAST 12 MONTHS (IN 2018 INFLATION-ADJUSTED DOLLARS) (TWO OR MORE RACES HOUSEHOLDER)</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Median household income in the past 12 months (in 2018 inflation-adjusted dollars)</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000010 by two or more races</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">median household income in the past 12 months (in 2018 inflation-adjusted dollars) by two or more races</rdfs:label>
     </owl:Class>
     
 
@@ -338,11 +338,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000010 in a defined area by white alone, not hispanic or latino.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The median household income in the past 12 months (in 2018 inflation-adjusted dollars) in a defined area by white alone, not hispanic or latino.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B19013H_001E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEDIAN HOUSEHOLD INCOME IN THE PAST 12 MONTHS (IN 2018 INFLATION-ADJUSTED DOLLARS) (WHITE ALONE, NOT HISPANIC OR LATINO HOUSEHOLDER)</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Median household income in the past 12 months (in 2018 inflation-adjusted dollars)</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000010 by white alone, not hispanic or latino</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">median household income in the past 12 months (in 2018 inflation-adjusted dollars) by white alone, not hispanic or latino</rdfs:label>
     </owl:Class>
     
 
@@ -361,11 +361,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000010 in a defined area by hispanic or latino.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The median household income in the past 12 months (in 2018 inflation-adjusted dollars) in a defined area by hispanic or latino.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B19013I_001E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEDIAN HOUSEHOLD INCOME IN THE PAST 12 MONTHS (IN 2018 INFLATION-ADJUSTED DOLLARS) (HISPANIC OR LATINO HOUSEHOLDER)</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Median household income in the past 12 months (in 2018 inflation-adjusted dollars)</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000010 by hispanic or latino</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">median household income in the past 12 months (in 2018 inflation-adjusted dollars) by hispanic or latino</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
