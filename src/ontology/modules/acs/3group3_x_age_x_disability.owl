@@ -1308,11 +1308,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by Adult correctional facilities by age category by disability status.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by adult correctional facilities by age category by disability status.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B26108_037E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GROUP QUARTERS TYPE (3 TYPES) BY AGE BY DISABILITY STATUS</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!Group quarters population!!Institutionalized group quarters population!!Adult correctional facilities</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by Adult correctional facilities by age category by disability status</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by adult correctional facilities by age category by disability status</rdfs:label>
     </owl:Class>
     
 
@@ -1339,11 +1339,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by Adult correctional facilities by age category by with a disability/with any disability.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by adult correctional facilities by age category by with a disability/with any disability.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B26108_038E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GROUP QUARTERS TYPE (3 TYPES) BY AGE BY DISABILITY STATUS</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!Group quarters population!!Institutionalized group quarters population!!Adult correctional facilities!!With a disability</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by Adult correctional facilities by age category by with a disability/with any disability</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by adult correctional facilities by age category by with a disability/with any disability</rdfs:label>
     </owl:Class>
     
 
@@ -1370,11 +1370,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by Adult correctional facilities by age category by no disability.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by adult correctional facilities by age category by no disability.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B26108_039E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GROUP QUARTERS TYPE (3 TYPES) BY AGE BY DISABILITY STATUS</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!Group quarters population!!Institutionalized group quarters population!!Adult correctional facilities!!No disability</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by Adult correctional facilities by age category by no disability</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by adult correctional facilities by age category by no disability</rdfs:label>
     </owl:Class>
     
 
@@ -1401,11 +1401,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by Adult correctional facilities by under 18 years by disability status.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by adult correctional facilities by under 18 years by disability status.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B26108_040E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GROUP QUARTERS TYPE (3 TYPES) BY AGE BY DISABILITY STATUS</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!Group quarters population!!Institutionalized group quarters population!!Adult correctional facilities!!Population under 18 years</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by Adult correctional facilities by under 18 years by disability status</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by adult correctional facilities by under 18 years by disability status</rdfs:label>
     </owl:Class>
     
 
@@ -1432,11 +1432,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by Adult correctional facilities by under 18 years by with a disability/with any disability.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by adult correctional facilities by under 18 years by with a disability/with any disability.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B26108_041E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GROUP QUARTERS TYPE (3 TYPES) BY AGE BY DISABILITY STATUS</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!Group quarters population!!Institutionalized group quarters population!!Adult correctional facilities!!Population under 18 years!!With a disability</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by Adult correctional facilities by under 18 years by with a disability/with any disability</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by adult correctional facilities by under 18 years by with a disability/with any disability</rdfs:label>
     </owl:Class>
     
 
@@ -1463,11 +1463,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by Adult correctional facilities by under 18 years by no disability.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by adult correctional facilities by under 18 years by no disability.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B26108_042E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GROUP QUARTERS TYPE (3 TYPES) BY AGE BY DISABILITY STATUS</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!Group quarters population!!Institutionalized group quarters population!!Adult correctional facilities!!Population under 18 years!!No disability</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by Adult correctional facilities by under 18 years by no disability</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by adult correctional facilities by under 18 years by no disability</rdfs:label>
     </owl:Class>
     
 
@@ -1494,11 +1494,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by Adult correctional facilities by 18 to 64 years by disability status.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by adult correctional facilities by 18 to 64 years by disability status.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B26108_043E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GROUP QUARTERS TYPE (3 TYPES) BY AGE BY DISABILITY STATUS</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!Group quarters population!!Institutionalized group quarters population!!Adult correctional facilities!!Population 18 to 64 years</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by Adult correctional facilities by 18 to 64 years by disability status</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by adult correctional facilities by 18 to 64 years by disability status</rdfs:label>
     </owl:Class>
     
 
@@ -1525,11 +1525,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by Adult correctional facilities by 18 to 64 years by with a disability/with any disability.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by adult correctional facilities by 18 to 64 years by with a disability/with any disability.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B26108_044E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GROUP QUARTERS TYPE (3 TYPES) BY AGE BY DISABILITY STATUS</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!Group quarters population!!Institutionalized group quarters population!!Adult correctional facilities!!Population 18 to 64 years!!With a disability</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by Adult correctional facilities by 18 to 64 years by with a disability/with any disability</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by adult correctional facilities by 18 to 64 years by with a disability/with any disability</rdfs:label>
     </owl:Class>
     
 
@@ -1556,11 +1556,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by Adult correctional facilities by 18 to 64 years by no disability.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by adult correctional facilities by 18 to 64 years by no disability.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B26108_045E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GROUP QUARTERS TYPE (3 TYPES) BY AGE BY DISABILITY STATUS</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!Group quarters population!!Institutionalized group quarters population!!Adult correctional facilities!!Population 18 to 64 years!!No disability</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by Adult correctional facilities by 18 to 64 years by no disability</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by adult correctional facilities by 18 to 64 years by no disability</rdfs:label>
     </owl:Class>
     
 
@@ -1587,11 +1587,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by Adult correctional facilities by 65 years and over by disability status.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by adult correctional facilities by 65 years and over by disability status.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B26108_046E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GROUP QUARTERS TYPE (3 TYPES) BY AGE BY DISABILITY STATUS</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!Group quarters population!!Institutionalized group quarters population!!Adult correctional facilities!!Population 65 years and over</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by Adult correctional facilities by 65 years and over by disability status</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by adult correctional facilities by 65 years and over by disability status</rdfs:label>
     </owl:Class>
     
 
@@ -1618,11 +1618,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by Adult correctional facilities by 65 years and over by with a disability/with any disability.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by adult correctional facilities by 65 years and over by with a disability/with any disability.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B26108_047E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GROUP QUARTERS TYPE (3 TYPES) BY AGE BY DISABILITY STATUS</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!Group quarters population!!Institutionalized group quarters population!!Adult correctional facilities!!Population 65 years and over!!With a disability</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by Adult correctional facilities by 65 years and over by with a disability/with any disability</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by adult correctional facilities by 65 years and over by with a disability/with any disability</rdfs:label>
     </owl:Class>
     
 
@@ -1649,11 +1649,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by Adult correctional facilities by 65 years and over by no disability.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by adult correctional facilities by 65 years and over by no disability.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B26108_048E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GROUP QUARTERS TYPE (3 TYPES) BY AGE BY DISABILITY STATUS</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!Group quarters population!!Institutionalized group quarters population!!Adult correctional facilities!!Population 65 years and over!!No disability</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by Adult correctional facilities by 65 years and over by no disability</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by adult correctional facilities by 65 years and over by no disability</rdfs:label>
     </owl:Class>
     
 
@@ -1680,11 +1680,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by Nursing facilities/skilled nursing facilities by age category by disability status.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by nursing facilities/skilled nursing facilities by age category by disability status.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B26108_049E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GROUP QUARTERS TYPE (3 TYPES) BY AGE BY DISABILITY STATUS</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!Group quarters population!!Institutionalized group quarters population!!Nursing facilities/skilled nursing facilities</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by Nursing facilities/skilled nursing facilities by age category by disability status</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by nursing facilities/skilled nursing facilities by age category by disability status</rdfs:label>
     </owl:Class>
     
 
@@ -1711,11 +1711,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by Nursing facilities/skilled nursing facilities by age category by with a disability/with any disability.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by nursing facilities/skilled nursing facilities by age category by with a disability/with any disability.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B26108_050E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GROUP QUARTERS TYPE (3 TYPES) BY AGE BY DISABILITY STATUS</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!Group quarters population!!Institutionalized group quarters population!!Nursing facilities/skilled nursing facilities!!With a disability</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by Nursing facilities/skilled nursing facilities by age category by with a disability/with any disability</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by nursing facilities/skilled nursing facilities by age category by with a disability/with any disability</rdfs:label>
     </owl:Class>
     
 
@@ -1742,11 +1742,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by Nursing facilities/skilled nursing facilities by age category by no disability.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by nursing facilities/skilled nursing facilities by age category by no disability.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B26108_051E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GROUP QUARTERS TYPE (3 TYPES) BY AGE BY DISABILITY STATUS</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!Group quarters population!!Institutionalized group quarters population!!Nursing facilities/skilled nursing facilities!!No disability</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by Nursing facilities/skilled nursing facilities by age category by no disability</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by nursing facilities/skilled nursing facilities by age category by no disability</rdfs:label>
     </owl:Class>
     
 
@@ -1773,11 +1773,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by Nursing facilities/skilled nursing facilities by 18 to 64 years by disability status.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by nursing facilities/skilled nursing facilities by 18 to 64 years by disability status.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B26108_052E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GROUP QUARTERS TYPE (3 TYPES) BY AGE BY DISABILITY STATUS</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!Group quarters population!!Institutionalized group quarters population!!Nursing facilities/skilled nursing facilities!!Population 18 to 64 years</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by Nursing facilities/skilled nursing facilities by 18 to 64 years by disability status</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by nursing facilities/skilled nursing facilities by 18 to 64 years by disability status</rdfs:label>
     </owl:Class>
     
 
@@ -1804,11 +1804,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by Nursing facilities/skilled nursing facilities by 18 to 64 years by with a disability/with any disability.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by nursing facilities/skilled nursing facilities by 18 to 64 years by with a disability/with any disability.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B26108_053E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GROUP QUARTERS TYPE (3 TYPES) BY AGE BY DISABILITY STATUS</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!Group quarters population!!Institutionalized group quarters population!!Nursing facilities/skilled nursing facilities!!Population 18 to 64 years!!With a disability</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by Nursing facilities/skilled nursing facilities by 18 to 64 years by with a disability/with any disability</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by nursing facilities/skilled nursing facilities by 18 to 64 years by with a disability/with any disability</rdfs:label>
     </owl:Class>
     
 
@@ -1835,11 +1835,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by Nursing facilities/skilled nursing facilities by 18 to 64 years by no disability.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by nursing facilities/skilled nursing facilities by 18 to 64 years by no disability.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B26108_054E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GROUP QUARTERS TYPE (3 TYPES) BY AGE BY DISABILITY STATUS</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!Group quarters population!!Institutionalized group quarters population!!Nursing facilities/skilled nursing facilities!!Population 18 to 64 years!!No disability</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by Nursing facilities/skilled nursing facilities by 18 to 64 years by no disability</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by nursing facilities/skilled nursing facilities by 18 to 64 years by no disability</rdfs:label>
     </owl:Class>
     
 
@@ -1866,11 +1866,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by Nursing facilities/skilled nursing facilities by 65 years and over by disability status.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by nursing facilities/skilled nursing facilities by 65 years and over by disability status.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B26108_055E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GROUP QUARTERS TYPE (3 TYPES) BY AGE BY DISABILITY STATUS</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!Group quarters population!!Institutionalized group quarters population!!Nursing facilities/skilled nursing facilities!!Population 65 years and over</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by Nursing facilities/skilled nursing facilities by 65 years and over by disability status</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by nursing facilities/skilled nursing facilities by 65 years and over by disability status</rdfs:label>
     </owl:Class>
     
 
@@ -1897,11 +1897,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by Nursing facilities/skilled nursing facilities by 65 years and over by with a disability/with any disability.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by nursing facilities/skilled nursing facilities by 65 years and over by with a disability/with any disability.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B26108_056E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GROUP QUARTERS TYPE (3 TYPES) BY AGE BY DISABILITY STATUS</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!Group quarters population!!Institutionalized group quarters population!!Nursing facilities/skilled nursing facilities!!Population 65 years and over!!With a disability</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by Nursing facilities/skilled nursing facilities by 65 years and over by with a disability/with any disability</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by nursing facilities/skilled nursing facilities by 65 years and over by with a disability/with any disability</rdfs:label>
     </owl:Class>
     
 
@@ -1928,11 +1928,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by Nursing facilities/skilled nursing facilities by 65 years and over by no disability.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by nursing facilities/skilled nursing facilities by 65 years and over by no disability.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B26108_057E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GROUP QUARTERS TYPE (3 TYPES) BY AGE BY DISABILITY STATUS</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!Group quarters population!!Institutionalized group quarters population!!Nursing facilities/skilled nursing facilities!!Population 65 years and over!!No disability</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by Nursing facilities/skilled nursing facilities by 65 years and over by no disability</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by nursing facilities/skilled nursing facilities by 65 years and over by no disability</rdfs:label>
     </owl:Class>
     
 
@@ -2331,11 +2331,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by College/university student housing by age category by disability status.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by college/university student housing by age category by disability status.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B26108_070E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GROUP QUARTERS TYPE (3 TYPES) BY AGE BY DISABILITY STATUS</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!Group quarters population!!Noninstitutionalized group quarters population!!College/university student housing</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by College/university student housing by age category by disability status</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by college/university student housing by age category by disability status</rdfs:label>
     </owl:Class>
     
 
@@ -2362,11 +2362,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by College/university student housing by age category by with a disability/with any disability.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by college/university student housing by age category by with a disability/with any disability.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B26108_071E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GROUP QUARTERS TYPE (3 TYPES) BY AGE BY DISABILITY STATUS</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!Group quarters population!!Noninstitutionalized group quarters population!!College/university student housing!!With a disability</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by College/university student housing by age category by with a disability/with any disability</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by college/university student housing by age category by with a disability/with any disability</rdfs:label>
     </owl:Class>
     
 
@@ -2393,11 +2393,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by College/university student housing by age category by no disability.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by college/university student housing by age category by no disability.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B26108_072E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GROUP QUARTERS TYPE (3 TYPES) BY AGE BY DISABILITY STATUS</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!Group quarters population!!Noninstitutionalized group quarters population!!College/university student housing!!No disability</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by College/university student housing by age category by no disability</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by college/university student housing by age category by no disability</rdfs:label>
     </owl:Class>
     
 
@@ -2424,11 +2424,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by College/university student housing by under 18 years by disability status.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by college/university student housing by under 18 years by disability status.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B26108_073E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GROUP QUARTERS TYPE (3 TYPES) BY AGE BY DISABILITY STATUS</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!Group quarters population!!Noninstitutionalized group quarters population!!College/university student housing!!Population under 18 years</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by College/university student housing by under 18 years by disability status</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by college/university student housing by under 18 years by disability status</rdfs:label>
     </owl:Class>
     
 
@@ -2455,11 +2455,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by College/university student housing by under 18 years by with a disability/with any disability.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by college/university student housing by under 18 years by with a disability/with any disability.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B26108_074E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GROUP QUARTERS TYPE (3 TYPES) BY AGE BY DISABILITY STATUS</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!Group quarters population!!Noninstitutionalized group quarters population!!College/university student housing!!Population under 18 years!!With a disability</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by College/university student housing by under 18 years by with a disability/with any disability</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by college/university student housing by under 18 years by with a disability/with any disability</rdfs:label>
     </owl:Class>
     
 
@@ -2486,11 +2486,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by College/university student housing by under 18 years by no disability.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by college/university student housing by under 18 years by no disability.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B26108_075E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GROUP QUARTERS TYPE (3 TYPES) BY AGE BY DISABILITY STATUS</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!Group quarters population!!Noninstitutionalized group quarters population!!College/university student housing!!Population under 18 years!!No disability</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by College/university student housing by under 18 years by no disability</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by college/university student housing by under 18 years by no disability</rdfs:label>
     </owl:Class>
     
 
@@ -2517,11 +2517,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by College/university student housing by 18 to 64 years by disability status.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by college/university student housing by 18 to 64 years by disability status.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B26108_076E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GROUP QUARTERS TYPE (3 TYPES) BY AGE BY DISABILITY STATUS</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!Group quarters population!!Noninstitutionalized group quarters population!!College/university student housing!!Population 18 to 64 years</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by College/university student housing by 18 to 64 years by disability status</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by college/university student housing by 18 to 64 years by disability status</rdfs:label>
     </owl:Class>
     
 
@@ -2548,11 +2548,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by College/university student housing by 18 to 64 years by with a disability/with any disability.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by college/university student housing by 18 to 64 years by with a disability/with any disability.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B26108_077E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GROUP QUARTERS TYPE (3 TYPES) BY AGE BY DISABILITY STATUS</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!Group quarters population!!Noninstitutionalized group quarters population!!College/university student housing!!Population 18 to 64 years!!With a disability</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by College/university student housing by 18 to 64 years by with a disability/with any disability</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by college/university student housing by 18 to 64 years by with a disability/with any disability</rdfs:label>
     </owl:Class>
     
 
@@ -2579,11 +2579,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by College/university student housing by 18 to 64 years by no disability.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by college/university student housing by 18 to 64 years by no disability.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B26108_078E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GROUP QUARTERS TYPE (3 TYPES) BY AGE BY DISABILITY STATUS</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!Group quarters population!!Noninstitutionalized group quarters population!!College/university student housing!!Population 18 to 64 years!!No disability</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by College/university student housing by 18 to 64 years by no disability</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by college/university student housing by 18 to 64 years by no disability</rdfs:label>
     </owl:Class>
     
 
@@ -2610,11 +2610,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by College/university student housing by 65 years and over by disability status.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by college/university student housing by 65 years and over by disability status.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B26108_079E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GROUP QUARTERS TYPE (3 TYPES) BY AGE BY DISABILITY STATUS</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!Group quarters population!!Noninstitutionalized group quarters population!!College/university student housing!!Population 65 years</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by College/university student housing by 65 years and over by disability status</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by college/university student housing by 65 years and over by disability status</rdfs:label>
     </owl:Class>
     
 
@@ -2641,11 +2641,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by College/university student housing by 65 years and over by with a disability/with any disability.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by college/university student housing by 65 years and over by with a disability/with any disability.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B26108_080E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GROUP QUARTERS TYPE (3 TYPES) BY AGE BY DISABILITY STATUS</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!Group quarters population!!Noninstitutionalized group quarters population!!College/university student housing!!Population 65 years!!With a disability</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by College/university student housing by 65 years and over by with a disability/with any disability</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by college/university student housing by 65 years and over by with a disability/with any disability</rdfs:label>
     </owl:Class>
     
 
@@ -2672,11 +2672,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by College/university student housing by 65 years and over by no disability.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by college/university student housing by 65 years and over by no disability.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B26108_081E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GROUP QUARTERS TYPE (3 TYPES) BY AGE BY DISABILITY STATUS</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!Group quarters population!!Noninstitutionalized group quarters population!!College/university student housing!!Population 65 years!!No disability</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by College/university student housing by 65 years and over by no disability</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by college/university student housing by 65 years and over by no disability</rdfs:label>
     </owl:Class>
     
 

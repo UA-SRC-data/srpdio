@@ -184,10 +184,10 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000000 in a defined area by poverty status by phenotypic sex by labor force status by employment status.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by poverty status by phenotypic sex by labor force status by employment status.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B17005_001E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000000 by poverty status by phenotypic sex by labor force status by employment status</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by poverty status by phenotypic sex by labor force status by employment status</rdfs:label>
     </owl:Class>
     
 
@@ -218,11 +218,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000000 in a defined area by income in the past 12 months below poverty level by phenotypic sex by labor force status by employment status.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by income in the past 12 months below poverty level by phenotypic sex by labor force status by employment status.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B17005_002E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">POVERTY STATUS IN THE PAST 12 MONTHS OF INDIVIDUALS BY SEX BY EMPLOYMENT STATUS</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!Income in the past 12 months below poverty level</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000000 by income in the past 12 months below poverty level by phenotypic sex by labor force status by employment status</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by income in the past 12 months below poverty level by phenotypic sex by labor force status by employment status</rdfs:label>
     </owl:Class>
     
 
@@ -253,11 +253,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000000 in a defined area by income in the past 12 months below poverty level by male by labor force status by employment status.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by income in the past 12 months below poverty level by male by labor force status by employment status.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B17005_003E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">POVERTY STATUS IN THE PAST 12 MONTHS OF INDIVIDUALS BY SEX BY EMPLOYMENT STATUS</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!Income in the past 12 months below poverty level!!Male</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000000 by income in the past 12 months below poverty level by male by labor force status by employment status</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by income in the past 12 months below poverty level by male by labor force status by employment status</rdfs:label>
     </owl:Class>
     
 
@@ -288,11 +288,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000000 in a defined area by income in the past 12 months below poverty level by female by labor force status by employment status.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by income in the past 12 months below poverty level by female by labor force status by employment status.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B17005_008E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">POVERTY STATUS IN THE PAST 12 MONTHS OF INDIVIDUALS BY SEX BY EMPLOYMENT STATUS</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!Income in the past 12 months below poverty level!!Female</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000000 by income in the past 12 months below poverty level by female by labor force status by employment status</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by income in the past 12 months below poverty level by female by labor force status by employment status</rdfs:label>
     </owl:Class>
     
 
@@ -323,11 +323,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000000 in a defined area by income in the past 12 months below poverty level by male by in labor force by employment status.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by income in the past 12 months below poverty level by male by in labor force by employment status.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B17005_004E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">POVERTY STATUS IN THE PAST 12 MONTHS OF INDIVIDUALS BY SEX BY EMPLOYMENT STATUS</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!Income in the past 12 months below poverty level!!Male!!In labor force</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000000 by income in the past 12 months below poverty level by male by in labor force by employment status</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by income in the past 12 months below poverty level by male by in labor force by employment status</rdfs:label>
     </owl:Class>
     
 
@@ -358,11 +358,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000000 in a defined area by income in the past 12 months below poverty level by male by in labor force by employed.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by income in the past 12 months below poverty level by male by in labor force by employed.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B17005_005E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">POVERTY STATUS IN THE PAST 12 MONTHS OF INDIVIDUALS BY SEX BY EMPLOYMENT STATUS</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!Income in the past 12 months below poverty level!!Male!!In labor force!!Employed</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000000 by income in the past 12 months below poverty level by male by in labor force by employed</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by income in the past 12 months below poverty level by male by in labor force by employed</rdfs:label>
     </owl:Class>
     
 
@@ -393,11 +393,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000000 in a defined area by income in the past 12 months below poverty level by male by in labor force by unemployed.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by income in the past 12 months below poverty level by male by in labor force by unemployed.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B17005_006E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">POVERTY STATUS IN THE PAST 12 MONTHS OF INDIVIDUALS BY SEX BY EMPLOYMENT STATUS</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!Income in the past 12 months below poverty level!!Male!!In labor force!!Unemployed</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000000 by income in the past 12 months below poverty level by male by in labor force by unemployed</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by income in the past 12 months below poverty level by male by in labor force by unemployed</rdfs:label>
     </owl:Class>
     
 
@@ -428,11 +428,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000000 in a defined area by income in the past 12 months below poverty level by male by not in labor force by not employed because not in labor force.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by income in the past 12 months below poverty level by male by not in labor force by not employed because not in labor force.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B17005_007E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">POVERTY STATUS IN THE PAST 12 MONTHS OF INDIVIDUALS BY SEX BY EMPLOYMENT STATUS</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!Income in the past 12 months below poverty level!!Male!!Not in labor force</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000000 by income in the past 12 months below poverty level by male by not in labor force by not employed because not in labor force</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by income in the past 12 months below poverty level by male by not in labor force by not employed because not in labor force</rdfs:label>
     </owl:Class>
     
 
@@ -463,11 +463,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000000 in a defined area by income in the past 12 months below poverty level by female by in labor force by employment status.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by income in the past 12 months below poverty level by female by in labor force by employment status.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B17005_009E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">POVERTY STATUS IN THE PAST 12 MONTHS OF INDIVIDUALS BY SEX BY EMPLOYMENT STATUS</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!Income in the past 12 months below poverty level!!Female!!In labor force</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000000 by income in the past 12 months below poverty level by female by in labor force by employment status</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by income in the past 12 months below poverty level by female by in labor force by employment status</rdfs:label>
     </owl:Class>
     
 
@@ -498,11 +498,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000000 in a defined area by income in the past 12 months below poverty level by female by in labor force by employed.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by income in the past 12 months below poverty level by female by in labor force by employed.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B17005_010E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">POVERTY STATUS IN THE PAST 12 MONTHS OF INDIVIDUALS BY SEX BY EMPLOYMENT STATUS</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!Income in the past 12 months below poverty level!!Female!!In labor force!!Employed</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000000 by income in the past 12 months below poverty level by female by in labor force by employed</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by income in the past 12 months below poverty level by female by in labor force by employed</rdfs:label>
     </owl:Class>
     
 
@@ -533,11 +533,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000000 in a defined area by income in the past 12 months below poverty level by female by in labor force by unemployed.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by income in the past 12 months below poverty level by female by in labor force by unemployed.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B17005_011E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">POVERTY STATUS IN THE PAST 12 MONTHS OF INDIVIDUALS BY SEX BY EMPLOYMENT STATUS</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!Income in the past 12 months below poverty level!!Female!!In labor force!!Unemployed</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000000 by income in the past 12 months below poverty level by female by in labor force by unemployed</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by income in the past 12 months below poverty level by female by in labor force by unemployed</rdfs:label>
     </owl:Class>
     
 
@@ -568,11 +568,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000000 in a defined area by income in the past 12 months below poverty level by female by not in labor force by not employed because not in labor force.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by income in the past 12 months below poverty level by female by not in labor force by not employed because not in labor force.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B17005_012E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">POVERTY STATUS IN THE PAST 12 MONTHS OF INDIVIDUALS BY SEX BY EMPLOYMENT STATUS</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!Income in the past 12 months below poverty level!!Female!!Not in labor force</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000000 by income in the past 12 months below poverty level by female by not in labor force by not employed because not in labor force</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by income in the past 12 months below poverty level by female by not in labor force by not employed because not in labor force</rdfs:label>
     </owl:Class>
     
 
@@ -603,11 +603,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000000 in a defined area by income in the past 12 months at or above poverty level by phenotypic sex by labor force status by employment status.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by income in the past 12 months at or above poverty level by phenotypic sex by labor force status by employment status.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B17005_013E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">POVERTY STATUS IN THE PAST 12 MONTHS OF INDIVIDUALS BY SEX BY EMPLOYMENT STATUS</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!Income in the past 12 months at or above poverty level</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000000 by income in the past 12 months at or above poverty level by phenotypic sex by labor force status by employment status</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by income in the past 12 months at or above poverty level by phenotypic sex by labor force status by employment status</rdfs:label>
     </owl:Class>
     
 
@@ -638,11 +638,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000000 in a defined area by income in the past 12 months at or above poverty level by male by labor force status by employment status.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by income in the past 12 months at or above poverty level by male by labor force status by employment status.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B17005_014E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">POVERTY STATUS IN THE PAST 12 MONTHS OF INDIVIDUALS BY SEX BY EMPLOYMENT STATUS</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!Income in the past 12 months at or above poverty level!!Male</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000000 by income in the past 12 months at or above poverty level by male by labor force status by employment status</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by income in the past 12 months at or above poverty level by male by labor force status by employment status</rdfs:label>
     </owl:Class>
     
 
@@ -673,11 +673,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000000 in a defined area by income in the past 12 months at or above poverty level by female by labor force status by employment status.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by income in the past 12 months at or above poverty level by female by labor force status by employment status.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B17005_019E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">POVERTY STATUS IN THE PAST 12 MONTHS OF INDIVIDUALS BY SEX BY EMPLOYMENT STATUS</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!Income in the past 12 months at or above poverty level!!Female</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000000 by income in the past 12 months at or above poverty level by female by labor force status by employment status</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by income in the past 12 months at or above poverty level by female by labor force status by employment status</rdfs:label>
     </owl:Class>
     
 
@@ -708,11 +708,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000000 in a defined area by income in the past 12 months at or above poverty level by male by in labor force by employment status.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by income in the past 12 months at or above poverty level by male by in labor force by employment status.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B17005_015E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">POVERTY STATUS IN THE PAST 12 MONTHS OF INDIVIDUALS BY SEX BY EMPLOYMENT STATUS</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!Income in the past 12 months at or above poverty level!!Male!!In labor force</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000000 by income in the past 12 months at or above poverty level by male by in labor force by employment status</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by income in the past 12 months at or above poverty level by male by in labor force by employment status</rdfs:label>
     </owl:Class>
     
 
@@ -743,11 +743,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000000 in a defined area by income in the past 12 months at or above poverty level by male by in labor force by employed.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by income in the past 12 months at or above poverty level by male by in labor force by employed.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B17005_016E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">POVERTY STATUS IN THE PAST 12 MONTHS OF INDIVIDUALS BY SEX BY EMPLOYMENT STATUS</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!Income in the past 12 months at or above poverty level!!Male!!In labor force!!Employed</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000000 by income in the past 12 months at or above poverty level by male by in labor force by employed</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by income in the past 12 months at or above poverty level by male by in labor force by employed</rdfs:label>
     </owl:Class>
     
 
@@ -778,11 +778,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000000 in a defined area by income in the past 12 months at or above poverty level by male by in labor force by unemployed.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by income in the past 12 months at or above poverty level by male by in labor force by unemployed.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B17005_017E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">POVERTY STATUS IN THE PAST 12 MONTHS OF INDIVIDUALS BY SEX BY EMPLOYMENT STATUS</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!Income in the past 12 months at or above poverty level!!Male!!In labor force!!Unemployed</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000000 by income in the past 12 months at or above poverty level by male by in labor force by unemployed</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by income in the past 12 months at or above poverty level by male by in labor force by unemployed</rdfs:label>
     </owl:Class>
     
 
@@ -813,11 +813,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000000 in a defined area by income in the past 12 months at or above poverty level by male by not in labor force by not employed because not in labor force.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by income in the past 12 months at or above poverty level by male by not in labor force by not employed because not in labor force.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B17005_018E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">POVERTY STATUS IN THE PAST 12 MONTHS OF INDIVIDUALS BY SEX BY EMPLOYMENT STATUS</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!Income in the past 12 months at or above poverty level!!Male!!Not in labor force</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000000 by income in the past 12 months at or above poverty level by male by not in labor force by not employed because not in labor force</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by income in the past 12 months at or above poverty level by male by not in labor force by not employed because not in labor force</rdfs:label>
     </owl:Class>
     
 
@@ -848,11 +848,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000000 in a defined area by income in the past 12 months at or above poverty level by female by in labor force by employment status.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by income in the past 12 months at or above poverty level by female by in labor force by employment status.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B17005_020E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">POVERTY STATUS IN THE PAST 12 MONTHS OF INDIVIDUALS BY SEX BY EMPLOYMENT STATUS</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!Income in the past 12 months at or above poverty level!!Female!!In labor force</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000000 by income in the past 12 months at or above poverty level by female by in labor force by employment status</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by income in the past 12 months at or above poverty level by female by in labor force by employment status</rdfs:label>
     </owl:Class>
     
 
@@ -883,11 +883,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000000 in a defined area by income in the past 12 months at or above poverty level by female by in labor force by employed.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by income in the past 12 months at or above poverty level by female by in labor force by employed.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B17005_021E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">POVERTY STATUS IN THE PAST 12 MONTHS OF INDIVIDUALS BY SEX BY EMPLOYMENT STATUS</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!Income in the past 12 months at or above poverty level!!Female!!In labor force!!Employed</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000000 by income in the past 12 months at or above poverty level by female by in labor force by employed</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by income in the past 12 months at or above poverty level by female by in labor force by employed</rdfs:label>
     </owl:Class>
     
 
@@ -918,11 +918,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000000 in a defined area by income in the past 12 months at or above poverty level by female by in labor force by unemployed.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by income in the past 12 months at or above poverty level by female by in labor force by unemployed.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B17005_022E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">POVERTY STATUS IN THE PAST 12 MONTHS OF INDIVIDUALS BY SEX BY EMPLOYMENT STATUS</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!Income in the past 12 months at or above poverty level!!Female!!In labor force!!Unemployed</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000000 by income in the past 12 months at or above poverty level by female by in labor force by unemployed</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by income in the past 12 months at or above poverty level by female by in labor force by unemployed</rdfs:label>
     </owl:Class>
     
 
@@ -953,11 +953,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The http://purl.obolibrary.org/obo/SRPDIO_1000000 in a defined area by income in the past 12 months at or above poverty level by female by not in labor force by not employed because not in labor force.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of people in a defined area by income in the past 12 months at or above poverty level by female by not in labor force by not employed because not in labor force.</obo:IAO_0000115>
         <obo:SRPDIO_4000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B17005_023E</obo:SRPDIO_4000006>
         <obo:SRPDIO_4000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">POVERTY STATUS IN THE PAST 12 MONTHS OF INDIVIDUALS BY SEX BY EMPLOYMENT STATUS</obo:SRPDIO_4000008>
         <obo:SRPDIO_4000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate!!Total!!Income in the past 12 months at or above poverty level!!Female!!Not in labor force</obo:SRPDIO_4000009>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/SRPDIO_1000000 by income in the past 12 months at or above poverty level by female by not in labor force by not employed because not in labor force</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of people by income in the past 12 months at or above poverty level by female by not in labor force by not employed because not in labor force</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
