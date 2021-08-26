@@ -1025,53 +1025,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/SRPDIO_1001085 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1001085">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001008"/>
-        <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acs5</DC:source>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0001-8815-0078</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">group population age category</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/SRPDIO_1001086 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1001086">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001063"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001085"/>
-        <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acs5</DC:source>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0001-8815-0078</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">group population under 18 years</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/SRPDIO_1001087 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1001087">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001065"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001085"/>
-        <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acs5</DC:source>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0001-8815-0078</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">group population 18 to 64 years</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/SRPDIO_1001088 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1001088">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001079"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001085"/>
-        <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acs5</DC:source>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0001-8815-0078</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">group population 65 years and over</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/SRPDIO_1001089 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1001089">
@@ -1185,7 +1138,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001096"/>
         <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acs5</DC:source>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0001-8815-0078</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">Adult correctional facilities</rdfs:label>
+        <rdfs:label xml:lang="en">adult correctional facilities</rdfs:label>
     </owl:Class>
     
 
@@ -1198,7 +1151,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001096"/>
         <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acs5</DC:source>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0001-8815-0078</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">Nursing facilities/skilled nursing facilities</rdfs:label>
+        <rdfs:label xml:lang="en">nursing facilities/skilled nursing facilities</rdfs:label>
     </owl:Class>
     
 
@@ -1211,7 +1164,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001097"/>
         <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acs5</DC:source>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0001-8815-0078</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">College/university student housing</rdfs:label>
+        <rdfs:label xml:lang="en">college/university student housing</rdfs:label>
     </owl:Class>
     
 
@@ -1223,7 +1176,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001096"/>
         <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acs5</DC:source>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0001-8815-0078</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">Juvenile facilities</rdfs:label>
+        <rdfs:label xml:lang="en">juvenile facilities</rdfs:label>
     </owl:Class>
     
 
@@ -1235,7 +1188,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001097"/>
         <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acs5</DC:source>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0001-8815-0078</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">Military quarters/military ships</rdfs:label>
+        <rdfs:label xml:lang="en">military quarters/military ships</rdfs:label>
     </owl:Class>
     
 

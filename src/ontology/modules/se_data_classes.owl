@@ -775,7 +775,7 @@
         <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acs5</DC:source>
         <obo:IAO_0000115 xml:lang="en">ratio of income to poverty level in the past 12 months</obo:IAO_0000115>
         <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0001-8815-0078</obo:IAO_0000116>
-        <rdfs:label xml:lang="en">Under .50</rdfs:label>
+        <rdfs:label xml:lang="en">under .50</rdfs:label>
     </owl:Class>
     
 

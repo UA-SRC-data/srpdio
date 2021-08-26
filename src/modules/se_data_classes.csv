@@ -33,7 +33,7 @@ SRPDIO:1000030,IAO:0000109,measurement datum about age of people,,,,,,,('measure
 SRPDIO:1000031,IAO:0000109,measurement datum about income status ,,,,,,,('measurement datum' and ('is about' some 'income quality')),,rlw,,,,
 SRPDIO:1000032,IAO:0000109,measurement datum about housing quality,,,,,,,('measurement datum' and ('is about' some 'housing quality')),,rlw,,,,
 SRPDIO:1000033,IAO:0000109,measurement datum about language spoken,,,,,,,('measurement datum' and ('is about' some 'quality about langauge spoken')),,rlw,,,,
-SRPDIO:1001107,SRPDIO:1000008,Under .50,ratio of income to poverty level in the past 12 months,,,,https://orcid.org/0000-0001-8815-0078,,,,acs5,,,,
+SRPDIO:1001107,SRPDIO:1000008,under .50,ratio of income to poverty level in the past 12 months,,,,https://orcid.org/0000-0001-8815-0078,,,,acs5,,,,
 SRPDIO:1001108,SRPDIO:1000008,.50 to .99,ratio of income to poverty level in the past 12 months,,,,https://orcid.org/0000-0001-8815-0078,,,,acs5,,,,
 SRPDIO:1001109,SRPDIO:1000008,1.00 to 1.49,ratio of income to poverty level in the past 12 months,,,,https://orcid.org/0000-0001-8815-0078,,,,acs5,,,,
 SRPDIO:1001110,SRPDIO:1000008,1.50 to 1.99,ratio of income to poverty level in the past 12 months,,,,https://orcid.org/0000-0001-8815-0078,,,,acs5,,,,
