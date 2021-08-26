@@ -250,6 +250,12 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001011"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_4000001"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acs5</DC:source>
         <obo:SRPDIO_4000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">people per census block group</obo:SRPDIO_4000003>
         <rdfs:label xml:lang="en">number of people living in group quarters</rdfs:label>
@@ -282,6 +288,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001011"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_4000002"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acs5</DC:source>
@@ -825,6 +837,18 @@
         <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0001-8815-0078</obo:IAO_0000116>
         <rdfs:label xml:lang="en">2.00 and over</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_4000001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_4000001"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_4000002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_4000002"/>
     
 
 
