@@ -1,4 +1,4 @@
-﻿defined_class,datum,count_label,var1,var1_label,var2,var2_label,acs_var_id,acs_label,acs_concept
+﻿defined_class,datum,datum_label,var1,var1_label,var2,var2_label,acs_var_id,acs_label,acs_concept
 SRPDIO:2010129,SRPDIO:1000000,number of people,SRPDIO:1001006,computing device status,SRPDIO:1001005,internet access,B28003_001E,Estimate!!Total,PRESENCE OF A COMPUTER AND TYPE OF INTERNET SUBSCRIPTION IN HOUSEHOLD
 SRPDIO:2010130,SRPDIO:1000000,number of people,SRPDIO:1001112,has one or more types of computing devices,SRPDIO:1001005,internet access,B28003_002E,Estimate!!Total!!Has a computer,PRESENCE OF A COMPUTER AND TYPE OF INTERNET SUBSCRIPTION IN HOUSEHOLD
 SRPDIO:2010131,SRPDIO:1000000,number of people,SRPDIO:1001112,has one or more types of computing devices,SRPDIO:1001056,with dial-up Internet subscription alone/Dial-up with no other type of Internet subscription,B28003_003E,Estimate!!Total!!Has a computer!!With dial-up Internet subscription alone,PRESENCE OF A COMPUTER AND TYPE OF INTERNET SUBSCRIPTION IN HOUSEHOLD

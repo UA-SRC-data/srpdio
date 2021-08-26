@@ -88,5 +88,6 @@ $(ACS6)/%.owl: $(ACS_PATTERNDIR)/%.csv $(PATTERNDIR)/acs_6vars.yaml #curie_map.y
 
 # Merge all ACS modules
 
-#robot merge --inputs "modules/*.owl" --output modules/all_acs.owl
+#acs5_merge: $(ACS_PATTERN_OUT)
+#robot merge --inputs "$(ACS_PATTERN_OUT)/*.owl" --output modules/all_acs.owl
 #robot merge --inputs "*.owl" --output all_acs.owl
