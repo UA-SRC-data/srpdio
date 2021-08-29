@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/srpdio/modules/all_acs5.owl" uri="modules/all_acs5.owl"/>
     <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/srpdio/6test.owl" uri="modules/acs/6test.owl"/>
     <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/srpdio/1computer.owl" uri="modules/1computer.owl"/>
     <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/srpdio/plant_part_concentration.owl" uri="modules/plant_part_concentration.owl"/>

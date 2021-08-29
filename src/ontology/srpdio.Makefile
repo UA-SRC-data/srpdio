@@ -88,6 +88,9 @@ $(ACS6)/%.owl: $(ACS_PATTERNDIR)/%.csv $(PATTERNDIR)/acs_6vars.yaml #curie_map.y
 
 # Merge all ACS modules
 
-acs5_merge: $(ACS_PATTERN_OUT)
-	robot merge --inputs "$(ACS_PATTERN_OUT)/*.owl" --output modules/all_acs.owl
-#robot merge --inputs "*.owl" --output all_acs.owl
+#acs5_merge: $(ACS_PATTERN_OUT)
+#	robot merge --inputs "$(ACS_PATTERN_OUT)/*.owl" --output modules/all_acs.owl
+
+#NOTE: robot cannot merge files in a directory other than the one you are in, so the command above does not work. A ticket was filed and the fix will be released soon, but in the meantime, run the command below from within src/ontology/modules/acs.
+
+#robot merge --inputs "*.owl" --output ../all_acs5.owl annotate --ontology-iri http://purl.obolibrary.org/obo/srpdio/modules/all_acs5.owl
