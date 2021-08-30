@@ -5,7 +5,7 @@ SRPDIO:2030002,IAO:0000027,data item,SRPDIO:1001002,educational attainment
 SRPDIO:2030003,IAO:0000027,data item,SRPDIO:1001004,computer and internet access
 SRPDIO:2030004,IAO:0000027,data item,SRPDIO:1001005,internet access
 SRPDIO:2030005,IAO:0000027,data item,SRPDIO:1001006,computing device status
-SRPDIO:2030006,IAO:0000027,data item,SRPDIO:1001008,age category
+SRPDIO:2030006,IAO:0000027,data item,PATO:0000011,age
 SRPDIO:2030007,IAO:0000027,data item,SRPDIO:1001009,grandparent age category
 SRPDIO:2030008,IAO:0000027,data item,SRPDIO:1001010,grandparent responsibility for grandchildren
 SRPDIO:2030009,IAO:0000027,data item,SRPDIO:1001011,housing quality
