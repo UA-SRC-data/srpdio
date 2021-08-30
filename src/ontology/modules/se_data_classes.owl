@@ -35,12 +35,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/IAO_0000116 -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/IAO_0000119 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119"/>
@@ -90,12 +84,6 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IAO_0000109 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000109"/>
     
 
 
@@ -660,90 +648,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/SRPDIO_1000030 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1000030">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000109"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000011"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/>
-        <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rlw</DC:source>
-        <rdfs:label xml:lang="en">measurement datum about age of people</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/SRPDIO_1000031 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1000031">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000109"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001015"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/>
-        <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rlw</DC:source>
-        <rdfs:label xml:lang="en">measurement datum about income status</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/SRPDIO_1000032 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1000032">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000109"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001011"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/>
-        <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rlw</DC:source>
-        <rdfs:label xml:lang="en">measurement datum about housing quality</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/SRPDIO_1000033 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1000033">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000109"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1001027"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/>
-        <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rlw</DC:source>
-        <rdfs:label xml:lang="en">measurement datum about language spoken</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/SRPDIO_1001002 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1001002"/>
@@ -777,66 +681,6 @@
     <!-- http://purl.obolibrary.org/obo/SRPDIO_1001029 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1001029"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/SRPDIO_1001107 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1001107">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1000008"/>
-        <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acs5</DC:source>
-        <obo:IAO_0000115 xml:lang="en">ratio of income to poverty level in the past 12 months</obo:IAO_0000115>
-        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0001-8815-0078</obo:IAO_0000116>
-        <rdfs:label xml:lang="en">under .50</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/SRPDIO_1001108 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1001108">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1000008"/>
-        <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acs5</DC:source>
-        <obo:IAO_0000115 xml:lang="en">ratio of income to poverty level in the past 12 months</obo:IAO_0000115>
-        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0001-8815-0078</obo:IAO_0000116>
-        <rdfs:label xml:lang="en">.50 to .99</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/SRPDIO_1001109 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1001109">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1000008"/>
-        <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acs5</DC:source>
-        <obo:IAO_0000115 xml:lang="en">ratio of income to poverty level in the past 12 months</obo:IAO_0000115>
-        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0001-8815-0078</obo:IAO_0000116>
-        <rdfs:label xml:lang="en">1.00 to 1.49</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/SRPDIO_1001110 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1001110">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1000008"/>
-        <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acs5</DC:source>
-        <obo:IAO_0000115 xml:lang="en">ratio of income to poverty level in the past 12 months</obo:IAO_0000115>
-        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0001-8815-0078</obo:IAO_0000116>
-        <rdfs:label xml:lang="en">1.50 to 1.99</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/SRPDIO_1001111 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1001111">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1000008"/>
-        <DC:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acs5</DC:source>
-        <obo:IAO_0000115 xml:lang="en">ratio of income to poverty level in the past 12 months</obo:IAO_0000115>
-        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0001-8815-0078</obo:IAO_0000116>
-        <rdfs:label xml:lang="en">2.00 and over</rdfs:label>
-    </owl:Class>
     
 
 

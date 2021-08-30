@@ -1,0 +1,26 @@
+﻿defined_class,data_item,data_item_label,var1,var1_label
+SRPDIO:2030000,IAO:0000027,data item',SRPDIO:1001000,civilian status
+SRPDIO:2030001,IAO:0000027,data item',SRPDIO:1001001,disability status
+SRPDIO:2030002,IAO:0000027,data item',SRPDIO:1001002,educational attainment
+SRPDIO:2030003,IAO:0000027,data item',SRPDIO:1001004,computer and internet access
+SRPDIO:2030004,IAO:0000027,data item',SRPDIO:1001005,internet access
+SRPDIO:2030005,IAO:0000027,data item',SRPDIO:1001006,computing device status
+SRPDIO:2030006,IAO:0000027,data item',SRPDIO:1001008,age category
+SRPDIO:2030007,IAO:0000027,data item',SRPDIO:1001009,grandparent age category
+SRPDIO:2030008,IAO:0000027,data item',SRPDIO:1001010,grandparent responsibility for grandchildren
+SRPDIO:2030009,IAO:0000027,data item',SRPDIO:1001011,housing quality
+SRPDIO:2030010,IAO:0000027,data item',SRPDIO:1001012,group quarters type
+SRPDIO:2030011,IAO:0000027,data item',SRPDIO:1001015,income quality
+SRPDIO:2030012,IAO:0000027,data item',SRPDIO:1001016,poverty status
+SRPDIO:2030013,IAO:0000027,data item',SRPDIO:1001017,Food Stamps or SNAP status
+SRPDIO:2030014,IAO:0000027,data item',SRPDIO:1001020,health insurance coverage
+SRPDIO:2030015,IAO:0000027,data item',SRPDIO:1001021,household size
+SRPDIO:2030016,IAO:0000027,data item',SRPDIO:1001022,househould mortgage status
+SRPDIO:2030017,IAO:0000027,data item',SRPDIO:1001023,employment and labor status
+SRPDIO:2030018,IAO:0000027,data item',SRPDIO:1001003,employment status
+SRPDIO:2030019,IAO:0000027,data item',SRPDIO:1001024,labor force status
+SRPDIO:2030020,IAO:0000027,data item',SRPDIO:1001025,veteran status
+SRPDIO:2030021,IAO:0000027,data item',SRPDIO:1001026,ACS race or ethnicity
+SRPDIO:2030022,IAO:0000027,data item',SRPDIO:1001027,quality about langauge spoken
+SRPDIO:2030023,IAO:0000027,data item',SRPDIO:1001028,language spoken at home
+SRPDIO:2030024,IAO:0000027,data item',SRPDIO:1001029,belongs to a minority group

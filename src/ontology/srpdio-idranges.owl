@@ -73,8 +73,15 @@ Datatype: idrange:5
     EquivalentTo:
         xsd:integer[>= 2020000 , <= 2029999]
 
-
 Datatype: idrange:6
+
+    Annotations:
+        allocatedto: "data_item DOSDP"
+
+    EquivalentTo:
+        xsd:integer[>= 2030000 , <= 2039999]
+
+Datatype: idrange:7
 
     Annotations:
         allocatedto: "SRPDIO_internal_vocab"

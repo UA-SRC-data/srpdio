@@ -1,0 +1,31 @@
+pattern_name: data_item_about_a_quality
+
+classes:
+  data item: IAO:0000027
+  quality: PATO:0000001
+
+
+relations:
+  is about: IAO:0000136
+
+vars:
+  data_item: IAO:0000027
+  var1: PATO:0000001
+
+name:
+  text: "%s about some %s"
+  vars:
+    - data_item
+    - var1
+
+def:
+  text: "A %s that is about some %s."
+  vars:
+    - data_item
+    - var1
+
+equivalentTo:
+  text: "%s and 'is about' some %s"
+  vars:
+    - data_item
+    - var1
