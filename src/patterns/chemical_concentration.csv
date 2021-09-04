@@ -286,3 +286,7 @@ SRPDIO:2020283,,CHEBI:18367,phosphate(3_),ENVO:00002011,fresh water
 SRPDIO:2020284,,CHEBI:16189,sulfate,ENVO:00002011,fresh water
 SRPDIO:2020285,,CHEBI:24431,chemical entity,ENVO:00010483,environmental material
 SRPDIO:2020286,,CHEBI:24431,chemical entity,BFO:0000040,material entity
+SRPDIO:2020287,Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)],,,ENVO:00010483,environmental material
+SRPDIO:2020288,"Sodium, percent total cations",,,ENVO:00010483,environmental material
+SRPDIO:2020289,Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)],,,ENVO:00002011,fresh water
+SRPDIO:2020290,"Sodium, percent total cations",,,ENVO:00002011,fresh water
