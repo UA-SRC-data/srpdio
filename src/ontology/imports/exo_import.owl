@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/srpdio/imports/exo_import.owl#"
      xml:base="http://purl.obolibrary.org/obo/srpdio/imports/exo_import.owl"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -9,8 +10,9 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/srpdio/imports/exo_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/srpdio/releases/2021-06-27/imports/exo_import.owl"/>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2021-06-27</owl:versionInfo>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/srpdio/releases/2021-09-04/imports/exo_import.owl"/>
+        <dc:source rdf:resource="http://purl.obolibrary.org/obo/exo/2.1/exo.owl"/>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2021-09-04</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -215,6 +217,8 @@
         <obo:IAO_0000115>An entity (e.g., a human, human population, or a human organ) that interacts with an exposure stressor during an exposure event.</obo:IAO_0000115>
         <oboInOwl:created_by>cmattin</oboInOwl:created_by>
         <oboInOwl:creation_date>2010-09-21T02:45:36Z</oboInOwl:creation_date>
+        <oboInOwl:hasExactSynonym>exposure recipient</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>exposure target</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>exposure_receptor</oboInOwl:hasOBONamespace>
         <oboInOwl:id>ExO:0000001</oboInOwl:id>
         <rdfs:label>exposure_receptor</rdfs:label>
