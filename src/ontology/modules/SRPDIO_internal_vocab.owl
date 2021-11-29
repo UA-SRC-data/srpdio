@@ -40,6 +40,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IAO_0000119 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/SRPDIO_4000003 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/SRPDIO_4000003">
@@ -103,6 +109,23 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000136 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000136"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
     // Classes
     //
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -126,6 +149,12 @@
     <!-- http://purl.obolibrary.org/obo/PCO_0000027 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PCO_0000027"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_1000217 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1000217"/>
     
 
 
@@ -171,6 +200,64 @@
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0001-8815-0078</obo:IAO_0000117>
         <rdfs:label xml:lang="en">top soil</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_4000010 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_4000010">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000184"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1000217"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The ratio of sodium to calcium plus magnesium in water. [(Na)/(sq root of 1/2 Ca + Mg)]. Used as a way to determine if sodium concentration is likely to impact soil properties.</obo:IAO_0000115>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Standin term for &quot;sodium adsorption ration&quot; that will be added to ENVO and replaced here.</obo:IAO_0000116>
+        <rdfs:label xml:lang="en">sodium adsorption ratio in water</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_4000010"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The ratio of sodium to calcium plus magnesium in water. [(Na)/(sq root of 1/2 Ca + Mg)]. Used as a way to determine if sodium concentration is likely to impact soil properties.</owl:annotatedTarget>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.waterqualitydata.us/webservices_documentation/</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_4000011 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_4000011">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000187"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1000217"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The percent total cations in water that are sodium</obo:IAO_0000115>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Standin term for &quot;sodium percent total cations in water&quot; that will be added to ENVO and replaced here.</obo:IAO_0000116>
+        <rdfs:label xml:lang="en">sodium, percent total cations in water</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_4000011"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The percent total cations in water that are sodium</owl:annotatedTarget>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.waterqualitydata.us/webservices_documentation/</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/STATO_0000184 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/STATO_0000184"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000187 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000187"/>
 </rdf:RDF>
 
 

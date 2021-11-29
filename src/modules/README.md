@@ -1,7 +1,5 @@
 This folder contains the source CSV files used to build Robot modules.
 
-THere are also OWL files here, but the output of module generation should be ../ontology/modules, so I am not sure if these files are needed.
-
 # Socio-economic variabls (SE)
 We are using a number of socio-economic varibles to understand vulnerabilities and resilience. They come from both ACS5 and EJS.
 
