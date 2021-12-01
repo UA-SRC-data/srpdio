@@ -29,6 +29,7 @@ SRPDIO:2020026,,CHEBI:155922,elemental niobium,ENVO:00010483,environmental mater
 SRPDIO:2020027,,CHEBI:33464,elemental phosphorus,ENVO:00010483,environmental material
 SRPDIO:2020028,,CHEBI:37247,elemental potassium,ENVO:00010483,environmental material
 SRPDIO:2020029,,CHEBI:155923,elemental rubidium,ENVO:00010483,environmental material
+SRPDIO:2020288,,CHEBI:155869,elemental scandium,ENVO:00010483,environmental material
 SRPDIO:2020030,,CHEBI:36904,elemental selenium,ENVO:00010483,environmental material
 SRPDIO:2020031,,CHEBI:37763,elemental silicon,ENVO:00010483,environmental material
 SRPDIO:2020032,,CHEBI:33966,elemental silver,ENVO:00010483,environmental material
@@ -213,6 +214,7 @@ SRPDIO:2020210,,CHEBI:155922,elemental niobium,ENVO:00002011,fresh water
 SRPDIO:2020211,,CHEBI:33464,elemental phosphorus,ENVO:00002011,fresh water
 SRPDIO:2020212,,CHEBI:37247,elemental potassium,ENVO:00002011,fresh water
 SRPDIO:2020213,,CHEBI:155923,elemental rubidium,ENVO:00002011,fresh water
+SRPDIO:2020287,,CHEBI:155869,elemental scandium,ENVO:00002011,fresh water
 SRPDIO:2020214,,CHEBI:36904,elemental selenium,ENVO:00002011,fresh water
 SRPDIO:2020215,,CHEBI:37763,elemental silicon,ENVO:00002011,fresh water
 SRPDIO:2020216,,CHEBI:33966,elemental silver,ENVO:00002011,fresh water
@@ -286,7 +288,3 @@ SRPDIO:2020283,,CHEBI:18367,phosphate(3_),ENVO:00002011,fresh water
 SRPDIO:2020284,,CHEBI:16189,sulfate,ENVO:00002011,fresh water
 SRPDIO:2020285,,CHEBI:24431,chemical entity,ENVO:00010483,environmental material
 SRPDIO:2020286,,CHEBI:24431,chemical entity,BFO:0000040,material entity
-SRPDIO:2020287,Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)],,,ENVO:00010483,environmental material
-SRPDIO:2020288,"Sodium, percent total cations",,,ENVO:00010483,environmental material
-SRPDIO:2020289,Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)],,,ENVO:00002011,fresh water
-SRPDIO:2020290,"Sodium, percent total cations",,,ENVO:00002011,fresh water
