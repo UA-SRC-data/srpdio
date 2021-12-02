@@ -214,7 +214,6 @@ SRPDIO:2020210,,CHEBI:155922,elemental niobium,ENVO:00002011,fresh water
 SRPDIO:2020211,,CHEBI:33464,elemental phosphorus,ENVO:00002011,fresh water
 SRPDIO:2020212,,CHEBI:37247,elemental potassium,ENVO:00002011,fresh water
 SRPDIO:2020213,,CHEBI:155923,elemental rubidium,ENVO:00002011,fresh water
-SRPDIO:2020287,,CHEBI:155869,elemental scandium,ENVO:00002011,fresh water
 SRPDIO:2020214,,CHEBI:36904,elemental selenium,ENVO:00002011,fresh water
 SRPDIO:2020215,,CHEBI:37763,elemental silicon,ENVO:00002011,fresh water
 SRPDIO:2020216,,CHEBI:33966,elemental silver,ENVO:00002011,fresh water
@@ -261,6 +260,7 @@ SRPDIO:2020256,,CHEBI:155922,elemental niobium,SRPDIO:4000007,topsoil
 SRPDIO:2020257,,CHEBI:33464,elemental phosphorus,SRPDIO:4000007,topsoil
 SRPDIO:2020258,,CHEBI:37247,elemental potassium,SRPDIO:4000007,topsoil
 SRPDIO:2020259,,CHEBI:155923,elemental rubidium,SRPDIO:4000007,topsoil
+SRPDIO:2020287,,CHEBI:155869,elemental scandium,SRPDIO:4000007,topsoil
 SRPDIO:2020260,,CHEBI:36904,elemental selenium,SRPDIO:4000007,topsoil
 SRPDIO:2020261,,CHEBI:37763,elemental silicon,SRPDIO:4000007,topsoil
 SRPDIO:2020262,,CHEBI:33966,elemental silver,SRPDIO:4000007,topsoil
