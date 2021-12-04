@@ -14,9 +14,9 @@
      xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/srpdio/imports/po_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/srpdio/releases/2021-12-01/imports/po_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/srpdio/releases/2021-12-04/imports/po_import.owl"/>
         <dc:source rdf:resource="http://purl.obolibrary.org/obo/po/releases/2021-08-13/po.owl"/>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2021-12-01</owl:versionInfo>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2021-12-04</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -2361,7 +2361,7 @@ For example, A and B may be gene products and binding of B by A positively regul
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PO_0000003"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
         <owl:annotatedTarget>suffrutex (narrow)</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>FNA:99508f62-7116-4e2b-90c0-19ff55ebd967</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FNA:99508f62-7116-4e2b-90c0-19ff55ebd967</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PO_0000003"/>
@@ -3600,7 +3600,7 @@ For example, A and B may be gene products and binding of B by A positively regul
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PO_0009010"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
         <owl:annotatedTarget>pyrene (narrow)</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FNA:f5c50e73-61e3-48ec-b918-6f85b3f40738</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FNA:f5c50e73-61e3-48ec-b918-6f85b3f40738</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -3670,7 +3670,7 @@ For example, A and B may be gene products and binding of B by A positively regul
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A stage in the life of a plant structure (PO:0009011) during which the plant structure undergoes developmental processes.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>BFO:0000003</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0032502</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GO:0032502</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">POC:curators</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
@@ -4216,7 +4216,7 @@ For example, A and B may be gene products and binding of B by A positively regul
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PO_0009061"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>androecia (exact, plural)</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>FNA:522936d3-a948-44f3-b9dc-634e0d190f6f</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FNA:522936d3-a948-44f3-b9dc-634e0d190f6f</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PO_0009061"/>
@@ -4236,7 +4236,7 @@ For example, A and B may be gene products and binding of B by A positively regul
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PO_0009061"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
         <owl:annotatedTarget>androecium column (narrow)</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>FNA:e0f4d402-3489-4a58-81bf-0fa5119a4db5</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FNA:e0f4d402-3489-4a58-81bf-0fa5119a4db5</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -4317,13 +4317,13 @@ For example, A and B may be gene products and binding of B by A positively regul
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PO_0009062"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>gynaecium (exact)</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FNA:03f034c5-6bd6-4846-8ef7-c5190d09008c</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FNA:03f034c5-6bd6-4846-8ef7-c5190d09008c</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PO_0009062"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>gynoecia (exact, plural)</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FNA:226a743c-7988-4b66-b163-2ce80d7c8a70</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FNA:226a743c-7988-4b66-b163-2ce80d7c8a70</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PO_0009062"/>
@@ -4520,7 +4520,7 @@ For example, A and B may be gene products and binding of B by A positively regul
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A shoot system meristem (PO:0006079) formed at the apex of the shoot axis (PO:0025029), including those originating from an axillary bud meristem (PO:0000232).</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">POC:Laurel_Cooper</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMSL_curator:fz</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMSL_curator:fz</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PO_0020148"/>

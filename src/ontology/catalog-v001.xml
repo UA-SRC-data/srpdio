@@ -1,74 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
-    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/srpdio/releases/2021-09-04/imports/uo_import.owl" uri="imports/uo_import.owl"/>
-    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/srpdio/releases/2021-09-04/imports/stato_import.owl" uri="imports/stato_import.owl"/>
-    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/srpdio/releases/2021-09-04/imports/ro_import.owl" uri="imports/ro_import.owl"/>
-    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/srpdio/releases/2021-09-04/imports/po_import.owl" uri="imports/po_import.owl"/>
-    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/srpdio/releases/2021-09-04/imports/pco_import.owl" uri="imports/pco_import.owl"/>
-    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/srpdio/releases/2021-09-04/imports/pato_import.owl" uri="imports/pato_import.owl"/>
-    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/srpdio/releases/2021-09-04/imports/omrse_import.owl" uri="imports/omrse_import.owl"/>
-    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/srpdio/releases/2021-09-04/imports/iao_import.owl" uri="imports/iao_import.owl"/>
-    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/srpdio/releases/2021-09-04/imports/exo_import.owl" uri="imports/exo_import.owl"/>
-    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/srpdio/releases/2021-09-04/imports/envo_import.owl" uri="imports/envo_import.owl"/>
-    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/srpdio/data_item_about.owl" uri="modules/data_item_about.owl"/>
-    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/srpdio/modules/all_acs5.owl" uri="modules/all_acs5.owl"/>
-    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/srpdio/6test.owl" uri="modules/acs/6test.owl"/>
-    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/srpdio/1computer.owl" uri="modules/1computer.owl"/>
-    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/srpdio/plant_part_concentration.owl" uri="modules/plant_part_concentration.owl"/>
-    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/srpdio/entity_attribute.owl" uri="modules/entity_attribute.owl"/>
-    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/srpdio/chemical_concentration.owl" uri="modules/chemical_concentration.owl"/>
-    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/srpdio/age_x_disability.owl" uri="file:/Users/rwalls/gh/srpdio/src/patterns/age_x_disability.owl"/>
-    <uri id="Imports Wizard Entry" name="urn:unnamed:ontology#ont1" uri="file:/Users/rwalls/gh/srpdio/src/patterns/age_x_disability.tmp.owl"/>
-    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/omo/2020-06-08/omo.owl" uri="http://purl.obolibrary.org/obo/omo.owl"/>
-    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/srpdio/chemical_concentration.owl" uri="file:/Users/rwalls/gh/srpdio/src/patterns/chemical_concentration.owl"/>
-    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/srpdio/plant_part_concentration.owl" uri="file:/Users/rwalls/gh/srpdio/src/patterns/plant_part_concentration.owl"/>
-    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/srpdio/entity_attribute.owl" uri="file:/Users/rwalls/gh/srpdio/src/patterns/entity_attribute.owl"/>
-    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/srpdio/modules/se_data_classes.owl" uri="modules/se_data_classes.owl"/>
-    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/srpdio/modules/se_categorical_qualities.owl" uri="modules/se_categorical_qualities.owl"/>
-    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/srpdio/releases/2021-06-27/imports/chebi_import.owl" uri="imports/chebi_import.owl"/>
-    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/srpdio/modules/SRPDIO_internal_vocab.owl" uri="modules/SRPDIO_internal_vocab.owl"/>
-    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/srpdio/modules/SRPDIO_internal_vocab.owl" uri="modules/SRPDIO_internal_vocab.owl"/>
-    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/srpdio/modules/SRPDIO_internal_vocab.owl" uri="file:/Users/rwalls/gh/srpdio/src/modules/SRPDIO_internal_vocab.owl"/>
-    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/srpdio/releases/2021-06-27/imports/uo_import.owl" uri="imports/uo_import.owl"/>
-    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/srpdio/releases/2021-06-27/imports/stato_import.owl" uri="imports/stato_import.owl"/>
-    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/srpdio/releases/2021-06-27/imports/ro_import.owl" uri="imports/ro_import.owl"/>
-    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/srpdio/releases/2021-06-27/imports/po_import.owl" uri="imports/po_import.owl"/>
-    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/srpdio/releases/2021-06-27/imports/pco_import.owl" uri="imports/pco_import.owl"/>
-    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/srpdio/releases/2021-06-27/imports/pato_import.owl" uri="imports/pato_import.owl"/>
-    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/srpdio/releases/2021-06-27/imports/omrse_import.owl" uri="imports/omrse_import.owl"/>
-    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/srpdio/releases/2021-06-27/imports/iao_import.owl" uri="imports/iao_import.owl"/>
-    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/srpdio/releases/2021-06-27/imports/exo_import.owl" uri="imports/exo_import.owl"/>
-    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/srpdio/releases/2021-06-27/imports/envo_import.owl" uri="imports/envo_import.owl"/>
-    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/srpdio/releases/2021-06-21/imports/po_import.owl" uri="imports/po_import.owl"/>
-    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/srpdio/releases/2021-06-21/imports/pco_import.owl" uri="imports/pco_import.owl"/>
-    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/srpdio/releases/2021-06-21/imports/pato_import.owl" uri="imports/pato_import.owl"/>
-    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/srpdio/releases/2021-06-21/imports/envo_import.owl" uri="imports/envo_import.owl"/>
-    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/srpdio/modules/se_categorical_qualities.owl" uri="modules/se_categorical_qualities.owl"/>
-    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/srpdio/modules/se_data_classes.owl" uri="modules/se_data_classes.owl"/>
-    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/srpdio/releases/2021-06-21/imports/uo_import.owl" uri="imports/uo_import.owl"/>
-    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/srpdio/releases/2021-06-21/imports/stato_import.owl" uri="imports/stato_import.owl"/>
-    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/srpdio/releases/2021-06-21/imports/omrse_import.owl" uri="imports/omrse_import.owl"/>
-    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/srpdio/releases/2021-06-21/imports/iao_import.owl" uri="imports/iao_import.owl"/>
-    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/srpdio/releases/2021-06-21/imports/exo_import.owl" uri="imports/exo_import.owl"/>
-    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/srpdio/releases/2020-06-29/imports/manual/manual_imports.owl" uri="imports/manual/manual_imports.owl"/>
-    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/srpdio/modules/entity_attribute.owl" uri="file:/Users/rwalls/gh/srpdio/src/patterns/entity_attribute.owl"/>
-    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/srpdio/modules/plant_part_concentration.owl" uri="file:/Users/rwalls/gh/srpdio/src/patterns/plant_part_concentration.owl"/>
-    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/srpdio/modules/chemical_concentration.owl" uri="file:/Users/rwalls/gh/srpdio/src/patterns/chemical_concentration.owl"/>
-    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/srpdio/releases/2021-06-08/imports/po_import.owl" uri="imports/po_import.owl"/>
-    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/srpdio/releases/2021-06-08/imports/envo_import.owl" uri="imports/envo_import.owl"/>
-    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/srpdio/releases/2021-06-08/imports/pco_import.owl" uri="imports/pco_import.owl"/>
-    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/srpdio/releases/2021-06-08/imports/po_import.owl" uri="imports/po_import.owl"/>
-    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/srpdio/releases/2021-06-08/imports/pato_import.owl" uri="imports/pato_import.owl"/>
-    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/srpdio/modules/SRPDIO_internal_vocab.owl" uri="modules/SRPDIO_internal_vocab.owl"/>
-    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/srpdio/imports/po_import.owl" uri="imports/po_import.owl"/>
-    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/srpdio/imports/po_import.obo" uri="imports/po_import.obo"/>
-    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/srpdio/imports/ro_import.owl" uri="imports/ro_import.owl"/>
-    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/srpdio/imports/ro_import.obo" uri="imports/ro_import.obo"/>
-    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/srpdio/imports/pato_import.owl" uri="imports/pato_import.owl"/>
-    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/srpdio/imports/pato_import.obo" uri="imports/pato_import.obo"/>
-    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/srpdio/imports/envo_import.owl" uri="imports/envo_import.owl"/>
-    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/srpdio/imports/envo_import.obo" uri="imports/envo_import.obo"/>
-    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/srpdio/imports/pco_import.owl" uri="imports/pco_import.owl"/>
-    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/srpdio/imports/pco_import.obo" uri="imports/pco_import.obo"/>
+    <uri name="http://purl.obolibrary.org/obo/srpdio/imports/po_import.owl" uri="imports/po_import.owl"/>
+    <uri name="http://purl.obolibrary.org/obo/srpdio/imports/po_import.obo" uri="imports/po_import.obo"/>
+    <uri name="http://purl.obolibrary.org/obo/srpdio/imports/ro_import.owl" uri="imports/ro_import.owl"/>
+    <uri name="http://purl.obolibrary.org/obo/srpdio/imports/ro_import.obo" uri="imports/ro_import.obo"/>
+    <uri name="http://purl.obolibrary.org/obo/srpdio/imports/pato_import.owl" uri="imports/pato_import.owl"/>
+    <uri name="http://purl.obolibrary.org/obo/srpdio/imports/pato_import.obo" uri="imports/pato_import.obo"/>
+    <uri name="http://purl.obolibrary.org/obo/srpdio/imports/envo_import.owl" uri="imports/envo_import.owl"/>
+    <uri name="http://purl.obolibrary.org/obo/srpdio/imports/envo_import.obo" uri="imports/envo_import.obo"/>
+    <uri name="http://purl.obolibrary.org/obo/srpdio/imports/pco_import.owl" uri="imports/pco_import.owl"/>
+    <uri name="http://purl.obolibrary.org/obo/srpdio/imports/pco_import.obo" uri="imports/pco_import.obo"/>
     <group id="Folder Repository, directory=, recursive=false, Auto-Update=false, version=2" prefer="public" xml:base=""/>
 </catalog>

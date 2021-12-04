@@ -16,9 +16,9 @@
      xmlns:taxslim="http://purl.obolibrary.org/obo/ncbitaxon/subsets/taxslim#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/srpdio/imports/envo_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/srpdio/releases/2021-12-01/imports/envo_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/srpdio/releases/2021-12-04/imports/envo_import.owl"/>
         <dc:source rdf:resource="http://purl.obolibrary.org/obo/envo/releases/2021-05-14/envo.owl"/>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2021-12-01</owl:versionInfo>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2021-12-04</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -3485,7 +3485,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <oboInOwl:hasDbXref rdf:resource="https://orcid.org/0000-0002-4366-3088"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:978-0-618-45504-1</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MA:ma</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Ocean</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Ocean</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -4639,7 +4639,7 @@ The lower boundary that separates soil from the nonsoil underneath is most diffi
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A marine biome which is determined by an ocean.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORCID:0000-0002-4366-3088</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Ocean</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Ocean</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
