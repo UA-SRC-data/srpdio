@@ -9464,8 +9464,8 @@
         <oboInOwl:hasExactSynonym>m/s^[2]</oboInOwl:hasExactSynonym>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000078">
-        <rdfs:comment>&quot;An angular unit acceleration which is equal to the angular acceleration of an object changing its angular velocity by 1rad/s over a time period that equals one second.&quot; [NIST:NIST]</rdfs:comment>
         <oboInOwl:hasExactSynonym>alpha</oboInOwl:hasExactSynonym>
+        <rdfs:comment>&quot;An angular unit acceleration which is equal to the angular acceleration of an object changing its angular velocity by 1rad/s over a time period that equals one second.&quot; [NIST:NIST]</rdfs:comment>
         <oboInOwl:hasExactSynonym>rad/s^[2]</oboInOwl:hasExactSynonym>
         <rdfs:label>radian per second per second</rdfs:label>
     </rdf:Description>
@@ -9500,8 +9500,8 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000084">
         <rdfs:label>gram per cubic centimeter</rdfs:label>
-        <rdfs:comment>&quot;A mass unit density which is equal to mass of an object in grams divided by the volume in cubic centimeters.&quot; [UOC:GVG]</rdfs:comment>
         <oboInOwl:hasExactSynonym>gram per cubic centimetre</oboInOwl:hasExactSynonym>
+        <rdfs:comment>&quot;A mass unit density which is equal to mass of an object in grams divided by the volume in cubic centimeters.&quot; [UOC:GVG]</rdfs:comment>
         <oboInOwl:hasExactSynonym>g/cm^[3]</oboInOwl:hasExactSynonym>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000085">
@@ -9540,8 +9540,8 @@
         <rdfs:comment>&quot;A molar volume unit which is equal to 1 cubic centimeter occupied by one mole of a substance in the form of a solid, liquid, or gas.&quot; [NIST:NIST]</rdfs:comment>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000091">
-        <rdfs:comment>&quot;A momentum unit which is equal to the momentum of a one kilogram mass object with a speed of one meter per second.&quot; [NIST:NIST]</rdfs:comment>
         <oboInOwl:hasExactSynonym>kg.m/s</oboInOwl:hasExactSynonym>
+        <rdfs:comment>&quot;A momentum unit which is equal to the momentum of a one kilogram mass object with a speed of one meter per second.&quot; [NIST:NIST]</rdfs:comment>
         <oboInOwl:hasExactSynonym>kilogram metre per second</oboInOwl:hasExactSynonym>
         <rdfs:label>kilogram meter per second</rdfs:label>
     </rdf:Description>
@@ -9577,8 +9577,8 @@
         <rdfs:comment>&quot;A volume unit which is equal to one millionth of a cubic meter or 10^[-9] m^[3], or to 1 ml.&quot; [NIST:NIST]</rdfs:comment>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000098">
-        <rdfs:label>milliliter</rdfs:label>
         <rdfs:comment>&quot;A volume unit which is equal to one thousandth of a liter or 10^[-3] L, or to 1 cubic centimeter.&quot; [NIST:NIST]</rdfs:comment>
+        <rdfs:label>milliliter</rdfs:label>
         <oboInOwl:hasExactSynonym>ml</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>millilitre</oboInOwl:hasExactSynonym>
     </rdf:Description>
@@ -9793,8 +9793,8 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000160">
         <oboInOwl:hasExactSynonym>microeinstein per square metre per second</oboInOwl:hasExactSynonym>
-        <rdfs:label>microeinstein per square meter per second</rdfs:label>
         <oboInOwl:hasExactSynonym>umicroeinstein/sm^[2]</oboInOwl:hasExactSynonym>
+        <rdfs:label>microeinstein per square meter per second</rdfs:label>
         <oboInOwl:hasExactSynonym>micromole per second and square meter mmol/sm^2</oboInOwl:hasExactSynonym>
         <rdfs:comment>&quot;An irradiance unit which is equal to one microeinstein per square meter per second or 10^[-6] microeinstein/sm^[2].&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </rdf:Description>
@@ -9822,8 +9822,8 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000167">
         <oboInOwl:hasExactSynonym>pph</oboInOwl:hasExactSynonym>
-        <rdfs:label>parts per hundred</rdfs:label>
         <rdfs:comment>&quot;A dimensionless concentration notation which denotes the amount of a given substance in a total amount of 100 regardless of the units of measure as long as they are the same.&quot; [UOC:GVG]</rdfs:comment>
+        <rdfs:label>parts per hundred</rdfs:label>
         <oboInOwl:hasExactSynonym>10^[-2]</oboInOwl:hasExactSynonym>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000168">
@@ -9858,8 +9858,8 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000173">
         <oboInOwl:hasExactSynonym>gram per millilitre</oboInOwl:hasExactSynonym>
-        <rdfs:label>gram per milliliter</rdfs:label>
         <rdfs:comment>&quot;A mass unit density which is equal to mass of an object in grams divided by the volume in milliliter.&quot; [UOC:GVG]</rdfs:comment>
+        <rdfs:label>gram per milliliter</rdfs:label>
         <oboInOwl:hasExactSynonym>g/ml</oboInOwl:hasExactSynonym>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000174">
@@ -9956,8 +9956,8 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000201">
         <oboInOwl:hasExactSynonym>cells per ml</oboInOwl:hasExactSynonym>
-        <rdfs:comment>&quot;A unit of cell concentration which is equal to one cell in a volume of 1 milliliter.&quot; [Bioedonline:Bioedonline]</rdfs:comment>
         <oboInOwl:hasExactSynonym>cells per millilitre</oboInOwl:hasExactSynonym>
+        <rdfs:comment>&quot;A unit of cell concentration which is equal to one cell in a volume of 1 milliliter.&quot; [Bioedonline:Bioedonline]</rdfs:comment>
         <rdfs:label>cells per milliliter</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000203">
@@ -10128,8 +10128,8 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000244">
         <rdfs:comment>&quot;A count unit which contains one nucleotide.&quot; [UO:GVG]</rdfs:comment>
-        <rdfs:label>base pair</rdfs:label>
         <oboInOwl:hasExactSynonym>bp</oboInOwl:hasExactSynonym>
+        <rdfs:label>base pair</rdfs:label>
         <oboInOwl:hasExactSynonym>basepair</oboInOwl:hasExactSynonym>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000245">
@@ -10218,8 +10218,8 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000266">
         <oboInOwl:hasExactSynonym>electron volt</oboInOwl:hasExactSynonym>
-        <rdfs:comment>&quot;A non-SI unit of energy (eV) defined as the energy acquired by a single unbound electron when it passes through an electrostatic potential difference of one volt. An electronvolt is equal to 1.602 176 53(14) x 10^-19 J.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
         <oboInOwl:hasExactSynonym>eV</oboInOwl:hasExactSynonym>
+        <rdfs:comment>&quot;A non-SI unit of energy (eV) defined as the energy acquired by a single unbound electron when it passes through an electrostatic potential difference of one volt. An electronvolt is equal to 1.602 176 53(14) x 10^-19 J.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
         <rdfs:label>electronvolt</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000268">
@@ -10242,8 +10242,8 @@
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000272">
         <rdfs:comment>&quot;A unit of pressure equal to the amount of fluid pressure one millimeter deep in mercury at zero degrees centigrade on Earth.&quot; [url:en.wiktionary.org/wiki/mmHg]</rdfs:comment>
         <oboInOwl:hasExactSynonym>millimeters of mercury</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>mmHg</oboInOwl:hasExactSynonym>
         <rdfs:label>millimetres of mercury</rdfs:label>
+        <oboInOwl:hasExactSynonym>mmHg</oboInOwl:hasExactSynonym>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000273">
         <rdfs:comment>&quot;A mass unit density which is equal to mass of an object in milligrams divided by the volume in liters.&quot; [UOC:GVG]</rdfs:comment>
@@ -10258,8 +10258,8 @@
         <oboInOwl:hasExactSynonym>microgram per millilitre</oboInOwl:hasExactSynonym>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000275">
-        <oboInOwl:hasExactSynonym>ng/ml</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>nanogram per millilitre</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>ng/ml</oboInOwl:hasExactSynonym>
         <rdfs:label>nanogram per milliliter</rdfs:label>
         <rdfs:comment>&quot;A mass unit density which is equal to mass of an object in nanograms divided by the volume in milliliters.&quot; [UOC:GVG]</rdfs:comment>
     </rdf:Description>
@@ -10284,8 +10284,8 @@
         <rdfs:label>kilogram per hectare</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000284">
-        <oboInOwl:hasExactSynonym>1/nM</oboInOwl:hasExactSynonym>
         <rdfs:comment>&quot;A rate unit which is equal to one over one nanomolar.&quot; [UO:GVG]</rdfs:comment>
+        <oboInOwl:hasExactSynonym>1/nM</oboInOwl:hasExactSynonym>
         <rdfs:label>count per nanomolar</rdfs:label>
         <oboInOwl:hasExactSynonym>nM^-1</oboInOwl:hasExactSynonym>
     </rdf:Description>
@@ -10345,8 +10345,8 @@
         <rdfs:comment>&quot;A unit of genetic map distance defined corresponding to an interval in which there is a 1% probability of X-irradiation induced breakage. To be completely specified, the unit must be qualified by the radiation in dosage in rads (e.g. cR8000), because this determines the actual breakage probability.&quot; [NCBI:http\://www.ncbi.nlm.nih.gov/SCIENCE96/Glossary.html]</rdfs:comment>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000329">
-        <rdfs:comment>&quot;A unit equal to one million base pairs&quot; [UOC:GVG]</rdfs:comment>
         <rdfs:label>mega base pair</rdfs:label>
+        <rdfs:comment>&quot;A unit equal to one million base pairs&quot; [UOC:GVG]</rdfs:comment>
         <oboInOwl:hasExactSynonym>Mb</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>megabasepair</oboInOwl:hasExactSynonym>
     </rdf:Description>
@@ -10541,8 +10541,8 @@
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0010040">
         <rdfs:comment>&quot;A metric teaspoon is a unit of measurement of volume widely used in cooking recipes and pharmaceutic prescriptions. It equals a 5mL volume.&quot; [Wikipedia:https://en.wikipedia.org/wiki/Teaspoon]</rdfs:comment>
         <rdfs:label>teaspoon</rdfs:label>
-        <oboInOwl:hasExactSynonym>tsp</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>metric teaspoon</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>tsp</oboInOwl:hasExactSynonym>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0010048">
         <rdfs:label>micromole</rdfs:label>
@@ -10564,10 +10564,10 @@
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0010051">
         <oboInOwl:hasExactSynonym>kilocalorie</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>food calorie</oboInOwl:hasExactSynonym>
-        <rdfs:label>large calorie</rdfs:label>
         <oboInOwl:hasExactSynonym>cal</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>big calorie</oboInOwl:hasExactSynonym>
+        <rdfs:label>large calorie</rdfs:label>
         <oboInOwl:hasExactSynonym>calorie</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>big calorie</oboInOwl:hasExactSynonym>
         <rdfs:comment>&quot;A unit of energy widely used in nutrition, equivalent to the amount of heat needed to cause one kilogram of water to rise in temperature by one degree Celsius.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
         <oboInOwl:hasExactSynonym>kcal</oboInOwl:hasExactSynonym>
     </rdf:Description>
