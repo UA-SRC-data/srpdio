@@ -337,24 +337,6 @@ mirror/exo.owl: mirror/exo.trigger
 
 
 # ----------------------------------------
-# Robot Modules (non-dosdp, not imports)
-# ----------------------------------------
-
-MODULES = SRPDIO_internal_vocab se_data_classes se_categorical_qualities
-MODULEDIR = ../modules
-ALL_MODS_OWL = $(patsubst %, modules/%.owl, $(MODULES))
-ALL_MODS_CSV = $(patsubst %, modules/%.csv, $(MODULES))
-
-all_modules:: all_modules_owl #all_modules_obo
-all_modules_owl:: $(ALL_MODS_OWL)
-#all_modules_obo: $(patsubst %, modules/%.obo, $(MODS))
-
-#Targets for ROBOT template modules
-modules/%.owl:: $(MODULEDIR)/%.csv
-	$(ROBOT) template --template $< --input srpdio-edit.owl --prefix "SRPDIO: $(URIBASE)/SRPDIO_" --ontology-iri $(ONTBASE)/$@ -o $@.tmp.owl && mv $@.tmp.owl $@
-
-
-# ----------------------------------------
 # Subsets
 # ----------------------------------------
 subsets/%.tsv: subsets/%.owl
