@@ -1,58 +1,62 @@
 allow_equivalents: all
 catalog_file: catalog-v001.xml
 components: null
-contact: null
+contact: rlwalls2008@gmail.com
 contributors: null
-creators: null
-description: None
+creators: 
+  - Ramona L. Walls
+  - Kai Blumberg
+description: An ontology for use with the NIEHS Superfund Research Project.
 dosdp_tools_options: --obo-prefixes=true
 edit_format: owl
 exclude_tautologies: structural
 export_formats:
 - owl
-- obo
-git_user: ''
+git_user: 'ramonawalls'
 github_org: UA-SRC-data
 gzip_main: false
 id: srpdio
 import_group:
   directory: imports/
   disabled: false
-  ids:
-  - po
-  - ro
-  - pato
-  - envo
-  - pco
   products:
-  - description: null
-    id: po
+  - id: bco
     mirror_from: null
     rebuild_if_source_changes: true
     robot_settings: null
-  - description: null
-    id: ro
+  - id: chebi
     mirror_from: null
     rebuild_if_source_changes: true
     robot_settings: null
-  - description: null
-    id: pato
+    use_gzipped: TRUE
+    is_large: TRUE
+  - id: envo
     mirror_from: null
     rebuild_if_source_changes: true
     robot_settings: null
-  - description: null
-    id: envo
+  - id: exo
+  - id: iao
+  - id: omrse
+  - id: pato
     mirror_from: null
     rebuild_if_source_changes: true
     robot_settings: null
-  - description: null
-    id: pco
+  - id: pco
     mirror_from: null
     rebuild_if_source_changes: true
     robot_settings: null
-  rebuild_if_source_changes: true
+  - id: po
+    mirror_from: null
+    rebuild_if_source_changes: true
+    robot_settings: null
+  - id: ro
+    mirror_from: null
+    rebuild_if_source_changes: true
+    robot_settings: null
+  - id: stato
+  - id: uo
 import_pattern_ontology: false
-license: Unspecified
+license: CC-BY
 namespaces: null
 obo_format_options: ''
 pattern_group: null

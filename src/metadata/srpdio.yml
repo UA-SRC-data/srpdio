@@ -4,12 +4,12 @@ idspace: SRPDIO
 base_url: /obo/srpdio
 
 products:
-- srpdio.owl: https://raw.githubusercontent.com/UA-SRC-data/srpdio/master/srpdio.owl
-- srpdio.obo: https://raw.githubusercontent.com/UA-SRC-data/srpdio/master/srpdio.obo
+- srpdio.owl: https://raw.githubusercontent.com/UA-SRC-data/srpdio/main/srpdio.owl
+- srpdio.obo: https://raw.githubusercontent.com/UA-SRC-data/srpdio/main/srpdio.obo
 
 term_browser: ontobee
 example_terms:
-- srpdio_0000000
+- SRPDIO_0000000
 
 entries:
 
@@ -24,4 +24,4 @@ entries:
 
 ## generic fall-through, serve direct from github by default
 - prefix: /
-  replacement: https://raw.githubusercontent.com/UA-SRC-data/srpdio/master/
+  replacement: https://raw.githubusercontent.com/UA-SRC-data/srpdio/main/

@@ -61,7 +61,7 @@ All import modules are in the [imports/](imports/) folder.
 There are two ways to include new classes in an import module
 
  1. Reference an external ontology class in the edit ontology. In Protege: "add new entity", then paste in the PURL
- 2. Add to the imports/srpdio_terms.txt file
+ 2. Add to the imports/ont_terms.txt file, for example imports/go_terms.txt
 
 After doing this, you can run
 
@@ -69,7 +69,7 @@ After doing this, you can run
 
 to regenerate imports.
 
-Note: the srpdio_terms.txt file may include 'starter' classes seeded from
+Note: the ont_terms.txt file may include 'starter' classes seeded from
 the ontology starter kit. It is safe to remove these.
 
 ## Design patterns
@@ -105,8 +105,6 @@ To compile design patterns to terms run:
 This generates a file (`src/patterns/definitions.owl`).  You then need
 to add an import statement to the editor's file to import the
 definitions file.
-
-
 ## Release Manager notes
 
 You should only attempt to make a release AFTER the edit version is
@@ -125,11 +123,11 @@ first type
 to make sure you are on master
 
     cd src/ontology
-    ./build.sh
+    sh run.sh make all
 
 If this looks good type:
 
-    ./prepare_release.sh
+    sh run.sh make prepare_release
 
 This generates derived files such as srpdio.owl and srpdio.obo and places
 them in the top level (../..).

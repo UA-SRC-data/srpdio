@@ -30,11 +30,18 @@ products:
   - id: srpdio/srpdio-base.json
     name: "Superfund Research Project Data Integration Ontology additional release in OBOJSon format"
 dependencies:
+- id: bco
+- id: chebi
+- id: envo
+- id: exo
+- id: iao
+- id: omrse
+- id: pato
+- id: pco
 - id: po
 - id: ro
-- id: pato
-- id: envo
-- id: pco
+- id: stato
+- id: uo
 
 tracker: https://github.com/UA-SRC-data/srpdio/issues
 license:
