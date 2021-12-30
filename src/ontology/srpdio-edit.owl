@@ -13,6 +13,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:envo="http://purl.obolibrary.org/obo/envo#"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:obo1="http://www.geneontology.org/formats/oboInOwl#http://purl.obolibrary.org/obo/"
      xmlns:pato="http://purl.obolibrary.org/obo/pato#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
@@ -31,7 +32,6 @@
      xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#"
      xmlns:oboInOwl1="oboInOwl:">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/srpdio.owl">
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/omo/2020-06-08/omo.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/srpdio/chemical_concentration.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/srpdio/data_item_about.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/srpdio/entity_attribute.owl"/>
@@ -40,17 +40,6 @@
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/srpdio/modules/all_acs5.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/srpdio/modules/se_categorical_qualities.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/srpdio/modules/se_data_classes.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/srpdio/imports/chebi_import.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/srpdio/imports/envo_import.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/srpdio/imports/exo_import.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/srpdio/iao_import.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/srpdio/omrse_import.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/srpdio/pato_import.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/srpdio/pco_import.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/srpdio/po_import.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/srpdio/ro_import.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/srpdio/stato_import.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/srpdio/imports/uo_import.owl"/>
         <dc:description>None</dc:description>
         <dc:title>Superfund Researc Project Data Integration Ontology</dc:title>
         <terms:license rdf:resource="https://creativecommons.org/licenses/unspecified"/>
