@@ -43,15 +43,8 @@ TODAY ?=                    $(shell date +%Y-%m-%d)
 OBODATE ?=                  $(shell date +'%d:%m:%Y %H:%M')
 VERSION=                    $(TODAY)
 ANNOTATE_ONTOLOGY_VERSION = annotate -V $(ONTBASE)/releases/$(VERSION)/$@ --annotation owl:versionInfo $(VERSION)
-OTHER_SRC =                 $(PATTERNDIR)/definitions.owl 
+OTHER_SRC =                 
 ONTOLOGYTERMS =             $(TMPDIR)/ontologyterms.txt
-PATTERNDIR=                 ../patterns
-DOSDP_SCHEMA=                http:// # change to PURL when ready.
-PATTERN_TESTER=              simple_pattern_tester.py
-DOSDPT=                      dosdp-tools
-PATTERN_RELEASE_FILES=       $(PATTERNDIR)/definitions.owl $(PATTERNDIR)/pattern.owl
-
-
 
 FORMATS = $(sort  owl owl)
 FORMATS_INCL_TSV = $(sort $(FORMATS) tsv)
@@ -64,7 +57,7 @@ RELEASE_ARTEFACTS = $(sort $(ONT)-full $(ONT)-base $(ONT)-base $(ONT)-full)
 .PHONY: .FORCE
 
 .PHONY: all
-all: odkversion all_imports patterns all_main all_subsets sparql_test all_reports all_assets
+all: odkversion all_imports all_main all_subsets sparql_test all_reports all_assets
 
 .PHONY: test
 test: odkversion sparql_test all_reports $(REPORTDIR)/validate_profile_owl2dl_$(ONT).owl.txt
@@ -168,8 +161,6 @@ CLEANFILES=$(MAIN_FILES) $(SRCMERGED)
 .PHONY: prepare_release
 prepare_release: $(ASSETS) $(PATTERN_RELEASE_FILES)
 	rsync -R $(RELEASE_ASSETS) $(RELEASEDIR) &&\
-  mkdir -p $(RELEASEDIR)/patterns &&\
-  cp $(PATTERN_RELEASE_FILES) $(RELEASEDIR)/patterns &&\
   rm -f $(CLEANFILES) &&\
   echo "Release files are now in $(RELEASEDIR) - now you should commit, push and make a release on your git hosting site such as GitHub or GitLab"
 
@@ -202,10 +193,10 @@ $(PRESEED): $(SRCMERGED)
 
 
 
-ALLSEED = $(PRESEED)  $(PATTERNDIR)/all_pattern_terms.txt \
+ALLSEED = $(PRESEED) \
 
 
-$(IMPORTSEED):  prepare_patterns  $(ALLSEED) 
+$(IMPORTSEED):  $(ALLSEED) 
 	if [ $(IMP) = true ]; then cat $(ALLSEED) | sort | uniq > $@; fi
 
 
@@ -227,7 +218,7 @@ imports/merged_import.owl: mirror/merged.owl imports/merged_terms_combined.txt
 
 imports/%_import.owl: mirror/%.owl imports/%_terms_combined.txt
 	if [ $(IMP) = true ]; then $(ROBOT) query -i $< --update ../sparql/preprocess-module.ru \
-		extract -T imports/$*_terms_combined.txt --force true --copy-ontology-annotations true --individuals include --method BOT \
+		extract -T imports/$*_terms_combined.txt --force true --copy-ontology-annotations true --individuals exclude --method BOT \
 		query --update ../sparql/inject-subset-declaration.ru --update ../sparql/postprocess-module.ru \
 		annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) --output $@.tmp.owl && mv $@.tmp.owl $@; fi
 
@@ -236,7 +227,7 @@ imports/%_import.owl: mirror/%.owl imports/%_terms_combined.txt
 ## Module for ontology: chebi
 
 imports/chebi_import.owl: mirror/chebi.owl imports/chebi_terms_combined.txt
-	if [ $(IMP) = true ] && [ $(IMP_LARGE) = true ]; then $(ROBOT) extract -i $< -T imports/chebi_terms_combined.txt --force true --individuals include --method BOT \
+	if [ $(IMP) = true ] && [ $(IMP_LARGE) = true ]; then $(ROBOT) extract -i $< -T imports/chebi_terms_combined.txt --force true --individuals exclude --method BOT \
 		query --update ../sparql/inject-subset-declaration.ru --update ../sparql/postprocess-module.ru \
 		annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) --output $@.tmp.owl && mv $@.tmp.owl $@; fi
 
@@ -271,7 +262,7 @@ no-mirror-refresh-%:
 IMP=true # Global parameter to bypass import generation
 MIR=true # Global parameter to bypass mirror generation
 IMP_LARGE=true # Global parameter to bypass handling of large imports
-PAT=true # Global parameter to bypass pattern generation
+
 
 ## ONTOLOGY: bco
 ## Copy of bco is re-downloaded whenever source changes
@@ -287,7 +278,8 @@ mirror/bco.owl: mirror/bco.trigger
 mirror/chebi.trigger: $(SRC)
 
 mirror/chebi.owl: mirror/chebi.trigger
-	if [ $(MIR) = true ] && [ $(IMP) = true ] && [ $(IMP_LARGE) = true ]; then curl -L $(URIBASE)/chebi.owl.gz --create-dirs -o mirror/chebi.owl.gz --retry 4 --max-time 200 && $(ROBOT) convert -i mirror/chebi.owl.gz -o $@.tmp.owl && mv $@.tmp.owl $@; fi
+	if [ $(MIR) = true ] && [ $(IMP) = true ] && [ $(IMP_LARGE) = true ]; then curl -L $(URIBASE)/chebi.owl.gz --create-dirs -o mirror/chebi.owl.gz --retry 4 --max-time 200 && $(ROBOT) convert -i mirror/chebi.owl.gz -o $@.tmp.owl && \
+		$(ROBOT) remove -i $@.tmp.owl --base-iri $(URIBASE)/CHEBI --axioms external --preserve-structure false --trim false -o $@.tmp.owl && mv $@.tmp.owl $@; fi
 .PRECIOUS: mirror/chebi.owl
 
 
@@ -341,7 +333,7 @@ mirror/pato.owl: mirror/pato.trigger
 mirror/pco.trigger: $(SRC)
 
 mirror/pco.owl: mirror/pco.trigger
-	if [ $(MIR) = true ] && [ $(IMP) = true ]; then curl -L $(URIBASE)/pco.owl --create-dirs -o mirror/pco.owl --retry 4 --max-time 200 && $(ROBOT) convert -i mirror/pco.owl -o $@.tmp.owl && mv $@.tmp.owl $@; fi
+	if [ $(MIR) = true ] && [ $(IMP) = true ]; then curl -L $(URIBASE)/pco/pco-base.owl --create-dirs -o mirror/pco.owl --retry 4 --max-time 200 && $(ROBOT) convert -i mirror/pco.owl -o $@.tmp.owl && mv $@.tmp.owl $@; fi
 .PRECIOUS: mirror/pco.owl
 
 
@@ -359,7 +351,7 @@ mirror/po.owl: mirror/po.trigger
 mirror/ro.trigger: $(SRC)
 
 mirror/ro.owl: mirror/ro.trigger
-	if [ $(MIR) = true ] && [ $(IMP) = true ]; then curl -L $(URIBASE)/ro.owl --create-dirs -o mirror/ro.owl --retry 4 --max-time 200 && $(ROBOT) convert -i mirror/ro.owl -o $@.tmp.owl && mv $@.tmp.owl $@; fi
+	if [ $(MIR) = true ] && [ $(IMP) = true ]; then curl -L $(URIBASE)/ro/ro-base.owl --create-dirs -o mirror/ro.owl --retry 4 --max-time 200 && $(ROBOT) convert -i mirror/ro.owl -o $@.tmp.owl && mv $@.tmp.owl $@; fi
 .PRECIOUS: mirror/ro.owl
 
 
@@ -442,71 +434,6 @@ all_reports_onestep: $(SRC) | $(REPORTDIR)
 ifneq ($(SPARQL_EXPORTS_ARGS),)
 	$(ROBOT) query -f tsv -i $< $(SPARQL_EXPORTS_ARGS)
 endif
-# ----------------------------------------
-# Patterns (experimental)
-# ----------------------------------------
-
-# Test patterns for schema compliance:
-
-.PHONY: patterns
-patterns: all_imports $(PATTERNDIR)/pattern.owl $(PATTERNDIR)/definitions.owl
-
-.PHONY: pattern_clean
-pattern_clean:
-	echo "Not implemented"
-
-.PHONY: pattern_schema_checks
-pattern_schema_checks: update_patterns
-	$(PATTERN_TESTER) $(PATTERNDIR)/dosdp-patterns/
-
-#This command is a workaround for the absence of -N and -i in wget of alpine (the one ODK depend on now). It downloads all patterns specified in external.txt
-.PHONY: update_patterns
-update_patterns: .FORCE
-	if [ $(PAT) = true ]; then rm -f $(PATTERNDIR)/dosdp-patterns/*.yaml.1 || true; fi
-	if [ $(PAT) = true ] && [ -s $(PATTERNDIR)/dosdp-patterns/external.txt ]; then wget -i $(PATTERNDIR)/dosdp-patterns/external.txt --backups=1 -P $(PATTERNDIR)/dosdp-patterns; fi
-	if [ $(PAT) = true ]; then rm -f $(PATTERNDIR)/dosdp-patterns/*.yaml.1 || true; fi
-
-
-$(PATTERNDIR)/pattern.owl: pattern_schema_checks update_patterns
-	if [ $(PAT) = true ]; then $(DOSDPT) prototype --obo-prefixes true --template=$(PATTERNDIR)/dosdp-patterns --outfile=$@; fi
-
-individual_patterns_default := $(patsubst %.tsv, $(PATTERNDIR)/data/default/%.ofn, $(notdir $(wildcard $(PATTERNDIR)/data/default/*.tsv)))
-pattern_term_lists_default := $(patsubst %.tsv, $(PATTERNDIR)/data/default/%.txt, $(notdir $(wildcard $(PATTERNDIR)/data/default/*.tsv)))
-
-
-
-
-
-# Generating the individual pattern modules and merging them into definitions.owl
-$(PATTERNDIR)/definitions.owl: prepare_patterns update_patterns dosdp_patterns_default  
-	if [ $(PAT) = true ] && [ "${individual_patterns_names_default}" ]   && [ $(PAT) = true ]; then $(ROBOT) merge $(addprefix -i , $(individual_patterns_default))   annotate --ontology-iri $(ONTBASE)/patterns/definitions.owl  --version-iri $(ONTBASE)/releases/$(TODAY)/patterns/definitions.owl --annotation owl:versionInfo $(VERSION) -o definitions.ofn && mv definitions.ofn $@; fi
-
-individual_patterns_names_default := $(strip $(patsubst %.tsv,%, $(notdir $(wildcard $(PATTERNDIR)/data/default/*.tsv))))
-dosdp_patterns_default: $(SRC) all_imports .FORCE
-	if [ $(PAT) = true ] && [ "${individual_patterns_names_default}" ]; then $(DOSDPT) generate --catalog=catalog-v001.xml --infile=$(PATTERNDIR)/data/default/ --template=$(PATTERNDIR)/dosdp-patterns --batch-patterns="$(individual_patterns_names_default)" --ontology=$< --obo-prefixes=true --outfile=$(PATTERNDIR)/data/default; fi
-
-
-
-
-
-# Generating the seed file from all the TSVs. If Pattern generation is deactivated, we still extract a seed from definitions.owl
-$(PATTERNDIR)/all_pattern_terms.txt: $(pattern_term_lists_default)   $(PATTERNDIR)/pattern_owl_seed.txt
-	if [ $(PAT) = true ]; then cat $^ | sort | uniq > $@; else $(ROBOT) query --use-graphs true -f csv -i ../patterns/definitions.owl --query ../sparql/terms.sparql $@; fi
-
-$(PATTERNDIR)/pattern_owl_seed.txt: $(PATTERNDIR)/pattern.owl
-	if [ $(PAT) = true ]; then $(ROBOT) query --use-graphs true -f csv -i $< --query ../sparql/terms.sparql $@; fi
-
-$(PATTERNDIR)/data/default/%.txt: $(PATTERNDIR)/dosdp-patterns/%.yaml $(PATTERNDIR)/data/default/%.tsv .FORCE
-	if [ $(PAT) = true ]; then $(DOSDPT) terms --infile=$(word 2, $^) --template=$< --obo-prefixes=true --outfile=$@; fi
-
-.PHONY: prepare_patterns
-prepare_patterns:
-	if [ $(PAT) = true ]; then touch $(PATTERNDIR)/data $(pattern_term_lists_default)  ; fi
-	if [ $(PAT) = true ]; then touch $(PATTERNDIR)/data $(individual_patterns_default)  ; fi
-
-
-
-
 
 # ----------------------------------------
 # Release artefacts: export formats

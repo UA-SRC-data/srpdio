@@ -16,9 +16,9 @@
      xmlns:subsets="http://purl.obolibrary.org/obo/ro/subsets#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/srpdio/imports/bco_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/srpdio/releases/2021-12-30/imports/bco_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/srpdio/releases/2022-01-01/imports/bco_import.owl"/>
         <dc:source rdf:resource="http://purl.obolibrary.org/obo/bco/releases/2021-11-14/bco.owl"/>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2021-12-30</owl:versionInfo>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2022-01-01</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -78,40 +78,7 @@
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
-        <obo:IAO_0000111>definition</obo:IAO_0000111>
-        <obo:IAO_0000111 xml:lang="en">definition</obo:IAO_0000111>
-        <obo:IAO_0000111>textual definition</obo:IAO_0000111>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
-        <obo:IAO_0000115 xml:lang="en">The official OBI definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</obo:IAO_0000115>
-        <obo:IAO_0000115 xml:lang="en">The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</obo:IAO_0000115>
-        <obo:IAO_0000116 xml:lang="en">2012-04-05: 
-Barry Smith
-
-The official OBI definition, explaining the meaning of a class or property: &apos;Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions&apos;  is terrible.
-
-Can you fix to something like:
-
-A statement of necessary and sufficient conditions explaining the meaning of an expression referring to a class or property.
-
-Alan Ruttenberg
-
-Your proposed definition is a reasonable candidate, except that it is very common that necessary and sufficient conditions are not given. Mostly they are necessary, occasionally they are necessary and sufficient or just sufficient. Often they use terms that are not themselves defined and so they effectively can&apos;t be evaluated by those criteria. 
-
-On the specifics of the proposed definition:
-
-We don&apos;t have definitions of &apos;meaning&apos; or &apos;expression&apos; or &apos;property&apos;. For &apos;reference&apos; in the intended sense I think we use the term &apos;denotation&apos;. For &apos;expression&apos;, I think we you mean symbol, or identifier. For &apos;meaning&apos; it differs for class and property. For class we want documentation that let&apos;s the intended reader determine whether an entity is instance of the class, or not. For property we want documentation that let&apos;s the intended reader determine, given a pair of potential relata, whether the assertion that the relation holds is true. The &apos;intended reader&apos; part suggests that we also specify who, we expect, would be able to understand the definition, and also generalizes over human and computer reader to include textual and logical definition. 
-
-Personally, I am more comfortable weakening definition to documentation, with instructions as to what is desirable. 
-
-We also have the outstanding issue of how to aim different definitions to different audiences. A clinical audience reading chebi wants a different sort of definition documentation/definition from a chemistry trained audience, and similarly there is a need for a definition that is adequate for an ontologist to work with.  </obo:IAO_0000116>
-        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
-        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
-        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
-        <rdfs:label>definition</rdfs:label>
-        <rdfs:label xml:lang="en">definition</rdfs:label>
-        <rdfs:label>textual definition</rdfs:label>
-    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
     
 
 
@@ -136,12 +103,6 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/IAO_0000119 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IAO_0000231 -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000231"/>
     
 
 
@@ -286,12 +247,6 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.org/dc/terms/source -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/source"/>
-    
-
-
-    <!-- http://purl.org/dc/terms/title -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
     
 
 
@@ -2033,7 +1988,6 @@ A and B can be physically interacting but not necessarily. Immediately upstream 
     <!-- http://purl.obolibrary.org/obo/BFO_0000001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000001">
-        <owl:disjointWith rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:BFO_0000179>entity</obo:BFO_0000179>
         <obo:BFO_0000180>Entity</obo:BFO_0000180>
         <obo:IAO_0000112 xml:lang="en">Julius Caesar</obo:IAO_0000112>
@@ -3037,51 +2991,6 @@ specimen can later be subject.</obo:IAO_0000116>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OBI_0000245 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000245">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
-        <obo:IAO_0000111 xml:lang="en">organization</obo:IAO_0000111>
-        <obo:IAO_0000112 xml:lang="en">PMID: 16353909.AAPS J. 2005 Sep 22;7(2):E274-80. Review. The joint food and agriculture organization of the United Nations/World Health Organization Expert Committee on Food Additives and its role in the evaluation of the safety of veterinary drug residues in foods.</obo:IAO_0000112>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
-        <obo:IAO_0000115 xml:lang="en">An entity that can bear roles, has members, and has a set of organization rules. Members of organizations are either organizations themselves or individual people. Members can bear specific organization member roles that are determined in the organization rules. The organization rules also determine how decisions are made on behalf of the organization by the organization members.</obo:IAO_0000115>
-        <obo:IAO_0000116 xml:lang="en">BP: The definition summarizes long email discussions on the OBI developer, roles, biomaterial and denrie branches. It leaves open if an organization is a material entity or a dependent continuant, as no consensus was reached on that.  The current placement as material is therefore temporary, in order to move forward with development. Here is the entire email summary, on which the definition is based:
-
-1) there are organization_member_roles (president, treasurer, branch
-editor), with individual persons as bearers
-
-2) there are organization_roles (employer, owner, vendor, patent holder)
-
-3) an organization has a charter / rules / bylaws, which specify what roles
-there are, how they should be realized, and how to modify the
-charter/rules/bylaws themselves.
-
-It is debatable what the organization itself is (some kind of dependent
-continuant or an aggregate of people). This also determines who/what the
-bearer of organization_roles&apos; are. My personal favorite is still to define
-organization as a kind of &apos;legal entity&apos;, but thinking it through leads to
-all kinds of questions that are clearly outside the scope of OBI.
-
-Interestingly enough, it does not seem to matter much where we place
-organization itself, as long as we can subclass it (University, Corporation,
-Government Agency, Hospital), instantiate it (Affymetrix, NCBI, NIH, ISO,
-W3C, University of Oklahoma), and have it play roles.
-
-This leads to my proposal: We define organization through the statements 1 -
-3 above, but without an &apos;is a&apos; statement for now. We can leave it in its
-current place in the is_a hierarchy (material entity) or move it up to
-&apos;continuant&apos;. We leave further clarifications to BFO, and close this issue
-for now.</obo:IAO_0000116>
-        <obo:IAO_0000117>PERSON: Alan Ruttenberg</obo:IAO_0000117>
-        <obo:IAO_0000117>PERSON: Bjoern Peters</obo:IAO_0000117>
-        <obo:IAO_0000117>PERSON: Philippe Rocca-Serra</obo:IAO_0000117>
-        <obo:IAO_0000117>PERSON: Susanna Sansone</obo:IAO_0000117>
-        <obo:IAO_0000119>GROUP: OBI</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">organization</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/OBI_0000659 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000659">
@@ -3208,16 +3117,6 @@ http://sourceforge.net/p/obi/obi-terms/716/</obo:IAO_0000116>
     
 
 
-    <!-- http://purl.org/dc/dcam/VocabularyEncodingScheme -->
-
-    <owl:Class rdf:about="http://purl.org/dc/dcam/VocabularyEncodingScheme">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000103"/>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
-
-
     <!-- http://rs.tdwg.org/dwc/terms/Event -->
 
     <owl:Class rdf:about="http://rs.tdwg.org/dwc/terms/Event">
@@ -3240,14 +3139,6 @@ http://sourceforge.net/p/obi/obi-terms/716/</obo:IAO_0000116>
         <rdfs:comment>A physical result of a sampling (or subsampling) event. In biological collections, the material sample is typically collected, and either preserved or destructively processed.</rdfs:comment>
         <rdfs:isDefinedBy>http://rs.tdwg.org/dwc/terms/</rdfs:isDefinedBy>
         <rdfs:label>Material Sample</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.geneontology.org/formats/oboInOwl#ObsoleteClass -->
-
-    <owl:Class rdf:about="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass">
-        <rdfs:label>Obsolete Class</rdfs:label>
     </owl:Class>
     
 
@@ -3275,12 +3166,6 @@ http://sourceforge.net/p/obi/obi-terms/716/</obo:IAO_0000116>
     
 
 
-    <!-- http://www.w3.org/2002/07/owl#Thing -->
-
-    <owl:Class rdf:about="http://www.w3.org/2002/07/owl#Thing"/>
-    
-
-
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -3292,64 +3177,9 @@ http://sourceforge.net/p/obi/obi-terms/716/</obo:IAO_0000116>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/BCO_0000069 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/BCO_0000069">
-        <rdfs:label xml:lang="en">specimen collection process X</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/BCO_0000070 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/BCO_0000070">
-        <obo:OBI_0000295 rdf:resource="http://purl.obolibrary.org/obo/BCO_0000069"/>
-        <rdfs:label xml:lang="en">material entity A</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/BCO_0000071 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/BCO_0000071">
-        <obo:OBI_0000295 rdf:resource="http://purl.obolibrary.org/obo/BCO_0000073"/>
-        <obo:OBI_0000312 rdf:resource="http://purl.obolibrary.org/obo/BCO_0000069"/>
-        <rdfs:label xml:lang="en">material entity B</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/BCO_0000072 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/BCO_0000072">
-        <obo:OBI_0000312 rdf:resource="http://purl.obolibrary.org/obo/BCO_0000073"/>
-        <rdfs:label xml:lang="en">material entity C</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/BCO_0000073 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/BCO_0000073">
-        <rdfs:label xml:lang="en">specimen collection process Y</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/BCO_0000075 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/BCO_0000075">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000078"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</rdfs:comment>
-        <rdfs:label xml:lang="en">incorrect identifier format, replaced</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/IAO_0000002 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IAO_0000002">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000078"/>
         <obo:IAO_0000111 xml:lang="en">example to be eventually removed</obo:IAO_0000111>
         <rdfs:label xml:lang="en">example to be eventually removed</rdfs:label>
     </owl:NamedIndividual>
@@ -3359,7 +3189,6 @@ http://sourceforge.net/p/obi/obi-terms/716/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/IAO_0000103 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IAO_0000103">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000225"/>
         <obo:IAO_0000111 xml:lang="en">failed exploratory term</obo:IAO_0000111>
         <obo:IAO_0000115 xml:lang="en">The term was used in an attempt to structure part of the ontology but in retrospect failed to do a good job</obo:IAO_0000115>
         <obo:IAO_0000117>Person:Alan Ruttenberg</obo:IAO_0000117>
@@ -3372,7 +3201,6 @@ http://sourceforge.net/p/obi/obi-terms/716/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/IAO_0000120 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IAO_0000120">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000078"/>
         <obo:IAO_0000111 xml:lang="en">metadata complete</obo:IAO_0000111>
         <obo:IAO_0000115 xml:lang="en">Class has all its metadata, but is either not guaranteed to be in its final location in the asserted IS_A hierarchy or refers to another class that is not complete.</obo:IAO_0000115>
         <rdfs:label>FossilSpecimen</rdfs:label>
@@ -3384,7 +3212,6 @@ http://sourceforge.net/p/obi/obi-terms/716/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/IAO_0000121 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IAO_0000121">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000078"/>
         <obo:IAO_0000111 xml:lang="en">organizational term</obo:IAO_0000111>
         <obo:IAO_0000115 xml:lang="en">Term created to ease viewing/sort terms for development purpose, and will not be included in a release</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="en">term created to ease viewing/sort terms for development purpose, and will not be included in a release</obo:IAO_0000115>
@@ -3397,7 +3224,6 @@ http://sourceforge.net/p/obi/obi-terms/716/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/IAO_0000122 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IAO_0000122">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000078"/>
         <obo:IAO_0000111 xml:lang="en">ready for release</obo:IAO_0000111>
         <obo:IAO_0000115 xml:lang="en">Class has undergone final review, is ready for use, and will be included in the next release. Any class lacking &quot;ready_for_release&quot; should be considered likely to change place in hierarchy, have its definition refined, or be obsoleted in the next release.  Those classes deemed &quot;ready_for_release&quot; will also derived from a chain of ancestor classes that are also &quot;ready_for_release.&quot;</obo:IAO_0000115>
         <rdfs:label xml:lang="en">ready for release</rdfs:label>
@@ -3408,7 +3234,6 @@ http://sourceforge.net/p/obi/obi-terms/716/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/IAO_0000123 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IAO_0000123">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000078"/>
         <obo:IAO_0000111 xml:lang="en">metadata incomplete</obo:IAO_0000111>
         <obo:IAO_0000115 xml:lang="en">Class is being worked on; however, the metadata (including definition) are not complete or sufficiently clear to the branch editors.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">metadata incomplete</rdfs:label>
@@ -3419,7 +3244,6 @@ http://sourceforge.net/p/obi/obi-terms/716/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/IAO_0000124 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IAO_0000124">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000078"/>
         <obo:IAO_0000111 xml:lang="en">uncurated</obo:IAO_0000111>
         <obo:IAO_0000115 xml:lang="en">Nothing done yet beyond assigning a unique class ID and proposing a preferred term.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">uncurated</rdfs:label>
@@ -3430,7 +3254,6 @@ http://sourceforge.net/p/obi/obi-terms/716/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/IAO_0000125 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IAO_0000125">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000078"/>
         <obo:IAO_0000111 xml:lang="en">pending final vetting</obo:IAO_0000111>
         <obo:IAO_0000115 xml:lang="en">All definitions, placement in the asserted IS_A hierarchy and required minimal metadata are complete. The class is awaiting a final review by someone other than the term editor.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">pending final vetting</rdfs:label>
@@ -3441,7 +3264,6 @@ http://sourceforge.net/p/obi/obi-terms/716/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/IAO_0000224 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IAO_0000224">
-        <rdf:type rdf:resource="http://www.geneontology.org/formats/oboInOwl#Subset"/>
         <obo:IAO_0000115 xml:lang="en">Core is an instance of a grouping of terms from an ontology or ontologies. It is used by the ontology to identify main classes.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">PERSON: Alan Ruttenberg</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">PERSON: Melanie Courtot</obo:IAO_0000117>
@@ -3453,7 +3275,6 @@ http://sourceforge.net/p/obi/obi-terms/716/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/IAO_0000226 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IAO_0000226">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000225"/>
         <obo:IAO_0000111 xml:lang="en">placeholder removed</obo:IAO_0000111>
         <rdfs:label xml:lang="en">placeholder removed</rdfs:label>
     </owl:NamedIndividual>
@@ -3463,7 +3284,6 @@ http://sourceforge.net/p/obi/obi-terms/716/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/IAO_0000227 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IAO_0000227">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000225"/>
         <obo:IAO_0000111 xml:lang="en">terms merged</obo:IAO_0000111>
         <obo:IAO_0000116 xml:lang="en">An editor note should explain what were the merged terms and the reason for the merge.</obo:IAO_0000116>
         <rdfs:label xml:lang="en">terms merged</rdfs:label>
@@ -3474,7 +3294,6 @@ http://sourceforge.net/p/obi/obi-terms/716/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/IAO_0000228 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IAO_0000228">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000225"/>
         <obo:IAO_0000111 xml:lang="en">term imported</obo:IAO_0000111>
         <obo:IAO_0000116 xml:lang="en">This is to be used when the original term has been replaced by a term imported from an other ontology. An editor note should indicate what is the URI of the new term to use.</obo:IAO_0000116>
         <rdfs:label xml:lang="en">term imported</rdfs:label>
@@ -3485,7 +3304,6 @@ http://sourceforge.net/p/obi/obi-terms/716/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/IAO_0000229 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IAO_0000229">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000225"/>
         <obo:IAO_0000111 xml:lang="en">term split</obo:IAO_0000111>
         <obo:IAO_0000116 xml:lang="en">This is to be used when a term has been split in two or more new terms. An editor note should indicate the reason for the split and indicate the URIs of the new terms created.</obo:IAO_0000116>
         <rdfs:label xml:lang="en">term split</rdfs:label>
@@ -3496,7 +3314,6 @@ http://sourceforge.net/p/obi/obi-terms/716/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/IAO_0000410 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IAO_0000410">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000409"/>
         <obo:IAO_0000111 xml:lang="en">universal</obo:IAO_0000111>
         <obo:IAO_0000116>Hard to give a definition for. Intuitively a &quot;natural kind&quot; rather than a collection of any old things, which a class is able to be, formally. At the meta level, universals are defined as positives, are disjoint with their siblings, have single asserted parents.</obo:IAO_0000116>
         <obo:IAO_0000116 xml:lang="en">Hard to give a definition for. Intuitively a &quot;natural kind&quot; rather than a collection of any old things, which a class is able to be, formally. At the meta level, universals are defined as positives, are disjoint with their siblings, have single asserted parents.</obo:IAO_0000116>
@@ -3513,7 +3330,6 @@ http://sourceforge.net/p/obi/obi-terms/716/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/IAO_0000420 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IAO_0000420">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000409"/>
         <obo:IAO_0000111 xml:lang="en">defined class</obo:IAO_0000111>
         <obo:IAO_0000115>A defined class is a class that is defined by a set of logically necessary and sufficient conditions but is not a universal</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="en">A defined class is a class that is defined by a set of logically necessary and sufficient conditions but is not a universal</obo:IAO_0000115>
@@ -3530,7 +3346,6 @@ http://sourceforge.net/p/obi/obi-terms/716/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/IAO_0000421 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IAO_0000421">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000409"/>
         <obo:IAO_0000111 xml:lang="en">named class expression</obo:IAO_0000111>
         <obo:IAO_0000115>A named class expression is a logical expression that is given a name. The name can be used in place of the expression.</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="en">A named class expression is a logical expression that is given a name. The name can be used in place of the expression.</obo:IAO_0000115>
@@ -3547,7 +3362,6 @@ http://sourceforge.net/p/obi/obi-terms/716/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/IAO_0000423 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IAO_0000423">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000078"/>
         <obo:IAO_0000111 xml:lang="en">to be replaced with external ontology term</obo:IAO_0000111>
         <obo:IAO_0000115 xml:lang="en">Terms with this status should eventually replaced with a term from another ontology.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Alan Ruttenberg</obo:IAO_0000117>
@@ -3560,38 +3374,11 @@ http://sourceforge.net/p/obi/obi-terms/716/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/IAO_0000428 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IAO_0000428">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000078"/>
         <obo:IAO_0000111 xml:lang="en">requires discussion</obo:IAO_0000111>
         <obo:IAO_0000115 xml:lang="en">A term that is metadata complete, has been reviewed, and problems have been identified that require discussion before release. Such a term requires editor note(s) to identify the outstanding issues.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Alan Ruttenberg</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">group:OBI</obo:IAO_0000119>
         <rdfs:label xml:lang="en">requires discussion</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBI_0002193 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002193">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
-        <obo:IAO_0000111>Thermo Fisher Scientific</obo:IAO_0000111>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
-        <obo:IAO_0000115>An organization that is an American multinational, biotechnology product development company, created in 2006 by the merger of Thermo Electron and Fisher Scientific.</obo:IAO_0000115>
-        <obo:IAO_0000117>Chris Stoeckert, Helena Ellis</obo:IAO_0000117>
-        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Thermo_Fisher_Scientific</obo:IAO_0000119>
-        <rdfs:label>Thermo Fisher Scientific</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://rs.tdwg.org/dwc/terms/DwCType -->
-
-    <owl:NamedIndividual rdf:about="http://rs.tdwg.org/dwc/terms/DwCType">
-        <rdf:type rdf:resource="http://purl.org/dc/dcam/VocabularyEncodingScheme"/>
-        <rdfs:comment>The set of classes specified by the Darwin Core Type Vocabulary, used to categorize the nature or genre of the resource.</rdfs:comment>
-        <rdfs:isDefinedBy>http://rs.tdwg.org/dwc/terms/</rdfs:isDefinedBy>
-        <rdfs:label>Darwin Core Type</rdfs:label>
-        <owl:deprecated>True</owl:deprecated>
     </owl:NamedIndividual>
     
 
@@ -3644,28 +3431,6 @@ http://sourceforge.net/p/obi/obi-terms/716/</obo:IAO_0000116>
             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000020"/>
             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000031"/>
         </owl:members>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
-        <owl:distinctMembers rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000120"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000121"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000122"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000123"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000124"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000125"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000423"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        </owl:distinctMembers>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
-        <owl:distinctMembers rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000226"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000227"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000228"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000229"/>
-        </owl:distinctMembers>
     </rdf:Description>
     
 

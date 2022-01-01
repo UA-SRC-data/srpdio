@@ -8,12 +8,11 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/srpdio/imports/exo_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/srpdio/releases/2021-12-12/imports/exo_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/srpdio/releases/2022-01-01/imports/exo_import.owl"/>
         <dc:source rdf:resource="http://purl.obolibrary.org/obo/exo/2.1/exo.owl"/>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2021-12-12</owl:versionInfo>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2022-01-01</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -38,24 +37,6 @@
     <!-- http://purl.org/dc/elements/1.1/date -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/date"/>
-    
-
-
-    <!-- http://purl.org/dc/elements/1.1/description -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
-    
-
-
-    <!-- http://purl.org/dc/elements/1.1/title -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
-    
-
-
-    <!-- http://purl.org/dc/terms/license -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
     
 
 
