@@ -19,6 +19,7 @@ id: srpdio
 import_group:
   directory: imports/
   disabled: false
+  slme_individuals: exclude
   products:
   - id: bco
     mirror_from: null
@@ -30,6 +31,7 @@ import_group:
     robot_settings: null
     use_gzipped: TRUE
     is_large: TRUE
+    make_base: TRUE
   - id: envo
     mirror_from: null
     rebuild_if_source_changes: true
@@ -44,6 +46,7 @@ import_group:
   - id: pco
     mirror_from: null
     rebuild_if_source_changes: true
+    use_base: True
     robot_settings: null
   - id: po
     mirror_from: null
@@ -52,6 +55,7 @@ import_group:
   - id: ro
     mirror_from: null
     rebuild_if_source_changes: true
+    use_base: True
     robot_settings: null
   - id: stato
   - id: uo
@@ -59,7 +63,8 @@ import_pattern_ontology: false
 license: CC-BY
 namespaces: null
 obo_format_options: ''
-pattern_group: null
+pattern_group: 
+  directory: ../patterns/
 pattern_pipelines_group: null
 primary_release: full
 public_release: none
@@ -74,7 +79,8 @@ report_fail_on: null
 robot_java_args: ''
 robot_settings: null
 robot_version: null
-robotemplate_group: null
+robotemplate_group: 
+  directory: ../modules
 subset_group: null
 title: Superfund Research Project Data Integration Ontology
 travis_emails: null
