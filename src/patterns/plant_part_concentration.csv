@@ -460,3 +460,12 @@ SRPDIO:2000457,,CHEBI:35171,elemental vanadium,PO:0025025,root system
 SRPDIO:2000458,,CHEBI:155925,elemental yttrium,PO:0025025,root system
 SRPDIO:2000459,,CHEBI:37253,elemental zinc,PO:0025025,root system
 SRPDIO:2000460,,CHEBI:24431,chemical entity,PO:0009011,plant structure
+SRPDIO:2000461,,CHEBI:24431,chemical entity,PO:0009006,shoot system
+SRPDIO:2000462,,CHEBI:24431,chemical entity,PO:0025356,bulb
+SRPDIO:2000463,,CHEBI:24431,chemical entity,PO:0009001 ,fruit
+SRPDIO:2000464,,CHEBI:24431,chemical entity,PO:0006342,infructescence
+SRPDIO:2000465,,CHEBI:24431,chemical entity,PO:0009025,vascular leaf
+SRPDIO:2000466,,CHEBI:24431,chemical entity,PO:0009010,seed
+SRPDIO:2000467,,CHEBI:24431,chemical entity,PO:0009005,root
+SRPDIO:2000468,,CHEBI:24431,chemical entity,PO:0025522,tuber
+SRPDIO:2000469,,CHEBI:24431,chemical entity,PO:0025025 ,root system

@@ -288,3 +288,8 @@ SRPDIO:2020283,,CHEBI:18367,phosphate(3_),ENVO:00002011,fresh water
 SRPDIO:2020284,,CHEBI:16189,sulfate,ENVO:00002011,fresh water
 SRPDIO:2020285,,CHEBI:24431,chemical entity,ENVO:00010483,environmental material
 SRPDIO:2020286,,CHEBI:24431,chemical entity,BFO:0000040,material entity
+SRPDIO:2020287,,CHEBI:24431,chemical entity,ENVO:00001998,soil
+SRPDIO:2020288,,CHEBI:24431,chemical entity,ENVO:00002006,liquid water
+SRPDIO:2020289,,CHEBI:24431,chemical entity,ENVO:00002263,garden soil
+SRPDIO:2020290,,CHEBI:24431,chemical entity,ENVO:00002011,fresh water
+SRPDIO:2020291,,CHEBI:24431,chemical entity,SRPDIO:4000007,topsoil
