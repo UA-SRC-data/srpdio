@@ -170,9 +170,9 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/SRPDIO_1000217 -->
+    <!-- http://purl.obolibrary.org/obo/SRPDIO_2020217 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_1000217"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SRPDIO_2020217"/>
     
 
 
@@ -228,7 +228,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1000217"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_2020217"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">The ratio of sodium to calcium plus magnesium in water. [(Na)/(sq root of 1/2 Ca + Mg)]. Used as a way to determine if sodium concentration is likely to impact soil properties.</obo:IAO_0000115>
@@ -251,7 +251,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_1000217"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SRPDIO_2020217"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">The percent total cations in water that are sodium</obo:IAO_0000115>
