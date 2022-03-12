@@ -14,9 +14,9 @@
      xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/srpdio/imports/po_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/srpdio/releases/2022-01-01/imports/po_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/srpdio/releases/2022-03-12/imports/po_import.owl"/>
         <dc:source rdf:resource="http://purl.obolibrary.org/obo/po/releases/2021-08-13/po.owl"/>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2022-01-01</owl:versionInfo>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2022-03-12</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -52,7 +52,9 @@
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label>definition</rdfs:label>
+    </owl:AnnotationProperty>
     
 
 
@@ -286,7 +288,9 @@
 
     <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
 
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
+        <rdfs:label>has_exact_synonym</rdfs:label>
+    </owl:AnnotationProperty>
     
 
 
@@ -2651,7 +2655,7 @@ For example, A and B may be gene products and binding of B by A positively regul
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PO_0001083"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
         <owl:annotatedTarget>panicle development (related)</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>GRO:0007157</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GRO:0007157</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -4720,13 +4724,13 @@ For example, A and B may be gene products and binding of B by A positively regul
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PO_0025023"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
         <owl:annotatedTarget>cycle (broad)</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>FNA:d42df0a9-60f4-4c24-9c0b-ba815272f2fe</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FNA:d42df0a9-60f4-4c24-9c0b-ba815272f2fe</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PO_0025023"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
         <owl:annotatedTarget>verticil (broad)</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>FNA:12607624-3d2a-4113-bd86-0e2557f2f473</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FNA:12607624-3d2a-4113-bd86-0e2557f2f473</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PO_0025023"/>
@@ -5294,7 +5298,7 @@ For example, A and B may be gene products and binding of B by A positively regul
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PO_0025202"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>megasporangia (exact, plural)</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>FNA:39beb98a-e588-4996-8a2d-57c9967dc8ab</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FNA:39beb98a-e588-4996-8a2d-57c9967dc8ab</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PO_0025202"/>
@@ -5320,7 +5324,7 @@ For example, A and B may be gene products and binding of B by A positively regul
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PO_0025202"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
         <owl:annotatedTarget>macrosporangia (related)</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>FNA:6102371f-fcdd-47cd-b0fd-2d24e2d5c8cc</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FNA:6102371f-fcdd-47cd-b0fd-2d24e2d5c8cc</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/po#Plural"/>
     </owl:Axiom>
     <owl:Axiom>

@@ -1,1 +1,837 @@
 Level	Rule Name	Subject	Property	Value
+ERROR	multiple_labels	concentration of elemental scandium in top soil	rdfs:label	concentration of chemical entity in soil
+ERROR	multiple_labels	concentration of elemental scandium in top soil	rdfs:label	concentration of elemental scandium in top soil
+ERROR	multiple_labels	concentration of elemental scandium in environmental material	rdfs:label	concentration of chemical entity in liquid water
+ERROR	multiple_labels	concentration of elemental scandium in environmental material	rdfs:label	concentration of elemental scandium in environmental material
+ERROR	multiple_definitions	concentration of elemental scandium in top soil	IAO:0000115	The concentration of chemical entity when measured in soil.
+ERROR	multiple_definitions	concentration of elemental scandium in top soil	IAO:0000115	The concentration of elemental scandium when measured in top soil.
+ERROR	multiple_definitions	concentration of elemental scandium in environmental material	IAO:0000115	The concentration of chemical entity when measured in liquid water.
+ERROR	multiple_definitions	concentration of elemental scandium in environmental material	IAO:0000115	The concentration of elemental scandium when measured in environmental material.
+ERROR	multiple_equivalent_class_definitions	concentration of elemental scandium in top soil	owl:equivalentClass	blank node
+ERROR	multiple_equivalent_class_definitions	concentration of elemental scandium in environmental material	owl:equivalentClass	blank node
+WARN	multiple_equivalent_classes	concentration of elemental scandium in top soil	owl:equivalentClass	blank node
+WARN	multiple_equivalent_classes	concentration of elemental scandium in environmental material	owl:equivalentClass	blank node
+INFO	missing_superclass	alkaline of fresh water	rdfs:subClassOf	
+INFO	missing_superclass	electrical conductivity of fresh water	rdfs:subClassOf	
+INFO	missing_superclass	acidity of fresh water	rdfs:subClassOf	
+INFO	missing_superclass	temperature of fresh water	rdfs:subClassOf	
+INFO	missing_superclass	alkaline of soil	rdfs:subClassOf	
+INFO	missing_superclass	water composition of soil	rdfs:subClassOf	
+INFO	missing_superclass	alkaline of environmental material	rdfs:subClassOf	
+INFO	missing_superclass	electrical conductivity of environmental material	rdfs:subClassOf	
+INFO	missing_superclass	acidity of environmental material	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental aluminium in shoot system	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental antimony in shoot system	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental arsenic in shoot system	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental barium in shoot system	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental beryllium in shoot system	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental bismuth in shoot system	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental boron in shoot system	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental cadmium in shoot system	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental caesium in shoot system	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental calcium in shoot system	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental cerium in shoot system	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental chromium in shoot system	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental cobalt in shoot system	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental copper in shoot system	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental gallium in shoot system	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental gold in shoot system	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental indium in shoot system	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental iron in shoot system	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental lanthanum in shoot system	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental lead in shoot system	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental lithium in shoot system	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental magnesium in shoot system	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental manganese in shoot system	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental mercury in shoot system	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental molybdenum in shoot system	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental nickel in shoot system	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental niobium in shoot system	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental phosphorus in shoot system	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental potassium in shoot system	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental rubidium in shoot system	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental selenium in shoot system	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental silicon in shoot system	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental silver in shoot system	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental sodium in shoot system	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental strontium in shoot system	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental sulfur in shoot system	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental tellurium in shoot system	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental thallium in shoot system	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental thorium in shoot system	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental tin in shoot system	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental titanium in shoot system	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental tungsten in shoot system	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental uranium in shoot system	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental vanadium in shoot system	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental yttrium in shoot system	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental zinc in shoot system	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental aluminium in plant structure	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental antimony in plant structure	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental arsenic in plant structure	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental barium in plant structure	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental beryllium in plant structure	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental bismuth in plant structure	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental boron in plant structure	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental cadmium in plant structure	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental caesium in plant structure	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental calcium in plant structure	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental cerium in plant structure	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental chromium in plant structure	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental cobalt in plant structure	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental copper in plant structure	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental gallium in plant structure	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental gold in plant structure	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental indium in plant structure	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental iron in plant structure	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental lanthanum in plant structure	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental lead in plant structure	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental lithium in plant structure	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental magnesium in plant structure	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental manganese in plant structure	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental mercury in plant structure	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental molybdenum in plant structure	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental nickel in plant structure	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental niobium in plant structure	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental phosphorus in plant structure	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental potassium in plant structure	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental rubidium in plant structure	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental selenium in plant structure	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental silicon in plant structure	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental silver in plant structure	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental sodium in plant structure	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental strontium in plant structure	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental sulfur in plant structure	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental tellurium in plant structure	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental thallium in plant structure	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental thorium in plant structure	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental tin in plant structure	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental titanium in plant structure	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental tungsten in plant structure	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental uranium in plant structure	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental vanadium in plant structure	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental yttrium in plant structure	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental zinc in plant structure	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental aluminium in bulb	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental antimony in bulb	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental arsenic in bulb	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental barium in bulb	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental beryllium in bulb	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental bismuth in bulb	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental boron in bulb	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental cadmium in bulb	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental caesium in bulb	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental calcium in bulb	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental cerium in bulb	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental chromium in bulb	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental cobalt in bulb	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental copper in bulb	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental gallium in bulb	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental gold in bulb	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental indium in bulb	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental iron in bulb	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental lanthanum in bulb	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental lead in bulb	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental lithium in bulb	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental magnesium in bulb	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental manganese in bulb	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental mercury in bulb	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental molybdenum in bulb	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental nickel in bulb	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental niobium in bulb	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental phosphorus in bulb	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental potassium in bulb	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental rubidium in bulb	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental selenium in bulb	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental silicon in bulb	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental silver in bulb	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental sodium in bulb	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental strontium in bulb	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental sulfur in bulb	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental tellurium in bulb	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental thallium in bulb	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental thorium in bulb	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental tin in bulb	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental titanium in bulb	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental tungsten in bulb	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental uranium in bulb	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental vanadium in bulb	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental yttrium in bulb	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental zinc in bulb	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental aluminium in fruit	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental antimony in fruit	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental arsenic in fruit	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental barium in fruit	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental beryllium in fruit	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental bismuth in fruit	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental boron in fruit	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental cadmium in fruit	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental caesium in fruit	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental calcium in fruit	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental cerium in fruit	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental chromium in fruit	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental cobalt in fruit	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental copper in fruit	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental gallium in fruit	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental gold in fruit	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental indium in fruit	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental iron in fruit	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental lanthanum in fruit	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental lead in fruit	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental lithium in fruit	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental magnesium in fruit	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental manganese in fruit	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental mercury in fruit	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental molybdenum in fruit	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental nickel in fruit	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental niobium in fruit	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental phosphorus in fruit	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental potassium in fruit	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental rubidium in fruit	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental selenium in fruit	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental silicon in fruit	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental silver in fruit	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental sodium in fruit	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental strontium in fruit	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental sulfur in fruit	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental tellurium in fruit	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental thallium in fruit	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental thorium in fruit	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental tin in fruit	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental titanium in fruit	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental tungsten in fruit	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental uranium in fruit	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental vanadium in fruit	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental yttrium in fruit	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental zinc in fruit	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental aluminium in infructescence	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental antimony in infructescence	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental arsenic in infructescence	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental barium in infructescence	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental beryllium in infructescence	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental bismuth in infructescence	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental boron in infructescence	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental cadmium in infructescence	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental caesium in infructescence	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental calcium in infructescence	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental cerium in infructescence	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental chromium in infructescence	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental cobalt in infructescence	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental copper in infructescence	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental gallium in infructescence	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental gold in infructescence	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental indium in infructescence	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental iron in infructescence	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental lanthanum in infructescence	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental lead in infructescence	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental lithium in infructescence	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental magnesium in infructescence	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental manganese in infructescence	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental mercury in infructescence	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental molybdenum in infructescence	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental nickel in infructescence	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental niobium in infructescence	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental phosphorus in infructescence	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental potassium in infructescence	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental rubidium in infructescence	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental selenium in infructescence	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental silicon in infructescence	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental silver in infructescence	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental sodium in infructescence	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental strontium in infructescence	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental sulfur in infructescence	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental tellurium in infructescence	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental thallium in infructescence	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental thorium in infructescence	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental tin in infructescence	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental titanium in infructescence	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental tungsten in infructescence	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental uranium in infructescence	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental vanadium in infructescence	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental yttrium in infructescence	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental zinc in infructescence	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental aluminium in vascular leaf	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental antimony in vascular leaf	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental arsenic in vascular leaf	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental barium in vascular leaf	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental beryllium in vascular leaf	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental bismuth in vascular leaf	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental boron in vascular leaf	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental cadmium in vascular leaf	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental caesium in vascular leaf	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental calcium in vascular leaf	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental cerium in vascular leaf	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental chromium in vascular leaf	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental cobalt in vascular leaf	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental copper in vascular leaf	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental gallium in vascular leaf	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental gold in vascular leaf	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental indium in vascular leaf	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental iron in vascular leaf	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental lanthanum in vascular leaf	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental lead in vascular leaf	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental lithium in vascular leaf	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental magnesium in vascular leaf	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental manganese in vascular leaf	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental mercury in vascular leaf	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental molybdenum in vascular leaf	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental nickel in vascular leaf	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental niobium in vascular leaf	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental phosphorus in vascular leaf	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental potassium in vascular leaf	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental rubidium in vascular leaf	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental selenium in vascular leaf	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental silicon in vascular leaf	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental silver in vascular leaf	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental sodium in vascular leaf	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental strontium in vascular leaf	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental sulfur in vascular leaf	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental tellurium in vascular leaf	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental thallium in vascular leaf	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental thorium in vascular leaf	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental tin in vascular leaf	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental titanium in vascular leaf	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental tungsten in vascular leaf	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental uranium in vascular leaf	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental vanadium in vascular leaf	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental yttrium in vascular leaf	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental zinc in vascular leaf	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental aluminium in seed	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental antimony in seed	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental arsenic in seed	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental barium in seed	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental beryllium in seed	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental bismuth in seed	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental boron in seed	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental cadmium in seed	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental caesium in seed	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental calcium in seed	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental cerium in seed	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental chromium in seed	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental cobalt in seed	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental copper in seed	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental gallium in seed	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental gold in seed	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental indium in seed	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental iron in seed	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental lanthanum in seed	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental lead in seed	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental lithium in seed	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental magnesium in seed	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental manganese in seed	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental mercury in seed	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental molybdenum in seed	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental nickel in seed	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental niobium in seed	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental phosphorus in seed	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental potassium in seed	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental rubidium in seed	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental selenium in seed	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental silicon in seed	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental silver in seed	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental sodium in seed	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental strontium in seed	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental sulfur in seed	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental tellurium in seed	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental thallium in seed	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental thorium in seed	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental tin in seed	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental titanium in seed	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental tungsten in seed	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental uranium in seed	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental vanadium in seed	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental yttrium in seed	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental zinc in seed	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental aluminium in root	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental antimony in root	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental arsenic in root	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental barium in root	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental beryllium in root	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental bismuth in root	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental boron in root	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental cadmium in root	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental caesium in root	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental calcium in root	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental cerium in root	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental chromium in root	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental cobalt in root	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental copper in root	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental gallium in root	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental gold in root	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental indium in root	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental iron in root	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental lanthanum in root	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental lead in root	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental lithium in root	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental magnesium in root	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental manganese in root	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental mercury in root	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental molybdenum in root	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental nickel in root	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental niobium in root	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental phosphorus in root	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental potassium in root	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental rubidium in root	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental selenium in root	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental silicon in root	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental silver in root	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental sodium in root	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental strontium in root	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental sulfur in root	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental tellurium in root	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental thallium in root	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental thorium in root	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental tin in root	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental titanium in root	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental tungsten in root	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental uranium in root	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental vanadium in root	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental yttrium in root	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental zinc in root	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental aluminium in tuber	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental antimony in tuber	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental arsenic in tuber	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental barium in tuber	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental beryllium in tuber	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental bismuth in tuber	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental boron in tuber	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental cadmium in tuber	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental caesium in tuber	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental calcium in tuber	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental cerium in tuber	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental chromium in tuber	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental cobalt in tuber	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental copper in tuber	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental gallium in tuber	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental gold in tuber	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental indium in tuber	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental iron in tuber	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental lanthanum in tuber	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental lead in tuber	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental lithium in tuber	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental magnesium in tuber	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental manganese in tuber	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental mercury in tuber	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental molybdenum in tuber	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental nickel in tuber	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental niobium in tuber	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental phosphorus in tuber	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental potassium in tuber	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental rubidium in tuber	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental selenium in tuber	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental silicon in tuber	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental silver in tuber	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental sodium in tuber	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental strontium in tuber	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental sulfur in tuber	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental tellurium in tuber	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental thallium in tuber	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental thorium in tuber	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental tin in tuber	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental titanium in tuber	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental tungsten in tuber	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental uranium in tuber	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental vanadium in tuber	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental yttrium in tuber	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental zinc in tuber	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental aluminium in root system	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental antimony in root system	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental arsenic in root system	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental barium in root system	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental beryllium in root system	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental bismuth in root system	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental boron in root system	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental cadmium in root system	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental caesium in root system	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental calcium in root system	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental cerium in root system	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental chromium in root system	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental cobalt in root system	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental copper in root system	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental gallium in root system	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental gold in root system	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental indium in root system	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental iron in root system	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental lanthanum in root system	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental lead in root system	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental lithium in root system	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental magnesium in root system	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental manganese in root system	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental mercury in root system	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental molybdenum in root system	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental nickel in root system	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental niobium in root system	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental phosphorus in root system	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental potassium in root system	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental rubidium in root system	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental selenium in root system	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental silicon in root system	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental silver in root system	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental sodium in root system	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental strontium in root system	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental sulfur in root system	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental tellurium in root system	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental thallium in root system	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental thorium in root system	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental tin in root system	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental titanium in root system	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental tungsten in root system	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental uranium in root system	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental vanadium in root system	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental yttrium in root system	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental zinc in root system	rdfs:subClassOf	
+INFO	missing_superclass	concentration of chemical entity in plant structure	rdfs:subClassOf	
+INFO	missing_superclass	concentration of chemical entity in shoot system	rdfs:subClassOf	
+INFO	missing_superclass	concentration of chemical entity in bulb	rdfs:subClassOf	
+INFO	missing_superclass	concentration of chemical entity in fruit	rdfs:subClassOf	
+INFO	missing_superclass	concentration of chemical entity in infructescence	rdfs:subClassOf	
+INFO	missing_superclass	concentration of chemical entity in vascular leaf	rdfs:subClassOf	
+INFO	missing_superclass	concentration of chemical entity in seed	rdfs:subClassOf	
+INFO	missing_superclass	concentration of chemical entity in root	rdfs:subClassOf	
+INFO	missing_superclass	concentration of chemical entity in tuber	rdfs:subClassOf	
+INFO	missing_superclass	concentration of chemical entity in root system	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental aluminium in environmental material	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental antimony in environmental material	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental arsenic in environmental material	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental barium in environmental material	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental beryllium in environmental material	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental bismuth in environmental material	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental boron in environmental material	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental cadmium in environmental material	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental caesium in environmental material	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental calcium in environmental material	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental cerium in environmental material	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental chromium in environmental material	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental cobalt in environmental material	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental copper in environmental material	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental gallium in environmental material	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental gold in environmental material	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental indium in environmental material	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental iron in environmental material	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental lanthanum in environmental material	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental lead in environmental material	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental lithium in environmental material	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental magnesium in environmental material	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental manganese in environmental material	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental mercury in environmental material	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental molybdenum in environmental material	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental nickel in environmental material	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental niobium in environmental material	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental phosphorus in environmental material	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental potassium in environmental material	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental rubidium in environmental material	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental selenium in environmental material	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental silicon in environmental material	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental silver in environmental material	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental sodium in environmental material	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental strontium in environmental material	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental sulfur in environmental material	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental tellurium in environmental material	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental thallium in environmental material	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental thorium in environmental material	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental tin in environmental material	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental titanium in environmental material	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental tungsten in environmental material	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental uranium in environmental material	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental vanadium in environmental material	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental yttrium in environmental material	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental zinc in environmental material	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental aluminium in soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental antimony in soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental arsenic in soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental barium in soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental beryllium in soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental bismuth in soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental boron in soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental cadmium in soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental caesium in soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental calcium in soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental cerium in soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental chromium in soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental cobalt in soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental copper in soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental gallium in soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental gold in soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental indium in soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental iron in soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental lanthanum in soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental lead in soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental lithium in soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental magnesium in soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental manganese in soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental mercury in soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental molybdenum in soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental nickel in soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental niobium in soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental phosphorus in soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental potassium in soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental rubidium in soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental selenium in soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental silicon in soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental silver in soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental sodium in soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental strontium in soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental sulfur in soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental tellurium in soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental thallium in soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental thorium in soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental tin in soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental titanium in soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental tungsten in soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental uranium in soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental vanadium in soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental yttrium in soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental zinc in soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental aluminium in liquid water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental antimony in liquid water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental arsenic in liquid water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental barium in liquid water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental beryllium in liquid water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental bismuth in liquid water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental boron in liquid water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental cadmium in liquid water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental caesium in liquid water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental calcium in liquid water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental cerium in liquid water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental chromium in liquid water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental cobalt in liquid water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental copper in liquid water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental gallium in liquid water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental gold in liquid water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental indium in liquid water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental iron in liquid water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental lanthanum in liquid water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental lead in liquid water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental lithium in liquid water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental magnesium in liquid water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental manganese in liquid water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental mercury in liquid water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental molybdenum in liquid water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental nickel in liquid water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental niobium in liquid water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental phosphorus in liquid water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental potassium in liquid water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental rubidium in liquid water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental selenium in liquid water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental silicon in liquid water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental silver in liquid water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental sodium in liquid water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental strontium in liquid water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental sulfur in liquid water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental tellurium in liquid water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental thallium in liquid water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental thorium in liquid water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental tin in liquid water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental titanium in liquid water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental tungsten in liquid water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental uranium in liquid water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental vanadium in liquid water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental yttrium in liquid water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental zinc in liquid water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental aluminium in garden soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental antimony in garden soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental arsenic in garden soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental barium in garden soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental beryllium in garden soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental bismuth in garden soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental boron in garden soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental cadmium in garden soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental caesium in garden soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental calcium in garden soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental cerium in garden soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental chromium in garden soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental cobalt in garden soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental copper in garden soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental gallium in garden soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental gold in garden soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental indium in garden soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental iron in garden soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental lanthanum in garden soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental lead in garden soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental lithium in garden soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental magnesium in garden soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental manganese in garden soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental mercury in garden soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental molybdenum in garden soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental nickel in garden soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental niobium in garden soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental phosphorus in garden soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental potassium in garden soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental rubidium in garden soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental selenium in garden soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental silicon in garden soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental silver in garden soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental sodium in garden soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental strontium in garden soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental sulfur in garden soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental tellurium in garden soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental thallium in garden soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental thorium in garden soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental tin in garden soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental titanium in garden soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental tungsten in garden soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental uranium in garden soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental vanadium in garden soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental yttrium in garden soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental zinc in garden soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental aluminium in fresh water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental antimony in fresh water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental arsenic in fresh water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental barium in fresh water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental beryllium in fresh water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental bismuth in fresh water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental boron in fresh water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental cadmium in fresh water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental caesium in fresh water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental calcium in fresh water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental cerium in fresh water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental chromium in fresh water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental cobalt in fresh water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental copper in fresh water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental gallium in fresh water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental gold in fresh water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental indium in fresh water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental iron in fresh water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental lanthanum in fresh water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental lead in fresh water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental lithium in fresh water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental magnesium in fresh water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental manganese in fresh water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental mercury in fresh water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental molybdenum in fresh water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental nickel in fresh water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental niobium in fresh water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental phosphorus in fresh water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental potassium in fresh water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental rubidium in fresh water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental selenium in fresh water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental silicon in fresh water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental silver in fresh water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental sodium in fresh water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental strontium in fresh water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental sulfur in fresh water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental tellurium in fresh water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental thallium in fresh water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental thorium in fresh water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental tin in fresh water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental titanium in fresh water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental tungsten in fresh water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental uranium in fresh water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental vanadium in fresh water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental yttrium in fresh water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental zinc in fresh water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental aluminium in top soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental antimony in top soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental arsenic in top soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental barium in top soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental beryllium in top soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental bismuth in top soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental boron in top soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental cadmium in top soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental caesium in top soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental calcium in top soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental cerium in top soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental chromium in top soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental cobalt in top soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental copper in top soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental gallium in top soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental gold in top soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental indium in top soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental iron in top soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental lanthanum in top soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental lead in top soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental lithium in top soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental magnesium in top soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental manganese in top soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental mercury in top soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental molybdenum in top soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental nickel in top soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental niobium in top soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental phosphorus in top soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental potassium in top soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental rubidium in top soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental selenium in top soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental silicon in top soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental silver in top soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental sodium in top soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental strontium in top soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental sulfur in top soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental tellurium in top soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental thallium in top soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental thorium in top soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental tin in top soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental titanium in top soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental tungsten in top soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental uranium in top soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental vanadium in top soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental yttrium in top soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental zinc in top soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of ammonium in fresh water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of iron(2+) in fresh water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of bromide in fresh water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of chloride in fresh water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of fluoride in fresh water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of nitrite in fresh water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of nitrate in fresh water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of phosphate(3-) in fresh water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of sulfate in fresh water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of chemical entity in environmental material	rdfs:subClassOf	
+INFO	missing_superclass	concentration of chemical entity in material entity	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental scandium in top soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental scandium in environmental material	rdfs:subClassOf	
+INFO	missing_superclass	concentration of chemical entity in garden soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of chemical entity in fresh water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of chemical entity in top soil	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental aluminium in distilled water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental arsenic in distilled water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental barium in distilled water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental beryllium in distilled water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental cadmium in distilled water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental chromium in distilled water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental copper in distilled water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental lead in distilled water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental manganese in distilled water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental nickel in distilled water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental zinc in distilled water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental aluminium in tap water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental arsenic in tap water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental barium in tap water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental beryllium in tap water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental cadmium in tap water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental chromium in tap water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental copper in tap water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental lead in tap water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental manganese in tap water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental nickel in tap water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of elemental zinc in tap water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of chemical entity in distilled water	rdfs:subClassOf	
+INFO	missing_superclass	concentration of chemical entity in tap water	rdfs:subClassOf	
+INFO	missing_superclass	data item about some civilian status	rdfs:subClassOf	
+INFO	missing_superclass	data item about some disability status	rdfs:subClassOf	
+INFO	missing_superclass	data item about some educational attainment	rdfs:subClassOf	
+INFO	missing_superclass	data item about some computer and internet access	rdfs:subClassOf	
+INFO	missing_superclass	data item about some internet access	rdfs:subClassOf	
+INFO	missing_superclass	data item about some computing device status	rdfs:subClassOf	
+INFO	missing_superclass	data item about some age	rdfs:subClassOf	
+INFO	missing_superclass	data item about some grandparent age category	rdfs:subClassOf	
+INFO	missing_superclass	data item about some grandparent responsibility for grandchildren	rdfs:subClassOf	
+INFO	missing_superclass	data item about some housing quality	rdfs:subClassOf	
+INFO	missing_superclass	data item about some group quarters type	rdfs:subClassOf	
+INFO	missing_superclass	data item about some income quality	rdfs:subClassOf	
+INFO	missing_superclass	data item about some poverty status	rdfs:subClassOf	
+INFO	missing_superclass	data item about some Food Stamps or SNAP status	rdfs:subClassOf	
+INFO	missing_superclass	data item about some health insurance coverage	rdfs:subClassOf	
+INFO	missing_superclass	data item about some household size	rdfs:subClassOf	
+INFO	missing_superclass	data item about some househould mortgage status	rdfs:subClassOf	
+INFO	missing_superclass	data item about some employment and labor status	rdfs:subClassOf	
+INFO	missing_superclass	data item about some employment status	rdfs:subClassOf	
+INFO	missing_superclass	data item about some labor force status	rdfs:subClassOf	
+INFO	missing_superclass	data item about some veteran status	rdfs:subClassOf	
+INFO	missing_superclass	data item about some ACS race or ethnicity	rdfs:subClassOf	
+INFO	missing_superclass	data item about some quality about langauge spoken	rdfs:subClassOf	
+INFO	missing_superclass	data item about some language spoken at home	rdfs:subClassOf	
+INFO	missing_superclass	data item about some belongs to a minority group	rdfs:subClassOf	
+INFO	missing_superclass	measurement datum about some concentration of chemical entity in material entity	rdfs:subClassOf	
+INFO	missing_superclass	measurement datum about some concentration of carbon dioxide in an atmosphere	rdfs:subClassOf	
+INFO	missing_superclass	measurement datum about some concentration of chemical entity in environmental material	rdfs:subClassOf	
+INFO	missing_superclass	measurement datum about some concentration of chemical entity in plant structure	rdfs:subClassOf	

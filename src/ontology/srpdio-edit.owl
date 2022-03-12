@@ -25,6 +25,7 @@ Import(<http://purl.obolibrary.org/obo/srpdio/modules/SRPDIO_internal_vocab.owl>
 Import(<http://purl.obolibrary.org/obo/srpdio/modules/all_acs5.owl>)
 Import(<http://purl.obolibrary.org/obo/srpdio/modules/se_categorical_qualities.owl>)
 Import(<http://purl.obolibrary.org/obo/srpdio/modules/se_data_classes.owl>)
+Import(<http://purl.obolibrary.org/obo/srpdio/patterns/definitions.owl>)
 Annotation(dce:description "An ontology for use with the NIEHS Superfund Research Project.")
 Annotation(dce:title "Superfund Research Project Data Integration Ontology")
 Annotation(dcterms:license <CC-BY>)
