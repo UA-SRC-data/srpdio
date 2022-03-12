@@ -1,0 +1,102 @@
+Prefix(:=<urn:unnamed:ontology#ont3>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<urn:unnamed:ontology#ont3>
+
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_00001998>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_00002011>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_00010483>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0000146>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0001430>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0001757>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0001800>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0001842>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SRPDIO_1500000>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SRPDIO_1500001>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SRPDIO_1500002>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SRPDIO_1500003>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SRPDIO_1500004>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SRPDIO_1500006>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SRPDIO_1500007>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SRPDIO_1500008>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SRPDIO_1500009>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000052>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>))
+
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://purl.obolibrary.org/obo/SRPDIO_1500000> (alkaline of fresh water)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SRPDIO_1500000> "The alkaline of some fresh water."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/SRPDIO_1500000> "fresh water alkaline"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SRPDIO_1500000> "alkaline of fresh water"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/SRPDIO_1500000> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001430> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/ENVO_00002011>)))
+
+# Class: <http://purl.obolibrary.org/obo/SRPDIO_1500001> (electrical conductivity of fresh water)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SRPDIO_1500001> "The electrical conductivity of some fresh water."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/SRPDIO_1500001> "fresh water electrical conductivity"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SRPDIO_1500001> "electrical conductivity of fresh water"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/SRPDIO_1500001> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001757> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/ENVO_00002011>)))
+
+# Class: <http://purl.obolibrary.org/obo/SRPDIO_1500002> (acidity of fresh water)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SRPDIO_1500002> "The acidity of some fresh water."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/SRPDIO_1500002> "fresh water acidity"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SRPDIO_1500002> "acidity of fresh water"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/SRPDIO_1500002> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001842> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/ENVO_00002011>)))
+
+# Class: <http://purl.obolibrary.org/obo/SRPDIO_1500003> (temperature of fresh water)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SRPDIO_1500003> "The temperature of some fresh water."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/SRPDIO_1500003> "fresh water temperature"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SRPDIO_1500003> "temperature of fresh water"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/SRPDIO_1500003> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000146> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/ENVO_00002011>)))
+
+# Class: <http://purl.obolibrary.org/obo/SRPDIO_1500004> (alkaline of soil)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SRPDIO_1500004> "The alkaline of some soil."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/SRPDIO_1500004> "soil alkaline"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SRPDIO_1500004> "alkaline of soil"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/SRPDIO_1500004> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001430> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/ENVO_00001998>)))
+
+# Class: <http://purl.obolibrary.org/obo/SRPDIO_1500006> (water composition of soil)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SRPDIO_1500006> "The water composition of some soil."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/SRPDIO_1500006> "soil water composition"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SRPDIO_1500006> "water composition of soil"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/SRPDIO_1500006> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001800> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/ENVO_00001998>)))
+
+# Class: <http://purl.obolibrary.org/obo/SRPDIO_1500007> (alkaline of environmental material)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SRPDIO_1500007> "The alkaline of some environmental material."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/SRPDIO_1500007> "environmental material alkaline"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SRPDIO_1500007> "alkaline of environmental material"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/SRPDIO_1500007> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001430> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/ENVO_00010483>)))
+
+# Class: <http://purl.obolibrary.org/obo/SRPDIO_1500008> (electrical conductivity of environmental material)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SRPDIO_1500008> "The electrical conductivity of some environmental material."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/SRPDIO_1500008> "environmental material electrical conductivity"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SRPDIO_1500008> "electrical conductivity of environmental material"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/SRPDIO_1500008> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001757> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/ENVO_00010483>)))
+
+# Class: <http://purl.obolibrary.org/obo/SRPDIO_1500009> (acidity of environmental material)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SRPDIO_1500009> "The acidity of some environmental material."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/SRPDIO_1500009> "environmental material acidity"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SRPDIO_1500009> "acidity of environmental material"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/SRPDIO_1500009> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001842> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/ENVO_00010483>)))
+
+
+)

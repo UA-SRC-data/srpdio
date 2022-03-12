@@ -9,10 +9,6 @@ Prefix(dcterms:=<http://purl.org/dc/terms/>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/srpdio.owl>
-Import(<http://purl.obolibrary.org/obo/srpdio/chemical_concentration.owl>)
-Import(<http://purl.obolibrary.org/obo/srpdio/data_item_about.owl>)
-Import(<http://purl.obolibrary.org/obo/srpdio/entity_attribute.owl>)
-Import(<http://purl.obolibrary.org/obo/srpdio/plant_part_concentration.owl>)
 Import(<http://purl.obolibrary.org/obo/srpdio/imports/bco_import.owl>)
 Import(<http://purl.obolibrary.org/obo/srpdio/imports/chebi_import.owl>)
 Import(<http://purl.obolibrary.org/obo/srpdio/imports/envo_import.owl>)
@@ -33,5 +29,8 @@ Annotation(dce:description "An ontology for use with the NIEHS Superfund Researc
 Annotation(dce:title "Superfund Research Project Data Integration Ontology")
 Annotation(dcterms:license <CC-BY>)
 
+Declaration(AnnotationProperty(dce:description))
+Declaration(AnnotationProperty(dce:title))
+Declaration(AnnotationProperty(dcterms:license))
 
 )

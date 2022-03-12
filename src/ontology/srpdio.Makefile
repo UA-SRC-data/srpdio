@@ -20,23 +20,8 @@ modules/%.owl:: $(MODULEDIR)/%.csv
 
 
 # ----------------------------------------
-# DOSDP pattern modules 
+# ACS5 DOSDP pattern modules 
 # ----------------------------------------
-#commenting out while I try the default ODK dosdp patterns method
-#PATTERNDIR = ../patterns
-#PATTERN_OUT = modules
-#PATTERNS = entity_attribute plant_part_concentration chemical_concentration data_item_about
-#PATTERN_ROOTS = $(patsubst %, $(PATTERN_OUT)/%, $(PATTERNS))
-#PATTERN_FILES = $(foreach n,$(PATTERN_ROOTS), $(n).owl)
-
-
-# Targets for non-acs5 DOSDP modules
-
-#all_modules:: $(PATTERN_FILES)
-
-#modules/%.owl:: $(PATTERNDIR)/%.csv $(PATTERNDIR)/%.yaml #curie_map.yaml
-#	dosdp-tools generate --obo-prefixes=true --ontology=srpdio-edit.owl --table-format=csv --template=$(PATTERNDIR)/$*.yaml --infile=$(PATTERNDIR)/$*.csv --outfile=$(PATTERN_OUT)/$*.tmp.owl
-#	$(ROBOT) annotate --input $(PATTERN_OUT)/$*.tmp.owl -O $(ONTBASE)/$*.owl --output $(PATTERN_OUT)/$*.owl && rm $(PATTERN_OUT)/$*.tmp.owl
 
 # Targets for acs5 DOSDP modules
 

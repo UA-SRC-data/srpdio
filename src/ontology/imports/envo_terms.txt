@@ -9,3 +9,5 @@ ENVO:00002011 #fresh water
 ENVO:09200010 #acidity of soil
 ENVO:09200016 #conductivity of soil
 ENVO:09200012 #temperature of soil
+ENVO:00003065 #distilled water
+ENVO_00003096 #tap water

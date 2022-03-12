@@ -1,0 +1,255 @@
+Prefix(:=<urn:unnamed:ontology#ont1>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<urn:unnamed:ontology#ont1>
+
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_01001865>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000027>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000109>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0000011>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SRPDIO_1001000>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SRPDIO_1001001>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SRPDIO_1001002>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SRPDIO_1001003>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SRPDIO_1001004>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SRPDIO_1001005>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SRPDIO_1001006>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SRPDIO_1001009>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SRPDIO_1001010>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SRPDIO_1001011>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SRPDIO_1001012>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SRPDIO_1001015>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SRPDIO_1001016>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SRPDIO_1001017>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SRPDIO_1001020>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SRPDIO_1001021>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SRPDIO_1001022>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SRPDIO_1001023>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SRPDIO_1001024>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SRPDIO_1001025>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SRPDIO_1001026>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SRPDIO_1001027>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SRPDIO_1001028>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SRPDIO_1001029>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SRPDIO_2000460>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SRPDIO_2020285>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SRPDIO_2020286>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SRPDIO_2030000>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SRPDIO_2030001>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SRPDIO_2030002>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SRPDIO_2030003>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SRPDIO_2030004>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SRPDIO_2030005>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SRPDIO_2030006>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SRPDIO_2030007>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SRPDIO_2030008>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SRPDIO_2030009>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SRPDIO_2030010>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SRPDIO_2030011>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SRPDIO_2030012>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SRPDIO_2030013>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SRPDIO_2030014>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SRPDIO_2030015>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SRPDIO_2030016>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SRPDIO_2030017>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SRPDIO_2030018>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SRPDIO_2030019>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SRPDIO_2030020>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SRPDIO_2030021>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SRPDIO_2030022>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SRPDIO_2030023>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SRPDIO_2030024>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SRPDIO_2030025>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SRPDIO_2030026>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SRPDIO_2030027>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SRPDIO_2030028>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/IAO_0000136>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
+
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://purl.obolibrary.org/obo/SRPDIO_2030000> (data item about some civilian status)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SRPDIO_2030000> "A data item that is about some civilian status."^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SRPDIO_2030000> "data item about some civilian status"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/SRPDIO_2030000> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/IAO_0000027> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/SRPDIO_1001000>)))
+
+# Class: <http://purl.obolibrary.org/obo/SRPDIO_2030001> (data item about some disability status)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SRPDIO_2030001> "A data item that is about some disability status."^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SRPDIO_2030001> "data item about some disability status"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/SRPDIO_2030001> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/IAO_0000027> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/SRPDIO_1001001>)))
+
+# Class: <http://purl.obolibrary.org/obo/SRPDIO_2030002> (data item about some educational attainment)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SRPDIO_2030002> "A data item that is about some educational attainment."^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SRPDIO_2030002> "data item about some educational attainment"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/SRPDIO_2030002> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/IAO_0000027> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/SRPDIO_1001002>)))
+
+# Class: <http://purl.obolibrary.org/obo/SRPDIO_2030003> (data item about some computer and internet access)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SRPDIO_2030003> "A data item that is about some computer and internet access."^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SRPDIO_2030003> "data item about some computer and internet access"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/SRPDIO_2030003> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/IAO_0000027> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/SRPDIO_1001004>)))
+
+# Class: <http://purl.obolibrary.org/obo/SRPDIO_2030004> (data item about some internet access)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SRPDIO_2030004> "A data item that is about some internet access."^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SRPDIO_2030004> "data item about some internet access"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/SRPDIO_2030004> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/IAO_0000027> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/SRPDIO_1001005>)))
+
+# Class: <http://purl.obolibrary.org/obo/SRPDIO_2030005> (data item about some computing device status)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SRPDIO_2030005> "A data item that is about some computing device status."^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SRPDIO_2030005> "data item about some computing device status"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/SRPDIO_2030005> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/IAO_0000027> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/SRPDIO_1001006>)))
+
+# Class: <http://purl.obolibrary.org/obo/SRPDIO_2030006> (data item about some age)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SRPDIO_2030006> "A data item that is about some age."^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SRPDIO_2030006> "data item about some age"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/SRPDIO_2030006> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/IAO_0000027> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/PATO_0000011>)))
+
+# Class: <http://purl.obolibrary.org/obo/SRPDIO_2030007> (data item about some grandparent age category)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SRPDIO_2030007> "A data item that is about some grandparent age category."^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SRPDIO_2030007> "data item about some grandparent age category"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/SRPDIO_2030007> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/IAO_0000027> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/SRPDIO_1001009>)))
+
+# Class: <http://purl.obolibrary.org/obo/SRPDIO_2030008> (data item about some grandparent responsibility for grandchildren)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SRPDIO_2030008> "A data item that is about some grandparent responsibility for grandchildren."^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SRPDIO_2030008> "data item about some grandparent responsibility for grandchildren"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/SRPDIO_2030008> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/IAO_0000027> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/SRPDIO_1001010>)))
+
+# Class: <http://purl.obolibrary.org/obo/SRPDIO_2030009> (data item about some housing quality)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SRPDIO_2030009> "A data item that is about some housing quality."^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SRPDIO_2030009> "data item about some housing quality"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/SRPDIO_2030009> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/IAO_0000027> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/SRPDIO_1001011>)))
+
+# Class: <http://purl.obolibrary.org/obo/SRPDIO_2030010> (data item about some group quarters type)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SRPDIO_2030010> "A data item that is about some group quarters type."^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SRPDIO_2030010> "data item about some group quarters type"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/SRPDIO_2030010> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/IAO_0000027> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/SRPDIO_1001012>)))
+
+# Class: <http://purl.obolibrary.org/obo/SRPDIO_2030011> (data item about some income quality)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SRPDIO_2030011> "A data item that is about some income quality."^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SRPDIO_2030011> "data item about some income quality"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/SRPDIO_2030011> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/IAO_0000027> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/SRPDIO_1001015>)))
+
+# Class: <http://purl.obolibrary.org/obo/SRPDIO_2030012> (data item about some poverty status)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SRPDIO_2030012> "A data item that is about some poverty status."^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SRPDIO_2030012> "data item about some poverty status"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/SRPDIO_2030012> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/IAO_0000027> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/SRPDIO_1001016>)))
+
+# Class: <http://purl.obolibrary.org/obo/SRPDIO_2030013> (data item about some Food Stamps or SNAP status)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SRPDIO_2030013> "A data item that is about some Food Stamps or SNAP status."^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SRPDIO_2030013> "data item about some Food Stamps or SNAP status"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/SRPDIO_2030013> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/IAO_0000027> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/SRPDIO_1001017>)))
+
+# Class: <http://purl.obolibrary.org/obo/SRPDIO_2030014> (data item about some health insurance coverage)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SRPDIO_2030014> "A data item that is about some health insurance coverage."^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SRPDIO_2030014> "data item about some health insurance coverage"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/SRPDIO_2030014> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/IAO_0000027> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/SRPDIO_1001020>)))
+
+# Class: <http://purl.obolibrary.org/obo/SRPDIO_2030015> (data item about some household size)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SRPDIO_2030015> "A data item that is about some household size."^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SRPDIO_2030015> "data item about some household size"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/SRPDIO_2030015> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/IAO_0000027> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/SRPDIO_1001021>)))
+
+# Class: <http://purl.obolibrary.org/obo/SRPDIO_2030016> (data item about some househould mortgage status)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SRPDIO_2030016> "A data item that is about some househould mortgage status."^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SRPDIO_2030016> "data item about some househould mortgage status"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/SRPDIO_2030016> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/IAO_0000027> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/SRPDIO_1001022>)))
+
+# Class: <http://purl.obolibrary.org/obo/SRPDIO_2030017> (data item about some employment and labor status)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SRPDIO_2030017> "A data item that is about some employment and labor status."^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SRPDIO_2030017> "data item about some employment and labor status"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/SRPDIO_2030017> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/IAO_0000027> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/SRPDIO_1001023>)))
+
+# Class: <http://purl.obolibrary.org/obo/SRPDIO_2030018> (data item about some employment status)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SRPDIO_2030018> "A data item that is about some employment status."^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SRPDIO_2030018> "data item about some employment status"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/SRPDIO_2030018> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/IAO_0000027> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/SRPDIO_1001003>)))
+
+# Class: <http://purl.obolibrary.org/obo/SRPDIO_2030019> (data item about some labor force status)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SRPDIO_2030019> "A data item that is about some labor force status."^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SRPDIO_2030019> "data item about some labor force status"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/SRPDIO_2030019> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/IAO_0000027> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/SRPDIO_1001024>)))
+
+# Class: <http://purl.obolibrary.org/obo/SRPDIO_2030020> (data item about some veteran status)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SRPDIO_2030020> "A data item that is about some veteran status."^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SRPDIO_2030020> "data item about some veteran status"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/SRPDIO_2030020> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/IAO_0000027> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/SRPDIO_1001025>)))
+
+# Class: <http://purl.obolibrary.org/obo/SRPDIO_2030021> (data item about some ACS race or ethnicity)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SRPDIO_2030021> "A data item that is about some ACS race or ethnicity."^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SRPDIO_2030021> "data item about some ACS race or ethnicity"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/SRPDIO_2030021> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/IAO_0000027> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/SRPDIO_1001026>)))
+
+# Class: <http://purl.obolibrary.org/obo/SRPDIO_2030022> (data item about some quality about langauge spoken)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SRPDIO_2030022> "A data item that is about some quality about langauge spoken."^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SRPDIO_2030022> "data item about some quality about langauge spoken"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/SRPDIO_2030022> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/IAO_0000027> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/SRPDIO_1001027>)))
+
+# Class: <http://purl.obolibrary.org/obo/SRPDIO_2030023> (data item about some language spoken at home)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SRPDIO_2030023> "A data item that is about some language spoken at home."^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SRPDIO_2030023> "data item about some language spoken at home"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/SRPDIO_2030023> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/IAO_0000027> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/SRPDIO_1001028>)))
+
+# Class: <http://purl.obolibrary.org/obo/SRPDIO_2030024> (data item about some belongs to a minority group)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SRPDIO_2030024> "A data item that is about some belongs to a minority group."^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SRPDIO_2030024> "data item about some belongs to a minority group"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/SRPDIO_2030024> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/IAO_0000027> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/SRPDIO_1001029>)))
+
+# Class: <http://purl.obolibrary.org/obo/SRPDIO_2030025> (measurement datum about some concentration of chemical entity in material entity)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SRPDIO_2030025> "A measurement datum that is about some concentration of chemical entity in material entity."^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SRPDIO_2030025> "measurement datum about some concentration of chemical entity in material entity"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/SRPDIO_2030025> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/IAO_0000109> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/SRPDIO_2020286>)))
+
+# Class: <http://purl.obolibrary.org/obo/SRPDIO_2030026> (measurement datum about some concentration of carbon dioxide in an atmosphere)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SRPDIO_2030026> "A measurement datum that is about some concentration of carbon dioxide in an atmosphere."^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SRPDIO_2030026> "measurement datum about some concentration of carbon dioxide in an atmosphere"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/SRPDIO_2030026> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/IAO_0000109> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/ENVO_01001865>)))
+
+# Class: <http://purl.obolibrary.org/obo/SRPDIO_2030027> (measurement datum about some concentration of chemical entity in environmental material)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SRPDIO_2030027> "A measurement datum that is about some concentration of chemical entity in environmental material."^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SRPDIO_2030027> "measurement datum about some concentration of chemical entity in environmental material"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/SRPDIO_2030027> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/IAO_0000109> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/SRPDIO_2020285>)))
+
+# Class: <http://purl.obolibrary.org/obo/SRPDIO_2030028> (measurement datum about some concentration of chemical entity in plant structure)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SRPDIO_2030028> "A measurement datum that is about some concentration of chemical entity in plant structure."^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SRPDIO_2030028> "measurement datum about some concentration of chemical entity in plant structure"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/SRPDIO_2030028> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/IAO_0000109> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/SRPDIO_2000460>)))
+
+
+)

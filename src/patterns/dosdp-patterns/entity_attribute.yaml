@@ -1,5 +1,7 @@
 pattern_name: envo-p/patterns/entity_attribute
 classes:
+  attribute: "owl:Thing"
+  entity: "owl:Thing"
 
 relations:
   inheres in: RO:0000052
