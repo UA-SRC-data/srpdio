@@ -38,8 +38,8 @@ REPORT_FAIL_ON =            None
 REPORT_LABEL =              -l true
 REPORT_PROFILE_OPTS =       
 OBO_FORMAT_OPTIONS =        
-SPARQL_VALIDATION_CHECKS =   owldef-self-reference iri-range
-SPARQL_EXPORTS =             basic-report class-count-by-prefix edges xrefs obsoletes synonyms
+SPARQL_VALIDATION_CHECKS =  owldef-self-reference iri-range label-with-iri 
+SPARQL_EXPORTS =            basic-report class-count-by-prefix edges xrefs obsoletes synonyms 
 ODK_VERSION_MAKEFILE =      v1.3.0
 
 TODAY ?=                    $(shell date +%Y-%m-%d)
@@ -49,8 +49,7 @@ ANNOTATE_ONTOLOGY_VERSION = annotate -V $(ONTBASE)/releases/$(VERSION)/$@ --anno
 OTHER_SRC =                 $(PATTERNDIR)/definitions.owl 
 ONTOLOGYTERMS =             $(TMPDIR)/ontologyterms.txt
 PATTERNDIR=                 ../patterns
-DOSDP_SCHEMA=                http:// # change to PURL when ready.
-PATTERN_TESTER=              simple_pattern_tester.py
+PATTERN_TESTER=              dosdp validate -i
 DOSDPT=                      dosdp-tools
 PATTERN_RELEASE_FILES=       $(PATTERNDIR)/definitions.owl $(PATTERNDIR)/pattern.owl
 
@@ -67,11 +66,10 @@ RELEASE_ARTEFACTS = $(sort $(ONT)-full $(ONT)-base $(ONT)-base $(ONT)-full)
 .PHONY: .FORCE
 
 .PHONY: all
-
 all: odkversion test all_assets
 
 .PHONY: test
-test: odkversion sparql_test robot_reports $(REPORTDIR)/validate_profile_owl2dl_$(ONT).owl.txt
+test: odkversion dosdp_validation sparql_test robot_reports $(REPORTDIR)/validate_profile_owl2dl_$(ONT).owl.txt
 	$(ROBOT) reason --input $(SRC) --reasoner ELK  --equivalent-classes-allowed all --exclude-tautologies structural --output test.owl && rm test.owl && echo "Success"
 
 .PHONY: odkversion
@@ -180,6 +178,7 @@ $(REPORTDIR)/%-obo-report.tsv: % | $(REPORTDIR)
 ASSETS = \
   $(IMPORT_FILES) \
   $(MAIN_FILES) \
+  $(PATTERN_RELEASE_FILES) \
   $(REPORT_FILES) \
   $(SUBSET_FILES)
 
@@ -206,14 +205,15 @@ CLEANFILES=$(MAIN_FILES) $(SRCMERGED)
 .PHONY: prepare_release
 prepare_release: all
 	rsync -R $(RELEASE_ASSETS) $(RELEASEDIR) &&\
+	mkdir -p $(RELEASEDIR)/patterns && cp -rf $(PATTERN_RELEASE_FILES) $(RELEASEDIR)/patterns &&\
 	rm -f $(CLEANFILES) &&\
 	echo "Release files are now in $(RELEASEDIR) - now you should commit, push and make a release on your git hosting site such as GitHub or GitLab"
-
 
 .PHONY: prepare_initial_release
 prepare_initial_release: all_assets
 	rsync -R $(RELEASE_ASSETS) $(RELEASEDIR) &&\
-	rm -f $(CLEANFILES) &&\
+	mkdir -p $(RELEASEDIR)/patterns && cp -rf $(PATTERN_RELEASE_FILES) $(RELEASEDIR)/patterns &&\
+	rm -f $(patsubst %, ./%, $(CLEANFILES)) &&\
 	cd $(RELEASEDIR) && git add $(RELEASE_ASSETS)
 
 # ------------------------
@@ -234,7 +234,7 @@ $(PRESEED): $(SRCMERGED)
 
 
 
-ALLSEED = $(PRESEED)  $(PATTERNDIR)/all_pattern_terms.txt \
+ALLSEED = $(PRESEED)  $(TMPDIR)/all_pattern_terms.txt \
 
 
 $(IMPORTSEED): $(ALLSEED) | $(TMPDIR)
@@ -299,7 +299,7 @@ no-mirror-refresh-%:
 IMP=true # Global parameter to bypass import generation
 MIR=true # Global parameter to bypass mirror generation
 IMP_LARGE=true # Global parameter to bypass handling of large imports
-PAT=true # Global parameter to bypass pattern generation
+
 
 
 ## ONTOLOGY: bco
@@ -388,7 +388,7 @@ mirror-uo: | $(TMPDIR)
 
 
 $(MIRRORDIR)/%.owl: mirror-% | $(MIRRORDIR)
-	cmp -s $(TMPDIR)/mirror-$*.owl $@; RETVAL=$$?; if [ $$RETVAL -eq 0 ]; then echo "Mirror identical, ignoring."; else echo "Mirrors different, updating." && cp $(TMPDIR)/mirror-$*.owl $@; fi
+	if [ $(IMP) = true ] && [ $(MIR) = true ]; then if cmp -s $(TMPDIR)/mirror-$*.owl $@ ; then echo "Mirror identical, ignoring."; else echo "Mirrors different, updating." && cp $(TMPDIR)/mirror-$*.owl $@; fi; fi
 
 
 
@@ -420,68 +420,96 @@ ifneq ($(SPARQL_EXPORTS_ARGS),)
 	$(ROBOT) query -f tsv -i $< $(SPARQL_EXPORTS_ARGS)
 endif
 # ----------------------------------------
-# Patterns (experimental)
+# DOSDP Templates/Patterns
 # ----------------------------------------
 
-# Test patterns for schema compliance:
+PAT=true # Global parameter to bypass pattern generation
+ALL_PATTERN_FILES=$(wildcard $(PATTERNDIR)/dosdp-patterns/*.yaml)
+ALL_PATTERN_NAMES=$(strip $(patsubst %.yaml,%, $(notdir $(wildcard $(PATTERNDIR)/dosdp-patterns/*.yaml))))
 
-.PHONY: patterns
-patterns: $(PATTERNDIR)/pattern.owl $(PATTERNDIR)/definitions.owl all_imports #I don't know what all_imports is included here
+PATTERN_CLEAN_FILES=../patterns/all_pattern_terms.txt \
+	$(DOSDP_OWL_FILES_DEFAULT) $(DOSDP_TERM_FILES_DEFAULT) \
+	
 
+# Note to future generations: prepending ./ is a safety measure to ensure that 
+# the environment does not malicously set `PATTERN_CLEAN_FILES` to `\`.
 .PHONY: pattern_clean
 pattern_clean:
-	echo "Not implemented"
+	rm -f $(PATTERN_CLEAN_FILES)
+
+.PHONY: patterns
+patterns dosdp:
+	echo "Validating all DOSDP templates"
+	make dosdp_validation
+	echo "Building $(PATTERNDIR)/definitions.owl"
+	make $(PATTERNDIR)/pattern.owl $(PATTERNDIR)/definitions.owl
+
+# DOSDP Template Validation
+
+$(TMPDIR)/pattern_schema_checks: $(ALL_PATTERN_FILES) | $(TMPDIR)
+	$(PATTERN_TESTER) $(PATTERNDIR)/dosdp-patterns/ && touch $@
 
 .PHONY: pattern_schema_checks
-pattern_schema_checks: update_patterns
-	$(PATTERN_TESTER) $(PATTERNDIR)/dosdp-patterns/
+pattern_schema_checks dosdp_validation: $(TMPDIR)/pattern_schema_checks
 
-#This command is a workaround for the absence of -N and -i in wget of alpine (the one ODK depend on now). It downloads all patterns specified in external.txt
 .PHONY: update_patterns
-update_patterns: .FORCE
-	if [ $(PAT) = true ]; then rm -f $(PATTERNDIR)/dosdp-patterns/*.yaml.1 || true; fi
-	if [ $(PAT) = true ] && [ -s $(PATTERNDIR)/dosdp-patterns/external.txt ]; then wget -i $(PATTERNDIR)/dosdp-patterns/external.txt --backups=1 -P $(PATTERNDIR)/dosdp-patterns; fi
-	if [ $(PAT) = true ]; then rm -f $(PATTERNDIR)/dosdp-patterns/*.yaml.1 || true; fi
+update_patterns: download_patterns
+	cp -r $(TMPDIR)/dosdp/*.yaml $(PATTERNDIR)/dosdp-patterns
+
+# This command is a workaround for the absence of -N and -i in wget of alpine (the one ODK depend on now).
+# It downloads all patterns specified in external.txt
+.PHONY: download_patterns
+download_patterns:
+	if [ $(PAT) = true ]; then rm -f $(TMPDIR)/dosdp/*.yaml.1 || true; fi
+	if [ $(PAT) = true ] && [ -s $(PATTERNDIR)/dosdp-patterns/external.txt ]; then wget -i $(PATTERNDIR)/dosdp-patterns/external.txt --backups=1 -P $(TMPDIR)/dosdp; fi
+	if [ $(PAT) = true ]; then rm -f $(TMPDIR)/dosdp/*.yaml.1 || true; fi
+
+$(PATTERNDIR)/dospd-patterns/%.yml: download_patterns
+	if [ $(PAT) = true ] ; then if cmp -s $(TMPDIR)/dosdp-$*.yml $@ ; then echo "DOSDP templates identical."; else echo "DOSDP templates different, updating." && cp $(TMPDIR)/dosdp-$*.yml $@; fi; fi
 
 
-$(PATTERNDIR)/pattern.owl: pattern_schema_checks update_patterns
-	if [ $(PAT) = true ]; then $(DOSDPT) prototype --obo-prefixes true --template=$(PATTERNDIR)/dosdp-patterns --outfile=$@; fi
+# DOSDP Template: Pipelines
+# Each pipeline gets its own directory structure
 
-individual_patterns_default := $(patsubst %.tsv, $(PATTERNDIR)/data/default/%.ofn, $(notdir $(wildcard $(PATTERNDIR)/data/default/*.tsv)))
-pattern_term_lists_default := $(patsubst %.tsv, $(PATTERNDIR)/data/default/%.txt, $(notdir $(wildcard $(PATTERNDIR)/data/default/*.tsv)))
-#in other words, individual_patterns_default := ../patterns/data/default/example.ofn
+# DOSDP default pipeline
 
+DOSDP_TSV_FILES_DEFAULT = $(wildcard $(PATTERNDIR)/data/default/*.tsv)
+DOSDP_OWL_FILES_DEFAULT = $(patsubst %.tsv, $(PATTERNDIR)/data/default/%.ofn, $(notdir $(wildcard $(PATTERNDIR)/data/default/*.tsv)))
+DOSDP_TERM_FILES_DEFAULT = $(patsubst %.tsv, $(PATTERNDIR)/data/default/%.txt, $(notdir $(wildcard $(PATTERNDIR)/data/default/*.tsv)))
+DOSDP_PATTERN_NAMES_DEFAULT = $(strip $(patsubst %.tsv,%, $(notdir $(wildcard $(PATTERNDIR)/data/default/*.tsv))))
 
-
-
-# Generating the individual pattern modules and merging them into definitions.owl
-$(PATTERNDIR)/definitions.owl: prepare_patterns update_patterns dosdp_patterns_default  
-	if [ $(PAT) = true ] && [ "${individual_patterns_names_default}" ]   && [ $(PAT) = true ]; then $(ROBOT) merge $(addprefix -i , $(individual_patterns_default))   annotate --ontology-iri $(ONTBASE)/patterns/definitions.owl  --version-iri $(ONTBASE)/releases/$(TODAY)/patterns/definitions.owl --annotation owl:versionInfo $(VERSION) -o definitions.ofn && mv definitions.ofn $@; fi
-
-individual_patterns_names_default := $(strip $(patsubst %.tsv,%, $(notdir $(wildcard $(PATTERNDIR)/data/default/*.tsv))))
-dosdp_patterns_default: $(SRC) all_imports .FORCE
-	if [ $(PAT) = true ] && [ "${individual_patterns_names_default}" ]; then $(DOSDPT) generate --catalog=catalog-v001.xml --infile=$(PATTERNDIR)/data/default/ --template=$(PATTERNDIR)/dosdp-patterns --batch-patterns="$(individual_patterns_names_default)" --ontology=$< --obo-prefixes=true --outfile=$(PATTERNDIR)/data/default; fi
+$(DOSDP_OWL_FILES_DEFAULT): $(SRC) $(DOSDP_TSV_FILES_DEFAULT) $(ALL_PATTERN_FILES)
+	if [ $(PAT) = true ] && [ "${DOSDP_PATTERN_NAMES_DEFAULT}" ]; then $(DOSDPT) generate --catalog=catalog-v001.xml --infile=$(PATTERNDIR)/data/default/ --template=$(PATTERNDIR)/dosdp-patterns --batch-patterns="$(DOSDP_PATTERN_NAMES_DEFAULT)" --ontology=$< --obo-prefixes=true --outfile=$(PATTERNDIR)/data/default; fi
 
 
+
+
+
+# Generate template file seeds
+
+## Generate template file seeds
+$(PATTERNDIR)/data/default/%.txt: $(PATTERNDIR)/dosdp-patterns/%.yaml $(PATTERNDIR)/data/default/%.tsv
+	if [ $(PAT) = true ]; then $(DOSDPT) terms --infile=$(word 2, $^) --template=$< --obo-prefixes=true --outfile=$@; fi
 
 
 
 # Generating the seed file from all the TSVs. If Pattern generation is deactivated, we still extract a seed from definitions.owl
-$(PATTERNDIR)/all_pattern_terms.txt: $(pattern_term_lists_default)   $(PATTERNDIR)/pattern_owl_seed.txt
-	if [ $(PAT) = true ]; then cat $^ | sort | uniq > $@; else $(ROBOT) query --use-graphs true -f csv -i ../patterns/definitions.owl --query ../sparql/terms.sparql $@; fi
+$(TMPDIR)/all_pattern_terms.txt: $(DOSDP_TERM_FILES_DEFAULT)   $(TMPDIR)/pattern_owl_seed.txt
+	if [ $(PAT) = true ]; then cat $^ | sort | uniq > $@; else $(ROBOT) query --use-graphs true -f csv -i $(PATTERNDIR)/definitions.owl --query ../sparql/terms.sparql $@; fi
 
-$(PATTERNDIR)/pattern_owl_seed.txt: $(PATTERNDIR)/pattern.owl
+$(TMPDIR)/pattern_owl_seed.txt: $(PATTERNDIR)/pattern.owl
 	if [ $(PAT) = true ]; then $(ROBOT) query --use-graphs true -f csv -i $< --query ../sparql/terms.sparql $@; fi
 
-$(PATTERNDIR)/data/default/%.txt: $(PATTERNDIR)/dosdp-patterns/%.yaml $(PATTERNDIR)/data/default/%.tsv .FORCE
-	if [ $(PAT) = true ]; then $(DOSDPT) terms --infile=$(word 2, $^) --template=$< --obo-prefixes=true --outfile=$@; fi
+# Pattern pipeline main targets: the generated OWL files
 
-.PHONY: prepare_patterns
-prepare_patterns:
-	if [ $(PAT) = true ]; then touch $(PATTERNDIR)/data $(pattern_term_lists_default)  ; fi
-	if [ $(PAT) = true ]; then touch $(PATTERNDIR)/data $(individual_patterns_default)  ; fi
+# Create pattern.owl, an ontology of all DOSDP patterns
+$(PATTERNDIR)/pattern.owl: $(ALL_PATTERN_FILES)
+	if [ $(PAT) = true ]; then $(DOSDPT) prototype --obo-prefixes true --template=$(PATTERNDIR)/dosdp-patterns --outfile=$@; fi
 
-
+# Generating the individual pattern modules and merging them into definitions.owl
+$(PATTERNDIR)/definitions.owl: $(DOSDP_OWL_FILES_DEFAULT)  
+	if [ $(PAT) = true ] && [ "${DOSDP_PATTERN_NAMES_DEFAULT}" ]   && [ $(PAT) = true ]; then $(ROBOT) merge $(addprefix -i , $^) \
+		annotate --ontology-iri $(ONTBASE)/patterns/definitions.owl  --version-iri $(ONTBASE)/releases/$(TODAY)/patterns/definitions.owl --annotation owl:versionInfo $(VERSION) -o definitions.ofn && mv definitions.ofn $@; fi
 
 
 
@@ -543,7 +571,7 @@ explain_unsat: $(SRC)
 # General Validation
 # ----------------------------------------
 TSV=
-ALL_TSV_FILES=
+ALL_TSV_FILES=$(DOSDP_TSV_FILES_DEFAULT)
 
 validate-tsv: $(TSV) | $(TMPDIR)
 	for FILE in $< ; do \
@@ -574,10 +602,13 @@ update_repo:
 	
 
 
+# Note to future generations: prepending ./ is a safety measure to ensure that 
+# the environment does not malicously set `CLEANFILES` to `\`.
 .PHONY: clean
 clean:
-	rm -rf $(TMPDIR)/
-	rm -rf $(MIRROR)/
+	make pattern_clean
+	[ -n "$(MIRRORDIR)" ] && [ $(MIRRORDIR) != "." ] && [ $(MIRRORDIR) != "/" ] && [ $(MIRRORDIR) != ".." ] && [ -d ./$(MIRRORDIR) ] && rm -rf ./$(MIRRORDIR)/*
+	[ -n "$(TMPDIR)" ] && [ $(TMPDIR) != "." ] && [ $(TMPDIR) != "/" ] && [ $(TMPDIR) != ".." ] && [ -d ./$(TMPDIR) ] && rm -rf ./$(TMPDIR)/*
 	rm -f $(CLEANFILES)
 
 .PHONY: help
@@ -607,6 +638,15 @@ Imports management:
 * refresh-%:				Refresh a single import, i.e. refresh-go will refresh 'imports/go_import.owl'.
 * no-mirror-refresh-%:			Refresh a single import without updating the mirror, i.e. refresh-go will refresh 'imports/go_import.owl'.
 * mirror-%:				Refresh a single mirror.
+
+DOSDP templates
+* dosdp:			Run the DOSDP patterns pipeline: Run tests, then build OWL files from the tables.
+* patterns:			Alias of the 'dosdp' command
+* pattern_clean:		Delete all temporary pattern files
+* dosdp_validation:		Run all validation checks on DOSDP template files and tables
+* pattern_schema_checks:	Alias of the 'dosdp_validation' command
+* update_patterns:		Pull updated patterns listed in dosdp-patterns/external.txt
+* dosdp-matches-%:		Run the DOSDP matches/query pipeline as configured in your srpdio-odk.yaml file.
 
 Editor utilities:
 * validate_idranges:	Make sure your ID ranges file is formatted correctly
