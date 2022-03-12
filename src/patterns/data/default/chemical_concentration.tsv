@@ -1,0 +1,319 @@
+defined_class	defined_class_label	chemical	chemical_label	material	material_label
+SRPDIO:2020000		CHEBI:33628	elemental aluminium	ENVO:00010483	environmental material
+SRPDIO:2020001		CHEBI:36922	elemental antimony	ENVO:00010483	environmental material
+SRPDIO:2020002		CHEBI:35826	elemental arsenic	ENVO:00010483	environmental material
+SRPDIO:2020003		CHEBI:37134	elemental barium	ENVO:00010483	environmental material
+SRPDIO:2020004		CHEBI:33784	elemental beryllium	ENVO:00010483	environmental material
+SRPDIO:2020005		CHEBI:85541	elemental bismuth	ENVO:00010483	environmental material
+SRPDIO:2020006		CHEBI:33609	elemental boron	ENVO:00010483	environmental material
+SRPDIO:2020007		CHEBI:37249	elemental cadmium	ENVO:00010483	environmental material
+SRPDIO:2020008		CHEBI:155919	elemental caesium	ENVO:00010483	environmental material
+SRPDIO:2020009		CHEBI:35155	elemental calcium	ENVO:00010483	environmental material
+SRPDIO:2020010		CHEBI:37265	elemental cerium	ENVO:00010483	environmental material
+SRPDIO:2020011		CHEBI:155866	elemental chromium	ENVO:00010483	environmental material
+SRPDIO:2020012		CHEBI:155865	elemental cobalt	ENVO:00010483	environmental material
+SRPDIO:2020013		CHEBI:37404	elemental copper	ENVO:00010483	environmental material
+SRPDIO:2020014		CHEBI:155920	elemental gallium	ENVO:00010483	environmental material
+SRPDIO:2020015		CHEBI:33970	elemental gold	ENVO:00010483	environmental material
+SRPDIO:2020016		CHEBI:37114	elemental indium	ENVO:00010483	environmental material
+SRPDIO:2020017		CHEBI:82663	elemental iron	ENVO:00010483	environmental material
+SRPDIO:2020018		CHEBI:155921	elemental lanthanum	ENVO:00010483	environmental material
+SRPDIO:2020019		CHEBI:37193	elemental lead	ENVO:00010483	environmental material
+SRPDIO:2020020		CHEBI:155867	elemental lithium	ENVO:00010483	environmental material
+SRPDIO:2020021		CHEBI:33973	elemental magnesium	ENVO:00010483	environmental material
+SRPDIO:2020022		CHEBI:35115	elemental manganese	ENVO:00010483	environmental material
+SRPDIO:2020023		CHEBI:35113	elemental mercury	ENVO:00010483	environmental material
+SRPDIO:2020024		CHEBI:37237	elemental molybdenum	ENVO:00010483	environmental material
+SRPDIO:2020025		CHEBI:155868	elemental nickel	ENVO:00010483	environmental material
+SRPDIO:2020026		CHEBI:155922	elemental niobium	ENVO:00010483	environmental material
+SRPDIO:2020027		CHEBI:33464	elemental phosphorus	ENVO:00010483	environmental material
+SRPDIO:2020028		CHEBI:37247	elemental potassium	ENVO:00010483	environmental material
+SRPDIO:2020029		CHEBI:155923	elemental rubidium	ENVO:00010483	environmental material
+SRPDIO:2020288		CHEBI:155869	elemental scandium	ENVO:00010483	environmental material
+SRPDIO:2020030		CHEBI:36904	elemental selenium	ENVO:00010483	environmental material
+SRPDIO:2020031		CHEBI:37763	elemental silicon	ENVO:00010483	environmental material
+SRPDIO:2020032		CHEBI:33966	elemental silver	ENVO:00010483	environmental material
+SRPDIO:2020033		CHEBI:37246	elemental sodium	ENVO:00010483	environmental material
+SRPDIO:2020034		CHEBI:39131	elemental strontium	ENVO:00010483	environmental material
+SRPDIO:2020035		CHEBI:33403	elemental sulfur	ENVO:00010483	environmental material
+SRPDIO:2020036		CHEBI:36660	elemental tellurium	ENVO:00010483	environmental material
+SRPDIO:2020037		CHEBI:37113	elemental thallium	ENVO:00010483	environmental material
+SRPDIO:2020038		CHEBI:155924	elemental thorium	ENVO:00010483	environmental material
+SRPDIO:2020039		CHEBI:37767	elemental tin	ENVO:00010483	environmental material
+SRPDIO:2020040		CHEBI:155870	elemental titanium	ENVO:00010483	environmental material
+SRPDIO:2020041		CHEBI:131925	elemental tungsten	ENVO:00010483	environmental material
+SRPDIO:2020042		CHEBI:50559	elemental uranium	ENVO:00010483	environmental material
+SRPDIO:2020043		CHEBI:35171	elemental vanadium	ENVO:00010483	environmental material
+SRPDIO:2020044		CHEBI:155925	elemental yttrium	ENVO:00010483	environmental material
+SRPDIO:2020045		CHEBI:37253	elemental zinc	ENVO:00010483	environmental material
+SRPDIO:2020046		CHEBI:33628	elemental aluminium	ENVO:00001998	soil
+SRPDIO:2020047		CHEBI:36922	elemental antimony	ENVO:00001998	soil
+SRPDIO:2020048		CHEBI:35826	elemental arsenic	ENVO:00001998	soil
+SRPDIO:2020049		CHEBI:37134	elemental barium	ENVO:00001998	soil
+SRPDIO:2020050		CHEBI:33784	elemental beryllium	ENVO:00001998	soil
+SRPDIO:2020051		CHEBI:85541	elemental bismuth	ENVO:00001998	soil
+SRPDIO:2020052		CHEBI:33609	elemental boron	ENVO:00001998	soil
+SRPDIO:2020053		CHEBI:37249	elemental cadmium	ENVO:00001998	soil
+SRPDIO:2020054		CHEBI:155919	elemental caesium	ENVO:00001998	soil
+SRPDIO:2020055		CHEBI:35155	elemental calcium	ENVO:00001998	soil
+SRPDIO:2020056		CHEBI:37265	elemental cerium	ENVO:00001998	soil
+SRPDIO:2020057		CHEBI:155866	elemental chromium	ENVO:00001998	soil
+SRPDIO:2020058		CHEBI:155865	elemental cobalt	ENVO:00001998	soil
+SRPDIO:2020059		CHEBI:37404	elemental copper	ENVO:00001998	soil
+SRPDIO:2020060		CHEBI:155920	elemental gallium	ENVO:00001998	soil
+SRPDIO:2020061		CHEBI:33970	elemental gold	ENVO:00001998	soil
+SRPDIO:2020062		CHEBI:37114	elemental indium	ENVO:00001998	soil
+SRPDIO:2020063		CHEBI:82663	elemental iron	ENVO:00001998	soil
+SRPDIO:2020064		CHEBI:155921	elemental lanthanum	ENVO:00001998	soil
+SRPDIO:2020065		CHEBI:37193	elemental lead	ENVO:00001998	soil
+SRPDIO:2020066		CHEBI:155867	elemental lithium	ENVO:00001998	soil
+SRPDIO:2020067		CHEBI:33973	elemental magnesium	ENVO:00001998	soil
+SRPDIO:2020068		CHEBI:35115	elemental manganese	ENVO:00001998	soil
+SRPDIO:2020069		CHEBI:35113	elemental mercury	ENVO:00001998	soil
+SRPDIO:2020070		CHEBI:37237	elemental molybdenum	ENVO:00001998	soil
+SRPDIO:2020071		CHEBI:155868	elemental nickel	ENVO:00001998	soil
+SRPDIO:2020072		CHEBI:155922	elemental niobium	ENVO:00001998	soil
+SRPDIO:2020073		CHEBI:33464	elemental phosphorus	ENVO:00001998	soil
+SRPDIO:2020074		CHEBI:37247	elemental potassium	ENVO:00001998	soil
+SRPDIO:2020075		CHEBI:155923	elemental rubidium	ENVO:00001998	soil
+SRPDIO:2020076		CHEBI:36904	elemental selenium	ENVO:00001998	soil
+SRPDIO:2020077		CHEBI:37763	elemental silicon	ENVO:00001998	soil
+SRPDIO:2020078		CHEBI:33966	elemental silver	ENVO:00001998	soil
+SRPDIO:2020079		CHEBI:37246	elemental sodium	ENVO:00001998	soil
+SRPDIO:2020080		CHEBI:39131	elemental strontium	ENVO:00001998	soil
+SRPDIO:2020081		CHEBI:33403	elemental sulfur	ENVO:00001998	soil
+SRPDIO:2020082		CHEBI:36660	elemental tellurium	ENVO:00001998	soil
+SRPDIO:2020083		CHEBI:37113	elemental thallium	ENVO:00001998	soil
+SRPDIO:2020084		CHEBI:155924	elemental thorium	ENVO:00001998	soil
+SRPDIO:2020085		CHEBI:37767	elemental tin	ENVO:00001998	soil
+SRPDIO:2020086		CHEBI:155870	elemental titanium	ENVO:00001998	soil
+SRPDIO:2020087		CHEBI:131925	elemental tungsten	ENVO:00001998	soil
+SRPDIO:2020088		CHEBI:50559	elemental uranium	ENVO:00001998	soil
+SRPDIO:2020089		CHEBI:35171	elemental vanadium	ENVO:00001998	soil
+SRPDIO:2020090		CHEBI:155925	elemental yttrium	ENVO:00001998	soil
+SRPDIO:2020091		CHEBI:37253	elemental zinc	ENVO:00001998	soil
+SRPDIO:2020092		CHEBI:33628	elemental aluminium	ENVO:00002006	liquid water
+SRPDIO:2020093		CHEBI:36922	elemental antimony	ENVO:00002006	liquid water
+SRPDIO:2020094		CHEBI:35826	elemental arsenic	ENVO:00002006	liquid water
+SRPDIO:2020095		CHEBI:37134	elemental barium	ENVO:00002006	liquid water
+SRPDIO:2020096		CHEBI:33784	elemental beryllium	ENVO:00002006	liquid water
+SRPDIO:2020097		CHEBI:85541	elemental bismuth	ENVO:00002006	liquid water
+SRPDIO:2020098		CHEBI:33609	elemental boron	ENVO:00002006	liquid water
+SRPDIO:2020099		CHEBI:37249	elemental cadmium	ENVO:00002006	liquid water
+SRPDIO:2020100		CHEBI:155919	elemental caesium	ENVO:00002006	liquid water
+SRPDIO:2020101		CHEBI:35155	elemental calcium	ENVO:00002006	liquid water
+SRPDIO:2020102		CHEBI:37265	elemental cerium	ENVO:00002006	liquid water
+SRPDIO:2020103		CHEBI:155866	elemental chromium	ENVO:00002006	liquid water
+SRPDIO:2020104		CHEBI:155865	elemental cobalt	ENVO:00002006	liquid water
+SRPDIO:2020105		CHEBI:37404	elemental copper	ENVO:00002006	liquid water
+SRPDIO:2020106		CHEBI:155920	elemental gallium	ENVO:00002006	liquid water
+SRPDIO:2020107		CHEBI:33970	elemental gold	ENVO:00002006	liquid water
+SRPDIO:2020108		CHEBI:37114	elemental indium	ENVO:00002006	liquid water
+SRPDIO:2020109		CHEBI:82663	elemental iron	ENVO:00002006	liquid water
+SRPDIO:2020110		CHEBI:155921	elemental lanthanum	ENVO:00002006	liquid water
+SRPDIO:2020111		CHEBI:37193	elemental lead	ENVO:00002006	liquid water
+SRPDIO:2020112		CHEBI:155867	elemental lithium	ENVO:00002006	liquid water
+SRPDIO:2020113		CHEBI:33973	elemental magnesium	ENVO:00002006	liquid water
+SRPDIO:2020114		CHEBI:35115	elemental manganese	ENVO:00002006	liquid water
+SRPDIO:2020115		CHEBI:35113	elemental mercury	ENVO:00002006	liquid water
+SRPDIO:2020116		CHEBI:37237	elemental molybdenum	ENVO:00002006	liquid water
+SRPDIO:2020117		CHEBI:155868	elemental nickel	ENVO:00002006	liquid water
+SRPDIO:2020118		CHEBI:155922	elemental niobium	ENVO:00002006	liquid water
+SRPDIO:2020119		CHEBI:33464	elemental phosphorus	ENVO:00002006	liquid water
+SRPDIO:2020120		CHEBI:37247	elemental potassium	ENVO:00002006	liquid water
+SRPDIO:2020121		CHEBI:155923	elemental rubidium	ENVO:00002006	liquid water
+SRPDIO:2020122		CHEBI:36904	elemental selenium	ENVO:00002006	liquid water
+SRPDIO:2020123		CHEBI:37763	elemental silicon	ENVO:00002006	liquid water
+SRPDIO:2020124		CHEBI:33966	elemental silver	ENVO:00002006	liquid water
+SRPDIO:2020125		CHEBI:37246	elemental sodium	ENVO:00002006	liquid water
+SRPDIO:2020126		CHEBI:39131	elemental strontium	ENVO:00002006	liquid water
+SRPDIO:2020127		CHEBI:33403	elemental sulfur	ENVO:00002006	liquid water
+SRPDIO:2020128		CHEBI:36660	elemental tellurium	ENVO:00002006	liquid water
+SRPDIO:2020129		CHEBI:37113	elemental thallium	ENVO:00002006	liquid water
+SRPDIO:2020130		CHEBI:155924	elemental thorium	ENVO:00002006	liquid water
+SRPDIO:2020131		CHEBI:37767	elemental tin	ENVO:00002006	liquid water
+SRPDIO:2020132		CHEBI:155870	elemental titanium	ENVO:00002006	liquid water
+SRPDIO:2020133		CHEBI:131925	elemental tungsten	ENVO:00002006	liquid water
+SRPDIO:2020134		CHEBI:50559	elemental uranium	ENVO:00002006	liquid water
+SRPDIO:2020135		CHEBI:35171	elemental vanadium	ENVO:00002006	liquid water
+SRPDIO:2020136		CHEBI:155925	elemental yttrium	ENVO:00002006	liquid water
+SRPDIO:2020137		CHEBI:37253	elemental zinc	ENVO:00002006	liquid water
+SRPDIO:2020138		CHEBI:33628	elemental aluminium	ENVO:00002263	garden soil
+SRPDIO:2020139		CHEBI:36922	elemental antimony	ENVO:00002263	garden soil
+SRPDIO:2020140		CHEBI:35826	elemental arsenic	ENVO:00002263	garden soil
+SRPDIO:2020141		CHEBI:37134	elemental barium	ENVO:00002263	garden soil
+SRPDIO:2020142		CHEBI:33784	elemental beryllium	ENVO:00002263	garden soil
+SRPDIO:2020143		CHEBI:85541	elemental bismuth	ENVO:00002263	garden soil
+SRPDIO:2020144		CHEBI:33609	elemental boron	ENVO:00002263	garden soil
+SRPDIO:2020145		CHEBI:37249	elemental cadmium	ENVO:00002263	garden soil
+SRPDIO:2020146		CHEBI:155919	elemental caesium	ENVO:00002263	garden soil
+SRPDIO:2020147		CHEBI:35155	elemental calcium	ENVO:00002263	garden soil
+SRPDIO:2020148		CHEBI:37265	elemental cerium	ENVO:00002263	garden soil
+SRPDIO:2020149		CHEBI:155866	elemental chromium	ENVO:00002263	garden soil
+SRPDIO:2020150		CHEBI:155865	elemental cobalt	ENVO:00002263	garden soil
+SRPDIO:2020151		CHEBI:37404	elemental copper	ENVO:00002263	garden soil
+SRPDIO:2020152		CHEBI:155920	elemental gallium	ENVO:00002263	garden soil
+SRPDIO:2020153		CHEBI:33970	elemental gold	ENVO:00002263	garden soil
+SRPDIO:2020154		CHEBI:37114	elemental indium	ENVO:00002263	garden soil
+SRPDIO:2020155		CHEBI:82663	elemental iron	ENVO:00002263	garden soil
+SRPDIO:2020156		CHEBI:155921	elemental lanthanum	ENVO:00002263	garden soil
+SRPDIO:2020157		CHEBI:37193	elemental lead	ENVO:00002263	garden soil
+SRPDIO:2020158		CHEBI:155867	elemental lithium	ENVO:00002263	garden soil
+SRPDIO:2020159		CHEBI:33973	elemental magnesium	ENVO:00002263	garden soil
+SRPDIO:2020160		CHEBI:35115	elemental manganese	ENVO:00002263	garden soil
+SRPDIO:2020161		CHEBI:35113	elemental mercury	ENVO:00002263	garden soil
+SRPDIO:2020162		CHEBI:37237	elemental molybdenum	ENVO:00002263	garden soil
+SRPDIO:2020163		CHEBI:155868	elemental nickel	ENVO:00002263	garden soil
+SRPDIO:2020164		CHEBI:155922	elemental niobium	ENVO:00002263	garden soil
+SRPDIO:2020165		CHEBI:33464	elemental phosphorus	ENVO:00002263	garden soil
+SRPDIO:2020166		CHEBI:37247	elemental potassium	ENVO:00002263	garden soil
+SRPDIO:2020167		CHEBI:155923	elemental rubidium	ENVO:00002263	garden soil
+SRPDIO:2020168		CHEBI:36904	elemental selenium	ENVO:00002263	garden soil
+SRPDIO:2020169		CHEBI:37763	elemental silicon	ENVO:00002263	garden soil
+SRPDIO:2020170		CHEBI:33966	elemental silver	ENVO:00002263	garden soil
+SRPDIO:2020171		CHEBI:37246	elemental sodium	ENVO:00002263	garden soil
+SRPDIO:2020172		CHEBI:39131	elemental strontium	ENVO:00002263	garden soil
+SRPDIO:2020173		CHEBI:33403	elemental sulfur	ENVO:00002263	garden soil
+SRPDIO:2020174		CHEBI:36660	elemental tellurium	ENVO:00002263	garden soil
+SRPDIO:2020175		CHEBI:37113	elemental thallium	ENVO:00002263	garden soil
+SRPDIO:2020176		CHEBI:155924	elemental thorium	ENVO:00002263	garden soil
+SRPDIO:2020177		CHEBI:37767	elemental tin	ENVO:00002263	garden soil
+SRPDIO:2020178		CHEBI:155870	elemental titanium	ENVO:00002263	garden soil
+SRPDIO:2020179		CHEBI:131925	elemental tungsten	ENVO:00002263	garden soil
+SRPDIO:2020180		CHEBI:50559	elemental uranium	ENVO:00002263	garden soil
+SRPDIO:2020181		CHEBI:35171	elemental vanadium	ENVO:00002263	garden soil
+SRPDIO:2020182		CHEBI:155925	elemental yttrium	ENVO:00002263	garden soil
+SRPDIO:2020183		CHEBI:37253	elemental zinc	ENVO:00002263	garden soil
+SRPDIO:2020184		CHEBI:33628	elemental aluminium	ENVO:00002011	fresh water
+SRPDIO:2020185		CHEBI:36922	elemental antimony	ENVO:00002011	fresh water
+SRPDIO:2020186		CHEBI:35826	elemental arsenic	ENVO:00002011	fresh water
+SRPDIO:2020187		CHEBI:37134	elemental barium	ENVO:00002011	fresh water
+SRPDIO:2020188		CHEBI:33784	elemental beryllium	ENVO:00002011	fresh water
+SRPDIO:2020189		CHEBI:85541	elemental bismuth	ENVO:00002011	fresh water
+SRPDIO:2020190		CHEBI:33609	elemental boron	ENVO:00002011	fresh water
+SRPDIO:2020191		CHEBI:37249	elemental cadmium	ENVO:00002011	fresh water
+SRPDIO:2020192		CHEBI:155919	elemental caesium	ENVO:00002011	fresh water
+SRPDIO:2020193		CHEBI:35155	elemental calcium	ENVO:00002011	fresh water
+SRPDIO:2020194		CHEBI:37265	elemental cerium	ENVO:00002011	fresh water
+SRPDIO:2020195		CHEBI:155866	elemental chromium	ENVO:00002011	fresh water
+SRPDIO:2020196		CHEBI:155865	elemental cobalt	ENVO:00002011	fresh water
+SRPDIO:2020197		CHEBI:37404	elemental copper	ENVO:00002011	fresh water
+SRPDIO:2020198		CHEBI:155920	elemental gallium	ENVO:00002011	fresh water
+SRPDIO:2020199		CHEBI:33970	elemental gold	ENVO:00002011	fresh water
+SRPDIO:2020200		CHEBI:37114	elemental indium	ENVO:00002011	fresh water
+SRPDIO:2020201		CHEBI:82663	elemental iron	ENVO:00002011	fresh water
+SRPDIO:2020202		CHEBI:155921	elemental lanthanum	ENVO:00002011	fresh water
+SRPDIO:2020203		CHEBI:37193	elemental lead	ENVO:00002011	fresh water
+SRPDIO:2020204		CHEBI:155867	elemental lithium	ENVO:00002011	fresh water
+SRPDIO:2020205		CHEBI:33973	elemental magnesium	ENVO:00002011	fresh water
+SRPDIO:2020206		CHEBI:35115	elemental manganese	ENVO:00002011	fresh water
+SRPDIO:2020207		CHEBI:35113	elemental mercury	ENVO:00002011	fresh water
+SRPDIO:2020208		CHEBI:37237	elemental molybdenum	ENVO:00002011	fresh water
+SRPDIO:2020209		CHEBI:155868	elemental nickel	ENVO:00002011	fresh water
+SRPDIO:2020210		CHEBI:155922	elemental niobium	ENVO:00002011	fresh water
+SRPDIO:2020211		CHEBI:33464	elemental phosphorus	ENVO:00002011	fresh water
+SRPDIO:2020212		CHEBI:37247	elemental potassium	ENVO:00002011	fresh water
+SRPDIO:2020213		CHEBI:155923	elemental rubidium	ENVO:00002011	fresh water
+SRPDIO:2020214		CHEBI:36904	elemental selenium	ENVO:00002011	fresh water
+SRPDIO:2020215		CHEBI:37763	elemental silicon	ENVO:00002011	fresh water
+SRPDIO:2020216		CHEBI:33966	elemental silver	ENVO:00002011	fresh water
+SRPDIO:2020217		CHEBI:37246	elemental sodium	ENVO:00002011	fresh water
+SRPDIO:2020218		CHEBI:39131	elemental strontium	ENVO:00002011	fresh water
+SRPDIO:2020219		CHEBI:33403	elemental sulfur	ENVO:00002011	fresh water
+SRPDIO:2020220		CHEBI:36660	elemental tellurium	ENVO:00002011	fresh water
+SRPDIO:2020221		CHEBI:37113	elemental thallium	ENVO:00002011	fresh water
+SRPDIO:2020222		CHEBI:155924	elemental thorium	ENVO:00002011	fresh water
+SRPDIO:2020223		CHEBI:37767	elemental tin	ENVO:00002011	fresh water
+SRPDIO:2020224		CHEBI:155870	elemental titanium	ENVO:00002011	fresh water
+SRPDIO:2020225		CHEBI:131925	elemental tungsten	ENVO:00002011	fresh water
+SRPDIO:2020226		CHEBI:50559	elemental uranium	ENVO:00002011	fresh water
+SRPDIO:2020227		CHEBI:35171	elemental vanadium	ENVO:00002011	fresh water
+SRPDIO:2020228		CHEBI:155925	elemental yttrium	ENVO:00002011	fresh water
+SRPDIO:2020229		CHEBI:37253	elemental zinc	ENVO:00002011	fresh water
+SRPDIO:2020230		CHEBI:33628	elemental aluminium	SRPDIO:4000007	topsoil
+SRPDIO:2020231		CHEBI:36922	elemental antimony	SRPDIO:4000007	topsoil
+SRPDIO:2020232		CHEBI:35826	elemental arsenic	SRPDIO:4000007	topsoil
+SRPDIO:2020233		CHEBI:37134	elemental barium	SRPDIO:4000007	topsoil
+SRPDIO:2020234		CHEBI:33784	elemental beryllium	SRPDIO:4000007	topsoil
+SRPDIO:2020235		CHEBI:85541	elemental bismuth	SRPDIO:4000007	topsoil
+SRPDIO:2020236		CHEBI:33609	elemental boron	SRPDIO:4000007	topsoil
+SRPDIO:2020237		CHEBI:37249	elemental cadmium	SRPDIO:4000007	topsoil
+SRPDIO:2020238		CHEBI:155919	elemental caesium	SRPDIO:4000007	topsoil
+SRPDIO:2020239		CHEBI:35155	elemental calcium	SRPDIO:4000007	topsoil
+SRPDIO:2020240		CHEBI:37265	elemental cerium	SRPDIO:4000007	topsoil
+SRPDIO:2020241		CHEBI:155866	elemental chromium	SRPDIO:4000007	topsoil
+SRPDIO:2020242		CHEBI:155865	elemental cobalt	SRPDIO:4000007	topsoil
+SRPDIO:2020243		CHEBI:37404	elemental copper	SRPDIO:4000007	topsoil
+SRPDIO:2020244		CHEBI:155920	elemental gallium	SRPDIO:4000007	topsoil
+SRPDIO:2020245		CHEBI:33970	elemental gold	SRPDIO:4000007	topsoil
+SRPDIO:2020246		CHEBI:37114	elemental indium	SRPDIO:4000007	topsoil
+SRPDIO:2020247		CHEBI:82663	elemental iron	SRPDIO:4000007	topsoil
+SRPDIO:2020248		CHEBI:155921	elemental lanthanum	SRPDIO:4000007	topsoil
+SRPDIO:2020249		CHEBI:37193	elemental lead	SRPDIO:4000007	topsoil
+SRPDIO:2020250		CHEBI:155867	elemental lithium	SRPDIO:4000007	topsoil
+SRPDIO:2020251		CHEBI:33973	elemental magnesium	SRPDIO:4000007	topsoil
+SRPDIO:2020252		CHEBI:35115	elemental manganese	SRPDIO:4000007	topsoil
+SRPDIO:2020253		CHEBI:35113	elemental mercury	SRPDIO:4000007	topsoil
+SRPDIO:2020254		CHEBI:37237	elemental molybdenum	SRPDIO:4000007	topsoil
+SRPDIO:2020255		CHEBI:155868	elemental nickel	SRPDIO:4000007	topsoil
+SRPDIO:2020256		CHEBI:155922	elemental niobium	SRPDIO:4000007	topsoil
+SRPDIO:2020257		CHEBI:33464	elemental phosphorus	SRPDIO:4000007	topsoil
+SRPDIO:2020258		CHEBI:37247	elemental potassium	SRPDIO:4000007	topsoil
+SRPDIO:2020259		CHEBI:155923	elemental rubidium	SRPDIO:4000007	topsoil
+SRPDIO:2020287		CHEBI:155869	elemental scandium	SRPDIO:4000007	topsoil
+SRPDIO:2020260		CHEBI:36904	elemental selenium	SRPDIO:4000007	topsoil
+SRPDIO:2020261		CHEBI:37763	elemental silicon	SRPDIO:4000007	topsoil
+SRPDIO:2020262		CHEBI:33966	elemental silver	SRPDIO:4000007	topsoil
+SRPDIO:2020263		CHEBI:37246	elemental sodium	SRPDIO:4000007	topsoil
+SRPDIO:2020264		CHEBI:39131	elemental strontium	SRPDIO:4000007	topsoil
+SRPDIO:2020265		CHEBI:33403	elemental sulfur	SRPDIO:4000007	topsoil
+SRPDIO:2020266		CHEBI:36660	elemental tellurium	SRPDIO:4000007	topsoil
+SRPDIO:2020267		CHEBI:37113	elemental thallium	SRPDIO:4000007	topsoil
+SRPDIO:2020268		CHEBI:155924	elemental thorium	SRPDIO:4000007	topsoil
+SRPDIO:2020269		CHEBI:37767	elemental tin	SRPDIO:4000007	topsoil
+SRPDIO:2020270		CHEBI:155870	elemental titanium	SRPDIO:4000007	topsoil
+SRPDIO:2020271		CHEBI:131925	elemental tungsten	SRPDIO:4000007	topsoil
+SRPDIO:2020272		CHEBI:50559	elemental uranium	SRPDIO:4000007	topsoil
+SRPDIO:2020273		CHEBI:35171	elemental vanadium	SRPDIO:4000007	topsoil
+SRPDIO:2020274		CHEBI:155925	elemental yttrium	SRPDIO:4000007	topsoil
+SRPDIO:2020275		CHEBI:37253	elemental zinc	SRPDIO:4000007	topsoil
+SRPDIO:2020276		CHEBI:28938	ammonium	ENVO:00002011	fresh water
+SRPDIO:2020277		CHEBI:29033	iron(2+)	ENVO:00002011	fresh water
+SRPDIO:2020278		CHEBI:15858	bromide	ENVO:00002011	fresh water
+SRPDIO:2020279		CHEBI:17996	chloride	ENVO:00002011	fresh water
+SRPDIO:2020280		CHEBI:17051	fluoride	ENVO:00002011	fresh water
+SRPDIO:2020281		CHEBI:16301	nitrite	ENVO:00002011	fresh water
+SRPDIO:2020282		CHEBI:17632	nitrate	ENVO:00002011	fresh water
+SRPDIO:2020283		CHEBI:18367	phosphate(3_)	ENVO:00002011	fresh water
+SRPDIO:2020284		CHEBI:16189	sulfate	ENVO:00002011	fresh water
+SRPDIO:2020285		CHEBI:24431	chemical entity	ENVO:00010483	environmental material
+SRPDIO:2020286		CHEBI:24431	chemical entity	BFO:0000040	material entity
+SRPDIO:2020287		CHEBI:24431	chemical entity	ENVO:00001998	soil
+SRPDIO:2020288		CHEBI:24431	chemical entity	ENVO:00002006	liquid water
+SRPDIO:2020289		CHEBI:24431	chemical entity	ENVO:00002263	garden soil
+SRPDIO:2020290		CHEBI:24431	chemical entity	ENVO:00002011	fresh water
+SRPDIO:2020291		CHEBI:24431	chemical entity	SRPDIO:4000007	topsoil
+SRPDIO:2020292		CHEBI:33628	elemental aluminium	ENVO:00003065	distilled tap water
+SRPDIO:2020293		CHEBI:35826	elemental arsenic	ENVO:00003065	distilled water
+SRPDIO:2020294		CHEBI:37134	elemental barium	ENVO:00003065	distilled water
+SRPDIO:2020295		CHEBI:33784	elemental beryllium	ENVO:00003065	distilled water
+SRPDIO:2020296		CHEBI:37249	elemental cadmium	ENVO:00003065	distilled water
+SRPDIO:2020297		CHEBI:155866	elemental chromium	ENVO:00003065	distilled water
+SRPDIO:2020298		CHEBI:37404	elemental copper	ENVO:00003065	distilled water
+SRPDIO:2020299		CHEBI:37193	elemental lead	ENVO:00003065	distilled water
+SRPDIO:2020300		CHEBI:35115	elemental manganese	ENVO:00003065	distilled water
+SRPDIO:2020301		CHEBI:155868	elemental nickel	ENVO:00003065	distilled water
+SRPDIO:2020302		CHEBI:37253	elemental zinc	ENVO:00003065	distilled water
+SRPDIO:2020303		CHEBI:33628	elemental aluminium	ENVO_00003096	tap water
+SRPDIO:2020304		CHEBI:35826	elemental arsenic	ENVO_00003096	tap water
+SRPDIO:2020305		CHEBI:37134	elemental barium	ENVO_00003096	tap water
+SRPDIO:2020306		CHEBI:33784	elemental beryllium	ENVO_00003096	tap water
+SRPDIO:2020307		CHEBI:37249	elemental cadmium	ENVO_00003096	tap water
+SRPDIO:2020308		CHEBI:155866	elemental chromium	ENVO_00003096	tap water
+SRPDIO:2020309		CHEBI:37404	elemental copper	ENVO_00003096	tap water
+SRPDIO:2020310		CHEBI:37193	elemental lead	ENVO_00003096	tap water
+SRPDIO:2020311		CHEBI:35115	elemental manganese	ENVO_00003096	tap water
+SRPDIO:2020312		CHEBI:155868	elemental nickel	ENVO_00003096	tap water
+SRPDIO:2020313		CHEBI:37253	elemental zinc	ENVO_00003096	tap water
+SRPDIO:2020314		CHEBI:24431	chemical entity	ENVO:00003065	distilled water
+SRPDIO:2020315		CHEBI:24431	chemical entity	ENVO_00003096	tap water
