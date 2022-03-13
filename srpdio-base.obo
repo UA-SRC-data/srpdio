@@ -1,9 +1,0 @@
-format-version: 1.2
-data-version: srpdio/releases/2021-12-26/srpdio-base.owl
-ontology: srpdio/srpdio-base
-property_value: http://purl.org/dc/elements/1.1/description "None" xsd:string
-property_value: http://purl.org/dc/elements/1.1/title "Superfund Researc Project Data Integration Ontology" xsd:string
-property_value: http://purl.org/dc/elements/1.1/type IAO:8000001
-property_value: http://purl.org/dc/terms/license https://creativecommons.org/licenses/unspecified
-property_value: owl:versionInfo "2021-12-26" xsd:string
-
