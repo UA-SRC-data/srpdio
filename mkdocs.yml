@@ -1,8 +1,0 @@
-site_name: Superfund Research Project Data Integration Ontology (SRPDIO)
-theme: material
-markdown_extensions:
-  - toc:
-      permalink: true
-nav:
-  - Initial Setup: InitialSetup.md
-repo_url: https://github.com/UA-SRC-data/srpdio/tree/master/src/ontology
