@@ -1,3 +1,4 @@
+
 Prefix(:=<http://purl.obolibrary.org/obo/srpdio.owl#>)
 Prefix(dce:=<http://purl.org/dc/elements/1.1/>)
 Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
@@ -9,29 +10,59 @@ Prefix(dcterms:=<http://purl.org/dc/terms/>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/srpdio.owl>
-Import(<http://purl.obolibrary.org/obo/srpdio/imports/bco_import.owl>)
-Import(<http://purl.obolibrary.org/obo/srpdio/imports/chebi_import.owl>)
-Import(<http://purl.obolibrary.org/obo/srpdio/imports/envo_import.owl>)
-Import(<http://purl.obolibrary.org/obo/srpdio/imports/exo_import.owl>)
-Import(<http://purl.obolibrary.org/obo/srpdio/imports/iao_import.owl>)
-Import(<http://purl.obolibrary.org/obo/srpdio/imports/omrse_import.owl>)
-Import(<http://purl.obolibrary.org/obo/srpdio/imports/pato_import.owl>)
-Import(<http://purl.obolibrary.org/obo/srpdio/imports/pco_import.owl>)
-Import(<http://purl.obolibrary.org/obo/srpdio/imports/po_import.owl>)
-Import(<http://purl.obolibrary.org/obo/srpdio/imports/ro_import.owl>)
-Import(<http://purl.obolibrary.org/obo/srpdio/imports/stato_import.owl>)
-Import(<http://purl.obolibrary.org/obo/srpdio/imports/uo_import.owl>)
-Import(<http://purl.obolibrary.org/obo/srpdio/modules/SRPDIO_internal_vocab.owl>)
-Import(<http://purl.obolibrary.org/obo/srpdio/modules/all_acs5.owl>)
-Import(<http://purl.obolibrary.org/obo/srpdio/modules/se_categorical_qualities.owl>)
-Import(<http://purl.obolibrary.org/obo/srpdio/modules/se_data_classes.owl>)
-Import(<http://purl.obolibrary.org/obo/srpdio/patterns/definitions.owl>)
-Annotation(dce:description "An ontology for use with the NIEHS Superfund Research Project.")
-Annotation(dce:title "Superfund Research Project Data Integration Ontology")
-Annotation(dcterms:license <CC-BY>)
 
-Declaration(AnnotationProperty(dce:description))
-Declaration(AnnotationProperty(dce:title))
+Import(<http://purl.obolibrary.org/obo/srpdio/imports/bco_import.owl>)
+
+Import(<http://purl.obolibrary.org/obo/srpdio/imports/chebi_import.owl>)
+
+Import(<http://purl.obolibrary.org/obo/srpdio/imports/envo_import.owl>)
+
+Import(<http://purl.obolibrary.org/obo/srpdio/imports/exo_import.owl>)
+
+Import(<http://purl.obolibrary.org/obo/srpdio/imports/iao_import.owl>)
+
+Import(<http://purl.obolibrary.org/obo/srpdio/imports/omrse_import.owl>)
+
+Import(<http://purl.obolibrary.org/obo/srpdio/imports/pato_import.owl>)
+
+Import(<http://purl.obolibrary.org/obo/srpdio/imports/pco_import.owl>)
+
+Import(<http://purl.obolibrary.org/obo/srpdio/imports/po_import.owl>)
+
+Import(<http://purl.obolibrary.org/obo/srpdio/imports/ro_import.owl>)
+
+Import(<http://purl.obolibrary.org/obo/srpdio/imports/stato_import.owl>)
+
+Import(<http://purl.obolibrary.org/obo/srpdio/imports/uo_import.owl>)
+
+
+Import(<http://purl.obolibrary.org/obo/srpdio/patterns/definitions.owl>)
+Annotation(dcterms:description "An ontology for use with the NIEHS Superfund Research Project.")
+Annotation(dcterms:license <CC-BY>)
+Annotation(dcterms:title "Superfund Research Project Data Integration Ontology")
+
+
+Declaration(Class(<http://purl.obolibrary.org/obo/SRPDIO_0000000>))
+Declaration(AnnotationProperty(dcterms:description))
 Declaration(AnnotationProperty(dcterms:license))
+Declaration(AnnotationProperty(dcterms:title))
+
+############################
+#   Annotation Properties
+############################
+
+AnnotationAssertion(rdfs:label dcterms:description "description")
+AnnotationAssertion(rdfs:label dcterms:license "license")
+AnnotationAssertion(rdfs:label dcterms:title "title")
+
+############################
+#   Classes
+############################
+
+# Class: <http://purl.obolibrary.org/obo/SRPDIO_0000000> (root node)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SRPDIO_0000000> "root node"@en)
+
 
 )
+
