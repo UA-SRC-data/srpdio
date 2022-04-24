@@ -75,7 +75,7 @@ release_artefacts:
 release_date: false
 repo: srpdio
 report_fail_on: null
-robot_java_args: '-Xmx4G'
+robot_java_args: '-Xmx6G'
 robot_settings: null
 robot_version: null
 robotemplate_group: 
