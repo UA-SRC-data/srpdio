@@ -1,3 +1,4 @@
+pattern_iri: http://purl.obolibrary.org/obo/srpdio/patterns/to/composition
 pattern_name: to/composition #based on this original pattern modified to be concentration instead of composition
 classes:
   #composition: PATO:0000025

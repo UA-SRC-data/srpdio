@@ -1,3 +1,4 @@
+pattern_iri: http://purl.obolibrary.org/obo/srpdio/patterns/data_item_about_a_quality
 pattern_name: data_item_about_a_quality
 
 classes:
