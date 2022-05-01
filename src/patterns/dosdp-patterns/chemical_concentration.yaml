@@ -1,3 +1,4 @@
+pattern_iri: http://purl.obolibrary.org/obo/srpdio/patterns/envo-p/patterns/chemical_concentration
 pattern_name: envo-p/patterns/chemical_concentration
 
 classes: 

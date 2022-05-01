@@ -1,3 +1,4 @@
+pattern_iri: http://purl.obolibrary.org/obo/srpdio/patterns/envo-p/patterns/entity_attribute
 pattern_name: envo-p/patterns/entity_attribute
 classes:
   attribute: "owl:Thing"
