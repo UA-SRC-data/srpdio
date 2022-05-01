@@ -69,27 +69,27 @@ acs_patterns5: $(ACS_PATTERN5_FILES)
 acs_patterns6: $(ACS_PATTERN6_FILES)
 
 $(ACS1)/%.owl: $(ACS_DATADIR)/%.csv $(ACS_PATTERNDIR)/acs_1vars.yaml #curie_map.yaml
-	dosdp-tools generate --obo-prefixes=true --table-format=csv --template=$(ACS_PATTERNDIR)/acs_1vars.yaml --infile=$(ACS_PATTERNDIR)/$*.csv --outfile=$(PATTERN_OUT)/$*.tmp.owl
+	dosdp-tools generate --obo-prefixes=true --ontology=srpdio-edit.owl --table-format=csv --template=$(ACS_PATTERNDIR)/acs_1vars.yaml --infile=$(ACS_DATADIR)/$*.csv --outfile=$(PATTERN_OUT)/$*.tmp.owl
 	$(ROBOT) annotate --input $(PATTERN_OUT)/$*.tmp.owl -O http://purl.obolibrary.org/obo/srpdio/$*.owl --output $(ACS_PATTERN_OUT)/$*.owl && rm $(PATTERN_OUT)/$*.tmp.owl
 
 $(ACS2)/%.owl: $(ACS_DATADIR)/%.csv $(ACS_PATTERNDIR)/acs_2vars.yaml #curie_map.yaml
-	dosdp-tools generate --obo-prefixes=true --table-format=csv --template=$(ACS_PATTERNDIR)/acs_2vars.yaml --infile=$(ACS_PATTERNDIR)/$*.csv --outfile=$(PATTERN_OUT)/$*.tmp.owl 
+	dosdp-tools generate --obo-prefixes=true --ontology=srpdio-edit.owl --table-format=csv --template=$(ACS_PATTERNDIR)/acs_2vars.yaml --infile=$(ACS_DATADIR)/$*.csv --outfile=$(PATTERN_OUT)/$*.tmp.owl 
 	$(ROBOT) annotate --input $(PATTERN_OUT)/$*.tmp.owl -O http://purl.obolibrary.org/obo/srpdio/$*.owl --output $(ACS_PATTERN_OUT)/$*.owl && rm $(PATTERN_OUT)/$*.tmp.owl
 
 $(ACS3)/%.owl: $(ACS_DATADIR)/%.csv $(ACS_PATTERNDIR)/acs_3vars.yaml #curie_map.yaml
-	dosdp-tools generate --obo-prefixes=true --table-format=csv --template=$(ACS_PATTERNDIR)/acs_3vars.yaml --infile=$(ACS_PATTERNDIR)/$*.csv --outfile=$(PATTERN_OUT)/$*.tmp.owl
+	dosdp-tools generate --obo-prefixes=true --ontology=srpdio-edit.owl --table-format=csv --template=$(ACS_PATTERNDIR)/acs_3vars.yaml --infile=$(ACS_DATADIR)/$*.csv --outfile=$(PATTERN_OUT)/$*.tmp.owl
 	$(ROBOT) annotate --input $(PATTERN_OUT)/$*.tmp.owl -O http://purl.obolibrary.org/obo/srpdio/$*.owl --output $(ACS_PATTERN_OUT)/$*.owl && rm $(PATTERN_OUT)/$*.tmp.owl
 
 $(ACS4)/%.owl: $(ACS_DATADIR)/%.csv $(ACS_PATTERNDIR)/acs_4vars.yaml #curie_map.yaml
-	dosdp-tools generate --obo-prefixes=true --table-format=csv --template=$(ACS_PATTERNDIR)/acs_4vars.yaml --infile=$(ACS_PATTERNDIR)/$*.csv --outfile=$(PATTERN_OUT)/$*.tmp.owl
+	dosdp-tools generate --obo-prefixes=true --ontology=srpdio-edit.owl --table-format=csv --template=$(ACS_PATTERNDIR)/acs_4vars.yaml --infile=$(ACS_DATADIR)/$*.csv --outfile=$(PATTERN_OUT)/$*.tmp.owl
 	$(ROBOT) annotate --input $(PATTERN_OUT)/$*.tmp.owl -O http://purl.obolibrary.org/obo/srpdio/$*.owl --output $(ACS_PATTERN_OUT)/$*.owl && rm $(PATTERN_OUT)/$*.tmp.owl
 
 $(ACS5)/%.owl: $(ACS_DATADIR)/%.csv $(ACS_PATTERNDIR)/acs_5vars.yaml #curie_map.yaml
-	dosdp-tools generate --obo-prefixes=true --table-format=csv --template=$(ACS_PATTERNDIR)/acs_5vars.yaml --infile=$(ACS_PATTERNDIR)/$*.csv --outfile=$(PATTERN_OUT)/$*.tmp.owl
+	dosdp-tools generate --obo-prefixes=true --ontology=srpdio-edit.owl --table-format=csv --template=$(ACS_PATTERNDIR)/acs_5vars.yaml --infile=$(ACS_DATADIR)/$*.csv --outfile=$(PATTERN_OUT)/$*.tmp.owl
 	$(ROBOT) annotate --input $(PATTERN_OUT)/$*.tmp.owl -O http://purl.obolibrary.org/obo/srpdio/$*.owl --output $(ACS_PATTERN_OUT)/$*.owl && rm $(PATTERN_OUT)/$*.tmp.owl
 
 $(ACS6)/%.owl: $(ACS_DATADIR)/%.csv $(ACS_PATTERNDIR)/acs_6vars.yaml #curie_map.yaml
-	dosdp-tools generate --obo-prefixes=true --ontology=srpdio-edit.owl --table-format=csv --template=$(ACS_PATTERNDIR)/acs_6vars.yaml --infile=$(ACS_PATTERNDIR)/$*.csv --outfile=$(PATTERN_OUT)/$*.tmp.owl
+	dosdp-tools generate --obo-prefixes=true --ontology=srpdio-edit.owl --table-format=csv --template=$(ACS_PATTERNDIR)/acs_6vars.yaml --infile=$(ACS_DATADIR)/$*.csv --outfile=$(PATTERN_OUT)/$*.tmp.owl
 	$(ROBOT) annotate --input $(PATTERN_OUT)/$*.tmp.owl -O http://purl.obolibrary.org/obo/srpdio/$*.owl --output $(ACS_PATTERN_OUT)/$*.owl && rm $(PATTERN_OUT)/$*.tmp.owl
 
 
