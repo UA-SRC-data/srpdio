@@ -1,0 +1,65 @@
+Prefix(:=<urn:unnamed:ontology#ont1>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<urn:unnamed:ontology#ont1>
+
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_24431>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_00010483>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000027>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0000001>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0000033>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PO_0009011>))
+Declaration(Class(<http://purl.obolibrary.org/obo/srpdio/patterns/data_item_about_a_quality>))
+Declaration(Class(<http://purl.obolibrary.org/obo/srpdio/patterns/envo-p/patterns/chemical_concentration>))
+Declaration(Class(<http://purl.obolibrary.org/obo/srpdio/patterns/envo-p/patterns/entity_attribute>))
+Declaration(Class(<http://purl.obolibrary.org/obo/srpdio/patterns/to/composition>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000050>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/IAO_0000136>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000052>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
+Declaration(AnnotationProperty(<http://purl.org/dc/terms/title>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>))
+
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://purl.obolibrary.org/obo/srpdio/patterns/data_item_about_a_quality> (http://purl.obolibrary.org/obo/IAO_0000027 about some http://purl.obolibrary.org/obo/PATO_0000001)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/srpdio/patterns/data_item_about_a_quality> "A http://purl.obolibrary.org/obo/IAO_0000027 that is about some http://purl.obolibrary.org/obo/PATO_0000001."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/title> <http://purl.obolibrary.org/obo/srpdio/patterns/data_item_about_a_quality> "data_item_about_a_quality"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/srpdio/patterns/data_item_about_a_quality> "http://purl.obolibrary.org/obo/IAO_0000027 about some http://purl.obolibrary.org/obo/PATO_0000001"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/srpdio/patterns/data_item_about_a_quality> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/IAO_0000027> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/PATO_0000001>)))
+
+# Class: <http://purl.obolibrary.org/obo/srpdio/patterns/envo-p/patterns/chemical_concentration> (concentration of 'chemical entity' in 'environmental material')
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/srpdio/patterns/envo-p/patterns/chemical_concentration> "The concentration of 'chemical entity' when measured in 'environmental material'."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/title> <http://purl.obolibrary.org/obo/srpdio/patterns/envo-p/patterns/chemical_concentration> "envo-p/patterns/chemical_concentration"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/srpdio/patterns/envo-p/patterns/chemical_concentration> "'environmental material' 'chemical entity' concentration"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/srpdio/patterns/envo-p/patterns/chemical_concentration> "concentration of 'chemical entity' in 'environmental material'"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/srpdio/patterns/envo-p/patterns/chemical_concentration> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000033> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CHEBI_24431> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/ENVO_00010483>)))))
+
+# Class: <http://purl.obolibrary.org/obo/srpdio/patterns/envo-p/patterns/entity_attribute> (http://www.w3.org/2002/07/owl#Thing of http://www.w3.org/2002/07/owl#Thing)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/srpdio/patterns/envo-p/patterns/entity_attribute> "The http://www.w3.org/2002/07/owl#Thing of some http://www.w3.org/2002/07/owl#Thing."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/title> <http://purl.obolibrary.org/obo/srpdio/patterns/envo-p/patterns/entity_attribute> "envo-p/patterns/entity_attribute"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/srpdio/patterns/envo-p/patterns/entity_attribute> "http://www.w3.org/2002/07/owl#Thing http://www.w3.org/2002/07/owl#Thing"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/srpdio/patterns/envo-p/patterns/entity_attribute> "http://www.w3.org/2002/07/owl#Thing of http://www.w3.org/2002/07/owl#Thing"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/srpdio/patterns/envo-p/patterns/entity_attribute> ObjectIntersectionOf(owl:Thing ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> owl:Thing)))
+
+# Class: <http://purl.obolibrary.org/obo/srpdio/patterns/to/composition> (concentration of 'chemical entity' in 'plant structure')
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/srpdio/patterns/to/composition> "The concentration of 'chemical entity' when measured in 'plant structure'."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/title> <http://purl.obolibrary.org/obo/srpdio/patterns/to/composition> "to/composition"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/srpdio/patterns/to/composition> "concentration of 'chemical entity' in 'plant structure'"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/srpdio/patterns/to/composition> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000033> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CHEBI_24431> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/PO_0009011>)))))
+
+
+)
