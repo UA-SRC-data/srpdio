@@ -32,6 +32,10 @@ import_group:
     use_gzipped: TRUE
     is_large: TRUE
     make_base: TRUE
+  - id: doid
+    mirror_from: null
+    rebuild_if_source_changes: true
+    robot_settings: null
   - id: envo
     mirror_from: null
     rebuild_if_source_changes: true
