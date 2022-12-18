@@ -1,0 +1,16 @@
+http://purl.obolibrary.org/obo/DOID_11054	#urinary bladder cancer
+http://purl.obolibrary.org/obo/DOID_3093	#nervous system cancer
+http://purl.obolibrary.org/obo/DOID_1612	#breast cancer
+http://purl.obolibrary.org/obo/DOID_5041	#esophageal cancer
+http://purl.obolibrary.org/obo/DOID_263	#kidney cancer
+http://purl.obolibrary.org/obo/DOID_2596	#larynx cancer
+http://purl.obolibrary.org/obo/DOID_1240	#leukemia
+http://purl.obolibrary.org/obo/DOID_3571	#leukemia
+http://purl.obolibrary.org/obo/DOID_1325	#bronchus cancer
+http://purl.obolibrary.org/obo/DOID_1324	#lung cancer
+http://purl.obolibrary.org/obo/DOID_0060060	#non-Hodgkin lymphoma
+http://purl.obolibrary.org/obo/DOID_8618	#breast cancer
+http://purl.obolibrary.org/obo/DOID_1793	#pancreatic cancer
+http://purl.obolibrary.org/obo/DOID_2998	#testicular cancer
+http://purl.obolibrary.org/obo/DOID_1781	#thyroid gland cancer
+http://purl.obolibrary.org/obo/DOID_2841	#asthma
