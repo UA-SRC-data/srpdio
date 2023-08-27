@@ -4,7 +4,7 @@
 # Robot Modules (non-dosdp, not imports)
 # ----------------------------------------
 
-MODULES = SRPDIO_internal_vocab se_data_classes se_categorical_qualities
+MODULES = SRPDIO_internal_vocab se_data_classes se_categorical_qualities azehpt_classes
 MODULEDIR = ../modules
 ALL_MODS_OWL = $(patsubst %, modules/%.owl, $(MODULES))
 ALL_MODS_CSV = $(patsubst %, modules/%.csv, $(MODULES))

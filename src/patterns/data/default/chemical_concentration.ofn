@@ -390,6 +390,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/SRPDIO_2020312>))
 Declaration(Class(<http://purl.obolibrary.org/obo/SRPDIO_2020313>))
 Declaration(Class(<http://purl.obolibrary.org/obo/SRPDIO_2020314>))
 Declaration(Class(<http://purl.obolibrary.org/obo/SRPDIO_2020315>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SRPDIO_2020316>))
 Declaration(Class(<http://purl.obolibrary.org/obo/SRPDIO_4000007>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000050>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000052>))
@@ -2422,15 +2423,11 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SRPDIO_2020287> "
 EquivalentClasses(<http://purl.obolibrary.org/obo/SRPDIO_2020287> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000033> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CHEBI_155869> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/SRPDIO_4000007>)))))
 EquivalentClasses(<http://purl.obolibrary.org/obo/SRPDIO_2020287> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000033> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CHEBI_24431> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/ENVO_00001998>)))))
 
-# Class: <http://purl.obolibrary.org/obo/SRPDIO_2020288> (concentration of elemental scandium in environmental material)
+# Class: <http://purl.obolibrary.org/obo/SRPDIO_2020288> (concentration of chemical entity in liquid water)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SRPDIO_2020288> "The concentration of chemical entity when measured in liquid water."^^xsd:string)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SRPDIO_2020288> "The concentration of elemental scandium when measured in environmental material."^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/SRPDIO_2020288> "environmental material elemental scandium concentration"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/SRPDIO_2020288> "liquid water chemical entity concentration"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SRPDIO_2020288> "concentration of chemical entity in liquid water"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SRPDIO_2020288> "concentration of elemental scandium in environmental material"^^xsd:string)
-EquivalentClasses(<http://purl.obolibrary.org/obo/SRPDIO_2020288> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000033> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CHEBI_155869> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/ENVO_00010483>)))))
 EquivalentClasses(<http://purl.obolibrary.org/obo/SRPDIO_2020288> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000033> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CHEBI_24431> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/ENVO_00002006>)))))
 
 # Class: <http://purl.obolibrary.org/obo/SRPDIO_2020289> (concentration of chemical entity in garden soil)
@@ -2621,6 +2618,13 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/SRPDIO_2020315> "tap water chemical entity concentration"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SRPDIO_2020315> "concentration of chemical entity in tap water"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/SRPDIO_2020315> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000033> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CHEBI_24431> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/ENVO_00003096>)))))
+
+# Class: <http://purl.obolibrary.org/obo/SRPDIO_2020316> (concentration of elemental scandium in environmental material)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SRPDIO_2020316> "The concentration of elemental scandium when measured in environmental material."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/SRPDIO_2020316> "environmental material elemental scandium concentration"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SRPDIO_2020316> "concentration of elemental scandium in environmental material"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/SRPDIO_2020316> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000033> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CHEBI_155869> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/ENVO_00010483>)))))
 
 
 )

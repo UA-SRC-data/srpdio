@@ -10,4 +10,10 @@ ENVO:09200010 #acidity of soil
 ENVO:09200016 #conductivity of soil
 ENVO:09200012 #temperature of soil
 ENVO:00003065 #distilled water
-ENVO_00003096 #tap water
+ENVO:00003096 #tap water
+ENVO:01001431 #land use process
+ENVO:01001442 #agriculture
+ENVO:03500002 #public park
+ENVO:01000781 #public building
+ENVO:03600003 #drinking water pipeline network
+ENVO:01000780 #public road

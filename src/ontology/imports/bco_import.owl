@@ -16,9 +16,9 @@
      xmlns:subsets="http://purl.obolibrary.org/obo/ro/subsets#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/srpdio/imports/bco_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/srpdio/releases/2022-12-18/imports/bco_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/srpdio/releases/2022-12-19/imports/bco_import.owl"/>
         <dc:source rdf:resource="http://purl.obolibrary.org/obo/bco/releases/2021-11-14/bco.owl"/>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2022-12-18</owl:versionInfo>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2022-12-19</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -3214,6 +3214,12 @@ http://sourceforge.net/p/obi/obi-terms/716/</obo:IAO_0000116>
     <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Nothing">
         <rdfs:isDefinedBy rdf:resource="http://www.w3.org/2002/07/owl.owl"/>
     </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Thing -->
+
+    <owl:Class rdf:about="http://www.w3.org/2002/07/owl#Thing"/>
     
 
 
