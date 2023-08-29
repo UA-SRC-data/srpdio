@@ -1,7 +1,15 @@
 This folder contains the source CSV files used to build Robot modules.
 
+# SRPDIO internal terms
+
+input file: SRPDIO_internal_vocab.csv
+
+ID range: SRPDIO:4000000	
+
+This module contains the classes and properties defined by SRPDIO that do not use a design pattern.
+
 # Socio-economic variabls (SE)
-We are using a number of socio-economic varibles to understand vulnerabilities and resilience. They come from both ACS5 and EJS.
+We are using a number of socio-economic varibles to understand vulnerabilities and resilience. They come from  ACS5, EJS, and AZEPHT. See below for more details on each set of variables
 
 ## Methods for creating ontology classes 
 
@@ -9,13 +17,18 @@ D. Kaufman and M. Ramirez-Andreotta reviewed all data available from EJS and ACS
 
 Kaufman created an initial categorization of the variables for both EJS and ACS5, in which specific variables for this study were chosen. 
 
-R. Walls used the initial categorization to gather all of the required variable into googl sheets at https://drive.google.com/drive/folders/1npFP_tMnzAGkPP_QtXoTEitbDj4mCbMW?usp=sharing. She then used the text to columns function to break each variable into its component parts, which are categorical variables (see ACS5, below). She manually specified what the root quality for each ACS5 variable was (e.g, number of people, per capita income in the past 12 months (in 2018 inflation-adjusted dollars)). Root qualities are continuous or count variables. Walls manually created csv files with the root qualities and categorical qualities from both ACS and EJS:
+R. Walls used the initial categorization to gather all of the required variable into google sheets at https://drive.google.com/drive/folders/1npFP_tMnzAGkPP_QtXoTEitbDj4mCbMW?usp=sharing. She then used the text to columns function to break each variable into its component parts, which are categorical variables (see ACS5, below). She manually specified what the root quality for each ACS5 variable was (e.g, number of people, per capita income in the past 12 months (in 2018 inflation-adjusted dollars)). Root qualities are continuous or count variables. Walls manually created csv files with the root qualities and categorical qualities from both ACS and EJS:
 - `se_root_variables.csv`
 - `se_qualifier_variables.csv`
 
 Walls then manually manipulated these sheets to make separate files for each module, as described below.
 
 ## Root (data) variables/measurement data module (ACS and EJS)
+
+input file: se_root_variables.csv
+
+ID range: none, see se_data_classes
+
 The data variablees are what is actually being measured, that is numerical data that have values, including:
 - number of people
 - per capita income in the past 12 months (in 2018 inflation-adjusted dollars)
@@ -27,11 +40,45 @@ Classes for the root variables are subclass of
 - UO:0000187 percent
 - IAO:0000109 measurement datum
 
-The variables in `se_root_variables.csv` were organized and expanded to create `se_data_classes.csv` file is used to create a module with classes for information content entities from both EJS and ACS5. The module is stored in src/ontology/modules/se_data_classes.owl
+The variables in `se_root_variables.csv` were organized and expanded to create the `se_data_classes.csv` file, which is used to create a module with classes for information content entities from both EJS and ACS5. The module is stored in src/ontology/modules/se_data_classes.owl
+
+## Qalifier variables
+
+input file: se_qualifier_variables.csv
+
+ID range: none, see se_categorical_variables
+
+The qualitative variables (e.g., age range or disability status) by which the root variable are made more specific.
+
+The variables in `se_qualifier_variables.csv` were organized and extended to create the `se_categorical_variables.csv` file, which is used to create a module with classes for categorical variables from both EJS and ACS5. The module is stored in src/ontology/modules/se_categorical_qualities.owl.
+
+## SE data classes
+
+input file: se_data_variables.csv
+
+ID range: SRPDIO:1000000
+
+## SE categorical classes
+
+input file: se_categorical_variables.csv
+
+ID range: SRPDIO:1001000	
 
 ## EJS module
 
-We are using a few dozen variables from the US EPA's Environmental Justice Screening tool (EJS). These variables are not complex like ACS5, so classes for them are simply being added in the robot module for root variable (above).
+input file:se_root_variables.csv and se_categorical_variables.csv
+
+ID range: SRPDIO:1000000
+
+We are using a few dozen variables from the US EPA's Environmental Justice Screening tool (EJS). These variables are not complex like ACS5, so classes for them are simply being added in the robot module for root variables (above).
+
+## AZEPHT module
+
+input file: azepht_classes.csv
+
+ID range: SRPDIO:5000000
+
+The AZEPHT variables are subclasses of STATO:0000413 (incidence), STATO:0000047 (count), or UO:0000187 (percent). They are data items like the ACS5 and EJS variables. This module also includes 1 process class and two material entity classes that have ENVO parents. These three classes are used to define some of the other AZEPHT classes.
 
 ## ACS5 module for categories
 
@@ -43,7 +90,7 @@ We treat these factors as categorical qualities, subclasse of PATO:quality. We f
 
 We also included some grouping categories, such as `age category`, `housing quality`, or `quality about a language spoken`. These grouping categories are used to logically define measurement datum classes that group together different data classes based on what they are about. This aids in browsing and searching.
 
-## Final variables
+## Final ACS5 variables
 
 The leaf nodes for all the variables are constructed using design patterns. See the readme file under src/pattern/acs5_variable_sheets
 
