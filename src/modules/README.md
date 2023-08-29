@@ -44,7 +44,9 @@ We treat these factors as categorical qualities, subclasse of PATO:quality. We f
 We also included some grouping categories, such as `age category`, `housing quality`, or `quality about a language spoken`. These grouping categories are used to logically define measurement datum classes that group together different data classes based on what they are about. This aids in browsing and searching.
 
 ## Final variables
+
 The leaf nodes for all the variables are constructed using design patterns. See the readme file under src/pattern/acs5_variable_sheets
-- 
+
+
 
 
