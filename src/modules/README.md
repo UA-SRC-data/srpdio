@@ -93,7 +93,3 @@ We also included some grouping categories, such as `age category`, `housing qual
 ## Final ACS5 variables
 
 The leaf nodes for all the variables are constructed using design patterns. See the readme file under src/pattern/acs5_variable_sheets
-
-
-
-
