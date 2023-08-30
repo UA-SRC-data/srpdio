@@ -1,5 +1,7 @@
 This folder contains the source CSV files used to build Robot modules.
 
+The owl module files that are built using ODK are at src/ontology/modules
+
 # SRPDIO internal terms
 
 input file: SRPDIO_internal_vocab.csv
